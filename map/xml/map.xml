@@ -30,6 +30,7 @@
     <wildlife filename="$data/animals/wildlife/wildlife.xml" />
 
     <licensePlates filename="map/plates/plates.xml"/>
+<!--     <collectibles filename="$data/maps/mapUS/config/collectibles.xml" /> -->
 
     <helpline filename="$dataS/helpLine.xml" />
     <gameplayHints filename="$dataS/gameplayHints.xml" />

@@ -152,7 +152,7 @@
             <capacity fillType="LIQUIDMANURE"  capacity="250000" />
             <capacity fillType="DIGESTATE"     capacity="5000000" />
 
-            <dynamicFillPlane node="bunkerFillVolume" allSidePlanes="false" maxAllowedHeapAngle="10" maxDelta="0.3" defaultFillType="SILAGE" />
+            <dynamicFillPlane node="bunkerFillVolume" allSidePlanes="false" fillType="SILAGE" minY="-0.735" maxY="0.6" />
         </storage>
 
         <playerTrigger node="playerTrigger" />

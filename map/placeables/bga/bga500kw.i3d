@@ -71,9 +71,9 @@
     </Material>
     <Material name="lambert1" materialId="12" diffuseColor="0.494118 0.494118 0.494118 1">
     </Material>
-    <Material name="lambert1" materialId="227" diffuseColor="0.8 0.8 0.8 1" specularColor="0.501961 1 0">
+    <Material name="lambert1" materialId="13" diffuseColor="0.8 0.8 0.8 1" specularColor="0.501961 1 0">
     </Material>
-    <Material name="plasticBarrier2m_mat" materialId="13" customShaderId="20">
+    <Material name="plasticBarrier2m_mat" materialId="14" customShaderId="20">
       <Texture fileId="28"/>
       <Normalmap fileId="29"/>
       <Glossmap fileId="30"/>
@@ -85,228 +85,228 @@
   </Shapes>
 
   <Scene>
-    <TransformGroup name="planET_bga500kw" nodeId="56">
-      <TransformGroup name="clearAreas" nodeId="57">
-        <TransformGroup name="clearArea1Start" translation="-32.0995 0 -20.6202" nodeId="58">
-          <TransformGroup name="clearArea1Width" translation="0 0 36" nodeId="59"/>
-          <TransformGroup name="clearArea1Height" translation="85.0095 0 -4.54747e-15" nodeId="60"/>
+    <TransformGroup name="planET_bga500kw" nodeId="57">
+      <TransformGroup name="clearAreas" nodeId="58">
+        <TransformGroup name="clearArea1Start" translation="-32.0995 0 -20.6202" nodeId="59">
+          <TransformGroup name="clearArea1Width" translation="0 0 36" nodeId="60"/>
+          <TransformGroup name="clearArea1Height" translation="85.0095 0 -4.54747e-15" nodeId="61"/>
         </TransformGroup>
-        <TransformGroup name="clearArea2Start" translation="-55.6805 0 -3.26976" nodeId="61">
-          <TransformGroup name="clearArea2Width" translation="0 0 15.8394" nodeId="62"/>
-          <TransformGroup name="clearArea2Height" translation="24.4531 0 0" nodeId="63"/>
+        <TransformGroup name="clearArea2Start" translation="-55.6805 0 -3.26976" nodeId="62">
+          <TransformGroup name="clearArea2Width" translation="0 0 15.8394" nodeId="63"/>
+          <TransformGroup name="clearArea2Height" translation="24.4531 0 0" nodeId="64"/>
         </TransformGroup>
-        <TransformGroup name="clearArea3Start" translation="12.6106 0 20.9343" nodeId="64">
-          <TransformGroup name="clearArea3Width" translation="2.04636e-14 0 -2" nodeId="65"/>
-          <TransformGroup name="clearArea3Height" translation="3 0 0" nodeId="66"/>
-        </TransformGroup>
-      </TransformGroup>
-      <TransformGroup name="levelAreas" nodeId="67">
-        <TransformGroup name="levelArea1Start" translation="-25.0429 0 -21.2066" nodeId="68">
-          <TransformGroup name="levelArea1Width" translation="0 0 2.77441" nodeId="69"/>
-          <TransformGroup name="levelArea1Height" translation="2.98703 0 0" nodeId="70"/>
-        </TransformGroup>
-        <TransformGroup name="levelArea2Start" nodeId="71">
-          <TransformGroup name="levelArea2Width" translation="0 0 1" nodeId="72"/>
-          <TransformGroup name="levelArea2Height" translation="1 0 0" nodeId="73"/>
-        </TransformGroup>
-        <TransformGroup name="levelArea3Start" nodeId="74">
-          <TransformGroup name="levelArea3Width" translation="0 0 1" nodeId="75"/>
-          <TransformGroup name="levelArea3Height" translation="1 0 0" nodeId="76"/>
+        <TransformGroup name="clearArea3Start" translation="12.6106 0 20.9343" nodeId="65">
+          <TransformGroup name="clearArea3Width" translation="2.04636e-14 0 -2" nodeId="66"/>
+          <TransformGroup name="clearArea3Height" translation="3 0 0" nodeId="67"/>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="paintAreas" nodeId="77">
-        <TransformGroup name="paintArea1Start" nodeId="78">
-          <TransformGroup name="paintArea1Width" translation="0 0 1" nodeId="79"/>
-          <TransformGroup name="paintArea1Height" translation="1 0 0" nodeId="80"/>
+      <TransformGroup name="levelAreas" nodeId="68">
+        <TransformGroup name="levelArea1Start" translation="-25.0429 0 -21.2066" nodeId="69">
+          <TransformGroup name="levelArea1Width" translation="0 0 2.77441" nodeId="70"/>
+          <TransformGroup name="levelArea1Height" translation="2.98703 0 0" nodeId="71"/>
         </TransformGroup>
-        <TransformGroup name="paintArea2Start" nodeId="81">
-          <TransformGroup name="paintArea2Width" translation="0 0 1" nodeId="82"/>
-          <TransformGroup name="paintArea2Height" translation="1 0 0" nodeId="83"/>
+        <TransformGroup name="levelArea2Start" nodeId="72">
+          <TransformGroup name="levelArea2Width" translation="0 0 1" nodeId="73"/>
+          <TransformGroup name="levelArea2Height" translation="1 0 0" nodeId="74"/>
         </TransformGroup>
-        <TransformGroup name="paintArea3Start" nodeId="84">
-          <TransformGroup name="paintArea3Width" translation="0 0 1" nodeId="85"/>
-          <TransformGroup name="paintArea3Height" translation="1 0 0" nodeId="86"/>
-        </TransformGroup>
-      </TransformGroup>
-      <TransformGroup name="indoorAreas" nodeId="87">
-        <TransformGroup name="indoorArea1Start" translation="-24.8164 0 -11.3564" nodeId="88">
-          <TransformGroup name="indoorArea1Width" translation="-9.9476e-16 0 2.3715" nodeId="89"/>
-          <TransformGroup name="indoorArea1Height" translation="9.1342 0 -2.27374e-15" nodeId="90"/>
-        </TransformGroup>
-        <TransformGroup name="indoorArea2Start" translation="-27.5809 0 -3.06565" nodeId="91">
-          <TransformGroup name="indoorArea2Width" translation="13 0 0" nodeId="92"/>
-          <TransformGroup name="indoorArea2Height" translation="0 0 13" nodeId="93"/>
-        </TransformGroup>
-        <TransformGroup name="indoorArea3Start" translation="-3.81597 0 -3.13094" nodeId="94">
-          <TransformGroup name="indoorArea3Width" translation="13 0 0" nodeId="95"/>
-          <TransformGroup name="indoorArea3Height" translation="0 0 13" nodeId="96"/>
-        </TransformGroup>
-        <TransformGroup name="indoorArea4Start" translation="21.0589 0 -7.7664" nodeId="97">
-          <TransformGroup name="indoorArea4Width" translation="20 0 0" nodeId="98"/>
-          <TransformGroup name="indoorArea4Height" translation="0 0 20" nodeId="99"/>
-        </TransformGroup>
-        <TransformGroup name="indoorArea5Start" translation="-14.3152 0 -0.220913" nodeId="100">
-          <TransformGroup name="indoorArea5Width" translation="9.98527 0 0" nodeId="101"/>
-          <TransformGroup name="indoorArea5Height" translation="0 0 9.27835" nodeId="102"/>
+        <TransformGroup name="levelArea3Start" nodeId="75">
+          <TransformGroup name="levelArea3Width" translation="0 0 1" nodeId="76"/>
+          <TransformGroup name="levelArea3Height" translation="1 0 0" nodeId="77"/>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="testAreas" nodeId="103">
-        <TransformGroup name="testArea1Start" translation="-32.3902 0 -20.6188" nodeId="104">
-          <TransformGroup name="testArea1End" translation="86.4016 15.0897 40.208" nodeId="105"/>
+      <TransformGroup name="paintAreas" nodeId="78">
+        <TransformGroup name="paintArea1Start" nodeId="79">
+          <TransformGroup name="paintArea1Width" translation="0 0 1" nodeId="80"/>
+          <TransformGroup name="paintArea1Height" translation="1 0 0" nodeId="81"/>
         </TransformGroup>
-        <TransformGroup name="testArea2Start" translation="-55.7759 0 -2.87689" nodeId="106">
-          <TransformGroup name="testArea2End" translation="24.5913 5.11332 15.8353" nodeId="107"/>
+        <TransformGroup name="paintArea2Start" nodeId="82">
+          <TransformGroup name="paintArea2Width" translation="0 0 1" nodeId="83"/>
+          <TransformGroup name="paintArea2Height" translation="1 0 0" nodeId="84"/>
         </TransformGroup>
-        <TransformGroup name="testArea3Start" translation="12.9959 0 21.3802" nodeId="108">
-          <TransformGroup name="testArea3End" translation="2 4 2" nodeId="109"/>
-        </TransformGroup>
-      </TransformGroup>
-      <TransformGroup name="tipOcclusionUpdateAreas" nodeId="110">
-        <TransformGroup name="tipOcclusionUpdateArea1Start" translation="-58.3818 0 -26.1788" nodeId="111">
-          <TransformGroup name="tipOcclusionUpdateArea1End" translation="115.965 0 47.0126" nodeId="112"/>
+        <TransformGroup name="paintArea3Start" nodeId="85">
+          <TransformGroup name="paintArea3Width" translation="0 0 1" nodeId="86"/>
+          <TransformGroup name="paintArea3Height" translation="1 0 0" nodeId="87"/>
         </TransformGroup>
       </TransformGroup>
-      <Shape name="infoTrigger" translation="0 5.49613 -0.254862" shapeId="1" visibility="false" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" nodeId="113" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
-      <TransformGroup name="bga500kw_vis" lodDistance="0 130" nodeId="114">
-        <TransformGroup name="LOD0" nodeId="115">
-          <Shape name="bgaBuildings" translation="31.139 0.00450768 2.02809" shapeId="2" clipDistance="160" nodeId="116" castsShadows="true" receiveShadows="true" materialIds="11">
-            <Shape name="concrete" translation="5.66978e-06 -1.13687e-15 -1.05142e-06" shapeId="3" clipDistance="160" nodeId="117" castsShadows="true" receiveShadows="true" materialIds="10"/>
-            <Shape name="base" translation="-18.2459 0 -7.35288" shapeId="4" clipDistance="160" nodeId="118" castsShadows="true" receiveShadows="true" materialIds="6"/>
-            <Shape name="props" translation="-31.14 0 -2.03464" rotation="-6.83019e-06 -0 0" shapeId="5" clipDistance="600" nodeId="119" castsShadows="false" receiveShadows="false" materialIds="9"/>
-            <Shape name="tile" translation="-58.9663 4.40429 -1.8988" shapeId="6" clipDistance="160" nodeId="120" castsShadows="true" receiveShadows="true" materialIds="10"/>
-            <Shape name="grid" translation="-36.5543 4.00619 -3.94981" shapeId="7" clipDistance="160" nodeId="121" castsShadows="true" receiveShadows="true" materialIds="7"/>
+      <TransformGroup name="indoorAreas" nodeId="88">
+        <TransformGroup name="indoorArea1Start" translation="-24.8164 0 -11.3564" nodeId="89">
+          <TransformGroup name="indoorArea1Width" translation="-9.9476e-16 0 2.3715" nodeId="90"/>
+          <TransformGroup name="indoorArea1Height" translation="9.1342 0 -2.27374e-15" nodeId="91"/>
+        </TransformGroup>
+        <TransformGroup name="indoorArea2Start" translation="-27.5809 0 -3.06565" nodeId="92">
+          <TransformGroup name="indoorArea2Width" translation="13 0 0" nodeId="93"/>
+          <TransformGroup name="indoorArea2Height" translation="0 0 13" nodeId="94"/>
+        </TransformGroup>
+        <TransformGroup name="indoorArea3Start" translation="-3.81597 0 -3.13094" nodeId="95">
+          <TransformGroup name="indoorArea3Width" translation="13 0 0" nodeId="96"/>
+          <TransformGroup name="indoorArea3Height" translation="0 0 13" nodeId="97"/>
+        </TransformGroup>
+        <TransformGroup name="indoorArea4Start" translation="21.0589 0 -7.7664" nodeId="98">
+          <TransformGroup name="indoorArea4Width" translation="20 0 0" nodeId="99"/>
+          <TransformGroup name="indoorArea4Height" translation="0 0 20" nodeId="100"/>
+        </TransformGroup>
+        <TransformGroup name="indoorArea5Start" translation="-14.3152 0 -0.220913" nodeId="101">
+          <TransformGroup name="indoorArea5Width" translation="9.98527 0 0" nodeId="102"/>
+          <TransformGroup name="indoorArea5Height" translation="0 0 9.27835" nodeId="103"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="testAreas" nodeId="104">
+        <TransformGroup name="testArea1Start" translation="-32.3902 0 -20.6188" nodeId="105">
+          <TransformGroup name="testArea1End" translation="86.4016 15.0897 40.208" nodeId="106"/>
+        </TransformGroup>
+        <TransformGroup name="testArea2Start" translation="-55.7759 0 -2.87689" nodeId="107">
+          <TransformGroup name="testArea2End" translation="24.5913 5.11332 15.8353" nodeId="108"/>
+        </TransformGroup>
+        <TransformGroup name="testArea3Start" translation="12.9959 0 21.3802" nodeId="109">
+          <TransformGroup name="testArea3End" translation="2 4 2" nodeId="110"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="tipOcclusionUpdateAreas" nodeId="111">
+        <TransformGroup name="tipOcclusionUpdateArea1Start" translation="-58.3818 0 -26.1788" nodeId="112">
+          <TransformGroup name="tipOcclusionUpdateArea1End" translation="115.965 0 47.0126" nodeId="113"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape name="infoTrigger" translation="0 5.49613 -0.254862" shapeId="1" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" nodeId="114" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
+      <TransformGroup name="bga500kw_vis" lodDistance="0 130" nodeId="115">
+        <TransformGroup name="LOD0" nodeId="116">
+          <Shape name="bgaBuildings" translation="31.139 0.00450768 2.02809" shapeId="2" clipDistance="160" nodeId="117" castsShadows="true" receiveShadows="true" materialIds="11">
+            <Shape name="concrete" translation="5.66978e-06 -1.13687e-15 -1.05142e-06" shapeId="3" clipDistance="160" nodeId="118" castsShadows="true" receiveShadows="true" materialIds="10"/>
+            <Shape name="base" translation="-18.2459 0 -7.35288" shapeId="4" clipDistance="160" nodeId="119" castsShadows="true" receiveShadows="true" materialIds="6"/>
+            <Shape name="props" translation="-31.14 0 -2.03464" rotation="-6.83019e-06 -0 0" shapeId="5" clipDistance="600" nodeId="120" castsShadows="false" receiveShadows="false" materialIds="9"/>
+            <Shape name="tile" translation="-58.9663 4.40429 -1.8988" shapeId="6" clipDistance="160" nodeId="121" castsShadows="true" receiveShadows="true" materialIds="10"/>
+            <Shape name="grid" translation="-36.5543 4.00619 -3.94981" shapeId="7" clipDistance="160" nodeId="122" castsShadows="true" receiveShadows="true" materialIds="7"/>
           </Shape>
-          <TransformGroup name="bgaHandlepipe" translation="-14.6539 0.00450768 -15.1108" nodeId="122">
-            <Shape name="bgaHandlepipe12" translation="35.9795 1.32268 28.6897" rotation="0 205.316 0" shapeId="8" clipDistance="160" nodeId="123" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaHandlepipe13" translation="35.0051 1.32268 27.7907" rotation="0 201.262 0" shapeId="8" clipDistance="160" nodeId="124" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaHandlepipe14" translation="14.6486 1.32268 28.5295" rotation="0 225.762 0" shapeId="8" clipDistance="160" nodeId="125" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaHandlepipe15" translation="13.5977 1.32268 28.1655" rotation="0 221.75 0" shapeId="8" clipDistance="160" nodeId="126" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaHandlepipe16" translation="12.548 1.32268 27.7041" rotation="0 218.445 0" shapeId="8" clipDistance="160" nodeId="127" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaHandlepipe17" translation="-3.23945 1.32268 27.9888" rotation="176.422 -83.2563 -175.614" shapeId="8" clipDistance="160" nodeId="128" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaHandlepipe18" translation="-4.46129 1.32268 28.3797" rotation="179.009 -76.9014 -178.13" shapeId="8" clipDistance="160" nodeId="129" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaHandlepipe19" translation="-5.72029 1.32268 28.5488" rotation="-179.586 -70.2575 178.614" shapeId="8" clipDistance="160" nodeId="130" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaHandlepipe6" translation="36.9873 1.32268 29.4537" rotation="0 209.43 0" shapeId="8" clipDistance="160" nodeId="131" castsShadows="true" receiveShadows="true" materialIds="8"/>
+          <TransformGroup name="bgaHandlepipe" translation="-14.6539 0.00450768 -15.1108" nodeId="123">
+            <Shape name="bgaHandlepipe12" translation="35.9795 1.32268 28.6897" rotation="0 205.316 0" shapeId="8" clipDistance="160" nodeId="124" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaHandlepipe13" translation="35.0051 1.32268 27.7907" rotation="0 201.262 0" shapeId="8" clipDistance="160" nodeId="125" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaHandlepipe14" translation="14.6486 1.32268 28.5295" rotation="0 225.762 0" shapeId="8" clipDistance="160" nodeId="126" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaHandlepipe15" translation="13.5977 1.32268 28.1655" rotation="0 221.75 0" shapeId="8" clipDistance="160" nodeId="127" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaHandlepipe16" translation="12.548 1.32268 27.7041" rotation="0 218.445 0" shapeId="8" clipDistance="160" nodeId="128" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaHandlepipe17" translation="-3.23945 1.32268 27.9888" rotation="176.422 -83.2563 -175.614" shapeId="8" clipDistance="160" nodeId="129" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaHandlepipe18" translation="-4.46129 1.32268 28.3797" rotation="179.009 -76.9014 -178.13" shapeId="8" clipDistance="160" nodeId="130" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaHandlepipe19" translation="-5.72029 1.32268 28.5488" rotation="-179.586 -70.2575 178.614" shapeId="8" clipDistance="160" nodeId="131" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaHandlepipe6" translation="36.9873 1.32268 29.4537" rotation="0 209.43 0" shapeId="8" clipDistance="160" nodeId="132" castsShadows="true" receiveShadows="true" materialIds="8"/>
           </TransformGroup>
-          <TransformGroup name="bgaLeverbox" translation="-14.6539 0.00450768 -15.1108" nodeId="132">
-            <Shape name="bgaLeverbox15" translation="17.0955 1.25896 8.37508" rotation="0 -18.1217 0" shapeId="9" clipDistance="160" nodeId="133" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaLeverbox16" translation="36.8691 0.994396 4.73361" rotation="0 17.2754 0" shapeId="9" clipDistance="160" nodeId="134" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaLeverbox17" translation="-0.330546 0.994396 26.6175" rotation="0 200.172 0" shapeId="9" clipDistance="160" nodeId="135" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaLeverbox18" translation="0.504077 0.994396 25.9113" rotation="0 203.798 0" shapeId="9" clipDistance="160" nodeId="136" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaLeverbox19" translation="26.712 0.994396 22.4157" rotation="0 230.685 0" shapeId="9" clipDistance="160" nodeId="137" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaLeverbox20" translation="27.0991 0.994396 21.1962" rotation="0 238.052 0" shapeId="9" clipDistance="160" nodeId="138" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaLeverbox7" translation="21.0949 0.994396 9.16224" rotation="0 -39.7947 0" shapeId="9" clipDistance="160" nodeId="139" castsShadows="true" receiveShadows="true" materialIds="8"/>
+          <TransformGroup name="bgaLeverbox" translation="-14.6539 0.00450768 -15.1108" nodeId="133">
+            <Shape name="bgaLeverbox15" translation="17.0955 1.25896 8.37508" rotation="0 -18.1217 0" shapeId="9" clipDistance="160" nodeId="134" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaLeverbox16" translation="36.8691 0.994396 4.73361" rotation="0 17.2754 0" shapeId="9" clipDistance="160" nodeId="135" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaLeverbox17" translation="-0.330546 0.994396 26.6175" rotation="0 200.172 0" shapeId="9" clipDistance="160" nodeId="136" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaLeverbox18" translation="0.504077 0.994396 25.9113" rotation="0 203.798 0" shapeId="9" clipDistance="160" nodeId="137" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaLeverbox19" translation="26.712 0.994396 22.4157" rotation="0 230.685 0" shapeId="9" clipDistance="160" nodeId="138" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaLeverbox20" translation="27.0991 0.994396 21.1962" rotation="0 238.052 0" shapeId="9" clipDistance="160" nodeId="139" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaLeverbox7" translation="21.0949 0.994396 9.16224" rotation="0 -39.7947 0" shapeId="9" clipDistance="160" nodeId="140" castsShadows="true" receiveShadows="true" materialIds="8"/>
           </TransformGroup>
-          <TransformGroup name="bgaLever" translation="-14.6539 0.00450768 -15.1108" nodeId="140">
-            <Shape name="bgaLever17" translation="-9.99354 7.77825 28.001" rotation="0 108.837 0" shapeId="10" clipDistance="160" nodeId="141" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaLever18" translation="17.3801 7.77825 28.837" rotation="0 131.412 0" shapeId="10" clipDistance="160" nodeId="142" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaLever19" translation="30.8097 7.49254 19.4216" rotation="0 46.607 0" shapeId="10" clipDistance="160" nodeId="143" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaLever20" translation="27.2873 7.62632 18.6866" rotation="0 220.073 0" shapeId="10" clipDistance="160" nodeId="144" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaLever21" translation="60.9408 7.47995 17.5402" rotation="0 216.368 0" shapeId="10" clipDistance="160" nodeId="145" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaLever" translation="7.1291 7.43173 20.5426" rotation="0 50.0958 0" shapeId="10" clipDistance="160" nodeId="146" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaLever16" translation="3.42434 7.43173 16.5714" rotation="0 228.91 0" shapeId="10" clipDistance="160" nodeId="147" castsShadows="true" receiveShadows="true" materialIds="8"/>
+          <TransformGroup name="bgaLever" translation="-14.6539 0.00450768 -15.1108" nodeId="141">
+            <Shape name="bgaLever17" translation="-9.99354 7.77825 28.001" rotation="0 108.837 0" shapeId="10" clipDistance="160" nodeId="142" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaLever18" translation="17.3801 7.77825 28.837" rotation="0 131.412 0" shapeId="10" clipDistance="160" nodeId="143" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaLever19" translation="30.8097 7.49254 19.4216" rotation="0 46.607 0" shapeId="10" clipDistance="160" nodeId="144" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaLever20" translation="27.2873 7.62632 18.6866" rotation="0 220.073 0" shapeId="10" clipDistance="160" nodeId="145" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaLever21" translation="60.9408 7.47995 17.5402" rotation="0 216.368 0" shapeId="10" clipDistance="160" nodeId="146" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaLever" translation="7.1291 7.43173 20.5426" rotation="0 50.0958 0" shapeId="10" clipDistance="160" nodeId="147" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaLever16" translation="3.42434 7.43173 16.5714" rotation="0 228.91 0" shapeId="10" clipDistance="160" nodeId="148" castsShadows="true" receiveShadows="true" materialIds="8"/>
           </TransformGroup>
-          <TransformGroup name="bgaInflator" translation="-14.6539 0.00450768 -15.1108" nodeId="148">
-            <Shape name="bgaInflator1" translation="3.12838 8.23994 21.1111" rotation="0 190.425 0" shapeId="11" clipDistance="160" nodeId="149" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaInflator13" translation="7.33914 8.25239 21.0149" rotation="0 38.7448 0" shapeId="11" clipDistance="160" nodeId="150" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaInflator14" translation="30.8081 8.18495 16.1232" rotation="-0.317075 22.4739 1.10943" shapeId="11" clipDistance="160" nodeId="151" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaInflator15" translation="48.702 8.16313 2.38571" rotation="-5.0825 -76.6998 4.46046" shapeId="11" clipDistance="160" nodeId="152" castsShadows="true" receiveShadows="true" materialIds="8"/>
+          <TransformGroup name="bgaInflator" translation="-14.6539 0.00450768 -15.1108" nodeId="149">
+            <Shape name="bgaInflator1" translation="3.12838 8.23994 21.1111" rotation="0 190.425 0" shapeId="11" clipDistance="160" nodeId="150" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaInflator13" translation="7.33914 8.25239 21.0149" rotation="0 38.7448 0" shapeId="11" clipDistance="160" nodeId="151" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaInflator14" translation="30.8081 8.18495 16.1232" rotation="-0.317075 22.4739 1.10943" shapeId="11" clipDistance="160" nodeId="152" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaInflator15" translation="48.702 8.16313 2.38571" rotation="-5.0825 -76.6998 4.46046" shapeId="11" clipDistance="160" nodeId="153" castsShadows="true" receiveShadows="true" materialIds="8"/>
           </TransformGroup>
-          <TransformGroup name="bgaPipe" translation="-14.6539 0.00450768 -15.1108" nodeId="153">
-            <Shape name="bgaPipe" translation="7.01526 7.77187 19.8339" rotation="0 32.52 0" shapeId="12" clipDistance="160" nodeId="154" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaPipe4" translation="3.49701 7.77187 19.8646" rotation="0 197.771 0" shapeId="12" clipDistance="160" nodeId="155" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaPipe5" translation="30.9095 7.83654 19.9741" rotation="0 36.0005 0" shapeId="12" clipDistance="160" nodeId="156" castsShadows="true" receiveShadows="true" materialIds="8"/>
+          <TransformGroup name="bgaPipe" translation="-14.6539 0.00450768 -15.1108" nodeId="154">
+            <Shape name="bgaPipe" translation="7.01526 7.77187 19.8339" rotation="0 32.52 0" shapeId="12" clipDistance="160" nodeId="155" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaPipe4" translation="3.49701 7.77187 19.8646" rotation="0 197.771 0" shapeId="12" clipDistance="160" nodeId="156" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaPipe5" translation="30.9095 7.83654 19.9741" rotation="0 36.0005 0" shapeId="12" clipDistance="160" nodeId="157" castsShadows="true" receiveShadows="true" materialIds="8"/>
           </TransformGroup>
-          <TransformGroup name="bgaStaticPipe" translation="-14.6539 0.00450768 -15.1108" nodeId="157">
-            <Shape name="bgaStaticPipe" translation="39.6714 2.3526 2.9491" rotation="0 40.9164 0" shapeId="13" clipDistance="160" nodeId="158" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaStaticPipe2" translation="19.5573 2.3526 8.53646" rotation="0 8.04648 0" shapeId="13" clipDistance="160" nodeId="159" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaStaticPipe3" translation="-3.27434 2.3526 8.54789" rotation="0 3.11413 0" shapeId="13" clipDistance="160" nodeId="160" castsShadows="true" receiveShadows="true" materialIds="8"/>
+          <TransformGroup name="bgaStaticPipe" translation="-14.6539 0.00450768 -15.1108" nodeId="158">
+            <Shape name="bgaStaticPipe" translation="39.6714 2.3526 2.9491" rotation="0 40.9164 0" shapeId="13" clipDistance="160" nodeId="159" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaStaticPipe2" translation="19.5573 2.3526 8.53646" rotation="0 8.04648 0" shapeId="13" clipDistance="160" nodeId="160" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaStaticPipe3" translation="-3.27434 2.3526 8.54789" rotation="0 3.11413 0" shapeId="13" clipDistance="160" nodeId="161" castsShadows="true" receiveShadows="true" materialIds="8"/>
           </TransformGroup>
-          <TransformGroup name="bgaStairsVetical" translation="-14.6539 0.00450768 -15.1108" nodeId="161">
-            <Shape name="bgaStairsVetical" translation="-9.7512 4.3577 28.5168" rotation="0 -67.0727 0" shapeId="14" clipDistance="160" nodeId="162" castsShadows="true" receiveShadows="true" materialIds="8">
-              <Shape name="grid" translation="-40.7565 -0.710526 -12.6304" rotation="0 -57.3244 0" shapeId="15" clipDistance="160" nodeId="163" castsShadows="true" receiveShadows="true" materialIds="7"/>
+          <TransformGroup name="bgaStairsVetical" translation="-14.6539 0.00450768 -15.1108" nodeId="162">
+            <Shape name="bgaStairsVetical" translation="-9.7512 4.3577 28.5168" rotation="0 -67.0727 0" shapeId="14" clipDistance="160" nodeId="163" castsShadows="true" receiveShadows="true" materialIds="8">
+              <Shape name="grid" translation="-40.7565 -0.710526 -12.6304" rotation="0 -57.3244 0" shapeId="15" clipDistance="160" nodeId="164" castsShadows="true" receiveShadows="true" materialIds="7"/>
             </Shape>
-            <Shape name="bgaStairsVetical1" translation="17.7094 4.3577 29.2266" rotation="0 -46.3875 0" shapeId="14" clipDistance="160" nodeId="164" castsShadows="true" receiveShadows="true" materialIds="8">
-              <Shape name="grid" translation="-40.7565 -0.710526 -12.6304" rotation="0 -57.3244 0" shapeId="15" clipDistance="160" nodeId="165" castsShadows="true" receiveShadows="true" materialIds="7"/>
+            <Shape name="bgaStairsVetical1" translation="17.7094 4.3577 29.2266" rotation="0 -46.3875 0" shapeId="14" clipDistance="160" nodeId="165" castsShadows="true" receiveShadows="true" materialIds="8">
+              <Shape name="grid" translation="-40.7565 -0.710526 -12.6304" rotation="0 -57.3244 0" shapeId="15" clipDistance="160" nodeId="166" castsShadows="true" receiveShadows="true" materialIds="7"/>
             </Shape>
-            <Shape name="bgaStairsVetical2" translation="61.3731 4.3577 17.105" rotation="0 41.0586 0" shapeId="14" clipDistance="160" nodeId="166" castsShadows="true" receiveShadows="true" materialIds="8">
-              <Shape name="grid" translation="-40.7565 -0.710526 -12.6304" rotation="0 -57.3244 0" shapeId="15" clipDistance="160" nodeId="167" castsShadows="true" receiveShadows="true" materialIds="7"/>
+            <Shape name="bgaStairsVetical2" translation="61.3731 4.3577 17.105" rotation="0 41.0586 0" shapeId="14" clipDistance="160" nodeId="167" castsShadows="true" receiveShadows="true" materialIds="8">
+              <Shape name="grid" translation="-40.7565 -0.710526 -12.6304" rotation="0 -57.3244 0" shapeId="15" clipDistance="160" nodeId="168" castsShadows="true" receiveShadows="true" materialIds="7"/>
             </Shape>
           </TransformGroup>
-          <TransformGroup name="bgaBoxes" translation="-14.6539 0.00450768 -15.1108" nodeId="168">
-            <Shape name="bgaBoxes" translation="13.9294 0.86932 8.84579" rotation="0 25.7649 0" shapeId="16" clipDistance="160" nodeId="169" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaBoxes1" translation="-14.6628 0.86932 12.0219" rotation="0 58.7653 0" shapeId="16" clipDistance="160" nodeId="170" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaBoxes2" translation="60.6096 0.869 13.3243" rotation="0 -68.7734 0" shapeId="16" clipDistance="160" nodeId="171" castsShadows="true" receiveShadows="true" materialIds="8"/>
+          <TransformGroup name="bgaBoxes" translation="-14.6539 0.00450768 -15.1108" nodeId="169">
+            <Shape name="bgaBoxes" translation="13.9294 0.86932 8.84579" rotation="0 25.7649 0" shapeId="16" clipDistance="160" nodeId="170" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaBoxes1" translation="-14.6628 0.86932 12.0219" rotation="0 58.7653 0" shapeId="16" clipDistance="160" nodeId="171" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaBoxes2" translation="60.6096 0.869 13.3243" rotation="0 -68.7734 0" shapeId="16" clipDistance="160" nodeId="172" castsShadows="true" receiveShadows="true" materialIds="8"/>
           </TransformGroup>
-          <TransformGroup name="bgaDrain" translation="-14.6539 0.00450768 -15.1108" nodeId="172">
-            <Shape name="bgaDrain" translation="27.7581 0.106169 6.39968" rotation="0 8.26284 0" shapeId="17" clipDistance="160" nodeId="173" castsShadows="true" receiveShadows="true" materialIds="8"/>
-            <Shape name="bgaDrain1" translation="10.6944 0.106169 5.22527" rotation="0 8.26284 0" shapeId="17" clipDistance="160" nodeId="174" castsShadows="true" receiveShadows="true" materialIds="8"/>
+          <TransformGroup name="bgaDrain" translation="-14.6539 0.00450768 -15.1108" nodeId="173">
+            <Shape name="bgaDrain" translation="27.7581 0.106169 6.39968" rotation="0 8.26284 0" shapeId="17" clipDistance="160" nodeId="174" castsShadows="true" receiveShadows="true" materialIds="8"/>
+            <Shape name="bgaDrain1" translation="10.6944 0.106169 5.22527" rotation="0 8.26284 0" shapeId="17" clipDistance="160" nodeId="175" castsShadows="true" receiveShadows="true" materialIds="8"/>
           </TransformGroup>
-          <TransformGroup name="bgaInletGround" translation="5.58579 0 -9.7397" nodeId="175">
-            <Shape name="bgaInGround" shapeId="18" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="176" castsShadows="true" receiveShadows="true" materialIds="5"/>
+          <TransformGroup name="bgaInletGround" translation="5.58579 0 -9.7397" nodeId="176">
+            <Shape name="bgaInGround" shapeId="18" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="177" castsShadows="true" receiveShadows="true" materialIds="5"/>
           </TransformGroup>
         </TransformGroup>
-        <TransformGroup name="LOD1" nodeId="177">
-          <Shape name="concrete" translation="31.1388 0.00450768 2.02809" shapeId="19" clipDistance="600" nodeId="178" castsShadows="true" receiveShadows="true" materialIds="10"/>
-          <Shape name="bgaBuildings" translation="31.1388 0.00450768 2.02809" shapeId="20" clipDistance="600" nodeId="179" castsShadows="true" receiveShadows="true" materialIds="11"/>
-          <Shape name="grid" translation="-5.41551 4.0107 -1.92172" shapeId="21" clipDistance="200" nodeId="180" castsShadows="true" receiveShadows="true" materialIds="7"/>
-          <Shape name="tile" translation="-27.8275 4.40879 0.129287" shapeId="22" clipDistance="400" nodeId="181" castsShadows="true" receiveShadows="true" materialIds="10"/>
-          <Shape name="base" translation="12.8928 -0.001 -5.32479" shapeId="23" clipDistance="200" nodeId="182" castsShadows="true" receiveShadows="true" materialIds="6"/>
-          <Shape name="props" translation="-1.09946 3.95159 28.9321" shapeId="24" clipDistance="300" nodeId="183" castsShadows="true" receiveShadows="true" materialIds="9"/>
-          <Shape name="propsSmall" translation="8.15512 4.29829 1.36185" shapeId="25" clipDistance="200" nodeId="184" castsShadows="true" receiveShadows="true" materialIds="8"/>
+        <TransformGroup name="LOD1" nodeId="178">
+          <Shape name="concrete" translation="31.1388 0.00450768 2.02809" shapeId="19" clipDistance="600" nodeId="179" castsShadows="true" receiveShadows="true" materialIds="10"/>
+          <Shape name="bgaBuildings" translation="31.1388 0.00450768 2.02809" shapeId="20" clipDistance="600" nodeId="180" castsShadows="true" receiveShadows="true" materialIds="11"/>
+          <Shape name="grid" translation="-5.41551 4.0107 -1.92172" shapeId="21" clipDistance="200" nodeId="181" castsShadows="true" receiveShadows="true" materialIds="7"/>
+          <Shape name="tile" translation="-27.8275 4.40879 0.129287" shapeId="22" clipDistance="400" nodeId="182" castsShadows="true" receiveShadows="true" materialIds="10"/>
+          <Shape name="base" translation="12.8928 -0.001 -5.32479" shapeId="23" clipDistance="200" nodeId="183" castsShadows="true" receiveShadows="true" materialIds="6"/>
+          <Shape name="props" translation="-1.09946 3.95159 28.9321" shapeId="24" clipDistance="300" nodeId="184" castsShadows="true" receiveShadows="true" materialIds="9"/>
+          <Shape name="propsSmall" translation="8.15512 4.29829 1.36185" shapeId="25" clipDistance="200" nodeId="185" castsShadows="true" receiveShadows="true" materialIds="8"/>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="collisions" nodeId="185">
-        <Shape name="collision" translation="-0.0378927 7.08869 4.62096" shapeId="26" static="true" nodeId="230" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="227"/>
-        <Shape name="tipCollision" shapeId="27" visibility="false" static="true" collisionFilterGroup="0x8" collisionFilterMask="0x1" nodeId="187" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
+      <TransformGroup name="collisions" nodeId="186">
+        <Shape name="collision" translation="-0.0378927 7.08869 4.62096" shapeId="26" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" nodeId="187" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="13"/>
+        <Shape name="tipCollision" shapeId="27" visibility="false" static="true" collisionFilterGroup="0x8" collisionFilterMask="0x1" nodeId="188" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
       </TransformGroup>
-      <Shape name="occluder1" translation="-21.1732 4.03087 3.27024" shapeId="28" clipDistance="500" nodeId="188" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true" materialIds="12"/>
-      <Shape name="occluder2" translation="2.41443 4.03087 3.45261" shapeId="29" clipDistance="500" nodeId="189" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true" materialIds="12"/>
-      <Shape name="occluder3" translation="31.1997 5.14724 1.94662" shapeId="30" clipDistance="500" nodeId="190" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true" materialIds="12"/>
-      <TransformGroup name="hotspotMarker" nodeId="191"/>
-      <TransformGroup name="teleportNode" translation="-42.0357 -4.54747e-15 2.11931" nodeId="192"/>
-      <TransformGroup name="productionPoint" nodeId="193">
-        <Shape name="loadTrigger1" translation="13.2746 0 -13.7219" shapeId="31" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" nodeId="194" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
-          <TransformGroup name="loadTriggerMarker1" nodeId="195"/>
+      <Shape name="occluder1" translation="-21.1732 4.03087 3.27024" shapeId="28" clipDistance="500" nodeId="189" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true" materialIds="12"/>
+      <Shape name="occluder2" translation="2.41443 4.03087 3.45261" shapeId="29" clipDistance="500" nodeId="190" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true" materialIds="12"/>
+      <Shape name="occluder3" translation="31.1997 5.14724 1.94662" shapeId="30" clipDistance="500" nodeId="191" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true" materialIds="12"/>
+      <TransformGroup name="hotspotMarker" nodeId="192"/>
+      <TransformGroup name="teleportNode" translation="-42.0357 -4.54747e-15 2.11931" nodeId="193"/>
+      <TransformGroup name="productionPoint" nodeId="194">
+        <Shape name="loadTrigger1" translation="13.2746 0 -13.7219" shapeId="31" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" nodeId="195" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
+          <TransformGroup name="loadTriggerMarker1" nodeId="196"/>
         </Shape>
-        <Shape name="loadTrigger2" translation="51.9096 2.23642 -1.33161" rotation="0 -82.9205 0" shapeId="32" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" nodeId="196" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
-          <TransformGroup name="loadTriggerMarker2" nodeId="197"/>
+        <Shape name="loadTrigger2" translation="51.9096 2.23642 -1.33161" rotation="0 -82.9205 0" shapeId="32" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" nodeId="197" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
+          <TransformGroup name="loadTriggerMarker2" nodeId="198"/>
         </Shape>
-        <TransformGroup name="loadTrigger2AiNode" translation="52.3365 0 -1.23208" rotation="0 8.84298 0" nodeId="198"/>
-        <TransformGroup name="bunker" nodeId="199">
-          <Shape name="unloadTrigger" translation="5.60629 1.07517 -9.77001" shapeId="33" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="200" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
-          <TransformGroup name="unloadTriggerMarker" translation="5.9 1.5 -10" rotation="0 90 0" nodeId="201"/>
-          <Shape name="baleTrigger" translation="5.57612 0.641832 -9.72839" shapeId="34" kinematic="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000" nodeId="202" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
-          <Shape name="bunkerFillVolume" translation="5.59014 0.638669 -9.69092" shapeId="35" clipDistance="300" nodeId="203" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
+        <TransformGroup name="loadTrigger2AiNode" translation="52.3365 0 -1.23208" rotation="0 8.84298 0" nodeId="199"/>
+        <TransformGroup name="bunker" nodeId="200">
+          <Shape name="unloadTrigger" translation="5.60629 0.4 -9.77001" shapeId="33" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="201" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
+          <TransformGroup name="unloadTriggerMarker" translation="5.9 1.5 -10" rotation="0 90 0" nodeId="202"/>
+          <Shape name="baleTrigger" translation="5.57612 0.641832 -9.72839" shapeId="34" kinematic="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000" nodeId="203" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
+          <Shape name="bunkerFillVolume" translation="5.59014 0.6 -9.69092" shapeId="35" clipDistance="300" nodeId="204" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
         </TransformGroup>
-        <TransformGroup name="unloadingInFront" nodeId="204">
-          <Shape name="baleTriggerInFront" translation="5.564 0.100428 -14.7713" shapeId="36" kinematic="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000" nodeId="205" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
-          <Shape name="unloadTriggerInFront" translation="5.564 0.928725 -15.0127" scale="1 3.87439 1" shapeId="37" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="206" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
-          <TransformGroup name="unloadTriggerInFrontAINode" translation="5.68349 0 -15.0896" rotation="0 90 0" nodeId="207"/>
+        <TransformGroup name="unloadingInFront" nodeId="205">
+          <Shape name="baleTriggerInFront" translation="5.564 0.100428 -14.7713" shapeId="36" kinematic="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000" nodeId="206" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
+          <Shape name="unloadTriggerInFront" translation="5.564 0.928725 -15.0127" scale="1 3.87439 1" shapeId="37" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="207" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
+          <TransformGroup name="unloadTriggerInFrontAINode" translation="5.68349 0 -15.0896" rotation="0 90 0" nodeId="208"/>
         </TransformGroup>
-        <TransformGroup name="liquidManureUnloading" nodeId="208">
-          <Shape name="unloadTriggerLiquidManure" translation="-2.97038 0 -12.7509" shapeId="38" kinematic="true" compound="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="209" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
-          <TransformGroup name="unloadTriggerLiquidManureMarker" translation="-2.97038 0 -12.7509" nodeId="210"/>
-          <TransformGroup name="unloadTriggerLiquidManureAiNode" translation="-2.98474 0 -13.6025" rotation="0 90 0" nodeId="211"/>
+        <TransformGroup name="liquidManureUnloading" nodeId="209">
+          <Shape name="unloadTriggerLiquidManure" translation="-4.04323 0 -14.3706" shapeId="38" kinematic="true" compound="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="210" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
+          <TransformGroup name="unloadTriggerLiquidManureMarker" translation="-2.97038 0 -12.7509" nodeId="211"/>
+          <TransformGroup name="unloadTriggerLiquidManureAiNode" translation="-2.98474 0 -13.6025" rotation="0 90 0" nodeId="212"/>
         </TransformGroup>
-        <Shape name="playerTrigger" translation="-9.39495 1.37512 -1.75776" shapeId="39" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" nodeId="212" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
-          <TransformGroup name="playerTriggerMarker" nodeId="213"/>
+        <Shape name="playerTrigger" translation="-9.39495 1.37512 -1.75776" shapeId="39" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" nodeId="213" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
+          <TransformGroup name="playerTriggerMarker" nodeId="214"/>
         </Shape>
       </TransformGroup>
-      <TransformGroup name="parts" nodeId="214">
-        <Shape name="plasticBarrier2m" lockedgroup="true" translation="-14.7041 1.20764e-10 -14.0668" rotation="0 90 -4.70566e-10" shapeId="40" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="215" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
-          <Shape name="visual" shapeId="41" clipDistance="200" nodeId="216" castsShadows="true" receiveShadows="true" materialIds="13"/>
+      <TransformGroup name="parts" nodeId="215">
+        <Shape name="plasticBarrier2m" lockedgroup="true" translation="-14.7041 1.20764e-10 -14.0668" rotation="0 90 -4.70566e-10" shapeId="40" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="216" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
+          <Shape name="visual" shapeId="41" clipDistance="200" nodeId="217" castsShadows="true" receiveShadows="true" materialIds="14"/>
         </Shape>
-        <Shape name="plasticBarrier2m" lockedgroup="true" translation="-25.3656 2.08325e-10 -14.0668" rotation="0 90 -4.70566e-10" shapeId="40" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="217" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
-          <Shape name="visual" shapeId="41" clipDistance="200" nodeId="218" castsShadows="true" receiveShadows="true" materialIds="13"/>
+        <Shape name="plasticBarrier2m" lockedgroup="true" translation="-25.3656 2.08325e-10 -14.0668" rotation="0 90 -4.70566e-10" shapeId="40" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="218" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
+          <Shape name="visual" shapeId="41" clipDistance="200" nodeId="219" castsShadows="true" receiveShadows="true" materialIds="14"/>
         </Shape>
-        <Shape name="plasticBarrier2m" lockedgroup="true" translation="-16.817 1.38116e-10 -15.1213" rotation="0 0 -4.70566e-10" shapeId="40" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="219" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
-          <Shape name="visual" shapeId="41" clipDistance="200" nodeId="220" castsShadows="true" receiveShadows="true" materialIds="13"/>
+        <Shape name="plasticBarrier2m" lockedgroup="true" translation="-16.817 1.38116e-10 -15.1213" rotation="0 0 -4.70566e-10" shapeId="40" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="220" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
+          <Shape name="visual" shapeId="41" clipDistance="200" nodeId="221" castsShadows="true" receiveShadows="true" materialIds="14"/>
         </Shape>
-        <Shape name="plasticBarrier2m" lockedgroup="true" translation="-23.1384 1.90033e-10 -15.1213" rotation="0 0 -4.70566e-10" shapeId="40" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="221" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
-          <Shape name="visual" shapeId="41" clipDistance="200" nodeId="222" castsShadows="true" receiveShadows="true" materialIds="13"/>
+        <Shape name="plasticBarrier2m" lockedgroup="true" translation="-23.1384 1.90033e-10 -15.1213" rotation="0 0 -4.70566e-10" shapeId="40" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="222" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
+          <Shape name="visual" shapeId="41" clipDistance="200" nodeId="223" castsShadows="true" receiveShadows="true" materialIds="14"/>
         </Shape>
-        <Shape name="plasticBarrier2m" lockedgroup="true" translation="-20.0704 1.64836e-10 -15.1213" rotation="0 0 -4.70566e-10" shapeId="40" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="223" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
-          <Shape name="visual" shapeId="41" clipDistance="200" nodeId="224" castsShadows="true" receiveShadows="true" materialIds="13"/>
+        <Shape name="plasticBarrier2m" lockedgroup="true" translation="-20.0704 1.64836e-10 -15.1213" rotation="0 0 -4.70566e-10" shapeId="40" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="224" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
+          <Shape name="visual" shapeId="41" clipDistance="200" nodeId="225" castsShadows="true" receiveShadows="true" materialIds="14"/>
         </Shape>
       </TransformGroup>
     </TransformGroup>
