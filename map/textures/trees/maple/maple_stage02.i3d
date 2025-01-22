@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="maple_stage02" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+
+  <Files>
+    <File fileId="9" filename="maple2LOD_diffuse.png" />
+    <File fileId="12" filename="maple2LOD_mask.png" />
+    <File fileId="10" filename="maple2LOD_normal.png" />
+    <File fileId="1" filename="mapleBranch_diffuse.png" />
+    <File fileId="5" filename="mapleBranch_masks.png" />
+    <File fileId="2" filename="mapleBranch_normal.png" />
+    <File fileId="3" filename="mapleBranch_specular.png" />
+    <File fileId="6" filename="mapleTrunk_diffuse.png" />
+    <File fileId="7" filename="mapleTrunk_normal.png" />
+    <File fileId="11" filename="../../../shaders/treeBillboardShader.xml" />
+    <File fileId="4" filename="../../../shaders/treeBranchShader.xml" />
+    <File fileId="8" filename="../../../shaders/treeTrunkShader.xml" />
+  </Files>
+
+  <Materials>
+    <Material name="mapleBranch_mat" materialId="2" customShaderId="4" customShaderVariation="SEASONAL">
+      <Custommap name="mMaskMap" fileId="5"/>
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="mapleTrunk_mat" materialId="1" specularColor="0 0 0" customShaderId="8">
+      <Texture fileId="6"/>
+      <Normalmap fileId="7"/>
+    </Material>
+    <Material name="maple2LOD_mat" materialId="3" specularColor="0 0 0" customShaderId="11" customShaderVariation="SEASONAL_BILLBOARD180">
+      <Custommap name="mMaskMap" fileId="12"/>
+      <Texture fileId="9"/>
+      <Normalmap fileId="10"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="maple_stage02.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="maple_stage2" lodDistance="0 100" collision="false" clipDistance="600" nodeId="1">
+      <Shape name="LOD0" shapeId="1" static="true" density="0.65" collisionMask="16791586" splitType="6" splitUvs="0 0 0.5 0.125 1" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="600" nodeId="2">
+        <Shape name="LOD0Attachments" shapeId="2" castsShadows="true" receiveShadows="true" materialIds="2" clipDistance="500" nodeId="3"/>
+      </Shape>
+      <Shape name="LOD1" shapeId="3" castsShadows="true" receiveShadows="true" materialIds="3" clipDistance="600" nodeId="4"/>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+  </UserAttributes>
+</i3D>

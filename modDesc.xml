@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="94">
+    <author>MISSYB</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Unknown Name</en>
+        <de>FS25 Blank Map 2x</de>
+    </title>
+    <description>
+        <en><![CDATA[FS25 Blank Map]]></en>
+        <de><![CDATA[Dies ist die Beispiel Mod Map US.]]></de>
+    </description>
+    <iconFilename>icon_map.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <maps>
+        <map id="SampleModMap" className="Mission00" filename="$dataS/scripts/mission00.lua" 
+		configFilename="map/xml/map.xml" 
+		defaultVehiclesXMLFilename="map/xml/vehicles.xml" 
+		defaultPlaceablesXMLFilename="map/xml/placeables.xml" 
+		defaultItemsXMLFilename="map/xml/items.xml" 
+		defaultHandToolsXMLFilename="map/xml/handtools.xml">
+            <title>
+                <en>Unknown Name</en>
+                <de>Unknown Name</de>
+            </title>
+            <description>
+                <en>Map in testing</en>
+                <de></de>
+            </description>
+            <iconFilename>map_preview.png</iconFilename>
+        </map>
+    </maps>
+
+   <l10n filenamePrefix="translations/l10n"/>
+
+    <storeItems>
+      <!-- <storeItem xmlFilename="map/xml/sawmill.xml" /> -->
+    </storeItems>
+</modDesc>

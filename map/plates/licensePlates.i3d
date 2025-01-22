@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="licensePlates.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="16" filename="$data/shared/default_specular.dds"/>
+    <File fileId="15" filename="$data/shared/licensePlates/licensePlatesEUBody_normal.dds"/>
+    <File fileId="2" filename="$data/shared/licensePlates/licensePlates_normal.png"/>
+    <File fileId="3" filename="$data/shared/licensePlates/licensePlates_vmask.png"/>
+    <File fileId="13" filename="textures/blueoplate.dds"/>
+    <File fileId="12" filename="textures/logo.PNG"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="blue" materialId="5">
+      <Texture fileId="13"/>
+    </Material>
+    <Material name="licensePlatesDE_mat9" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4">
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="licensePlatesDE_mat9" materialId="7" diffuseColor="1 1 1 1" customShaderId="4">
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="None" materialId="8" diffuseColor="0.486275 0.486275 0.486275 1" customShaderId="4">
+      <Normalmap fileId="15"/>
+      <Glossmap fileId="16"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="9">
+      <Texture fileId="12"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="licensePlates.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="rectangle" rotation="-90 0 0" nodeId="17">
+      <TransformGroup name="symbols" translation="-1.95196e-06 0 0" rotation="90 0 0" nodeId="18">
+        <TransformGroup name="letter01" translation="-0.155377 0.002 0.000475152" rotation="-90 0 0" scale="1.21603 1.215 1" nodeId="19"/>
+        <TransformGroup name="letter02" translation="-0.11132 0.002 0.000475152" rotation="-90 0 0" scale="1.21603 1.215 1" nodeId="20"/>
+        <TransformGroup name="letter03" translation="-0.0554195 0.002 0.000475152" rotation="-90 0 0" scale="1.21603 1.215 1" nodeId="21"/>
+        <TransformGroup name="letter04" translation="0 0.002 0.000475152" rotation="-90 0 0" scale="1.21603 1.215 1" nodeId="22"/>
+        <TransformGroup name="letter05" translation="0.088 0.002 0.000475152" rotation="-90 0 0" scale="1.21603 1.215 1" nodeId="23"/>
+        <TransformGroup name="letter06" translation="0.155 0.002 0.000475152" rotation="-90 0 0" scale="1.21603 1.215 1" nodeId="24"/>
+        <TransformGroup name="letter07" translation="0.215061 0.002 0.000475152" rotation="-90 0 0" scale="1.21603 1.215 1" nodeId="25"/>
+      </TransformGroup>
+      <Shape name="rectanglePlate" translation="0 1.91375e-19 0.000861875" rotation="90 0 0" shapeId="1" clipDistance="300" nodeId="26" castsShadows="true" receiveShadows="true" materialIds="7"/>
+      <Shape name="rectangleFrame" rotation="90 0 0" shapeId="2" clipDistance="300" nodeId="27" castsShadows="true" receiveShadows="true" materialIds="7"/>
+      <Shape name="plane" translation="-0.229745 -2.93628e-10 0.00335874" rotation="90.1065 -0 0" scale="0.039 0.999071 0.0887019" shapeId="3" clipDistance="100" nodeId="28" castsShadows="true" receiveShadows="true" materialIds="9"/>
+      <Shape name="Plane" translation="-0.229092 -6.87219e-05 0.00125258" rotation="90 -0 0" scale="0.025 1 0.092" shapeId="4" clipDistance="100" nodeId="29" castsShadows="true" receiveShadows="true" materialIds="5"/>
+    </TransformGroup>
+    <TransformGroup name="square" translation="0 -3.41893e-17 0.2" rotation="-90 0 0" nodeId="30">
+      <TransformGroup name="symbols" nodeId="31">
+        <TransformGroup name="letter01" translation="-0.0469198 0.0303595 0.00194242" nodeId="32"/>
+        <TransformGroup name="letter02" translation="-0.026145 0.0303595 0.00194242" nodeId="33"/>
+        <TransformGroup name="letter03" translation="0.0360099 0.03 0.00194242" nodeId="34"/>
+        <TransformGroup name="letter04" translation="0.0789547 0.03 0.00194242" nodeId="35"/>
+        <TransformGroup name="letter05" translation="-0.0253718 -0.030803 0.00194242" nodeId="36"/>
+        <TransformGroup name="letter06" translation="0.0165983 -0.030803 0.00194242" nodeId="37"/>
+        <TransformGroup name="letter07" translation="0.0627847 -0.030803 0.00194242" nodeId="38"/>
+      </TransformGroup>
+      <Shape name="squarePlate" translation="0 0.005 0.001" rotation="90 -0 0" shapeId="5" nodeId="39" castsShadows="true" receiveShadows="true" materialIds="8"/>
+      <Shape name="squareFrame" translation="0 4.30362e-19 0.00193818" rotation="90 0 0" shapeId="6" clipDistance="300" nodeId="40" castsShadows="true" receiveShadows="true" materialIds="6"/>
+      <Shape name="plane" translation="-0.101068 -0.0328187 0.00329773" rotation="90.1065 -0 0" scale="0.029 0.999071 0.0438213" shapeId="3" nodeId="41" castsShadows="true" receiveShadows="true" materialIds="9"/>
+      <Shape name="Plane" translation="-0.100497 -0.0308237 0.00238698" rotation="90 0 90" scale="0.03 0.01 0.04" shapeId="4" nodeId="42" castsShadows="true" receiveShadows="true" materialIds="5"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

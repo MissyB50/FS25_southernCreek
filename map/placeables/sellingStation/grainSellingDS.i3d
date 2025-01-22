@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="grainSellingDS.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.3"/>
+  </Asset>
+
+  <Files>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="20" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="lambert1" materialId="5" diffuseColor="0.501961 0.501961 0.501961 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="grainSellingDS.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="unloadingStation" nodeId="10">
+      <Shape name="unloadTrigger" shapeId="1" kinematic="true" compound="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="12" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+      <TransformGroup name="unloadMarker" nodeId="13"/>
+      <TransformGroup name="unloadNodeAI" nodeId="14"/>
+      <Shape name="palletTrigger" shapeId="2" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x10000" nodeId="15" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+      <Shape name="baleTrigger" shapeId="3" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000" nodeId="16" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+      <Shape name="woodTrigger" shapeId="4" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100800" nodeId="36" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="20"/>
+      <Shape name="woodActivationTrigger" translation="5.412 1.206 -1.762" shapeId="5" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" clipDistance="600" nodeId="37" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="20">
+        <TransformGroup name="woodActivationTriggerMarker" translation="0.629627 -1.20105 -0.284" nodeId="38"/>
+      </Shape>
+      <Shape name="aiSplineGrain" translation="9.963 0 0" shapeId="6" visibility="false" nodeId="41" castsShadows="false" receiveShadows="false"/>
+      <TransformGroup name="teleportNode" nodeId="17"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

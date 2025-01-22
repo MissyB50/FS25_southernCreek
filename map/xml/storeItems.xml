@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<storeItems>
+<!-- PRODUCTION POINTS -->
+    <storeItem xmlFilename="map/placeables/bga/bga.xml" /> 
+
+
+
+
+<!--     <storeItem xmlFilename="$mapdir$/map/placeables/sellingStation/" /> -->
+<!-- SELLING POINTS -->
+    <storeItem xmlFilename="map/placeables/sellingStation/animalDealer.xml"/>
+
+<!-- BUYING POINTS -->
+
+
+<!-- OTHER -->
+    <storeItem xmlFilename="map/placeables/bga/bgaBunkerSilo.xml" />
+    <storeItem xmlFilename="map/placeables/bga/weighingStationSmall.xml" />
+
+
+<!-- PLANTS -->
+    <storeItem xmlFilename="$data/foliage/decoFoliage/paintable_decoGrassShortUS.xml" />
+    <storeItem xmlFilename="$data/foliage/decoFoliage/paintable_decoGrassMediumUS.xml" />
+    <storeItem xmlFilename="$data/foliage/meadow/meadowUS/paintable_meadow.xml" />
+    <storeItem xmlFilename="$data/foliage/decoBush/decoBushUS/paintable_common01.xml" />
+    <storeItem xmlFilename="$data/foliage/decoBush/decoBushUS/paintable_common02.xml" />
+    <storeItem xmlFilename="$data/foliage/decoBush/decoBushUS/paintable_common03.xml" />
+    <storeItem xmlFilename="$data/foliage/decoBush/decoBushUS/paintable_dynamite01.xml" />
+    <storeItem xmlFilename="$data/foliage/decoBush/decoBushUS/paintable_dynamite02.xml" />
+    <storeItem xmlFilename="$data/foliage/decoBush/decoBushUS/paintable_dynamite03.xml" />
+    <storeItem xmlFilename="$data/foliage/decoBush/decoBushUS/paintable_pawpaw01.xml" />
+    <storeItem xmlFilename="$data/foliage/decoBush/decoBushUS/paintable_pawpaw02.xml" />
+    <storeItem xmlFilename="$data/foliage/decoBush/decoBushUS/paintable_pawpaw03.xml" />
+    <storeItem xmlFilename="$data/foliage/decoBush/decoBushUS/paintable_waterElm01.xml" />
+    <storeItem xmlFilename="$data/foliage/decoBush/decoBushUS/paintable_waterElm02.xml" />
+    <storeItem xmlFilename="$data/foliage/decoBush/decoBushUS/paintable_waterElm03.xml" />
+    <storeItem xmlFilename="$data/foliage/decoBush/decoBushUS/paintable_wingedSumac01.xml" />
+    <storeItem xmlFilename="$data/foliage/decoBush/decoBushUS/paintable_witchHazel01.xml" />
+    <storeItem xmlFilename="$data/foliage/decoBush/decoBushUS/paintable_witchHazel02.xml" />
+
+</storeItems>

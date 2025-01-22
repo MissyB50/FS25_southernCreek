@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="hedge.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.6"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="textures/shrub01_LOD.dds"/>
+    <File fileId="3" filename="textures/shrub01_LOD_normal.dds"/>
+    <File fileId="6" filename="textures/shrub5.dds"/>
+    <File fileId="7" filename="textures/shrub5_normal.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="Box" materialId="5" diffuseColor="0.8 0.8 0.8 1" specularColor="0.494118 1 0.494118">
+    </Material>
+    <Material name="lambert1" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="Material.001" materialId="7">
+      <Texture fileId="6"/>
+      <Normalmap fileId="7"/>
+    </Material>
+    <Material name="material10" materialId="8">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="hedge.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="poles" nodeId="15">
+        <TransformGroup name="pole01" nodeId="16">
+          <Shape shapeId="1" name="col" static="true" density="0.0001" nodeId="17" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <TransformGroup name="visual" nodeId="18"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="panels" clipDistance="300" nodeId="19">
+        <TransformGroup name="panel01" nodeId="20">
+          <Shape shapeId="2" name="col" static="true" clipDistance="300" nodeId="21" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <TransformGroup name="visuals" nodeId="22" lodDistance="0 45">
+            <Shape shapeId="3" name="shrubLong9m_lod0" clipDistance="1500" nodeId="23" materialIds="8" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="4" name="collisionBox" static="true" collisionMask="16777216" clipDistance="50" nodeId="24" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            </Shape>
+            <Shape shapeId="5" name="shrubLong9m_lod1" clipDistance="1500" nodeId="25" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+  </Scene>
+
+</i3D>

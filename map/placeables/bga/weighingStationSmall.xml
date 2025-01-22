@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="weighingStation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../shared/xml/schema/placeable.xsd">
+    <storeData>
+        <name>$l10n_storeItem_weighingStationSmall</name>
+        <functions>
+            <function>$l10n_function_weighingstation</function>
+        </functions>
+        <image>$data/placeables/brandless/weighingStations/weighingStationSmall/store_weighingStationSmall.png</image>
+        <price>64000</price>
+        <dailyUpkeep>40</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>NONE</brand>
+        <species>PLACEABLE</species>
+        <category>silos</category>
+        <brush>
+            <type>placeable</type>
+            <category>buildings</category>
+            <tab>tools</tab>
+        </brush>
+        <vertexBufferMemoryUsage>107264</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>24576</indexBufferMemoryUsage>
+        <textureMemoryUsage>917504</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+
+        <storeIconRendering>
+            <settings cameraYRot="-120" />
+        </storeIconRendering>
+        <audioMemoryUsage>0</audioMemoryUsage>
+    </storeData>
+
+    <base>
+        <filename>$data/placeables/brandless/weighingStations/weighingStationSmall/weighingStationSmall.i3d</filename>
+    </base>
+
+    <placement useRandomYRotation="false" useManualYRotation="true" >
+        <testAreas>
+            <testArea startNode="testArea1Start" endNode="testAreaEnd01" />
+            <testArea startNode="testAreaStart02" endNode="testAreaEnd02" />
+        </testAreas>
+
+        <sounds>
+            <place template="medImp" />
+        </sounds>
+    </placement>
+
+    <clearAreas>
+        <clearArea startNode="clearAreaStart01" widthNode="clearAreaWidth01" heightNode="clearAreaHeight01"/>
+        <clearArea startNode="clearAreaStart02" widthNode="clearAreaWidth02" heightNode="clearAreaHeight03"/>
+    </clearAreas>
+
+    <leveling requireLeveling="true" maxSmoothDistance="10" maxSlope="75" maxEdgeAngle="30">
+        <levelAreas>
+            <levelArea startNode="levelAreaStart01" widthNode="levelAreaWidth01" heightNode="levelAreaHeight01" groundType="gravel"/>
+            <levelArea startNode="levelAreaStart02" widthNode="levelAreaWidth02" heightNode="levelAreaHeight02" groundType="gravel"/>
+        </levelAreas>
+    </leveling>
+
+    <indoorAreas>
+        <indoorArea startNode="indoorAreaStart01" widthNode="indoorAreaWidth01" heightNode="indoorAreaHeight01" />
+    </indoorAreas>
+
+    <tipOcclusionUpdateAreas>
+        <tipOcclusionUpdateArea startNode="tipOcclusionUpdateAreaStart01" endNode="tipOcclusionUpdateAreaEnd01" />
+    </tipOcclusionUpdateAreas>
+
+    <ai>
+        <updateAreas>
+            <updateArea startNode="tipOcclusionUpdateAreaStart01" endNode="tipOcclusionUpdateAreaEnd01" />
+        </updateAreas>
+        <splines>
+            <spline node="aiSpline" />
+        </splines>
+    </ai>
+
+    <weighingStation triggerNode="weighingTrigger">
+        <display node="displayNode1" font="DIGIT" mask="00000000.0" alignment="RIGHT" size="0.13" emissiveScale="1" color="0.6 0 0" hiddenColor="0.05 0.05 0.05"/>
+    </weighingStation>
+
+    <lights>
+        <sharedLight filename="$data/shared/assets/lights/terraLed/spotlight20W.xml" linkNode="linkedLight01" groupIndex="1">
+            <rotationNode name="rotationNode01" rotation="35 0 0" />
+        </sharedLight>
+        <sharedLight filename="$data/shared/assets/lights/terraLed/spotlight20W.xml" linkNode="linkedLight02" groupIndex="1">
+            <rotationNode name="rotationNode01" rotation="35 0 0" />
+        </sharedLight>
+        <sharedLight filename="$data/shared/assets/lights/terraLed/spotlight20W.xml" linkNode="linkedLight03" groupIndex="1">
+            <rotationNode name="rotationNode01" rotation="35 0 0" />
+        </sharedLight>
+        <sharedLight filename="$data/shared/assets/lights/terraLed/fluorescentTube50W.xml" linkNode="linkedLight04" groupIndex="1" />
+
+        <realLights>
+            <low>
+                <light node="realLightsLow" groupIndex="1"/>
+            </low>
+            <high>
+                <light node="realLightsHigh" groupIndex="1"/>
+            </high>
+        </realLights>
+
+        <group name="$l10n_action_placeableLightShed" activateTime="17:30" deactivateTime="8:20"/>
+    </lights>
+
+    <i3dMappings>
+        <i3dMapping id="clearAreaStart01" node="0>0|0" />
+        <i3dMapping id="clearAreaWidth01" node="0>0|0|0" />
+        <i3dMapping id="clearAreaHeight01" node="0>0|0|1" />
+        <i3dMapping id="clearAreaStart02" node="0>0|1" />
+        <i3dMapping id="clearAreaWidth02" node="0>0|1|0" />
+        <i3dMapping id="clearAreaHeight03" node="0>0|1|1" />
+        <i3dMapping id="levelAreaStart01" node="0>1|0" />
+        <i3dMapping id="levelAreaWidth01" node="0>1|0|0" />
+        <i3dMapping id="levelAreaHeight01" node="0>1|0|1" />
+        <i3dMapping id="levelAreaStart02" node="0>1|1" />
+        <i3dMapping id="levelAreaWidth02" node="0>1|1|0" />
+        <i3dMapping id="levelAreaHeight02" node="0>1|1|1" />
+        <i3dMapping id="indoorAreaStart01" node="0>2|0" />
+        <i3dMapping id="indoorAreaWidth01" node="0>2|0|0" />
+        <i3dMapping id="indoorAreaHeight01" node="0>2|0|1" />
+        <i3dMapping id="testArea1Start" node="0>3|0" />
+        <i3dMapping id="testAreaEnd01" node="0>3|0|0" />
+        <i3dMapping id="testAreaStart02" node="0>3|1" />
+        <i3dMapping id="testAreaEnd02" node="0>3|1|0" />
+        <i3dMapping id="tipOcclusionUpdateAreaStart01" node="0>4|0" />
+        <i3dMapping id="tipOcclusionUpdateAreaEnd01" node="0>4|0|0" />
+        <i3dMapping id="realLightsLow" node="0>5|0|0" />
+        <i3dMapping id="realLightsHigh" node="0>5|0|1" />
+        <i3dMapping id="linkedLight01" node="0>5|1|0" />
+        <i3dMapping id="linkedLight02" node="0>5|1|1" />
+        <i3dMapping id="linkedLight03" node="0>5|1|2" />
+        <i3dMapping id="linkedLight04" node="0>5|1|3" />
+        <i3dMapping id="weighingTrigger" node="0>6|0" />
+        <i3dMapping id="displayNode1" node="0>6|1" />
+        <i3dMapping id="aiSpline" node="0>7|0" />
+    </i3dMappings>
+</placeable>

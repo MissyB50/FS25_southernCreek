@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="WytherFarm22" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.3"/>
+  </Asset>
+
+  <Files>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="15461" diffuseColor="0.498039 0.498039 0.498039 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="manureDealer.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="manureHeap" nodeId="15626">
+        <Shape shapeId="1" name="loadingTrigger" translation="0.115016 2 10.4341" rotation="0 -90 0" static="true" trigger="true" collisionMask="1073741824" nodeId="15627" materialIds="15461" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <TransformGroup name="loadingTriggerAINode" translation="-0.0838288 0 9.1897" rotation="0 -90 0" nodeId="15628"/>
+        <TransformGroup name="loadingTriggerMarker" translation="-0.734461 0 8.78208" nodeId="15629"/>
+        <TransformGroup name="tipArea" translation="-4.1 0 -6.75" nodeId="15630">
+          <TransformGroup name="tipAreaStart" translation="-0.151815 0 0.0231251" nodeId="15631">
+            <TransformGroup name="tipAreaWidth" translation="8.45978 1.18431e-14 0" nodeId="15632"/>
+            <TransformGroup name="tipAreaHeight" translation="0 6.444e-15 13.6996" nodeId="15633"/>
+          </TransformGroup>
+        </TransformGroup>
+        <Shape shapeId="2" name="activationTrigger" translation="-1.93053e-16 3.02749 1.5764" visibility="false" static="true" trigger="true" collisionMask="3145728" nodeId="15634" materialIds="15461" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <TransformGroup name="clearAreaStart" translation="-4.72251 0 -7.30043" nodeId="15635">
+          <TransformGroup name="clearAreaWidth" translation="9.52339 1.18431e-14 0" nodeId="15636"/>
+          <TransformGroup name="clearAreaHeight" translation="0 6.444e-15 14.3004" nodeId="15637"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="clearAreas" nodeId="15638">
+        <TransformGroup name="clearArea1Start" translation="-4.87061 0 -7.41634" nodeId="15639">
+          <TransformGroup name="clearArea1Width" translation="-8.88178e-16 0 14.823" nodeId="15640"/>
+          <TransformGroup name="clearArea1Height" translation="15.0281 0 9.87654e-15" nodeId="15641"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="levelAreas" nodeId="15642">
+        <TransformGroup name="levelArea1Start" translation="-4.87061 0 -7.41634" nodeId="15643">
+          <TransformGroup name="levelArea1Width" translation="-5.68434e-16 0 14.823" nodeId="15644"/>
+          <TransformGroup name="levelArea1Height" translation="15.0374 0 1.47793e-14" nodeId="15645"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="indoorAreas" nodeId="15646">
+        <TransformGroup name="indoorArea1Start" translation="-5 0 -7.25" nodeId="15647">
+          <TransformGroup name="indoorArea1Width" translation="10 0 -4.54747e-15" nodeId="15648"/>
+          <TransformGroup name="indoorArea1Height" translation="-1.7053e-15 0 14.75" nodeId="15649"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="testAreas" nodeId="15650">
+        <TransformGroup name="testArea1Start" translation="-4.87206 0 -7.42224" nodeId="15651">
+          <TransformGroup name="testArea1End" translation="15.2258 3.87035 14.759" nodeId="15652"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="tipOcclusionUpdateAreas" nodeId="15653">
+        <TransformGroup name="tipOcclusionUpdateArea1Start" translation="-5.70406 0 -8.39428" nodeId="15654">
+          <TransformGroup name="tipOcclusionUpdateArea1End" translation="17.3549 0 16.3479" nodeId="15655"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="3" name="infoTrigger" translation="0 4.76788 -0.69793" visibility="false" static="true" trigger="true" collisionMask="3145728" nodeId="15656" materialIds="15461" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+  </Scene>
+
+</i3D>

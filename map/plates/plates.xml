@@ -1,0 +1,126 @@
+<licensePlates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/mapLicensePlates.xsd">
+    <font name="LICENSE_PLATE_UK" />
+
+
+    <licensePlate filename="map/plates/licensePlates.i3d" node="0" type="ELONGATED" width="0.52" height="0.11">
+        <font size="0.065" scaleX="0.75" scaleY="1"/>
+
+        <variations>
+            <variation> <!-- 1 region, 2 letter, 3 numbers -->
+                <value node="0|0" posX="-0.172" numerical="false" alphabetical="true" locked="false"/>
+                <value node="0|1" posX="-0.109" numerical="false" alphabetical="true" />
+                <value node="0|2" posX="-0.048" numerical="true" alphabetical="false" />
+                <value node="0|3" posX="0.015" numerical="true" alphabetical="false" />
+				
+                <value node="0|4" posX="0.089"  numerical="false"  alphabetical="true" nextSection="true" />
+                <value node="0|5" posX="0.153"  numerical="false"  alphabetical="true" />
+                <value node="0|6" posX="0.215"  numerical="false"  alphabetical="true" />
+
+                <color shaderParameter="colorMat0" color="0 0.033 0.319"/>
+            </variation>
+            <variation> <!-- fantasy license plate -->
+                <value node="0|0" posX="-0.172" numerical="false" alphabetical="true" special="true"/>
+                <value node="0|1" posX="-0.109" numerical="false" alphabetical="true" special="true"/>
+                <value node="0|2" posX="-0.048" numerical="true" alphabetical="false" special="true"/>
+                <value node="0|3" posX="0.015" numerical="true" alphabetical="false" special="true"/>
+                <value node="0|4" posX="0.089"  numerical="false" alphabetical="true" special="true"/>
+                <value node="0|5" posX="0.153"  numerical="false" alphabetical="true" special="true"/>
+                <value node="0|6" posX="0.215"  numerical="false" alphabetical="true" special="true"/>
+
+                <color shaderParameter="colorMat0" color="0 0.033 0.319"/>
+            </variation>
+        </variations>
+    </licensePlate>
+
+
+<!--     <licensePlate filename="maps/plates/licensePlates.i3d" node="0" type="ELONGATED" width="0.52" height="0.11">
+        <font size="0.075" scaleX="1" scaleY="1"/>
+
+        <variations>
+            <variation>
+                <value node="0|0" posX="-0.182" numerical="false" alphabetical="true" />
+                <value node="0|1" posX="-0.132" numerical="false" alphabetical="true" />
+
+                <value node="0|2" posX="-0.091" character="-" locked="true"/>
+
+                <value node="0|3" posX="-0.050" numerical="true"  alphabetical="false" />
+                <value node="0|4" posX="0.000"  numerical="true"  alphabetical="false" />
+                <value node="0|5" posX="0.050"  numerical="true"  alphabetical="false" />
+
+
+                <value node="0|7" posX="0.132"  numerical="false" alphabetical="true" />
+                <value node="0|8" posX="0.182"  numerical="false" alphabetical="true" />
+
+                <value node="0|9" isStatic="true" position="ANY"/>
+
+                <color shaderParameter="colorMat0" color="0.0123 0.1413 0.5776"/>
+            </variation>
+            <variation>
+                <value node="0|0" posX="-0.216" numerical="true" alphabetical="true" special="true"/>
+                <value node="0|1" posX="-0.162" numerical="true" alphabetical="true" special="true"/>
+                <value node="0|2" posX="-0.108" numerical="true" alphabetical="true" special="true"/>
+                <value node="0|3" posX="-0.054" numerical="true" alphabetical="true" special="true"/>
+                <value node="0|4" posX="0.000"  numerical="true" alphabetical="true" special="true"/>
+                <value node="0|5" posX="0.054"  numerical="true" alphabetical="true" special="true"/>
+                <value node="0|6" posX="0.108"  numerical="true" alphabetical="true" special="true"/>
+                <value node="0|7" posX="0.162"  numerical="true" alphabetical="true" special="true"/>
+                <value node="0|8" posX="0.216"  numerical="true" alphabetical="true" special="true"/>
+
+                <value node="0|9" isStatic="true" position="NONE"/>
+
+                <color shaderParameter="colorMat0" color="1.000 1.000 1.000"/>
+            </variation>
+        </variations>
+
+        <frame node="2" widthOffset="0.005" heightOffsetTop="0.005" heightOffsetBot="0.015"/>
+    </licensePlate> -->
+
+<!--     <licensePlate filename="maps/plates/licensePlates.i3d" node="1" type="SQUARISH" width="0.255" height="0.130">
+        <font size="0.05" scaleX="1" scaleY="1"/>
+
+        <variations>
+            <variation> 
+                <value node="0|0" posX="-0.007" numerical="false" alphabetical="true" />
+                <value node="0|1" posX="0.03" numerical="false" alphabetical="true" />
+
+                <value node="0|2" character="_" locked="true"/>
+
+                <value node="0|3" posX="-0.099" numerical="true"  alphabetical="false" />
+                <value node="0|4" posX="-0.061"  numerical="true"  alphabetical="false" />
+                <value node="0|5" posX="-0.023"  numerical="true"  alphabetical="false" />
+
+                <value node="0|6" character="_" locked="true"/>
+
+                <value node="0|7" posX="0.059"  numerical="false" alphabetical="true" />
+                <value node="0|8" posX="0.097"  numerical="false" alphabetical="true" />
+
+                <value node="0|9" isStatic="true" position="ANY"/>
+
+                <color shaderParameter="colorMat0" color="0.0123 0.1413 0.5776"/>
+            </variation>
+            <variation>
+                <value node="0|0" posX="-0.060"  posY="0.03" numerical="true" alphabetical="true" special="true"/>
+                <value node="0|1" posX="-0.0194" posY="0.03" numerical="true" alphabetical="true" special="true"/>
+                <value node="0|2" posX="0.0216"  posY="0.03" numerical="true" alphabetical="true" special="true"/>
+                <value node="0|3" posX="0.0622"  posY="0.03" numerical="true" alphabetical="true" special="true"/>
+                <value node="0|4" posX="-0.0811"             numerical="true" alphabetical="true" special="true"/>
+                <value node="0|5" posX="-0.0405"             numerical="true" alphabetical="true" special="true"/>
+                <value node="0|6" posX="0.0001"              numerical="true" alphabetical="true" special="true"/>
+                <value node="0|7" posX="0.0407"              numerical="true" alphabetical="true" special="true"/>
+                <value node="0|8" posX="0.0813"              numerical="true" alphabetical="true" special="true"/>
+
+                <value node="0|9" isStatic="true" position="NONE"/>
+
+                <color shaderParameter="colorMat0" color="1.000 1.000 1.000"/>
+            </variation>
+        </variations>
+
+        <frame node="2" widthOffset="0.005" heightOffsetTop="0.005" heightOffsetBot="0.015"/>
+    </licensePlate> -->
+
+    <colorConfigurations shaderParameter="colorMat2" useDefaultColors="true">
+        <colorConfiguration name="$l10n_ui_colorBlack" color="0.0212 0.0212 0.0212" isDefault="true"/>
+    </colorConfigurations>
+
+    <placement defaultType="both"/>
+</licensePlates>

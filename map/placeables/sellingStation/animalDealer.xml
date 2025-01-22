@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="sellingStation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../shared/xml/schema/placeable.xsd">
+    <storeData>
+        <name>
+		    <en>Animal Dealer</en>
+		    <de></de>
+		</name>
+        <price>0</price>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>NONE</brand>
+        <species>PLACEABLE</species>
+        <category>placeableMisc</category>
+        <showInStore>false</showInStore>
+        <canBeSold>false</canBeSold>
+        <vertexBufferMemoryUsage>0</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>0</indexBufferMemoryUsage>
+        <textureMemoryUsage>0</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+
+    <base>
+        <filename>map/placeables/sellingStation/animalDealer.i3d</filename>
+    </base>
+
+    <placement useRandomYRotation="false" useManualYRotation="true" />
+
+    <clearAreas></clearAreas>
+
+    <leveling></leveling>
+
+    <indoorAreas></indoorAreas>
+
+    <ai>
+        <updateAreas>
+        </updateAreas>
+    </ai>
+
+    <hotspots>
+        <hotspot type="UNLOADING" linkNode="teleportNode" teleportNode="teleportNode" />
+    </hotspots>
+
+    <triggerMarkers>
+        <triggerMarker node="unloadMarker" adjustToGround="true" filename="$data/shared/assets/marker/markerIconUnload.i3d" />
+    </triggerMarkers>
+
+    <sellingStation supportsExtension="false" litersForFullPriceDrop="200000" fullPriceRecoverHours="48">
+        <unloadTrigger exactFillRootNode="unloadTrigger" fillTypeCategories="SELLINGSTATION_FIELDFRUITS" priceScale="1" />
+        <baleTrigger triggerNode="baleTrigger" deleteLitersPerSecond="10000" fillTypeCategories="SELLINGSTATION_FIELDFRUITS" priceScale="1" />
+        <palletTrigger triggerNode="palletTrigger" fillTypeCategories="SELLINGSTATION_FIELDFRUITS" priceScale="1" />
+    </sellingStation>
+
+    <i3dMappings>
+        <i3dMapping id="unloadTrigger" node="0>0" />
+        <i3dMapping id="unloadMarker" node="0>1" />
+        <i3dMapping id="baleTrigger" node="0>2" />
+        <i3dMapping id="palletTrigger" node="0>3" />
+        <i3dMapping id="teleportNode" node="0>4" />
+    </i3dMappings>
+</placeable>

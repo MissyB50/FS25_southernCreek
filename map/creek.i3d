@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="creek.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="$data/effects/waterFall/foam_diffuse.png"/>
+    <File fileId="2" filename="$data/effects/waterFall/foam_normal.png"/>
+    <File fileId="9" filename="$data/maps/mapUS/textures/creek/creekH4L20Center.i3d"/>
+    <File fileId="7" filename="$data/maps/mapUS/textures/creek/creekH6L30Left.i3d"/>
+    <File fileId="11" filename="$data/maps/mapUS/textures/creek/creekH6L30Right.i3d"/>
+    <File fileId="8" filename="$data/maps/mapUS/textures/creek/creekH8L40Left.i3d"/>
+    <File fileId="6" filename="$data/maps/mapUS/textures/creek/creekH8L40Right.i3d"/>
+    <File fileId="5" filename="$data/maps/mapUS/textures/creek/waterFallRock04_flowmap.png"/>
+    <File fileId="10" filename="$data/maps/mapUS/textures/creek/waterFallRock04m.i3d"/>
+    <File fileId="4" filename="$data/shaders/foamShader.xml"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="foamFlowMap_mat" materialId="195" specularColor="0.8 1 0" alphaBlending="true" customShaderId="4" customShaderVariation="flowMap">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Custommap name="flowMap" fileId="5"/>
+    </Material>
+    <Material name="foamSecondUV_mat" materialId="196" specularColor="0.8 1 0" alphaBlending="true" customShaderId="4" customShaderVariation="secondUV">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="uvScaleSpeed" value="1 1 0 0.6"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="creek.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="templeCreek" nodeId="31960">
+      <TransformGroup name="creekEndFlow" lockedgroup="true" translation="615.582 17.1307 -439.716" rotation="0 15.7734 0" scale="0.879493 1 0.879493" nodeId="31961">
+        <Shape name="flow" translation="0.027457 0.050062 0.216991" shapeId="1" clipDistance="100" nodeId="31962" castsShadows="false" receiveShadows="true" materialIds="195"/>
+        <Shape name="foam" translation="-0.049109 0.168027 1.12254" shapeId="2" clipDistance="100" nodeId="31963" castsShadows="false" receiveShadows="true" materialIds="196"/>
+      </TransformGroup>
+      <TransformGroup name="creekEndFlow" lockedgroup="true" translation="693.759 19.586 -437.695" rotation="-1.52103e-10 -89.4297 1.73012e-05" scale="0.879493 1 0.879493" nodeId="31964">
+        <Shape name="flow" translation="0.027457 0.050062 0.216991" shapeId="1" clipDistance="100" nodeId="31965" castsShadows="false" receiveShadows="true" materialIds="195"/>
+        <Shape name="foam" translation="-0.049109 0.168027 1.12254" shapeId="2" clipDistance="100" nodeId="31966" castsShadows="false" receiveShadows="true" materialIds="196"/>
+      </TransformGroup>
+      <TransformGroup name="creekEndFlow" lockedgroup="true" translation="507.329 14.8782 128.493" rotation="-1.57927e-12 16.5374 1.73011e-05" scale="0.879493 1 0.879493" nodeId="31967">
+        <Shape name="flow" translation="0.027457 0.050062 0.216991" shapeId="1" clipDistance="100" nodeId="31968" castsShadows="false" receiveShadows="true" materialIds="195"/>
+        <Shape name="foam" translation="-0.049109 0.168027 1.12254" shapeId="2" clipDistance="100" nodeId="31969" castsShadows="false" receiveShadows="true" materialIds="196"/>
+      </TransformGroup>
+      <Shape name="outFlow" translation="448.867 16.8514 -300.316" rotation="0 -24.1066 0" shapeId="3" clipDistance="100" nodeId="31970" castsShadows="false" receiveShadows="true" materialIds="195"/>
+      <Shape name="outFlow" translation="626.839 17.5749 -400.041" rotation="0 15.4801 0" scale="1.17846 1 1.17846" shapeId="3" clipDistance="100" nodeId="31971" castsShadows="false" receiveShadows="true" materialIds="195"/>
+      <Shape name="outFlow" translation="655.101 19.6601 -470.132" rotation="180 -55.8329 180" scale="1.20828 1 1.20828" shapeId="3" clipDistance="100" nodeId="31972" castsShadows="false" receiveShadows="true" materialIds="195"/>
+      <Shape name="outFlow" translation="739.54 24.6775 -495.841" rotation="0 10.5161 0" shapeId="3" clipDistance="100" nodeId="31973" castsShadows="false" receiveShadows="true" materialIds="195"/>
+      <ReferenceNode name="creekH8L40RightLOD" translation="626.776 17.4773 -400.104" rotation="-11.5532 14.2701 -2.82179" referenceId="6" nodeId="31984"/>
+      <ReferenceNode name="creekH6L30LeftLOD" translation="746.284 32.9559 -653.702" rotation="-9.81468 -43.0157 -0.901102" referenceId="7" nodeId="32001"/>
+      <ReferenceNode name="creekH8L40LeftLOD" translation="718.751 30.8378 -609.255" rotation="-5.43616 -45.9199 0" referenceId="8" nodeId="32018"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="772.852 36.3944 -689.863" rotation="-4.58 -32.3205 0.0523283" scale="1.095 1 1.2" referenceId="9" nodeId="32035"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="759.824 34.3191 -669.276" rotation="-8.39573 -40.6072 1.59298" scale="1 1 1.025" referenceId="9" nodeId="32043"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="732.667 32.3214 -624.465" rotation="-8.6838 -42.7612 2.02606" referenceId="9" nodeId="32051"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="707.937 28.0935 -579.201" rotation="-7.69394 2.11994 3.46969" referenceId="9" nodeId="32059"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="707.989 27.2504 -563.345" rotation="-11.2072 20.95 1.30783" referenceId="9" nodeId="32067"/>
+      <ReferenceNode name="waterFallRock4mLOD" translation="719.278 27.2799 -532.755" rotation="-2.03005e-06 25.0509 2.64542e-05" referenceId="10" nodeId="32088"/>
+      <ReferenceNode name="creekH6L30RightLOD" translation="731.683 22.6258 -455.18" rotation="-7.44305 -32.5073 0.581457" referenceId="11" nodeId="32112"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="739.527 24.6964 -495.94" rotation="-8.3 2.49801 0.502442" scale="1 1 1.01" referenceId="9" nodeId="32120"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="740.592 23.5857 -475.433" rotation="-7.66159 -24.416 2.72418" scale="1 1 1.2" referenceId="9" nodeId="32128"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="711.198 20.8807 -438.947" rotation="20.5139 -85.0248 -30.1976" scale="1 1 0.84864" referenceId="9" nodeId="32136"/>
+      <ReferenceNode name="creekH8L40LeftLOD" translation="654.955 19.7083 -470.312" rotation="167.1 -57.4193 -175.556" referenceId="8" nodeId="32144"/>
+      <ReferenceNode name="creekH8L40LeftLOD" translation="631.485 18.9197 -476.893" rotation="-6.66465 -58.9432 -1.28072" referenceId="8" nodeId="32152"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="614.872 17.8271 -457.426" rotation="-9.26518 1.76229 0.953113" referenceId="9" nodeId="32160"/>
+      <ReferenceNode name="creekH8L40RightLOD" translation="617.193 18.2218 -360.173" rotation="-10.8833 -29.4446 -0.851068" referenceId="6" nodeId="32168"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="588.701 18.5917 -341.511" rotation="154.969 -88.0514 -168.302" scale="1 1 1.025" referenceId="9" nodeId="32176"/>
+      <ReferenceNode name="creekH6L30RightLOD" translation="567.576 19.5146 -342.056" rotation="168.535 -55.4208 -174.552" referenceId="11" nodeId="32184"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="552.936 18.2074 -355.385" rotation="165.473 -19.2363 179.39" referenceId="9" nodeId="32192"/>
+      <ReferenceNode name="waterFallRock4mLOD" translation="543.141 19.3901 -386.351" rotation="-180 -22.3189 -180" referenceId="10" nodeId="32200"/>
+      <ReferenceNode name="creekH6L30RightLOD" translation="448.71 16.8937 -300.155" rotation="-8 -19.4297 -0.588818" referenceId="11" nodeId="32215"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="439.435 15.9345 -282.602" rotation="-14.9766 -53.6904 -0.466707" scale="1 1 0.84864" referenceId="9" nodeId="32223"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="425.813 16.5018 -272.467" rotation="-14.8 -70.9922 1.53687" scale="1 1 0.84864" referenceId="9" nodeId="32231"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="409.74 16.4365 -266.759" rotation="-20.3797 -77.1468 9.41253" scale="1.5 1.5 1.5" referenceId="9" nodeId="32239"/>
+      <ReferenceNode name="creekH8L40LeftLOD" translation="381.774 16.5568 -260.219" rotation="-26.2486 -83.6159 16.2389" scale="1.5 1.5 1.5" referenceId="8" nodeId="32247"/>
+      <ReferenceNode name="creekH8L40LeftLOD" translation="328.414 16.4297 -224.696" rotation="-7.55689 -54.3798 -3.05025" scale="1.5 1.5 1.5" referenceId="8" nodeId="32255"/>
+      <ReferenceNode name="creekH6L30RightLOD" translation="309.436 16.7716 -172.076" rotation="-11.8749 35.1046 -1.73545" referenceId="11" nodeId="32263"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="308.351 16.0473 -202.703" rotation="-12.869 1.31449 -3.24254" scale="1.5 1.5 1.5" referenceId="9" nodeId="32271"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="318.483 17.0285 -154.345" rotation="-11.3038 29.7146 -0.312087" referenceId="9" nodeId="32279"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="328.59 16.955 -136.862" rotation="-11.6307 27.0448 0.375521" scale="1.5 1.5 1.5" referenceId="9" nodeId="32287"/>
+      <ReferenceNode name="creekH6L30RightLOD" translation="342.878 17.0523 -109.187" rotation="-10.9835 8.20677 -3.11331" referenceId="11" nodeId="32295"/>
+      <ReferenceNode name="creekH8L40LeftLOD" translation="337.645 16.7351 -59.0876" rotation="-9.64278 -4.32625 0.445623" scale="1.5 1.5 1.5" referenceId="8" nodeId="32303"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="342.66 17.2483 -89.5184" rotation="-10.457 -9.74986 -0.693094" scale="1.5 1.5 1.5" referenceId="9" nodeId="32311"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="361.475 15.4938 -3.91556" rotation="-7.24855 45.4372 3.22021" scale="1.5 1.5 1.5" referenceId="9" nodeId="32319"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="383.566 14.431 17.7186" rotation="-8.52949 53.3499 1.53706" referenceId="9" nodeId="32327"/>
+      <ReferenceNode name="creekH6L30LeftLOD" translation="399.986 13.8214 29.9304" rotation="-11.8032 47.5976 -2.47243" referenceId="7" nodeId="32335"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="429.683 12.8281 43.3327" rotation="-18.519 84.4048 -8.68849" scale="1.5 1.5 1.5" referenceId="9" nodeId="32343"/>
+      <ReferenceNode name="creekH6L30RightLOD" translation="459.445 11.9156 46.1161" rotation="-20.413 70.0001 -8.84719" referenceId="11" nodeId="32351"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="501.132 14.7847 108.34" rotation="-12 17.0759 0.676572" scale="1.05 1.05 1.05" referenceId="9" nodeId="32359"/>
+      <ReferenceNode name="creekH6L30RightLOD" translation="482.224 13.1953 61.5025" rotation="-15.4548 43.8653 -0.565405" referenceId="11" nodeId="32367"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="495.117 15.0213 89.0672" rotation="-10.4154 17.0759 0.676572" referenceId="9" nodeId="32375"/>
+      <ReferenceNode name="creekH4L20CenterLOD" translation="474.591 12.3618 53.0373" rotation="-12.0769 40.3812 3.7446" referenceId="9" nodeId="32383"/>
+      <Shape name="outFlow" translation="772.827 36.2756 -689.795" rotation="-6.26912 -24.1066 0" scale="1 1 1.27773" shapeId="3" clipDistance="100" nodeId="32391" castsShadows="false" receiveShadows="true" materialIds="195"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>
