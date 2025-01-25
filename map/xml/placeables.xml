@@ -1,16 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <placeables version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/savegame_placeables.xsd">
+    <placeable filename="$mapdir$/map/placeables/trainSystem/trainSystem.xml" uniqueId="trainSystem" position="0.000 0.000 0.000" rotation="0.00 -0.00 0.00" farmId="0">
+        <customImage filename="$data/placeables/mapAS/trainSystem/mapIcon_trainStation.png"/>
+    </placeable>
+
     <!-- SELLPOINTS-->
     <placeable filename="$mapdir$/map/placeables/sellingStation/animalDealer.xml" position="-304.493 81.902 583.629" rotation="0 -47.6 0">
         <customImage filename="$mapdir$/map/placeables/store/mapIcon_ad.dds"/>
     </placeable>
 
+    <placeable filename="$mapdir$/map/placeables/sellingStation/mainSiloTrain.xml" position="-812.915 94.322 -937.75" rotation="0 90 0">
+        <customImage filename="$mapdir$/map/placeables/store/mapIcon_siloTrain.dds"/>
+    </placeable>
+    <placeable filename="$mapdir$/map/placeables/sellingStation/sellingStationTrain.xml" uniqueId="sellingStationTrain01" position="0 0 0" rotation="0 0 0" />
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!--BGA -->
     <placeable filename="$mapdir$/map/placeables/bga/bga.xml" position="-542 81.794 660" rotation="0 225 0">
-        <customImage filename="$data/placeables/planET/bga500kw/store_bga500kw.png"/>
+        <customImage filename="$mapdir$/map/placeables/store/mapIcon_bga.dds"/>
     </placeable>
 
-    <placeable filename="map/placeables/bga/bgaBunkerSilo.xml" position="-484.5 81.79 658" rotation="0 -45 0"/>
-    <placeable filename="map/placeables/bga/weighingStationSmall.xml" position="-495 81.477 692.5" rotation="0 125 0"/>
+    <placeable filename="$mapdir$/map/placeables/bga/bgaBunkerSilo.xml" position="-484.5 81.79 658" rotation="0 -45 0"/>
+    <placeable filename="$mapdir$/map/placeables/bga/weighingStationSmall.xml" position="-495 81.477 692.5" rotation="0 125 0"/>
 </placeables>

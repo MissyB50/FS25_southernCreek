@@ -3,16 +3,12 @@
     <farmlands infoLayer="farmlands" pricePerHa="500">
         <farmland id="1" priceScale="1" npcName="ANIMAL_DEALER" />
         <farmland id="2" priceScale="1" npcName="ANIMAL_DEALER" />
+        <farmland id="3" priceScale="1" npcName="ANIMAL_DEALER" />
 
 
 
 
 
-
-
-
-
-        <!-- <farmland id="3" priceScale="1" npcName="ANIMAL_DEALER" defaultFarmProperty="true"/> -->
         <!-- <farmland id="4" priceScale="1" npcName="ANIMAL_DEALER" defaultFarmProperty="true"/> -->
         <!-- <farmland id="5" priceScale="1" npcName="ANIMAL_DEALER" defaultFarmProperty="true"/> -->
         <!-- <farmland id="6" priceScale="1" npcName="FORESTER" /> -->

@@ -10,7 +10,7 @@
 
 
   <Materials>
-    <Material name="navMeshDealer_mat" materialId="14658" diffuseColor="0.8 0.8 0.8 1" specularColor="0.501961 1 0">
+    <Material name="navMeshDealer_mat" materialId="5" diffuseColor="0.8 0.8 0.8 1" specularColor="0.501961 1 0">
     </Material>
   </Materials>
 
@@ -19,21 +19,18 @@
   </Shapes>
 
   <Scene>
-    <TransformGroup name="animalTraderMesh" nodeId="14661">
-      <TransformGroup name="navigationRootNode01" nodeId="14662">
-        <Shape name="navMeshDealer" shapeId="1" static="true" collisionFilterMask="0xfffffbff" nodeId="14663" castsShadows="true" receiveShadows="true" buildNavMeshMask="0xfe" materialIds="14658"/>
+    <TransformGroup name="animalTraderMesh" nodeId="9">
+      <TransformGroup name="navigationRootNode01" nodeId="10">
+        <Shape name="navMeshDealer" shapeId="1" static="true" collisionFilterMask="0xfffffbff" nodeId="11" castsShadows="true" receiveShadows="true" buildNavMeshMask="0xfe" materialIds="5"/>
       </TransformGroup>
-      <TransformGroup name="navigationRootNode02" nodeId="14664">
-        <Shape name="navMeshDealer" shapeId="2" static="true" collisionFilterMask="0xfffffbff" nodeId="14665" castsShadows="true" receiveShadows="true" nonRenderable="true" buildNavMeshMask="0xfe" materialIds="14658"/>
+      <TransformGroup name="navigationRootNode02" nodeId="12">
+        <Shape name="navMeshDealer" shapeId="2" static="true" collisionFilterMask="0xfffffbff" nodeId="13" castsShadows="true" receiveShadows="true" nonRenderable="true" buildNavMeshMask="0xfe" materialIds="5"/>
       </TransformGroup>
-      <TransformGroup name="navigationRootNode03" nodeId="14666">
-        <Shape name="navMeshDealer" shapeId="2" static="true" collisionFilterMask="0xfffffbff" nodeId="14667" castsShadows="true" receiveShadows="true" nonRenderable="true" buildNavMeshMask="0xfe" materialIds="14658"/>
+      <TransformGroup name="navigationRootNode03" nodeId="16">
+        <Shape name="navMeshDealer" shapeId="2" static="true" collisionFilterMask="0xfffffbff" nodeId="17" castsShadows="true" receiveShadows="true" nonRenderable="true" buildNavMeshMask="0xfe" materialIds="5"/>
       </TransformGroup>
-      <TransformGroup name="navigationRootNode04" nodeId="14668">
-        <Shape name="navMeshDealer" shapeId="2" static="true" collisionFilterMask="0xfffffbff" nodeId="14669" castsShadows="true" receiveShadows="true" nonRenderable="true" buildNavMeshMask="0xfe" materialIds="14658"/>
-      </TransformGroup>
-      <TransformGroup name="navigationRootNode05" nodeId="14670">
-        <Shape name="navMeshDealer" shapeId="2" static="true" collisionFilterMask="0xfffffbff" nodeId="14671" castsShadows="true" receiveShadows="true" nonRenderable="true" buildNavMeshMask="0xfe" materialIds="14658"/>
+      <TransformGroup name="navigationRootNode04" nodeId="18">
+        <Shape name="navMeshDealer" shapeId="2" static="true" collisionFilterMask="0xfffffbff" nodeId="19" castsShadows="true" receiveShadows="true" nonRenderable="true" buildNavMeshMask="0xfe" materialIds="5"/>
       </TransformGroup>
     </TransformGroup>
   </Scene>

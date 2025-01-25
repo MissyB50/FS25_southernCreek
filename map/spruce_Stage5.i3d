@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="spruce_Stage5.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="10" filename="$data/shaders/treeBillboardShader.xml"/>
+    <File fileId="3" filename="$data/shaders/treeTrunkShader.xml"/>
+    <File fileId="8" filename="textures/trees/spruceLarge/spruce5LOD_diffuse.dds"/>
+    <File fileId="9" filename="textures/trees/spruceLarge/spruce5LOD_normal.dds"/>
+    <File fileId="6" filename="textures/trees/spruceLarge/spruceBranch_diffuse.dds"/>
+    <File fileId="7" filename="textures/trees/spruceLarge/spruceBranch_normal.dds"/>
+    <File fileId="1" filename="textures/trees/spruceLarge/spruceTrunk_diffuse.dds"/>
+    <File fileId="2" filename="textures/trees/spruceLarge/spruceTrunk_normal.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="pineBranch_mat" materialId="21">
+      <Texture fileId="6"/>
+      <Normalmap fileId="7"/>
+    </Material>
+    <Material name="spruce5LOD_mat" materialId="25" customShaderId="10">
+      <Texture fileId="8"/>
+      <Normalmap fileId="9"/>
+    </Material>
+    <Material name="spruceTrunk_mat" materialId="19" customShaderId="3" customShaderVariation="customParallax">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2" bumpDepth="0.800001"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="spruce_Stage5.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="spruce_stage5" lodDistance="0 120" clipDistance="599" nodeId="12">
+      <Shape name="LOD0" shapeId="1" static="true" collisionFilterGroup="0x1003022" collisionFilterMask="0x1003022" angularDamping="0.15" rollingFriction="0.27" density="0.47" clipDistance="600" nodeId="13" castsShadows="true" receiveShadows="true" splitType="1" splitUvs="0 0 1 0.064 1.8" materialIds="19">
+        <Shape name="attachments" shapeId="2" clipDistance="600" nodeId="14" castsShadows="true" receiveShadows="true" materialIds="21"/>
+      </Shape>
+      <Shape name="LOD1" shapeId="3" clipDistance="600" nodeId="15" castsShadows="true" receiveShadows="true" materialIds="25"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

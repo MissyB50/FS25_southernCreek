@@ -7,9 +7,15 @@
 
 
 
-<!--     <storeItem xmlFilename="$mapdir$/map/placeables/sellingStation/" /> -->
+<!--     <storeItem xmlFilename="map/placeables/sellingStation/" /> -->
 <!-- SELLING POINTS -->
     <storeItem xmlFilename="map/placeables/sellingStation/animalDealer.xml"/>
+    <storeItem xmlFilename="map/placeables/trainSystem/trainSystem.xml" />
+    <storeItem xmlFilename="map/placeables/sellingStation/mainSiloTrain.xml" /> <!-- siloTrain-->
+    <storeItem xmlFilename="map/placeables/sellingStation/sellingStationTrain.xml" /><!--train triggers-->
+
+
+
 
 <!-- BUYING POINTS -->
 
@@ -17,6 +23,18 @@
 <!-- OTHER -->
     <storeItem xmlFilename="map/placeables/bga/bgaBunkerSilo.xml" />
     <storeItem xmlFilename="map/placeables/bga/weighingStationSmall.xml" />
+
+
+<!-- TRAIN AND WAGONS -->
+    <storeItem xmlFilename="$data/vehicles/train/locomotiveAS/locomotiveAS.xml" />
+    <storeItem xmlFilename="$data/vehicles/train/wagonGrainEU/wagonGrainEU.xml" />
+    <storeItem xmlFilename="$data/vehicles/train/wagonGrainEU/wagonGrainEU.xml" />
+    <storeItem xmlFilename="$data/vehicles/train/wagonSugarbeetsEU/wagonSugarbeetsEU.xml" />
+    <storeItem xmlFilename="$data/vehicles/train/wagonSugarbeetsEU/wagonSugarbeetsEU.xml" />
+    <storeItem xmlFilename="$data/vehicles/train/wagonWoodChipsEU/wagonWoodChipsEU.xml" />
+    <storeItem xmlFilename="$data/vehicles/train/wagonGrainEU/wagonGrainEU.xml" />
+
+
 
 
 <!-- PLANTS -->

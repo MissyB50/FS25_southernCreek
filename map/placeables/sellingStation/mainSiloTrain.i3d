@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="mainSiloTrain.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="$data/shared/default_normal.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="5" diffuseColor="0.501961 0.501961 0.501961 1">
+    </Material>
+    <Material name="lambert2_mat" materialId="6" diffuseColor="0.501961 0.501961 0.501961 1">
+      <Normalmap fileId="2"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="mainSiloTrain.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="grainElevatorTriggers" nodeId="17">
+      <TransformGroup name="loadingTriggerTrain" rotation="0 90 0" nodeId="18">
+        <Shape name="loadingTriggerTrain" translation="-0.354 7.06641 7.96492" shapeId="1" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" nodeId="19" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+        <TransformGroup name="dischargeNodeTrain" translation="-0.353605 7.06641 7.96492" nodeId="20"/>
+        <TransformGroup name="dischargeEffect" translation="-0.33735 7.1509 7.95655" nodeId="21">
+          <Shape name="pipeEffectTrain" shapeId="2" clipDistance="300" nodeId="22" castsShadows="true" receiveShadows="true" materialIds="6"/>
+          <Shape name="pipeEffectSmokeTrain" translation="0 -5.25058 0" shapeId="3" clipDistance="100" nodeId="23" castsShadows="true" receiveShadows="true" materialIds="6"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="unloadStationTrain" nodeId="24">
+        <Shape name="unloadNodeTrain" translation="8 0.6 0" shapeId="4" kinematic="true" compound="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="25" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+        <TransformGroup name="unloadMarkerTrain" translation="8 0.5 0" nodeId="26"/>
+      </TransformGroup>
+      <TransformGroup name="loadingTriggerTrailer" rotation="0 90 0" nodeId="27">
+        <Shape name="loadingTriggerTrailer" translation="0.000891 5.81208 0.504238" shapeId="1" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" nodeId="28" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+        <TransformGroup name="dischargeNodeTrailer" translation="0.000891 5.81208 0.504238" nodeId="29"/>
+        <TransformGroup name="loadNodeAI" translation="0.000891 0 0.504238" rotation="0 90 0" nodeId="30"/>
+        <TransformGroup name="dischargeEffect" translation="0.000891 5.81208 0.504238" nodeId="31">
+          <Shape name="pipeEffectTrailer" translation="0 0.000729 0" shapeId="5" clipDistance="300" nodeId="32" castsShadows="true" receiveShadows="true" materialIds="6"/>
+          <Shape name="pipeEffectSmokeTrailer" translation="0 -5.25058 0" shapeId="6" clipDistance="100" nodeId="33" castsShadows="true" receiveShadows="true" materialIds="6"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="unloadStationTrailer" nodeId="34">
+        <Shape name="unloadNodeTrailer" translation="-6.04414 0.371339 -0.05" shapeId="4" kinematic="true" compound="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="35" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+        <TransformGroup name="unloadMarkerTrailer" translation="-6.04414 0.371339 -0.05" nodeId="36"/>
+        <TransformGroup name="unloadNodeAI" translation="-6.04414 0.371339 -0.05" rotation="0 180 0" nodeId="37"/>
+        <Shape name="unloadAISpline" shapeId="7" nodeId="38" castsShadows="false" receiveShadows="false"/>
+        <Shape name="palletTrigger" translation="-6.04414 2.37134 -0.05" shapeId="8" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x10000" nodeId="40" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+        <Shape name="baleTrigger" translation="-6.04414 2.37134 -0.05" shapeId="8" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000" nodeId="41" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+      </TransformGroup>
+      <TransformGroup name="teleportNode" translation="-7.5 0 11" nodeId="42"/>
+      <Shape name="infoTrigger" translation="6.28834 1 0" shapeId="9" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" nodeId="43" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

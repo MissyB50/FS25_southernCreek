@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="sellingStationTrain.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.3"/>
+  </Asset>
+
+  <Files>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="104" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="sellingStationTrain.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="sellingStationTrain" nodeId="15076">
+      <Shape name="woodSellTriggerWest" translation="-1005.48 94.3633 -952.697" rotation="0 90 3.45786e-06" shapeId="1" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x800" nodeId="15077" castsShadows="false" receiveShadows="false" nonRenderable="true" distanceBlending="false" materialIds="104"/>
+      <Shape name="woodSellTriggerEast" translation="998.853 94.5436 -908.677" rotation="1.06105e-08 90 0" shapeId="1" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x800" nodeId="15078" castsShadows="false" receiveShadows="false" nonRenderable="true" distanceBlending="false" materialIds="104"/>
+      <Shape name="palletSellTriggerWest" translation="-1005.48 94.3633 -952.697" rotation="0 90 3.45786e-06" shapeId="2" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x10000" nodeId="15079" castsShadows="false" receiveShadows="false" nonRenderable="true" distanceBlending="false" materialIds="104"/>
+      <Shape name="palletSellTriggerEast" translation="998.853 94.5436 -908.677" rotation="1.06105e-08 90 0" shapeId="2" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x10000" nodeId="15080" castsShadows="false" receiveShadows="false" nonRenderable="true" distanceBlending="false" materialIds="104"/>
+      <Shape name="grainSellTriggerWest" translation="-1005.48 94.3633 -952.697" rotation="0 90 3.45786e-06" shapeId="2" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" nodeId="15081" castsShadows="false" receiveShadows="false" nonRenderable="true" distanceBlending="false" materialIds="104"/>
+      <Shape name="grainSellTriggerEast" translation="998.853 94.5436 -908.677" rotation="1.06105e-08 90 0" shapeId="2" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" nodeId="15082" castsShadows="false" receiveShadows="false" nonRenderable="true" distanceBlending="false" materialIds="104"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

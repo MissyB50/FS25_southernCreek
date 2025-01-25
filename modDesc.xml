@@ -3,12 +3,12 @@
     <author>MISSYB</author>
     <version>1.0.0.0</version>
     <title>
-        <en>Unknown Name</en>
-        <de>FS25 Blank Map 2x</de>
+        <en>Southern Creek</en>
+        <de>Südlicher Bach</de>
     </title>
     <description>
-        <en><![CDATA[FS25 Blank Map]]></en>
-        <de><![CDATA[Dies ist die Beispiel Mod Map US.]]></de>
+        <en><![CDATA[Southern Creek]]></en>
+        <de><![CDATA[Südlicher Bach]]></de>
     </description>
     <iconFilename>icon_map.dds</iconFilename>
     <multiplayer supported="true"/>
@@ -20,20 +20,20 @@
 		defaultItemsXMLFilename="map/xml/items.xml" 
 		defaultHandToolsXMLFilename="map/xml/handtools.xml">
             <title>
-                <en>Unknown Name</en>
-                <de>Unknown Name</de>
+                <en>Southern Creek</en>
+                <de>Südlicher Bach</de>
             </title>
             <description>
-                <en>Map in testing</en>
-                <de></de>
+                <en>Southern Creek,
+				
+				</en>
+                <de>Südlicher Bach,
+				
+				</de>
             </description>
             <iconFilename>map_preview.png</iconFilename>
         </map>
     </maps>
 
    <l10n filenamePrefix="translations/l10n"/>
-
-    <storeItems>
-      <!-- <storeItem xmlFilename="map/xml/sawmill.xml" /> -->
-    </storeItems>
 </modDesc>
