@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="maureAd.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="$data/placeables/shared/buyingStations/buyingStationManure/stationManure_diffuse.png"/>
+    <File fileId="8" filename="$data/placeables/shared/buyingStations/buyingStationManure/stationManure_height.png"/>
+    <File fileId="3" filename="$data/placeables/shared/buyingStations/buyingStationManure/stationManure_normal.png"/>
+    <File fileId="4" filename="$data/placeables/shared/buyingStations/buyingStationManure/stationManure_specular.png"/>
+    <File fileId="5" filename="$data/shaders/placeableShader.xml"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="135" diffuseColor="0.501961 0.501961 0.501961 1">
+    </Material>
+    <Material name="stationManure_mat" materialId="3543" customShaderId="5" customShaderVariation="customParallax_terrainSampleVT">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+      <Custommap name="mParallaxMap" fileId="8"/>
+      <CustomParameter name="heightMask" value="0.25"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="maureAd.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="manureHeap" translation="-284.675 81.7844 568.123" rotation="0 -140 0" nodeId="3556">
+      <Shape name="loadingTriggerManure" translation="8 2 2.74805" shapeId="1" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" nodeId="3557" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="135"/>
+      <TransformGroup name="loadingTriggerAINodeManure" translation="8.5 0 6" nodeId="3558"/>
+      <TransformGroup name="loadingTriggerMarkerManure" translation="8.5 0 6" nodeId="3559"/>
+      <Shape name="fillplane" translation="0 1.35396 -2.39233" shapeId="2" clipDistance="150" nodeId="3560" castsShadows="true" receiveShadows="true" materialIds="3543"/>
+      <Shape name="exactFillRootNodeManure" translation="0 0.1 6.91486" rotation="0 90 0" shapeId="3" kinematic="true" compound="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="3561" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="135"/>
+      <TransformGroup name="unloadingTriggerAINodeManure" translation="8.5 0.1 6" rotation="0 180 0" nodeId="3562"/>
+      <Shape name="aiSpline" shapeId="4" visibility="false" nodeId="3563" castsShadows="false" receiveShadows="false"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

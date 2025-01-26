@@ -12,6 +12,8 @@
   <Materials>
     <Material name="lambert1" materialId="5" diffuseColor="0.494118 0.494118 0.494118 1">
     </Material>
+    <Material name="UnnamedMaterial" materialId="6" diffuseColor="1 1 1 1">
+    </Material>
   </Materials>
 
 
@@ -19,27 +21,29 @@
   </Shapes>
 
   <Scene>
-    <TransformGroup name="trainSystem" nodeId="9">
-      <Shape name="trainSpline" shapeId="1" nodeId="10" castsShadows="false" receiveShadows="false" distanceBlending="false"/>
-      <TransformGroup name="drivingRange" nodeId="12">
-        <TransformGroup name="startNode" translation="995.032 94.5347 -908.849" nodeId="13"/>
-        <TransformGroup name="endNode" translation="-1007.23 94.486 -952.686" nodeId="14"/>
+    <TransformGroup name="trainSystem" nodeId="11">
+      <Shape name="trainSpline" shapeId="1" visibility="false" nodeId="12" castsShadows="false" receiveShadows="false"/>
+      <TransformGroup name="drivingRange" nodeId="14">
+        <TransformGroup name="startNode" translation="995.032 94.5347 -908.849" nodeId="15"/>
+        <TransformGroup name="endNode" translation="-1007.23 94.486 -952.686" rotation="0 180 0" nodeId="16"/>
       </TransformGroup>
-      <TransformGroup name="railroadCaller01" translation="-770.954 94.5807 -955.378" rotation="0 -15 0" nodeId="15">
-        <Shape name="railroadCallerTrigger" shapeId="2" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" nodeId="16" castsShadows="false" receiveShadows="false" nonRenderable="true" distanceBlending="false" materialIds="5"/>
-        <TransformGroup name="hotspot" nodeId="17"/>
-        <TransformGroup name="teleport" nodeId="18"/>
+      <TransformGroup name="railroadCaller01" translation="-770.954 94.5807 -955.378" rotation="0 -15 0" nodeId="17">
+        <Shape name="railroadCallerTrigger" shapeId="2" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" nodeId="18" castsShadows="false" receiveShadows="false" nonRenderable="true" distanceBlending="false" materialIds="5"/>
+        <TransformGroup name="hotspot" nodeId="19"/>
+        <TransformGroup name="teleport" nodeId="20"/>
       </TransformGroup>
-      <TransformGroup name="railroadCaller02" translation="793.067 94.6896 -902.801" nodeId="19">
-        <Shape name="railroadCallerTrigger" shapeId="2" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" nodeId="20" castsShadows="false" receiveShadows="false" nonRenderable="true" distanceBlending="false" materialIds="5"/>
-        <TransformGroup name="hotspot" nodeId="21"/>
-        <TransformGroup name="teleport" nodeId="22"/>
+      <TransformGroup name="railroadCaller02" translation="793.067 94.6896 -902.801" nodeId="21">
+        <Shape name="railroadCallerTrigger" shapeId="2" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" nodeId="22" castsShadows="false" receiveShadows="false" nonRenderable="true" distanceBlending="false" materialIds="5"/>
+        <TransformGroup name="hotspot" nodeId="23"/>
+        <TransformGroup name="teleport" nodeId="24"/>
       </TransformGroup>
+      <Shape name="tunnalCollisionTrainWest" translation="-1009.57 94.4981 -949" shapeId="3" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" nodeId="25" castsShadows="false" receiveShadows="true" nonRenderable="true" materialIds="6"/>
+      <Shape name="tunnalCollisionTrainEast" translation="1009.08 94.4981 -912.104" rotation="0 180 0" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" nodeId="26" castsShadows="false" receiveShadows="true" nonRenderable="true" materialIds="6"/>
     </TransformGroup>
   </Scene>
 
   <UserAttributes>
-    <UserAttribute nodeId="9">
+    <UserAttribute nodeId="11">
       <Attribute name="onCreate" type="scriptCallback" value="TrainSystem.onCreate"/>
       <Attribute name="xmlFile" type="string" value="$data/maps/mapBase_trainSystem01.xml"/>
     </UserAttribute>

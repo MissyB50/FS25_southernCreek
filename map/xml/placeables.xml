@@ -14,16 +14,10 @@
     </placeable>
     <placeable filename="$mapdir$/map/placeables/sellingStation/sellingStationTrain.xml" uniqueId="sellingStationTrain01" position="0 0 0" rotation="0 0 0" />
 
-
-
-
-
-
-
-
-
-
-
+<!-- buildable -->
+    <placeable filename="$data/placeables/brandless/constructibles/buildableFarmHouse02/buildableFarmHouse02.xml" position="-179.721 82.2 596.47" rotation="0 -116 0"/>
+    <placeable filename="$data/placeables/brandless/constructibles/farmGarageConstructable01/farmGarageConstructable01.xml" position="-207.4 82.269 619.5" rotation="0 180 0"/>
+    <placeable filename="$data/placeables/brandless/constructibles/farmGarageConstructable01/farmGarageConstructable01.xml" position="-223.45 82.269 598.85" rotation="0 90 0"/>
 
 
 
@@ -35,3 +29,4 @@
     <placeable filename="$mapdir$/map/placeables/bga/bgaBunkerSilo.xml" position="-484.5 81.79 658" rotation="0 -45 0"/>
     <placeable filename="$mapdir$/map/placeables/bga/weighingStationSmall.xml" position="-495 81.477 692.5" rotation="0 125 0"/>
 </placeables>
+<!--     <placeable filename="" position="" rotation=""/> -->

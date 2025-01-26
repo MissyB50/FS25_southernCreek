@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="slurryAd.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="$data/fillPlanes/liquidManure_diffuse.dds"/>
+    <File fileId="2" filename="$data/fillPlanes/liquidManure_normal.dds"/>
+    <File fileId="3" filename="$data/fillPlanes/liquidManure_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="134" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="Material" materialId="139">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="slurryAd.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="liquidManureTank" translation="-310.403 81.7938 534.577" rotation="0 -50.3534 0" nodeId="3580">
+      <TransformGroup name="silo" nodeId="3581">
+        <TransformGroup name="storage" nodeId="3582">
+          <Shape name="fillPlane" translation="0 1.6 0" shapeId="1" clipDistance="600" nodeId="3583" castsShadows="true" receiveShadows="true" materialIds="139"/>
+        </TransformGroup>
+        <TransformGroup name="loadingStation" translation="-0.01187 5.21914 8.16764" nodeId="3584">
+          <TransformGroup name="loadingTriggers" translation="-0 -0.215055 -0" nodeId="3585">
+            <Shape name="loadingTrigger" shapeId="2" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" nodeId="3586" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="134"/>
+            <TransformGroup name="dischargeNode" nodeId="3587"/>
+          </TransformGroup>
+          <TransformGroup name="aiLoadingNode" translation="-0.0541359 -5.02156 0.570227" rotation="0 -90 0" nodeId="3588"/>
+          <Shape name="aiSpline" translation="0 -5.21872 0.5" shapeId="3" nodeId="3589" castsShadows="false" receiveShadows="false"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="indoorAreas" nodeId="3590">
+        <TransformGroup name="clearArea1Start" translation="-10.0374 0 -6" nodeId="3591">
+          <TransformGroup name="clearArea1Width" translation="20.1426 0 1.67638e-08" nodeId="3592"/>
+          <TransformGroup name="clearArea1Height" translation="5.58794e-09 0 11.1485" nodeId="3593"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="tipOcclusionUpdateAreas" nodeId="3594">
+        <TransformGroup name="tipOcclusionUpdateArea1Start" translation="-11 0 -6" nodeId="3595">
+          <TransformGroup name="tipOcclusionUpdateArea1End" translation="22 0 13" nodeId="3596"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="markerLoading" translation="0 0 8.68488" rotation="0 -90 0" nodeId="3597"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

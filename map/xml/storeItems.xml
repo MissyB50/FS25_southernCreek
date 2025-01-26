@@ -25,6 +25,7 @@
     <storeItem xmlFilename="map/placeables/bga/weighingStationSmall.xml" />
 
 
+
 <!-- TRAIN AND WAGONS -->
     <storeItem xmlFilename="$data/vehicles/train/locomotiveAS/locomotiveAS.xml" />
     <storeItem xmlFilename="$data/vehicles/train/wagonGrainEU/wagonGrainEU.xml" />

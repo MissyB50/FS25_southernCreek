@@ -35,7 +35,7 @@
 
     <trainSystem>
         <rent pricePerHour="500"/>
-        <spline node="0>0" splineYOffset="0.12" />
+        <spline node="0>0" splineYOffset="0.15" />
         <electricitySpline></electricitySpline>
 
         <drivingRange startNode="1|0" endNode="1|1" sellingStationId="sellingStationTrain01"/>
