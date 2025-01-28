@@ -3,8 +3,12 @@
     <placeable filename="$mapdir$/map/placeables/trainSystem/trainSystem.xml" uniqueId="trainSystem" position="0.000 0.000 0.000" rotation="0.00 -0.00 0.00" farmId="0">
         <customImage filename="$data/placeables/mapAS/trainSystem/mapIcon_trainStation.png"/>
     </placeable>
+<!-- PRODUCTIONS -->
+    <placeable filename="$mapdir$/map/placeables/sellingStation/sawMill.xml" position="-648.494 94.537 -870.618" rotation="0 0 0">
+        <customImage filename="$mapdir$/map/placeables/store/mapIcon_sawMill.dds"/>
+    </placeable>
 
-    <!-- SELLPOINTS-->
+<!-- SELLPOINTS-->
     <placeable filename="$mapdir$/map/placeables/sellingStation/animalDealer.xml" position="-304.493 81.902 583.629" rotation="0 -47.6 0">
         <customImage filename="$mapdir$/map/placeables/store/mapIcon_ad.dds"/>
     </placeable>
@@ -14,19 +18,71 @@
     </placeable>
     <placeable filename="$mapdir$/map/placeables/sellingStation/sellingStationTrain.xml" uniqueId="sellingStationTrain01" position="0 0 0" rotation="0 0 0" />
 
-<!-- buildable -->
-    <placeable filename="$data/placeables/brandless/constructibles/buildableFarmHouse02/buildableFarmHouse02.xml" position="-179.721 82.2 596.47" rotation="0 -116 0"/>
-    <placeable filename="$data/placeables/brandless/constructibles/farmGarageConstructable01/farmGarageConstructable01.xml" position="-207.4 82.269 619.5" rotation="0 180 0"/>
-    <placeable filename="$data/placeables/brandless/constructibles/farmGarageConstructable01/farmGarageConstructable01.xml" position="-223.45 82.269 598.85" rotation="0 90 0"/>
 
 
-
-    <!--BGA -->
+<!--BGA -->
     <placeable filename="$mapdir$/map/placeables/bga/bga.xml" position="-542 81.794 660" rotation="0 225 0">
         <customImage filename="$mapdir$/map/placeables/store/mapIcon_bga.dds"/>
     </placeable>
 
     <placeable filename="$mapdir$/map/placeables/bga/bgaBunkerSilo.xml" position="-484.5 81.79 658" rotation="0 -45 0"/>
     <placeable filename="$mapdir$/map/placeables/bga/weighingStationSmall.xml" position="-495 81.477 692.5" rotation="0 125 0"/>
+
+
+
+<!-- buildable -->
+    <placeable filename="data/placeables/brandless/constructibles/buildableFarmHouse02/buildableFarmHouse02.xml" uniqueId="placeable7e9a0cf9fc438d958916b4c3265f78d0" position="-175.125 82.268 602.445" rotation="180.00 -69.05 180.00" age="0.000000" price="1000.000000" farmId="1">
+        <animatedObjects>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+        </animatedObjects>
+        <farmhouse isFreeForAll="false"/>
+        <wardrobe isFreeForAll="false"/>
+        <constructible>
+            <state name="SETUP">
+                <input fillType="WOODBEAM" remainingAmount="1000.000000"/>
+                <input fillType="PLANKS" remainingAmount="1000.000000"/>
+                <input fillType="BOARDS" remainingAmount="1000.000000"/>
+            </state>
+            <storage farmId="0"/>
+        </constructible>
+    </placeable>
+    <placeable filename="data/placeables/brandless/constructibles/farmGarageConstructable01/farmGarageConstructable01.xml" uniqueId="placeable35986195fc01fe7afe8655a4a49e1afb" position="-201.225 82.268 619.162" rotation="180.00 0.92 -180.00" age="0.000000" price="1000.000000" farmId="1">
+        <animatedObjects>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+        </animatedObjects>
+        <constructible>
+            <state name="SETUP">
+                <input fillType="WOODBEAM" remainingAmount="1000.000000"/>
+                <input fillType="PLANKS" remainingAmount="1000.000000"/>
+                <input fillType="BOARDS" remainingAmount="1000.000000"/>
+            </state>
+            <storage farmId="0"/>
+        </constructible>
+    </placeable>
+    <placeable filename="data/placeables/brandless/constructibles/farmGarageConstructable01/farmGarageConstructable01.xml" uniqueId="placeablecd0007dd5f5f132794ef51827cbd2888" position="-222.769 82.268 597.041" rotation="0.00 89.50 0.00" age="0.000000" price="1000.000000" farmId="1">
+        <animatedObjects>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+        </animatedObjects>
+        <constructible>
+            <state name="SETUP">
+                <input fillType="WOODBEAM" remainingAmount="1000.000000"/>
+                <input fillType="PLANKS" remainingAmount="1000.000000"/>
+                <input fillType="BOARDS" remainingAmount="1000.000000"/>
+            </state>
+            <storage farmId="0"/>
+        </constructible>
+    </placeable>
 </placeables>
 <!--     <placeable filename="" position="" rotation=""/> -->

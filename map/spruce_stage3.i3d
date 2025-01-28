@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="spruce_stage3.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="12" filename="$data/shaders/treeBillboardShader.xml"/>
+    <File fileId="9" filename="$data/shaders/treeBranchShader.xml"/>
+    <File fileId="3" filename="$data/shaders/treeTrunkShader.xml"/>
+    <File fileId="4" filename="$data/shared/default_alpha.dds"/>
+    <File fileId="10" filename="textures/trees/spruce/spruce3Var1LOD_diffuse.png"/>
+    <File fileId="11" filename="textures/trees/spruce/spruce3Var1LOD_normal.png"/>
+    <File fileId="6" filename="textures/trees/spruce/spruceBranch1_diffuse.png"/>
+    <File fileId="7" filename="textures/trees/spruce/spruceBranch1_normal.png"/>
+    <File fileId="8" filename="textures/trees/spruce/spruceBranch1_specular.png"/>
+    <File fileId="1" filename="textures/trees/spruce/spruceTrunk_diffuse.png"/>
+    <File fileId="2" filename="textures/trees/spruce/spruceTrunk_normal.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="spruce3Var1LOD_mat" materialId="26" customShaderId="12">
+      <Texture fileId="10"/>
+      <Normalmap fileId="11"/>
+    </Material>
+    <Material name="spruceBranch_mat" materialId="6" customShaderId="9">
+      <Texture fileId="6"/>
+      <Normalmap fileId="7"/>
+      <Glossmap fileId="8"/>
+    </Material>
+    <Material name="spruceTrunk_mat" materialId="19" customShaderId="3" customShaderVariation="customParallax">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Custommap name="mMarker" fileId="4"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="spruce_stage3.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="spruceVar01_stage03" lodDistance="0 160" clipDistance="600" nodeId="12">
+      <Shape name="LOD0" shapeId="1" static="true" collisionFilterGroup="0x830" collisionFilterMask="0xfe3ffb83" angularDamping="0.15" rollingFriction="0.27" density="0.47" nodeId="13" castsShadows="true" receiveShadows="true" splitType="1" splitUvs="0 0 1 0.064 1.3" materialIds="19">
+        <Shape name="LOD0Attachments" shapeId="2" nodeId="14" castsShadows="true" receiveShadows="true" materialIds="6"/>
+      </Shape>
+      <Shape name="LOD1" shapeId="3" nodeId="15" castsShadows="true" receiveShadows="true" materialIds="26"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

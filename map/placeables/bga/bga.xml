@@ -75,7 +75,6 @@
     <triggerMarkers>
         <triggerMarker node="unloadTriggerMarker"             filename="$data/shared/assets/marker/markerIconUnload.i3d" adjustToGround="false" />
         <triggerMarker node="unloadTriggerLiquidManureMarker" filename="$data/shared/assets/marker/markerIconUnload.i3d" adjustToGround="true" />
-        <triggerMarker node="loadTriggerMarker1"              filename="$data/shared/assets/marker/markerIconLoad.i3d"   adjustToGround="true" />
         <triggerMarker node="loadTriggerMarker2"              filename="$data/shared/assets/marker/markerIconLoad.i3d"   adjustToGround="true" />
         <triggerMarker node="playerTriggerMarker"             filename="$data/shared/assets/marker/markerIconWrench.i3d" adjustToGround="true" />
     </triggerMarkers>
@@ -141,7 +140,6 @@
         </sellingStation>
 
         <loadingStation fillTypes="MANURE LIQUIDMANURE" supportsExtension="true">
-            <loadTrigger triggerNode="loadTrigger1" fillTypes="DIGESTATE" />
             <loadTrigger triggerNode="loadTrigger2" fillTypes="DIGESTATE" aiNode="loadTrigger2AiNode" />
         </loadingStation>
 
@@ -202,8 +200,6 @@
         <i3dMapping id="infoTrigger" node="0>6" />
         <i3dMapping id="hotspotMarker" node="0>12" />
         <i3dMapping id="teleportNode" node="0>13" />
-        <i3dMapping id="loadTrigger1" node="0>14|0" />
-        <i3dMapping id="loadTriggerMarker1" node="0>14|0|0" />
         <i3dMapping id="loadTrigger2" node="0>14|1" />
         <i3dMapping id="loadTriggerMarker2" node="0>14|1|0" />
         <i3dMapping id="loadTrigger2AiNode" node="0>14|2" />

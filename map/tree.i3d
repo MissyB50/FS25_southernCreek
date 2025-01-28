@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="tree.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="$data/maps/trees/deadwood/deadwood.i3d"/>
+    <File fileId="2" filename="$data/maps/trees/lodgepolePine/lodgepolePine_stage03.i3d"/>
+  </Files>
+
+
+  <Materials>
+  </Materials>
+
+
+  <Shapes>
+  </Shapes>
+
+  <Scene>
+    <ReferenceNode name="deadwood" translation="-15.3495 8.04934 69.5595" rotation="-180 -5.724 -180" referenceId="1" nodeId="216700"/>
+    <ReferenceNode name="lodgepolePine_stage03" translation="-37.604 2.38739 104.391" rotation="-5.00896e-06 84.2935 -5.00896e-06" referenceId="2" nodeId="216768"/>
+  </Scene>
+
+</i3D>

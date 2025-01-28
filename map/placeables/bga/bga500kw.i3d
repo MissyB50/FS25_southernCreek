@@ -265,48 +265,46 @@
       <TransformGroup name="hotspotMarker" nodeId="192"/>
       <TransformGroup name="teleportNode" translation="-42.0357 -4.54747e-15 2.11931" nodeId="193"/>
       <TransformGroup name="productionPoint" nodeId="194">
-        <Shape name="loadTrigger1" translation="13.2746 0 -13.7219" shapeId="31" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" nodeId="195" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
-          <TransformGroup name="loadTriggerMarker1" nodeId="196"/>
+        <TransformGroup name="transform" nodeId="228"/>
+        <Shape name="loadTrigger2" translation="14.6638 2.23642 -12.3524" shapeId="31" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" nodeId="197" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
+          <TransformGroup name="loadTriggerMarker2" translation="0 -1 0" nodeId="198"/>
         </Shape>
-        <Shape name="loadTrigger2" translation="51.9096 2.23642 -1.33161" rotation="0 -82.9205 0" shapeId="32" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" nodeId="197" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
-          <TransformGroup name="loadTriggerMarker2" nodeId="198"/>
-        </Shape>
-        <TransformGroup name="loadTrigger2AiNode" translation="52.3365 0 -1.23208" rotation="0 8.84298 0" nodeId="199"/>
+        <TransformGroup name="loadTrigger2AiNode" translation="14.1993 0 -13.2519" rotation="7.09737e-16 90 2.37957e-10" nodeId="199"/>
         <TransformGroup name="bunker" nodeId="200">
-          <Shape name="unloadTrigger" translation="5.60629 0.4 -9.77001" shapeId="33" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="201" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
+          <Shape name="unloadTrigger" translation="5.60629 0.4 -9.77001" shapeId="32" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="201" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
           <TransformGroup name="unloadTriggerMarker" translation="5.9 1.5 -10" rotation="0 90 0" nodeId="202"/>
-          <Shape name="baleTrigger" translation="5.57612 0.641832 -9.72839" shapeId="34" kinematic="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000" nodeId="203" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
-          <Shape name="bunkerFillVolume" translation="5.59014 0.6 -9.69092" shapeId="35" clipDistance="300" nodeId="204" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
+          <Shape name="baleTrigger" translation="5.57612 0.641832 -9.72839" shapeId="33" kinematic="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000" nodeId="203" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
+          <Shape name="bunkerFillVolume" translation="5.59014 0.6 -9.69092" shapeId="34" clipDistance="300" nodeId="204" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
         </TransformGroup>
         <TransformGroup name="unloadingInFront" nodeId="205">
-          <Shape name="baleTriggerInFront" translation="5.564 0.100428 -14.7713" shapeId="36" kinematic="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000" nodeId="206" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
-          <Shape name="unloadTriggerInFront" translation="5.564 0.928725 -15.0127" scale="1 3.87439 1" shapeId="37" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="207" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
+          <Shape name="baleTriggerInFront" translation="5.564 0.100428 -14.7713" shapeId="35" kinematic="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000" nodeId="206" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
+          <Shape name="unloadTriggerInFront" translation="5.564 0.928725 -15.0127" scale="1 3.87439 1" shapeId="36" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="207" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
           <TransformGroup name="unloadTriggerInFrontAINode" translation="5.68349 0 -15.0896" rotation="0 90 0" nodeId="208"/>
         </TransformGroup>
         <TransformGroup name="liquidManureUnloading" nodeId="209">
-          <Shape name="unloadTriggerLiquidManure" translation="-4.04323 0 -14.3706" shapeId="38" kinematic="true" compound="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="210" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
-          <TransformGroup name="unloadTriggerLiquidManureMarker" translation="-2.97038 0 -12.7509" nodeId="211"/>
+          <Shape name="unloadTriggerLiquidManure" translation="-2.07398 0 -14.3706" shapeId="37" kinematic="true" compound="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="210" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12"/>
+          <TransformGroup name="unloadTriggerLiquidManureMarker" translation="-2 0 -14.5" nodeId="211"/>
           <TransformGroup name="unloadTriggerLiquidManureAiNode" translation="-2.98474 0 -13.6025" rotation="0 90 0" nodeId="212"/>
         </TransformGroup>
-        <Shape name="playerTrigger" translation="-9.39495 1.37512 -1.75776" shapeId="39" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" nodeId="213" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
+        <Shape name="playerTrigger" translation="-9.39495 1.37512 -1.75776" shapeId="38" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" nodeId="213" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
           <TransformGroup name="playerTriggerMarker" nodeId="214"/>
         </Shape>
       </TransformGroup>
       <TransformGroup name="parts" nodeId="215">
-        <Shape name="plasticBarrier2m" lockedgroup="true" translation="-14.7041 1.20764e-10 -14.0668" rotation="0 90 -4.70566e-10" shapeId="40" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="216" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
-          <Shape name="visual" shapeId="41" clipDistance="200" nodeId="217" castsShadows="true" receiveShadows="true" materialIds="14"/>
+        <Shape name="plasticBarrier2m" lockedgroup="true" translation="-14.7041 1.20764e-10 -14.0668" rotation="0 90 -4.70566e-10" shapeId="39" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="216" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
+          <Shape name="visual" shapeId="40" clipDistance="200" nodeId="217" castsShadows="true" receiveShadows="true" materialIds="14"/>
         </Shape>
-        <Shape name="plasticBarrier2m" lockedgroup="true" translation="-25.3656 2.08325e-10 -14.0668" rotation="0 90 -4.70566e-10" shapeId="40" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="218" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
-          <Shape name="visual" shapeId="41" clipDistance="200" nodeId="219" castsShadows="true" receiveShadows="true" materialIds="14"/>
+        <Shape name="plasticBarrier2m" lockedgroup="true" translation="-25.3656 2.08325e-10 -14.0668" rotation="0 90 -4.70566e-10" shapeId="39" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="218" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
+          <Shape name="visual" shapeId="40" clipDistance="200" nodeId="219" castsShadows="true" receiveShadows="true" materialIds="14"/>
         </Shape>
-        <Shape name="plasticBarrier2m" lockedgroup="true" translation="-16.817 1.38116e-10 -15.1213" rotation="0 0 -4.70566e-10" shapeId="40" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="220" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
-          <Shape name="visual" shapeId="41" clipDistance="200" nodeId="221" castsShadows="true" receiveShadows="true" materialIds="14"/>
+        <Shape name="plasticBarrier2m" lockedgroup="true" translation="-16.817 1.38116e-10 -15.1213" rotation="0 0 -4.70566e-10" shapeId="39" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="220" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
+          <Shape name="visual" shapeId="40" clipDistance="200" nodeId="221" castsShadows="true" receiveShadows="true" materialIds="14"/>
         </Shape>
-        <Shape name="plasticBarrier2m" lockedgroup="true" translation="-23.1384 1.90033e-10 -15.1213" rotation="0 0 -4.70566e-10" shapeId="40" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="222" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
-          <Shape name="visual" shapeId="41" clipDistance="200" nodeId="223" castsShadows="true" receiveShadows="true" materialIds="14"/>
+        <Shape name="plasticBarrier2m" lockedgroup="true" translation="-23.1384 1.90033e-10 -15.1213" rotation="0 0 -4.70566e-10" shapeId="39" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="222" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
+          <Shape name="visual" shapeId="40" clipDistance="200" nodeId="223" castsShadows="true" receiveShadows="true" materialIds="14"/>
         </Shape>
-        <Shape name="plasticBarrier2m" lockedgroup="true" translation="-20.0704 1.64836e-10 -15.1213" rotation="0 0 -4.70566e-10" shapeId="40" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="224" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
-          <Shape name="visual" shapeId="41" clipDistance="200" nodeId="225" castsShadows="true" receiveShadows="true" materialIds="14"/>
+        <Shape name="plasticBarrier2m" lockedgroup="true" translation="-20.0704 1.64836e-10 -15.1213" rotation="0 0 -4.70566e-10" shapeId="39" static="true" collisionFilterGroup="0x1034" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="224" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="12">
+          <Shape name="visual" shapeId="40" clipDistance="200" nodeId="225" castsShadows="true" receiveShadows="true" materialIds="14"/>
         </Shape>
       </TransformGroup>
     </TransformGroup>
