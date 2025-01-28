@@ -48,12 +48,6 @@
     </hotspots>
 
     <triggerMarkers>
-        <triggerMarker node="warningStripes01"/>
-        <triggerMarker node="warningStripes02"/>
-        <triggerMarker node="warningStripes03"/>
-        <triggerMarker node="warningStripes04"/>
-        <triggerMarker node="warningStripes05"/>
-<!--         <triggerMarker node="warningStripes06"/> -->
         <triggerMarker node="playerTriggerMarker" filename="$data/shared/assets/marker/markerIconWrench.i3d" adjustToGround="true"/>
         <triggerMarker node="unloadTriggerMarker" filename="$data/shared/assets/marker/markerIconUnload.i3d" adjustToGround="true"/>
         <triggerMarker node="woodSellActivationTriggerMarker" filename="$data/shared/assets/marker/markerIconExclamationMark.i3d" adjustToGround="true"/>

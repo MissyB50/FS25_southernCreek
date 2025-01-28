@@ -11,11 +11,6 @@
         <brand>NONE</brand>
         <species>PLACEABLE</species>
         <category>placeableMisc</category>
-        <vertexBufferMemoryUsage>0</vertexBufferMemoryUsage>
-        <indexBufferMemoryUsage>0</indexBufferMemoryUsage>
-        <textureMemoryUsage>0</textureMemoryUsage>
-        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
-        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
     </storeData>
 
     <base>
@@ -73,8 +68,30 @@
             <baleTrigger triggerNode="baleTrigger" deleteLitersPerSecond="10000" fillTypeCategories="TRAINWAGON" />
         </unloadingStation>
 
-        <storages perFarm="true">
-            <storage fillTypeCategories="TRAINWAGON" capacity="1000000" costsPerFillLevelAndDay="0" isExtension="false"/>
+        <storages perFarm="false">
+            <storage fillTypes="BARLEY" capacity="2000000"/>
+            <storage fillTypes="WHEAT" capacity="2000000"/>
+            <storage fillTypes="CANOLA" capacity="2000000"/>
+            <storage fillTypes="OAT" capacity="2000000"/>
+            <storage fillTypes="SORGHUM" capacity="2000000"/>
+            <storage fillTypes="SUNFLOWER" capacity="2000000"/>
+            <storage fillTypes="SOYBEAN" capacity="2000000"/>
+            <storage fillTypes="MAIZE" capacity="2000000"/>
+            <storage fillTypes="POTATO" capacity="2000000"/>
+            <storage fillTypes="SUGABEET" capacity="2000000"/>
+            <storage fillTypes="SUGABEET_CUT" capacity="2000000"/>
+            <storage fillTypes="BEETROOT" capacity="2000000"/>
+            <storage fillTypes="CARROT" capacity="2000000"/>
+            <storage fillTypes="PARSNIP" capacity="2000000"/>
+            <storage fillTypes="RICE" capacity="2000000"/>
+            <storage fillTypes="RICELONGGRAIN" capacity="2000000"/>
+            <storage fillTypes="GREENBEAN" capacity="2000000"/>
+            <storage fillTypes="PEA" capacity="2000000"/>
+            <storage fillTypes="SPINACH" capacity="2000000"/>
+            <storage fillTypes="OLIVE" capacity="2000000"/>
+            <storage fillTypes="GRAPE" capacity="2000000"/>
+            <storage fillTypes="SUGARCANE" capacity="2000000"/>
+            <storage fillTypes="WOODCHIPS" capacity="2000000"/>
         </storages>
     </silo>
 

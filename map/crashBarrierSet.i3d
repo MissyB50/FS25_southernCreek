@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="crashBarrierSet.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/shaders/placeableShader.xml"/>
+    <File fileId="1" filename="textures/props/crash_diffuse.dds"/>
+    <File fileId="2" filename="textures/props/crash_normal.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="barrier_mat" materialId="5" specularColor="0.501961 1 0" customShaderId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="crashBarrierSet.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <Shape name="barrierEndLeft" translation="-2.55 0.554993 -0.986022" shapeId="1" nodeId="15" castsShadows="true" receiveShadows="true" materialIds="5"/>
+    <Shape name="barrierEndRight" translation="5.04 0.556356 -0.986022" shapeId="2" nodeId="16" castsShadows="true" receiveShadows="true" materialIds="5"/>
+    <Shape name="barrierMiddle" shapeId="3" nodeId="17" castsShadows="true" receiveShadows="true" materialIds="5"/>
+    <Shape name="blotsLeft" translation="0 0.554468 0.0307667" shapeId="4" nodeId="18" castsShadows="true" receiveShadows="true" materialIds="5"/>
+    <Shape name="blotsRight" translation="2.6015 0.554468 0.0307667" shapeId="5" nodeId="19" castsShadows="true" receiveShadows="true" materialIds="5"/>
+    <Shape name="middlePost" shapeId="6" nodeId="20" castsShadows="true" receiveShadows="true" materialIds="5"/>
+    <Shape name="slopeEndLeft" translation="0.00326388 0.554994 0.0139792" shapeId="7" nodeId="21" castsShadows="true" receiveShadows="true" materialIds="5"/>
+    <Shape name="slopeEndRight" translation="2.54 0.554993 0.0139792" shapeId="8" nodeId="22" castsShadows="true" receiveShadows="true" materialIds="5"/>
+  </Scene>
+
+</i3D>
