@@ -78,8 +78,8 @@
             <storage fillTypes="SOYBEAN" capacity="2000000"/>
             <storage fillTypes="MAIZE" capacity="2000000"/>
             <storage fillTypes="POTATO" capacity="2000000"/>
-            <storage fillTypes="SUGABEET" capacity="2000000"/>
-            <storage fillTypes="SUGABEET_CUT" capacity="2000000"/>
+            <storage fillTypes="SUGARBEET" capacity="2000000"/>
+            <storage fillTypes="SUGARBEET_CUT" capacity="2000000"/>
             <storage fillTypes="BEETROOT" capacity="2000000"/>
             <storage fillTypes="CARROT" capacity="2000000"/>
             <storage fillTypes="PARSNIP" capacity="2000000"/>
