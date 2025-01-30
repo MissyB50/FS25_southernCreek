@@ -13,7 +13,7 @@
     <storeItem xmlFilename="map/placeables/trainSystem/trainSystem.xml" />
     <storeItem xmlFilename="map/placeables/sellingStation/mainSiloTrain.xml" /> <!-- siloTrain-->
     <storeItem xmlFilename="map/placeables/sellingStation/sellingStationTrain.xml" /><!--train triggers-->
-    <storeItem xmlFilename="map/placeables/sellingStation/sawMill.xml" />
+    <storeItem xmlFilename="map/placeables/sellingStation/sawmill.xml" />
 
 
 

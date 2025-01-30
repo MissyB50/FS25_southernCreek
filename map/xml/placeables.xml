@@ -4,7 +4,7 @@
         <customImage filename="$data/placeables/mapAS/trainSystem/mapIcon_trainStation.png"/>
     </placeable>
 <!-- PRODUCTIONS -->
-    <placeable filename="$mapdir$/map/placeables/sellingStation/sawMill.xml" position="-648.494 94.537 -870.618" rotation="0 0 0">
+    <placeable filename="$mapdir$/map/placeables/sellingStation/sawmill.xml" position="-648.494 94.537 -870.618" rotation="0 0 0">
         <customImage filename="$mapdir$/map/placeables/store/mapIcon_sawMill.dds"/>
     </placeable>
 
