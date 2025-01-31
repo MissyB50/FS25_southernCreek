@@ -13,9 +13,9 @@
 
 
   <Materials>
-    <Material name="lambert1" materialId="134" diffuseColor="0.494118 0.494118 0.494118 1">
+    <Material name="lambert1" materialId="5" diffuseColor="0.494118 0.494118 0.494118 1">
     </Material>
-    <Material name="Material" materialId="139">
+    <Material name="Material" materialId="6">
       <Texture fileId="1"/>
       <Normalmap fileId="2"/>
       <Glossmap fileId="3"/>
@@ -27,32 +27,30 @@
   </Shapes>
 
   <Scene>
-    <TransformGroup name="liquidManureTank" translation="-310.403 81.7938 534.577" rotation="0 -50.3534 0" nodeId="3580">
-      <TransformGroup name="silo" nodeId="3581">
-        <TransformGroup name="storage" nodeId="3582">
-          <Shape name="fillPlane" translation="0 1.6 0" shapeId="1" clipDistance="600" nodeId="3583" castsShadows="true" receiveShadows="true" materialIds="139"/>
+    <TransformGroup name="liquidManureTank" nodeId="11">
+      <TransformGroup name="silo" nodeId="12">
+        <TransformGroup name="storage" nodeId="13">
+          <Shape name="fillPlane" translation="0 1.6 0" shapeId="1" clipDistance="600" nodeId="14" castsShadows="true" receiveShadows="true" materialIds="6"/>
         </TransformGroup>
-        <TransformGroup name="loadingStation" translation="-0.01187 5.21914 8.16764" nodeId="3584">
-          <TransformGroup name="loadingTriggers" translation="-0 -0.215055 -0" nodeId="3585">
-            <Shape name="loadingTrigger" shapeId="2" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" nodeId="3586" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="134"/>
-            <TransformGroup name="dischargeNode" nodeId="3587"/>
-          </TransformGroup>
-          <TransformGroup name="aiLoadingNode" translation="-0.0541359 -5.02156 0.570227" rotation="0 -90 0" nodeId="3588"/>
-          <Shape name="aiSpline" translation="0 -5.21872 0.5" shapeId="3" nodeId="3589" castsShadows="false" receiveShadows="false"/>
+        <TransformGroup name="loadingStation" translation="-0.01187 5.21914 8.16764" nodeId="15">
+          <Shape name="loadingTrigger" translation="-1.52588e-05 0 6.10352e-05" shapeId="2" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" nodeId="17" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+          <TransformGroup name="dischargeNode" translation="-1.52588e-05 0 6.10352e-05" nodeId="18"/>
+          <TransformGroup name="aiLoadingNode" translation="-0.0541359 -5.02156 0.570227" rotation="0 -90 0" nodeId="19"/>
+          <Shape name="aiSpline" translation="0 -5.21872 0.5" shapeId="3" nodeId="20" castsShadows="false" receiveShadows="false"/>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="indoorAreas" nodeId="3590">
-        <TransformGroup name="clearArea1Start" translation="-10.0374 0 -6" nodeId="3591">
-          <TransformGroup name="clearArea1Width" translation="20.1426 0 1.67638e-08" nodeId="3592"/>
-          <TransformGroup name="clearArea1Height" translation="5.58794e-09 0 11.1485" nodeId="3593"/>
+      <TransformGroup name="indoorAreas" nodeId="22">
+        <TransformGroup name="clearArea1Start" translation="-10.0374 0 -6" nodeId="23">
+          <TransformGroup name="clearArea1Width" translation="20.1426 0 1.67638e-08" nodeId="24"/>
+          <TransformGroup name="clearArea1Height" translation="5.58794e-09 0 11.1485" nodeId="25"/>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="tipOcclusionUpdateAreas" nodeId="3594">
-        <TransformGroup name="tipOcclusionUpdateArea1Start" translation="-11 0 -6" nodeId="3595">
-          <TransformGroup name="tipOcclusionUpdateArea1End" translation="22 0 13" nodeId="3596"/>
+      <TransformGroup name="tipOcclusionUpdateAreas" nodeId="26">
+        <TransformGroup name="tipOcclusionUpdateArea1Start" translation="-11 0 -6" nodeId="27">
+          <TransformGroup name="tipOcclusionUpdateArea1End" translation="22 0 13" nodeId="28"/>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="markerLoading" translation="0 0 8.68488" rotation="0 -90 0" nodeId="3597"/>
+      <TransformGroup name="markerLoading" translation="0 0 8.68488" rotation="0 -90 0" nodeId="29"/>
     </TransformGroup>
   </Scene>
 

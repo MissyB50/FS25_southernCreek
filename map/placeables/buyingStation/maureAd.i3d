@@ -15,9 +15,9 @@
 
 
   <Materials>
-    <Material name="lambert1" materialId="135" diffuseColor="0.501961 0.501961 0.501961 1">
+    <Material name="lambert1" materialId="5" diffuseColor="0.501961 0.501961 0.501961 1">
     </Material>
-    <Material name="stationManure_mat" materialId="3543" customShaderId="5" customShaderVariation="customParallax_terrainSampleVT">
+    <Material name="stationManure_mat" materialId="6" customShaderId="5" customShaderVariation="customParallax_terrainSampleVT">
       <Texture fileId="2"/>
       <Normalmap fileId="3"/>
       <Glossmap fileId="4"/>
@@ -31,14 +31,12 @@
   </Shapes>
 
   <Scene>
-    <TransformGroup name="manureHeap" translation="-284.675 81.7844 568.123" rotation="0 -140 0" nodeId="3556">
-      <Shape name="loadingTriggerManure" translation="8 2 2.74805" shapeId="1" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" nodeId="3557" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="135"/>
-      <TransformGroup name="loadingTriggerAINodeManure" translation="8.5 0 6" nodeId="3558"/>
-      <TransformGroup name="loadingTriggerMarkerManure" translation="8.5 0 6" nodeId="3559"/>
-      <Shape name="fillplane" translation="0 1.35396 -2.39233" shapeId="2" clipDistance="150" nodeId="3560" castsShadows="true" receiveShadows="true" materialIds="3543"/>
-      <Shape name="exactFillRootNodeManure" translation="0 0.1 6.91486" rotation="0 90 0" shapeId="3" kinematic="true" compound="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="3561" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="135"/>
-      <TransformGroup name="unloadingTriggerAINodeManure" translation="8.5 0.1 6" rotation="0 180 0" nodeId="3562"/>
-      <Shape name="aiSpline" shapeId="4" visibility="false" nodeId="3563" castsShadows="false" receiveShadows="false"/>
+    <TransformGroup name="manureHeap" nodeId="12">
+      <Shape name="loadingTriggerManure" translation="8 2 2.74805" shapeId="1" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" nodeId="13" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+      <TransformGroup name="loadingTriggerAINodeManure" translation="8.5 0 6" nodeId="14"/>
+      <TransformGroup name="loadingTriggerMarkerManure" translation="8.5 0 6" nodeId="15"/>
+      <Shape name="fillplane" translation="0 1.35396 -2.39233" shapeId="2" clipDistance="150" nodeId="16" castsShadows="true" receiveShadows="true" materialIds="6"/>
+      <Shape name="aiSpline" shapeId="3" visibility="false" nodeId="19" castsShadows="false" receiveShadows="false"/>
     </TransformGroup>
   </Scene>
 
