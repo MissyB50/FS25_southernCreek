@@ -9,13 +9,9 @@
     </placeable>
 
 <!-- BUYPOINTS  -->
-    <placeable filename="$mapdir$/map/placeables/buyingStation/manure.xml" position="-284.675 81.794 568.1" rotation="-140">
-        <!-- <customImage filename=""/> -->
-    </placeable>
+    <placeable filename="$mapdir$/map/placeables/buyingStation/manure.xml" position="-284.675 81.794 568.1" rotation="0 -140 0"/>
 
-    <placeable filename="$mapdir$/map/placeables/buyingStation/slurry.xml" position="-310.4 81.794 534.577" rotation="0 -50.3 0">
-<!--         <customImage filename=""/> -->
-    </placeable>
+    <placeable filename="$mapdir$/map/placeables/buyingStation/slurry.xml" position="-310.4 81.794 534.577" rotation="0 -50.3 0"/>
 
 <!-- SELLPOINTS-->
     <placeable filename="$mapdir$/map/placeables/sellingStation/animalDealer.xml" position="-304.493 81.902 583.629" rotation="0 -47.6 0">

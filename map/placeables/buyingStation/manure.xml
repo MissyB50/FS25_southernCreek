@@ -41,9 +41,9 @@
         <triggerMarker node="loadingTriggerMarker" filename="$data/shared/assets/marker/markerIconLoad.i3d" />
     </triggerMarkers>
 
-    <buyingStation node="maureHeap" supportsExtension="false">
-        <loadTrigger triggerNode="loadingTrigger" fillTypes="MANURE" fillLitersPerSecond="2000" infiniteCapacity="true" aiNode="aiLoadingTrigger"/>
-        <fillType name="MANURE" priceScale="1.1" />
+    <buyingStation node="manureHeap" supportsExtension="false">
+        <loadTrigger triggerNode="loadingTrigger" fillTypes="MANURE" fillLitersPerSecond="3500" infiniteCapacity="true" aiNode="aiLoadingTrigger"/>
+        <fillType name="MANURE" priceScale="0.9" />
     </buyingStation>
 
     <i3dMappings>

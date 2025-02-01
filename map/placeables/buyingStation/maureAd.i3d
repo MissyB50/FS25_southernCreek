@@ -31,12 +31,12 @@
   </Shapes>
 
   <Scene>
-    <TransformGroup name="manureHeap" nodeId="12">
-      <Shape name="loadingTriggerManure" translation="8 2 2.74805" shapeId="1" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" nodeId="13" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
-      <TransformGroup name="loadingTriggerAINodeManure" translation="8.5 0 6" nodeId="14"/>
-      <TransformGroup name="loadingTriggerMarkerManure" translation="8.5 0 6" nodeId="15"/>
-      <Shape name="fillplane" translation="0 1.35396 -2.39233" shapeId="2" clipDistance="150" nodeId="16" castsShadows="true" receiveShadows="true" materialIds="6"/>
-      <Shape name="aiSpline" shapeId="3" visibility="false" nodeId="19" castsShadows="false" receiveShadows="false"/>
+    <TransformGroup name="manureHeap" nodeId="11">
+      <Shape name="loadingTriggerManure" translation="8 2 2.74805" shapeId="1" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" nodeId="12" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+      <TransformGroup name="loadingTriggerAINodeManure" translation="8.5 0 6" nodeId="13"/>
+      <TransformGroup name="loadingTriggerMarkerManure" translation="8.5 0 6" nodeId="14"/>
+      <Shape name="fillplane" translation="0 1.35396 -2.39233" shapeId="2" clipDistance="150" nodeId="15" castsShadows="true" receiveShadows="true" materialIds="6"/>
+      <Shape name="aiSpline" shapeId="3" visibility="false" nodeId="16" castsShadows="false" receiveShadows="false"/>
     </TransformGroup>
   </Scene>
 

@@ -46,7 +46,7 @@
         <i3dMapping id="tankNode" node="0>"/>
         <i3dMapping id="storage" node="0>0|0" />
         <i3dMapping id="slurryPit_fillPlane" node="0>0|0|0" />
-        <i3dMapping id="loadingTriggers" node="0>0|1|0" />
+        <i3dMapping id="loadingTrigger" node="0>0|1|0" />
         <i3dMapping id="dischargeNode" node="0>0|1|1" />
         <i3dMapping id="aiLoadingNode" node="0>0|1|2" />
         <i3dMapping id="markerLoading" node="0>3" />
