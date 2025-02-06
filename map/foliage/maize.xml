@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<foliageType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../shared/xml/schema/foliageType.xsd">
+    <fruitType name="maize" shownOnMap="true" useForFieldMissions="true">
+        <mapColors default="0.8069 0.3231 0.0262 1" colorBlind="0.3968 0.3712 0.2159 1" />
+        <harvest litersPerSqm="0.92" cutHeight="0.20" chopperType="CHOPPER_MAIZE" forageCutHeight="0.15" >
+            <transition src="harvestReadyGreen"  target="harvestedGreen" />
+            <transition src="harvestReadyGreen2" target="harvestedGreen" />
+            <transition src="harvestReady3"      target="harvested" />
+        </harvest>
+        <growth resetsSpray="true" growthRequiresLime="true"/>
+        <soil lowDensityRequired="true" increasesDensity="true" consumesLime="true" startSprayLevel="0"/>
+        <seeding directionSnapAngle="0" litersPerSqm="0.0053" isAvailable="true"/>
+        <cultivation isAllowed="true"/>
+        <mulcher chopperType="CHOPPER_MAIZE"/>
+    </fruitType>
+
+    <!-- maize
+
+    0 1 2 3
+
+    1 0 0 0 - invisible
+    0 1 0 0 - green small
+    1 1 0 0 - green middle
+    0 0 1 0 - green big
+    1 0 1 0 - harvest ready (green)
+    0 1 1 0 - harvest ready (green)
+    1 1 1 0 - harvest ready
+    0 0 0 1 - dead
+    1 0 0 1 - harvested (cut)
+
+    -->
+
+    <foliageLayer densityMapChannelOffset="0" numDensityMapChannels="4" numBlocksPerUnit="1.333" shapeSource="maize.i3d" >
+        <foliageStateDefaults distanceMapLayer="1" width="1.0" height="1.0" widthVariance="0.2" heightVariance="0.2" horizontalPositionVariance="0.15"/>
+        <!-- default LOD distances etc -->
+        <foliageLodDefaults lod="0" viewDistance="18" blendOutDistance="2" atlasSize="1" atlasOffset="1 0" texCoords="0 0 1 1"/>
+        <foliageLodDefaults lod="1" viewDistance="80" blendOutDistance="2" atlasSize="1" atlasOffset="1 0" texCoords="0 0 1 1"/>
+        <!-- 1 0 0 0 - invisible -->
+        <foliageState name="invisible" isGrowing="true" allowsWeeding="true" allowsHoeing="true"/>
+        <!-- 0 1 0 0 - green small -->
+        <foliageState name="greenSmall" distanceMap="distance/foliage_maize_distance2_diffuse.png" isGrowing="true" allowsWeeding="true" allowsHoeing="true" fieldCourseLineHeight="0.35">
+            <foliageShape>
+                <foliageLod blockShape="0>0|0"/>
+                <foliageLod blockShape="0>1|0"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|1"/>
+                <foliageLod blockShape="0>1|0"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|2"/>
+                <foliageLod blockShape="0>1|0"/>
+            </foliageShape>
+        </foliageState>
+        <!-- 1 1 0 0 - green middle -->
+        <foliageState name="greenMiddle" width="1.2" distanceMap="distance/foliage_maize_distance3_diffuse.png" isGrowing="true" allowsHoeing="true" isDestructibleByWheel="true" isDestructibleByDisaster="true" fieldCourseLineHeight="1.0">
+            <foliageShape>
+                <foliageLod blockShape="0>0|3"/>
+                <foliageLod blockShape="0>1|1"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|4"/>
+                <foliageLod blockShape="0>1|1"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|5"/>
+                <foliageLod blockShape="0>1|1"/>
+            </foliageShape>
+        </foliageState>
+        <!-- 0 0 1 0 - green big -->
+        <foliageState name="greenBig" width="1.3" distanceMap="distance/foliage_maize_distance4_diffuse.png" isGrowing="true" isDestructibleByWheel="true" isDestructibleByDisaster="true" fieldCourseLineHeight="1.5">
+            <foliageShape>
+                <foliageLod blockShape="0>0|6"/>
+                <foliageLod blockShape="0>1|2"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|7"/>
+                <foliageLod blockShape="0>1|2"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|8"/>
+                <foliageLod blockShape="0>1|2"/>
+            </foliageShape>
+        </foliageState>
+        <!-- 1 0 1 0 - harvest ready (green) -->
+        <foliageState name="harvestReadyGreen" distanceMap="distance/foliage_maize_distance5_diffuse.png" isGrowing="true" isForageReady="true" isDestructibleByWheel="true" isDestructibleByDisaster="true" fieldCourseLineHeight="1.8">
+            <foliageShape>
+                <foliageLod blockShape="0>0|9"/>
+                <foliageLod blockShape="0>1|3"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|10"/>
+                <foliageLod blockShape="0>1|3"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|11"/>
+                <foliageLod blockShape="0>1|3"/>
+            </foliageShape>
+        </foliageState>
+        <!-- 0 1 1 0 - harvest ready (green) -->
+        <foliageState name="harvestReadyGreen2" distanceMap="distance/foliage_maize_distance5_diffuse.png" isGrowing="true" isDestructibleByWheel="true" isDestructibleByDisaster="true" fieldCourseLineHeight="1.8">
+            <foliageShape>
+                <foliageLod blockShape="0>0|9"/>
+                <foliageLod blockShape="0>1|3"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|10"/>
+                <foliageLod blockShape="0>1|3"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|11"/>
+                <foliageLod blockShape="0>1|3"/>
+            </foliageShape>
+        </foliageState>
+        <!-- 1 1 1 0 - harvest ready -->
+        <foliageState name="harvestReady3" distanceMap="distance/foliage_maize_distance6_diffuse.png" isGrowing="true" isDestructibleByWheel="true" isDestructibleByDisaster="true" isHarvestReady="true" groundType="HARVEST_READY_OTHER" fieldCourseLineHeight="1.8">
+            <foliageShape>
+                <foliageLod blockShape="0>0|12"/>
+                <foliageLod blockShape="0>1|4"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|13"/>
+                <foliageLod blockShape="0>1|4"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|14"/>
+                <foliageLod blockShape="0>1|4"/>
+            </foliageShape>
+        </foliageState>
+        <!-- 0 0 0 1 - dead -->
+        <foliageState name="dead" distanceMap="distance/foliage_maize_distance7_diffuse.png" isWithered="true" isDestructibleByWheel="true" isDestructibleByDisaster="true">
+            <foliageShape>
+                <foliageLod blockShape="0>0|15"/>
+                <foliageLod blockShape="0>1|5"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|16"/>
+                <foliageLod blockShape="0>1|5"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|17"/>
+                <foliageLod blockShape="0>1|5"/>
+            </foliageShape>
+        </foliageState>
+        <!-- 1 0 0 1 - harvested (cut) -->
+        <foliageState name="harvestedGreen" distanceMap="distance/foliage_maize_distance8_diffuse.png" isDestructedByWheel="true" isDestructibleByDisaster="true">
+            <foliageShape probability="3">
+                <foliageLod blockShape="0>0|18"/>
+                <foliageLod blockShape="0>1|6"/>
+            </foliageShape>
+            <foliageShape probability="3">
+                <foliageLod blockShape="0>0|19"/>
+                <foliageLod blockShape="0>1|6"/>
+            </foliageShape>
+            <foliageShape probability="2">
+                <foliageLod blockShape="0>0|20"/>
+                <foliageLod blockShape="0>1|6"/>
+            </foliageShape>
+            <foliageShape probability="2">
+                <foliageLod blockShape="0>0|21"/>
+                <foliageLod blockShape="0>1|7"/>
+            </foliageShape>
+        </foliageState>
+        <foliageState name="harvested" distanceMap="distance/foliage_maize_distance9_diffuse.png" isCut="true" isDestructibleByDisaster="true">
+            <foliageShape probability="3">
+                <foliageLod blockShape="0>0|22"/>
+                <foliageLod blockShape="0>1|8"/>
+            </foliageShape>
+            <foliageShape probability="3">
+                <foliageLod blockShape="0>0|23"/>
+                <foliageLod blockShape="0>1|8"/>
+            </foliageShape>
+            <foliageShape probability="2">
+                <foliageLod blockShape="0>0|24"/>
+                <foliageLod blockShape="0>1|8"/>
+            </foliageShape>
+            <foliageShape probability="3">
+                <foliageLod blockShape="0>0|25"/>
+                <foliageLod blockShape="0>1|9"/>
+            </foliageShape>
+        </foliageState>
+    </foliageLayer>
+
+    <growth>
+        <seasonal initialState="greenBig"> <!-- not available in spring and thus no initial state -->
+            <period name="EARLY_SPRING" />
+            <period name="MID_SPRING" plantingAllowed="true">
+                <update startState="invisible" endState="greenSmall" />
+            </period>
+            <period name="LATE_SPRING" plantingAllowed="true">
+                <update startState="invisible" endState="greenSmall" />
+                <update startState="greenSmall" endState="greenMiddle" />
+            </period>
+            <period name="EARLY_SUMMER">
+                <update startState="greenSmall" endState="greenMiddle" />
+                <update startState="greenMiddle" endState="greenBig" />
+            </period>
+            <period name="MID_SUMMER">
+                <update startState="greenMiddle" endState="greenBig" />
+                <update startState="greenBig" endState="harvestReadyGreen" />
+            </period>
+            <period name="LATE_SUMMER">
+                <update startState="greenBig" endState="harvestReadyGreen" />
+                <update startState="harvestReadyGreen" endState="harvestReadyGreen2" />
+            </period>
+            <period name="EARLY_AUTUMN">
+                <update startState="harvestReadyGreen" endState="harvestReadyGreen2" />
+                <update startState="harvestReadyGreen2" endState="harvestReady3" />
+            </period>
+            <period name="MID_AUTUMN">
+                <update startState="harvestReadyGreen2" endState="harvestReady3" />
+            </period>
+            <period name="LATE_AUTUMN">
+                <update startState="harvestReady3" endState="dead" />
+            </period>
+            <period name="EARLY_WINTER" />
+            <period name="MID_WINTER" />
+            <period name="LATE_WINTER" />
+        </seasonal>
+    </growth>
+</foliageType>

@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<foliageType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../shared/xml/schema/foliageType.xsd">
+    <fruitType name="sunflower" shownOnMap="true" useForFieldMissions="true">
+        <mapColors default="0.8227 0.5972 0.0160 1" colorBlind="0.1384 0.1559 0.2423 1"/>
+        <harvest litersPerSqm="0.52" cutHeight="1.0" chopperType="CHOPPER_MAIZE" forageCutHeight="0.15" beeYieldBonusPercentage="0.05"/>
+        <growth resetsSpray="true" growthRequiresLime="true"/>
+        <soil lowDensityRequired="true" increasesDensity="false" consumesLime="true" startSprayLevel="0"/>
+        <seeding directionSnapAngle="0" litersPerSqm="0.0143" isAvailable="true"/>
+        <cultivation isAllowed="true"/>
+        <mulcher chopperType="CHOPPER_MAIZE"/>
+    </fruitType>
+
+    <!-- sunflower
+
+    0 1 2 3
+
+    1 0 0 0 - invisible
+    0 1 0 0 - green small
+    1 1 0 0 - green small 2
+    0 0 1 0 - green middle
+    1 0 1 0 - green middle 2
+    0 1 1 0 - green big
+    1 1 1 0 - green big 2
+    0 0 0 1 - harvest ready
+    1 0 0 1 - dead
+    0 1 0 1 - harvested (cut)
+
+    -->
+    <foliageLayer densityMapChannelOffset="0" numDensityMapChannels="4" numBlocksPerUnit="1.333" shapeSource="sunflower.i3d" alignsToSun="true">
+        <foliageStateDefaults distanceMapLayer="1" width="1" height="1" widthVariance="0.2" heightVariance="0.2" horizontalPositionVariance="0.15"/>
+        <!-- default LOD distances etc -->
+        <foliageLodDefaults lod="0" viewDistance="18" blendOutDistance="2" texCoords="0 0 1 1"/>
+        <foliageLodDefaults lod="1" viewDistance="80" blendOutDistance="2" texCoords="0 0 1 1"/>
+        <!-- 1 0 0 0 - invisible -->
+        <foliageState name="invisible" isGrowing="true" allowsWeeding="true" allowsHoeing="true"/>
+        <!-- 0 1 0 0 - green small -->
+        <foliageState name="greenSmall" distanceMap="distance/foliage_sunflower_distance2_diffuse.png" isGrowing="true" allowsWeeding="true" allowsHoeing="true" fieldCourseLineHeight="0.5">
+            <foliageShape>
+                <foliageLod blockShape="0>0|0"/>
+                <foliageLod blockShape="0>1|0"/>
+            </foliageShape>
+        </foliageState>
+        <!-- 1 1 0 0 - green small 2 -->
+        <foliageState name="greenSmall2" distanceMap="distance/foliage_sunflower_distance2_diffuse.png" isGrowing="true" allowsWeeding="true" fieldCourseLineHeight="0.5">
+            <foliageShape>
+                <foliageLod blockShape="0>0|0"/>
+                <foliageLod blockShape="0>1|0"/>
+            </foliageShape>
+        </foliageState>
+        <!-- 0 0 1 0 - green middle -->
+        <foliageState name="greenMiddle" distanceMap="distance/foliage_sunflower_distance3_diffuse.png" isGrowing="true" isDestructibleByWheel="true" isDestructibleByDisaster="true" fieldCourseLineHeight="0.8">
+            <foliageShape>
+                <foliageLod blockShape="0>0|1"/>
+                <foliageLod blockShape="0>1|1"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|2"/>
+                <foliageLod blockShape="0>1|1"/>
+            </foliageShape>
+        </foliageState>
+        <!-- 1 0 1 0 - green middle 2 -->
+        <foliageState name="greenMiddle2" distanceMap="distance/foliage_sunflower_distance3_diffuse.png" isGrowing="true" isDestructibleByWheel="true" isDestructibleByDisaster="true" fieldCourseLineHeight="0.8">
+            <foliageShape>
+                <foliageLod blockShape="0>0|1"/>
+                <foliageLod blockShape="0>1|1"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|2"/>
+                <foliageLod blockShape="0>1|1"/>
+            </foliageShape>
+        </foliageState>
+        <!-- 0 1 1 0 - green big -->
+        <foliageState name="greenBig" distanceMap="distance/foliage_sunflower_distance4_diffuse.png" isGrowing="true" isDestructibleByWheel="true" isDestructibleByDisaster="true" fieldCourseLineHeight="1.3">
+            <foliageShape>
+                <foliageLod blockShape="0>0|3"/>
+                <foliageLod blockShape="0>1|2"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|4"/>
+                <foliageLod blockShape="0>1|2"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|5"/>
+                <foliageLod blockShape="0>1|2"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|6"/>
+                <foliageLod blockShape="0>1|2"/>
+            </foliageShape>
+        </foliageState>
+        <!-- 1 1 1 0 - green big 2 -->
+        <foliageState name="greenBig2" distanceMap="distance/foliage_sunflower_distance4_diffuse.png" isGrowing="true" isForageReady="true" isDestructibleByWheel="true" isDestructibleByDisaster="true" fieldCourseLineHeight="1.3">
+            <foliageShape>
+                <foliageLod blockShape="0>0|3"/>
+                <foliageLod blockShape="0>1|2"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|4"/>
+                <foliageLod blockShape="0>1|2"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|5"/>
+                <foliageLod blockShape="0>1|2"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|6"/>
+                <foliageLod blockShape="0>1|2"/>
+            </foliageShape>
+        </foliageState>
+        <!-- 0 0 0 1 - harvest ready -->
+        <foliageState name="harvestReady" distanceMap="distance/foliage_sunflower_distance5_diffuse.png" isGrowing="true" isDestructibleByWheel="true" isDestructibleByDisaster="true" isHarvestReady="true" groundType="HARVEST_READY_OTHER" fieldCourseLineHeight="1.3">
+            <foliageShape>
+                <foliageLod blockShape="0>0|7"/>
+                <foliageLod blockShape="0>1|3"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|8"/>
+                <foliageLod blockShape="0>1|3"/>
+            </foliageShape>
+        </foliageState>
+        <!-- 1 0 0 1 - dead -->
+        <foliageState name="dead" distanceMap="distance/foliage_sunflower_distance6_diffuse.png" isWithered="true" isDestructibleByWheel="true" isDestructibleByDisaster="true" fieldCourseLineHeight="1.1">
+            <foliageShape>
+                <foliageLod blockShape="0>0|9"/>
+                <foliageLod blockShape="0>1|4"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|10"/>
+                <foliageLod blockShape="0>1|4"/>
+            </foliageShape>
+        </foliageState>
+        <!-- 0 1 0 1 - harvested (cut) -->
+        <foliageState name="harvested" isCut="true" isDestructedByWheel="true" isDestructibleByDisaster="true">
+            <foliageShape>
+                <foliageLod blockShape="0>0|11"/>
+                <foliageLod blockShape="0>1|5"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|12"/>
+                <foliageLod blockShape="0>1|5"/>
+            </foliageShape>
+        </foliageState>
+    </foliageLayer>
+
+    <growth>
+        <seasonal initialState="greenMiddle2">
+            <period name="EARLY_SPRING" plantingAllowed="true">
+                <update startState="invisible" endState="greenSmall" />
+            </period>
+            <period name="MID_SPRING" plantingAllowed="true">
+                <update startState="invisible" endState="greenSmall" />
+                <update startState="greenSmall" endState="greenSmall2" />
+            </period>
+            <period name="LATE_SPRING">
+                <update startState="greenSmall" endState="greenSmall2" />
+                <update startState="greenSmall2" endState="greenMiddle" />
+            </period>
+            <period name="EARLY_SUMMER">
+                <update startState="greenSmall2" endState="greenMiddle" />
+                <update startState="greenMiddle" endState="greenMiddle2" />
+            </period>
+            <period name="MID_SUMMER">
+                <update startState="greenMiddle" endState="greenMiddle2" />
+                <update startState="greenMiddle2" endState="greenBig" />
+            </period>
+            <period name="LATE_SUMMER">
+                <update startState="greenMiddle2" endState="greenBig" />
+                <update startState="greenBig" endState="greenBig2" />
+            </period>
+            <period name="EARLY_AUTUMN">
+                <update startState="greenBig" endState="greenBig2" />
+                <update startState="greenBig2" endState="harvestReady" />
+            </period>
+            <period name="MID_AUTUMN">
+                <update startState="greenBig2" endState="harvestReady" />
+            </period>
+            <period name="LATE_AUTUMN">
+                <update startState="harvestReady" endState="dead" />
+            </period>
+            <period name="EARLY_WINTER" />
+            <period name="MID_WINTER" />
+            <period name="LATE_WINTER" />
+        </seasonal>
+    </growth>
+</foliageType>

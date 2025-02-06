@@ -8,17 +8,13 @@
         <brand>NONE</brand>
         <species>PLACEABLE</species>
         <category>placeableMisc</category>
+        <dailyUpkeep>0</dailyUpkeep>
         <showInStore>false</showInStore>
         <canBeSold>false</canBeSold>
-        <vertexBufferMemoryUsage>0</vertexBufferMemoryUsage>
-        <indexBufferMemoryUsage>0</indexBufferMemoryUsage>
-        <textureMemoryUsage>0</textureMemoryUsage>
-        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
-        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
     </storeData>
 
     <base>
-        <filename>map/placeables/grainSellingDS.i3d</filename>
+        <filename>map/placeables/sellingStation/grainSellingDS.i3d</filename>
     </base>
 
     <placement useRandomYRotation="false" useManualYRotation="true" />

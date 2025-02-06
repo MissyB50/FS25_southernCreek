@@ -22,7 +22,6 @@
     <storeItem xmlFilename="map/placeables/buyingStation/slurry.xml" />
 
 <!-- OTHER -->
-    <storeItem xmlFilename="map/placeables/bga/bgaBunkerSilo.xml" />
     <storeItem xmlFilename="map/placeables/bga/weighingStationSmall.xml" />
 
 

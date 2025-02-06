@@ -3,7 +3,7 @@
     <storeData>
         <name>TrainSystem</name>
         <image>$data/store/store_empty.png</image>
-        <price>1</price>
+        <price>0</price>
         <canBeSold>false</canBeSold>
         <showInStore>false</showInStore>
         <lifetime>1000</lifetime>
@@ -11,6 +11,7 @@
         <brand>NONE</brand>
         <species>PLACEABLE</species>
         <category>placeableMisc</category>
+        <dailyUpkeep>0</dailyUpkeep>
     </storeData>
 
     <base>

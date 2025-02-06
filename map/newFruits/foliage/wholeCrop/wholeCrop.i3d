@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
-<i3D name="rye.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+<i3D name="wholeCrop.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
   <Asset>
-    <Export program="GIANTS Editor 64bit" version="9.0.6"/>
+    <Export program="GIANTS Editor 64bit" version="10.0.3"/>
   </Asset>
 
   <Files>
@@ -56,7 +56,7 @@
       <Texture fileId="23"/>
       <Normalmap fileId="24"/>
       <Custommap name="alphaMap" fileId="26"/>
-      <CustomParameter name="snowScale" value="0.52 1 0 4"/>
+      <CustomParameter name="snowScale" value="0.52"/>
     </Material>
     <Material name="barleyStage02_mat" materialId="7" customShaderId="4">
       <Texture fileId="7"/>
@@ -68,7 +68,7 @@
       <Texture fileId="27"/>
       <Normalmap fileId="28"/>
       <Custommap name="alphaMap" fileId="30"/>
-      <CustomParameter name="snowScale" value="0.52 1 0 4"/>
+      <CustomParameter name="snowScale" value="0.52"/>
     </Material>
     <Material name="barleyStage03_mat" materialId="9" customShaderId="4">
       <Texture fileId="11"/>
@@ -80,31 +80,31 @@
       <Texture fileId="31"/>
       <Normalmap fileId="32"/>
       <Custommap name="alphaMap" fileId="34"/>
-      <CustomParameter name="snowScale" value="0.48 1 0 4"/>
+      <CustomParameter name="snowScale" value="0.48"/>
     </Material>
-    <Material name="barleyStage05_mat" materialId="13" customShaderId="4">
+    <Material name="barleyStage05_mat" materialId="11" customShaderId="4">
       <Texture fileId="15"/>
       <Normalmap fileId="16"/>
       <Glossmap fileId="17"/>
       <Custommap name="alphaMap" fileId="18"/>
     </Material>
-    <Material name="barleyStage05LOD1_mat" materialId="14" specularColor="0.101961 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
+    <Material name="barleyStage05LOD1_mat" materialId="12" specularColor="0.101961 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
       <Texture fileId="35"/>
       <Normalmap fileId="36"/>
       <Custommap name="alphaMap" fileId="38"/>
-      <CustomParameter name="snowScale" value="0.45 1 0 4"/>
+      <CustomParameter name="snowScale" value="0.45"/>
     </Material>
-    <Material name="barleyStage06_mat" materialId="15" customShaderId="4">
+    <Material name="barleyStage06_mat" materialId="13" customShaderId="4">
       <Texture fileId="19"/>
       <Normalmap fileId="20"/>
       <Glossmap fileId="21"/>
       <Custommap name="alphaMap" fileId="22"/>
     </Material>
-    <Material name="barleyStage06LOD1_mat" materialId="16" specularColor="0.0627451 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
+    <Material name="barleyStage06LOD1_mat" materialId="14" specularColor="0.0627451 1 0" customShaderId="4" customShaderVariation="BILLBOARD">
       <Texture fileId="39"/>
       <Normalmap fileId="40"/>
       <Custommap name="alphaMap" fileId="42"/>
-      <CustomParameter name="snowScale" value="0.45 1 0 4"/>
+      <CustomParameter name="snowScale" value="0.45"/>
     </Material>
   </Materials>
 
@@ -112,29 +112,25 @@
   <Shapes externalShapesFile="wholeCrop.i3d.shapes">
   </Shapes>
 
-
-  <Dynamics>
-  </Dynamics>
-
   <Scene>
-      <TransformGroup name="wholeCrop" static="true" nodeId="30">
-        <TransformGroup name="LOD0" static="true" nodeId="31">
-          <Shape shapeId="1" name="greenSmall" clipDistance="500" nodeId="32" materialIds="5" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="2" name="greenMiddle" clipDistance="500" nodeId="33" materialIds="7" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="3" name="greenBig" clipDistance="500" nodeId="34" materialIds="9" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="3" name="harvestReady" clipDistance="500" nodeId="48" materialIds="9" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="4" name="dead" clipDistance="500" nodeId="36" materialIds="13" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="5" name="cut" clipDistance="500" nodeId="37" materialIds="15" castsShadows="true" receiveShadows="true"/>
-        </TransformGroup>
-        <TransformGroup name="LOD1" nodeId="38">
-          <Shape shapeId="6" name="greenSmall" clipDistance="500" nodeId="39" materialIds="6" receiveShadows="true"/>
-          <Shape shapeId="7" name="greenMiddle" clipDistance="500" nodeId="40" materialIds="8" receiveShadows="true"/>
-          <Shape shapeId="8" name="greenBig" clipDistance="500" nodeId="41" materialIds="10" receiveShadows="true"/>
-          <Shape shapeId="8" name="harvestReady" clipDistance="500" nodeId="47" materialIds="10" receiveShadows="true"/>
-          <Shape shapeId="9" name="dead" clipDistance="500" nodeId="43" materialIds="14" receiveShadows="true"/>
-          <Shape shapeId="10" name="cut" clipDistance="500" nodeId="44" materialIds="16" receiveShadows="true"/>
-        </TransformGroup>
+    <TransformGroup name="wholeCrop" static="true" nodeId="26">
+      <TransformGroup name="LOD0" static="true" nodeId="27">
+        <Shape name="greenSmall" shapeId="1" clipDistance="500" nodeId="28" castsShadows="true" receiveShadows="true" materialIds="5"/>
+        <Shape name="greenMiddle" shapeId="2" clipDistance="500" nodeId="29" castsShadows="true" receiveShadows="true" materialIds="7"/>
+        <Shape name="greenBig" shapeId="3" clipDistance="500" nodeId="30" castsShadows="true" receiveShadows="true" materialIds="9"/>
+        <Shape name="harvestReady" shapeId="3" clipDistance="500" nodeId="31" castsShadows="true" receiveShadows="true" materialIds="9"/>
+        <Shape name="dead" shapeId="4" clipDistance="500" nodeId="32" castsShadows="true" receiveShadows="true" materialIds="11"/>
+        <Shape name="cut" shapeId="5" clipDistance="500" nodeId="33" castsShadows="true" receiveShadows="true" materialIds="13"/>
       </TransformGroup>
+      <TransformGroup name="LOD1" nodeId="34">
+        <Shape name="greenSmall" shapeId="6" clipDistance="500" nodeId="35" castsShadows="false" receiveShadows="true" materialIds="6"/>
+        <Shape name="greenMiddle" shapeId="7" clipDistance="500" nodeId="36" castsShadows="false" receiveShadows="true" materialIds="8"/>
+        <Shape name="greenBig" shapeId="8" clipDistance="500" nodeId="37" castsShadows="false" receiveShadows="true" materialIds="10"/>
+        <Shape name="harvestReady" shapeId="8" clipDistance="500" nodeId="38" castsShadows="false" receiveShadows="true" materialIds="10"/>
+        <Shape name="dead" shapeId="9" clipDistance="500" nodeId="39" castsShadows="false" receiveShadows="true" materialIds="12"/>
+        <Shape name="cut" shapeId="10" clipDistance="500" nodeId="40" castsShadows="false" receiveShadows="true" materialIds="14"/>
+      </TransformGroup>
+    </TransformGroup>
   </Scene>
 
 </i3D>

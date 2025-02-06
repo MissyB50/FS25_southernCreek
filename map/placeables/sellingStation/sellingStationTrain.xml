@@ -11,6 +11,7 @@
         <brand>NONE</brand>
         <species>PLACEABLE</species>
         <category>placeableMisc</category>
+        <dailyUpkeep>0</dailyUpkeep>
     </storeData>
 
     <base>

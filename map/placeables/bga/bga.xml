@@ -8,6 +8,7 @@
         <image>$data/placeables/planET/bga500kw/store_bga500kw.png</image>
         <price>1180000</price>
         <lifetime>500</lifetime>
+        <dailyUpkeep>0</dailyUpkeep>
         <rotation>0</rotation>
         <brand>PLANET</brand>
         <species>placeable</species>

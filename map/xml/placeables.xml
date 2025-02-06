@@ -30,7 +30,6 @@
         <customImage filename="$mapdir$/map/placeables/store/mapIcon_bga.dds"/>
     </placeable>
 
-    <placeable filename="$mapdir$/map/placeables/bga/bgaBunkerSilo.xml" position="-484.5 81.79 658" rotation="0 -45 0"/>
     <placeable filename="$mapdir$/map/placeables/bga/weighingStationSmall.xml" position="-495 81.477 692.5" rotation="0 125 0"/>
 <!-- fences/Hedges-->
 

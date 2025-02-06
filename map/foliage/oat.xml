@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<foliageType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../shared/xml/schema/foliageType.xsd">
+    <fruitType name="oat" shownOnMap="true" useForFieldMissions="true">
+        <mapColors default="0.4508 0.1442 0.0285 1" colorBlind="0.1221 0.1221 0.1221 1"/>
+        <windrow fillType="straw" litersPerSqm="3.68" cutFillType="OAT_CUT" windrowCutFactor="1.25"/>
+        <harvest litersPerSqm="0.57" cutHeight="0.15" chopperType="CHOPPER_STRAW"/>
+        <growth resetsSpray="true" growthRequiresLime="true"/>
+        <soil lowDensityRequired="true" increasesDensity="false" consumesLime="true" startSprayLevel="0"/>
+        <seeding directionSnapAngle="0" needsRolling="true" litersPerSqm="0.034" isAvailable="true"/>
+        <cultivation isAllowed="true"/>
+        <mulcher chopperType="CHOPPER_STRAW"/>
+    </fruitType>
+
+    <!-- oat
+
+    0 1 2 3
+
+    1 0 0 0 - invisible
+    0 1 0 0 - green small
+    1 1 0 0 - green middle
+    0 0 1 0 - green big
+    1 0 1 0 - harvest ready
+    0 1 1 0 - dead
+    1 1 1 0 - harvested (cut)
+
+    -->
+    <foliageLayer densityMapChannelOffset="0" numDensityMapChannels="4" numBlocksPerUnit="1.5" shapeSource="oat.i3d" alignsToSun="false">
+        <foliageStateDefaults distanceMapLayer="1" width="1.0" height="1.0" widthVariance="0.1" heightVariance="0.2" horizontalPositionVariance="0.5"/>
+        <!-- default LOD distances etc -->
+        <foliageLodDefaults lod="0" viewDistance="18" blendOutDistance="2" atlasSize="1" atlasOffset="1 0" texCoords="0 0 1 1"/>
+        <foliageLodDefaults lod="1" viewDistance="80" blendOutDistance="2" atlasSize="1" atlasOffset="1 0" texCoords="0 0 1 1"/>
+        <!-- 1 0 0 0 - invisible -->
+        <foliageState name="invisible" isGrowing="true" allowsWeeding="true" allowsHoeing="true"/>
+        <!-- 0 1 0 0 - green small -->
+        <foliageState name="greenSmall" distanceMap="distance/foliage_oat_distance2_diffuse.png" numBlocksPerUnit="3.0" isGrowing="true" allowsWeeding="true" allowsHoeing="true" fieldCourseLineHeight="0.25">
+            <foliageShape>
+                <foliageLod blockShape="0>0|0"/>
+                <foliageLod blockShape="0>1|0"/>
+            </foliageShape>
+        </foliageState>
+        <!-- 1 1 0 0 - green middle -->
+        <foliageState name="greenMiddle" distanceMap="distance/foliage_oat_distance3_diffuse.png" numBlocksPerUnit="2.5" isGrowing="true" allowsWeeding="true" isDestructibleByWheel="true" isDestructibleByDisaster="true" fieldCourseLineHeight="0.75">
+            <foliageShape>
+                <foliageLod blockShape="0>0|1"/>
+                <foliageLod blockShape="0>1|1"/>
+            </foliageShape>
+        </foliageState>
+        <!-- 0 0 1 0 - green big -->
+        <foliageState name="greenBig" distanceMap="distance/foliage_oat_distance4_diffuse.png" isGrowing="true" isForageReady="true" isDestructibleByWheel="true" isDestructibleByDisaster="true" fieldCourseLineHeight="1.0">
+            <foliageShape>
+                <foliageLod blockShape="0>0|2"/>
+                <foliageLod blockShape="0>1|2"/>
+            </foliageShape>
+        </foliageState>
+        <!-- 1 0 1 0 - harvest ready -->
+        <foliageState name="harvestReady" distanceMap="distance/foliage_oat_distance5_diffuse.png" isGrowing="true" isDestructibleByWheel="true" isDestructibleByDisaster="true" isHarvestReady="true" groundType="HARVEST_READY" fieldCourseLineHeight="1.0">
+            <foliageShape>
+                <foliageLod blockShape="0>0|3"/>
+                <foliageLod blockShape="0>1|3"/>
+            </foliageShape>
+        </foliageState>
+        <!-- 0 1 1 0 - dead -->
+        <foliageState name="dead" distanceMap="distance/foliage_oat_distance6_diffuse.png" isWithered="true" isDestructibleByWheel="true" isDestructibleByDisaster="true" fieldCourseLineHeight="0.9">
+            <foliageShape>
+                <foliageLod blockShape="0>0|4"/>
+                <foliageLod blockShape="0>1|4"/>
+            </foliageShape>
+        </foliageState>
+        <!-- 1 1 1 0 - harvested (cut) -->
+        <foliageState name="harvested" distanceMap="distance/foliage_oat_distance7_diffuse.png" isCut="true" isDestructedByWheel="true" isDestructibleByDisaster="true">
+            <foliageShape>
+                <foliageLod blockShape="0>0|5"/>
+                <foliageLod blockShape="0>1|5"/>
+            </foliageShape>
+        </foliageState>
+        <!--  -->
+    </foliageLayer>
+
+    <growth>
+        <seasonal initialState="harvestReady">
+            <period name="EARLY_SPRING" plantingAllowed="true">
+                <update startState="invisible" endState="greenSmall" />
+            </period>
+            <period name="MID_SPRING" plantingAllowed="true">
+                <update startState="invisible" endState="greenSmall" />
+                <update startState="greenSmall" endState="greenMiddle" />
+            </period>
+            <period name="LATE_SPRING">
+                <update startState="greenSmall" endState="greenMiddle" />
+                <update startState="greenMiddle" endState="greenBig" />
+            </period>
+            <period name="EARLY_SUMMER">
+                <update startState="greenMiddle" endState="greenBig" />
+                <update startState="greenBig" endState="harvestReady" />
+            </period>
+            <period name="MID_SUMMER">
+                <update startState="greenBig" endState="harvestReady" />
+            </period>
+            <period name="LATE_SUMMER">
+                <update startState="harvestReady" endState="dead" />
+            </period>
+            <period name="EARLY_AUTUMN" />
+            <period name="MID_AUTUMN" />
+            <period name="LATE_AUTUMN" />
+            <period name="EARLY_WINTER" />
+            <period name="MID_WINTER" />
+            <period name="LATE_WINTER" />
+        </seasonal>
+    </growth>
+
+</foliageType>

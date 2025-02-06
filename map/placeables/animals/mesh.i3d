@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="mesh.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.3"/>
+  </Asset>
+
+  <Files>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1Nav_mat" materialId="5" diffuseColor="0.8 0.8 0.8 1" specularColor="0.501961 1 0">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="mesh.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <Shape name="navMesh" translation="-349.858 81.7965 618.368" shapeId="1" static="true" collisionFilterGroup="0xffffffff" collisionFilterMask="0xffffffff" nodeId="8" castsShadows="true" receiveShadows="true" nonRenderable="true" buildNavMeshMask="0xff" materialIds="5"/>
+    <NavigationMesh name="NavMesh" translation="-349.858 81.7965 618.368" nodeId="75" shapeId="2"/>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="75">
+      <Attribute name="animalType" type="string" value="PIG"/>
+      <Attribute name="onCreate" type="scriptCallback" value="SimpleHusbandry.onCreate"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

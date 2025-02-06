@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<foliageType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../shared/xml/schema/foliageType.xsd">
+    <fruitType name="carrot" shownOnMap="true" useForFieldMissions="true">
+        <mapColors default="0.7454 0.1329 0.0356 1" colorBlind="0.1070 0.2086 0.2462 1"/>
+        <harvest litersPerSqm="7.7"/>
+        <growth resetsSpray="true" growthRequiresLime="true"/>
+        <soil lowDensityRequired="true" increasesDensity="true" consumesLime="true" startSprayLevel="0"/>
+        <seeding directionSnapAngle="90" needsRolling="false" litersPerSqm="0.001" isAvailable="true"/>
+        <cultivation isAllowed="true"/>
+        <haulm layerName="carrot_haulm"/>
+    </fruitType>
+
+
+    <!-- carrot
+
+    5 6 7 8
+
+    1 0 0 0 - 1 - invisible
+    0 1 0 0 - 2 - green small
+    1 1 0 0 - 3 - green middle
+    0 0 1 0 - 4 - green big
+    1 0 1 0 - 5 - harvest ready
+    0 1 1 0 - 6 - dead
+    1 1 1 0 - 7 - harvested (extructed)
+    0 0 0 1 - 8 - cut haulm (not extructed)
+
+    numBlocksPerUnit="1.333" == 1/1.333 ~ 0.75 meters between plants
+
+    -->
+    <foliageLayer densityMapChannelOffset="0" numDensityMapChannels="4" numBlocksPerUnit="1.333" shapeSource="carrot.i3d">
+        <foliageStateDefaults distanceMapLayer="1" width="1" height="1" widthVariance="0" heightVariance="0.25" horizontalPositionVariance="0"/>
+        <!-- default LOD distances etc -->
+        <foliageLodDefaults lod="0" viewDistance="18" blendOutDistance="4" texCoords="0 0 1 1"/>
+        <foliageLodDefaults lod="1" viewDistance="80" blendOutDistance="2" texCoords="0 0 1 1"/>
+        <foliageState name="invisible" isGrowing="true" allowsHoeing="true" />
+        <foliageState name="greenSmall" distanceMap="distance/foliage_carrot_distance2_diffuse.png" isGrowing="true" allowsHoeing="true">
+            <foliageShape>
+                <foliageLod blockShape="0>0|0"/>
+                <foliageLod blockShape="1>0|0"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|1"/>
+                <foliageLod blockShape="1>0|1"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|2"/>
+                <foliageLod blockShape="1>0|0"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>0|3"/>
+                <foliageLod blockShape="1>0|1"/>
+            </foliageShape>
+        </foliageState>
+        <foliageState name="greenMiddle" distanceMap="distance/foliage_carrot_distance3_diffuse.png" isGrowing="true" allowsHoeing="true" fieldCourseLineHeight="0.2">
+            <foliageShape>
+                <foliageLod blockShape="0>1|0"/>
+                <foliageLod blockShape="1>1|0"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>1|1"/>
+                <foliageLod blockShape="1>1|1"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>1|2"/>
+                <foliageLod blockShape="1>1|0"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>1|3"/>
+                <foliageLod blockShape="1>1|1"/>
+            </foliageShape>
+        </foliageState>
+        <foliageState name="greenBig" distanceMap="distance/foliage_carrot_distance4_diffuse.png" isGrowing="true" isDestructibleByDisaster="true" allowsHoeing="true" fieldCourseLineHeight="0.4">
+            <foliageShape>
+                <foliageLod blockShape="0>2|0"/>
+                <foliageLod blockShape="1>2|0"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>2|1"/>
+                <foliageLod blockShape="1>2|1"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>2|2"/>
+                <foliageLod blockShape="1>2|0"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>2|3"/>
+                <foliageLod blockShape="1>2|1"/>
+            </foliageShape>
+        </foliageState>
+        <foliageState name="harvestReady" distanceMap="distance/foliage_carrot_distance5_diffuse.png" isGrowing="true" isHarvestReady="true" isDestructibleByDisaster="true" groundType="HARVEST_READY_OTHER" fieldCourseLineHeight="0.5">
+            <foliageShape>
+                <foliageLod blockShape="0>3|0"/>
+                <foliageLod blockShape="1>3|0"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>3|1"/>
+                <foliageLod blockShape="1>3|1"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>3|2"/>
+                <foliageLod blockShape="1>3|0"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>3|3"/>
+                <foliageLod blockShape="1>3|1"/>
+            </foliageShape>
+        </foliageState>
+        <foliageState name="dead" distanceMap="distance/foliage_carrot_distance6_diffuse.png" isWithered="true" isDestructibleByDisaster="true" fieldCourseLineHeight="0.4">
+            <foliageShape>
+                <foliageLod blockShape="0>4|0"/>
+                <foliageLod blockShape="1>4|0"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>4|1"/>
+                <foliageLod blockShape="1>4|0"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>4|2"/>
+                <foliageLod blockShape="1>4|0"/>
+            </foliageShape>
+        </foliageState>
+        <foliageState name="harvested" isCut="true" isDestructibleByWheel="false" isDestructedByWheel="true" isDestructibleByDisaster="true"/>
+        <foliageState name="cutHaulm" isDestructibleByWheel="false" isDestructibleByDisaster="true">
+            <foliageShape>
+                <foliageLod blockShape="0>5|0"/>
+                <foliageLod blockShape="1>5|0"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>5|1"/>
+                <foliageLod blockShape="1>5|0"/>
+            </foliageShape>
+            <foliageShape>
+                <foliageLod blockShape="0>5|2"/>
+                <foliageLod blockShape="1>5|0"/>
+            </foliageShape>
+        </foliageState>
+    </foliageLayer>
+
+    <foliageLayer name="haulm" densityMapChannelOffset="4" numDensityMapChannels="1" numBlocksPerUnit="1.2" shapeSource="carrotHaulm.i3d">
+        <foliageStateDefaults width="1.5" height="1" widthVariance="0" heightVariance="0" horizontalPositionVariance="0.1"/>
+        <foliageLodDefaults lod="0" viewDistance="80"/>
+        <foliageState distanceMapLayer="2" distanceMap="distance/foliage_carrot_distance7_diffuse.png">
+            <foliageShape>
+                <foliageLod blockShape="0" atlasSize="1" atlasOffset="1 0" texCoords="0 0 1 1"/>
+            </foliageShape>
+        </foliageState>
+    </foliageLayer>
+
+    <growth>
+        <seasonal initialState="greenBig">
+            <period name="EARLY_SPRING"/>
+            <period name="MID_SPRING" plantingAllowed="true">
+                <update startState="invisible" endState="greenSmall" />
+                <update startState="greenSmall" endState="greenMiddle" />
+                <update startState="greenMiddle" endState="greenBig" />
+                <update startState="greenBig" endState="harvestReady" />
+            </period>
+            <period name="LATE_SPRING" plantingAllowed="true">
+                <update startState="invisible" endState="greenSmall" />
+                <update startState="greenSmall" endState="greenMiddle" />
+                <update startState="greenMiddle" endState="greenBig" />
+                <update startState="greenBig" endState="harvestReady" />
+            </period>
+            <period name="EARLY_SUMMER" plantingAllowed="true">
+                <update startState="invisible" endState="greenSmall" />
+                <update startState="greenSmall" endState="greenMiddle" />
+                <update startState="greenMiddle" endState="greenBig" />
+                <update startState="greenBig" endState="harvestReady" />
+            </period>
+            <period name="MID_SUMMER" plantingAllowed="true">
+                <update startState="invisible" endState="greenSmall" />
+                <update startState="greenSmall" endState="greenMiddle" />
+                <update startState="greenMiddle" endState="greenBig" />
+                <update startState="greenBig" endState="harvestReady" />
+            </period>
+            <period name="LATE_SUMMER">
+                <update startState="invisible" endState="greenSmall" />
+                <update startState="greenSmall" endState="greenMiddle" />
+                <update startState="greenMiddle" endState="greenBig" />
+                <update startState="greenBig" endState="harvestReady" />
+            </period>
+            <period name="EARLY_AUTUMN">
+                <update startState="invisible" endState="greenSmall" />
+                <update startState="greenSmall" endState="greenMiddle" />
+                <update startState="greenMiddle" endState="greenBig" />
+                <update startState="greenBig" endState="harvestReady" />
+            </period>
+            <period name="MID_AUTUMN">
+                <update startState="invisible" endState="greenSmall" />
+                <update startState="greenSmall" endState="greenMiddle" />
+                <update startState="greenMiddle" endState="greenBig" />
+                <update startState="greenBig" endState="harvestReady" />
+            </period>
+            <period name="LATE_AUTUMN">
+                <update startState="harvestReady" endState="dead" />
+            </period>
+            <period name="EARLY_WINTER">
+                <update startState="harvestReady" endState="dead" />
+            </period>
+            <period name="MID_WINTER"/>
+            <period name="LATE_WINTER"/>
+        </seasonal>
+    </growth>
+</foliageType>

@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
-<i3D name="pine_stage04" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+<i3D name="pine_stage04.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.3"/>
+  </Asset>
 
   <Files>
-    <File fileId="7" filename="pine4LOD_diffuse.png" />
-    <File fileId="8" filename="pine4LOD_normal.png" />
-    <File fileId="4" filename="pineBranch_diffuse.png" />
-    <File fileId="5" filename="pineBranch_normal.png" />
-    <File fileId="1" filename="pineTrunk_diffuse.png" />
-    <File fileId="2" filename="pineTrunk_normal.png" />
-    <File fileId="9" filename="../../../shaders/treeBillboardShader.xml" />
-    <File fileId="6" filename="../../../shaders/treeBranchShader.xml" />
-    <File fileId="3" filename="../../../shaders/treeTrunkShader.xml" />
+    <File fileId="10" filename="$data/shaders/treeBillboardShader.xml"/>
+    <File fileId="7" filename="$data/shaders/treeBranchShader.xml"/>
+    <File fileId="3" filename="$data/shaders/treeTrunkShader.xml"/>
+    <File fileId="8" filename="pine4LOD_diffuse.png"/>
+    <File fileId="9" filename="pine4LOD_normal.png"/>
+    <File fileId="5" filename="pineBranch_diffuse.png"/>
+    <File fileId="6" filename="pineBranch_normal.png"/>
+    <File fileId="1" filename="pineTrunk_diffuse.png"/>
+    <File fileId="2" filename="pineTrunk_normal.png"/>
   </Files>
 
+
   <Materials>
-    <Material name="pineTrunk_mat" materialId="1" specularColor="0 0 0" customShaderId="3">
+    <Material name="pine4LOD_mat" materialId="7" customShaderId="10" customShaderVariation="billboard180">
+      <Texture fileId="8"/>
+      <Normalmap fileId="9"/>
+    </Material>
+    <Material name="pineBranch_mat" materialId="6" customShaderId="7">
+      <Texture fileId="5"/>
+      <Normalmap fileId="6"/>
+    </Material>
+    <Material name="pineTrunk_mat" materialId="5" customShaderId="3">
       <Texture fileId="1"/>
       <Normalmap fileId="2"/>
-    </Material>
-    <Material name="pineBranch_mat" materialId="2" specularColor="0 1 0" customShaderId="6">
-      <Texture fileId="4"/>
-      <Normalmap fileId="5"/>
-    </Material>
-    <Material name="pine4LOD_mat" materialId="3" specularColor="0 0 0" customShaderId="9" customShaderVariation="billboard180">
-      <Texture fileId="7"/>
-      <Normalmap fileId="8"/>
     </Material>
   </Materials>
 
@@ -34,14 +38,12 @@
   </Shapes>
 
   <Scene>
-    <TransformGroup name="pine_stage04" lodDistance="0 90" collision="false" clipDistance="599" nodeId="1">
-      <Shape name="LOD0" shapeId="1" static="true" density="0.52" collisionMask="16791586" splitType="2" splitUvs="0 0 1 0.064 1.8" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="2">
-        <Shape name="LOD0Attachments" shapeId="2" castsShadows="true" receiveShadows="true" materialIds="2" clipDistance="500" nodeId="3"/>
+    <TransformGroup name="pine_stage04" lodDistance="0 90" clipDistance="599" nodeId="12">
+      <Shape name="LOD0" shapeId="1" static="true" collisionFilterGroup="0x1003822" collisionFilterMask="0x1003822" angularDamping="0.15" rollingFriction="0.27" density="0.52" clipDistance="500" nodeId="13" castsShadows="true" receiveShadows="true" splitType="2" splitUvs="0 0 1 0.064 1.8" materialIds="5">
+        <Shape name="LOD0Attachments" shapeId="2" clipDistance="500" nodeId="14" castsShadows="true" receiveShadows="true" materialIds="6"/>
       </Shape>
-      <Shape name="LOD1" shapeId="3" castsShadows="true" receiveShadows="true" materialIds="3" clipDistance="1500" nodeId="4"/>
+      <Shape name="LOD1" shapeId="3" clipDistance="1500" nodeId="15" castsShadows="true" receiveShadows="true" materialIds="7"/>
     </TransformGroup>
   </Scene>
 
-  <UserAttributes>
-  </UserAttributes>
 </i3D>

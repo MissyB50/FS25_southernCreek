@@ -6,10 +6,11 @@
             <function>$l10n_function_productionPoint</function>
         </functions>
         <image>$data/store/store_empty.png</image>
-        <price>300000</price>
+        <price>250000</price>
         <showInStore>false</showInStore>
         <canBeSold>true</canBeSold>
         <lifetime>1000</lifetime>
+        <dailyUpkeep>0</dailyUpkeep>
         <rotation>0</rotation>
         <brand>NONE</brand>
         <species>PLACEABLE</species>

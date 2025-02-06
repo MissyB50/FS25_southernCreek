@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<foliageType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../shared/xml/schema/foliageType.xsd">
+    <fruitType name="spinach" shownOnMap="true" useForFieldMissions="true">
+        <mapColors default="0.3419 0.6307 0.0273 1" colorBlind="0.8879 0.8069 0.7913 1"/>
+        <harvest litersPerSqm="2.31">
+            <transition src="harvestReady" target="harvested"/>
+            <transition src="harvestReadySecond" target="harvestedSecond"/>
+        </harvest>
+        <growth resetsSpray="true" growthRequiresLime="true"/>
+        <soil lowDensityRequired="true" increasesDensity="true" consumesLime="true" startSprayLevel="0"/>
+        <seeding directionSnapAngle="90" needsRolling="false" litersPerSqm="0.001" isAvailable="true"/>
+        <cultivation isAllowed="true"/>
+    </fruitType>
+
+    <foliageLayer densityMapChannelOffset="0" numDensityMapChannels="4" numBlocksPerUnit="3.7" shapeSource="spinach.i3d">
+        <foliageStateDefaults distanceMapLayer="1" width="1" height="1" widthVariance="0.2" heightVariance="0.25" horizontalPositionVariance="0.2"/>
+        <!-- default LOD distances etc -->
+        <foliageLodDefaults lod="0" viewDistance="18" blendOutDistance="4" texCoords="0 0 1 1"/>
+        <foliageLodDefaults lod="1" viewDistance="80" blendOutDistance="4" texCoords="0 0 1 1"/>
+        <foliageState name="invisible" isGrowing="true" allowsHoeing="true" />
+        <foliageState name="greenSmall" numBlocksPerUnit="4.5" distanceMap="distance/foliage_spinach_distance1_diffuse.png" isGrowing="true" allowsHoeing="true">
+            <foliageShape>
+                <foliageLod blockShape="0>0|0"/>
+                <foliageLod blockShape="0>1|0"/>
+            </foliageShape>
+        </foliageState>
+        <foliageState name="greenMiddleSecond" numBlocksPerUnit="4.5" distanceMap="distance/foliage_spinach_distance2_diffuse.png" isGrowing="true" allowsHoeing="true" fieldCourseLineHeight="0.2">
+            <foliageShape>
+                <foliageLod blockShape="0>0|1"/>
+                <foliageLod blockShape="0>1|1"/>
+            </foliageShape>
+        </foliageState>
+        <foliageState name="greenBig" numBlocksPerUnit="4.5" distanceMap="distance/foliage_spinach_distance3_diffuse.png" isGrowing="true" isDestructibleByWheel="true" isDestructibleByDisaster="true" allowsHoeing="true" fieldCourseLineHeight="0.3">
+            <foliageShape>
+                <foliageLod blockShape="0>0|2"/>
+                <foliageLod blockShape="0>1|2"/>
+            </foliageShape>
+        </foliageState>
+        <foliageState name="greenBigSecond" numBlocksPerUnit="4.5" distanceMap="distance/foliage_spinach_distance3_diffuse.png" isGrowing="true" isDestructibleByWheel="true" isDestructibleByDisaster="true" allowsHoeing="true" fieldCourseLineHeight="0.3">
+            <foliageShape>
+                <foliageLod blockShape="0>0|2"/>
+                <foliageLod blockShape="0>1|2"/>
+            </foliageShape>
+        </foliageState>
+        <foliageState name="harvestReady" numBlocksPerUnit="3.0" distanceMap="distance/foliage_spinach_distance4_diffuse.png" isGrowing="true" isHarvestReady="true" isDestructibleByWheel="true" isDestructibleByDisaster="true" groundType="HARVEST_READY_OTHER" fieldCourseLineHeight="0.4">
+            <foliageShape>
+                <foliageLod blockShape="0>0|3"/>
+                <foliageLod blockShape="0>1|3"/>
+            </foliageShape>
+        </foliageState>
+        <foliageState name="harvestReadySecond" numBlocksPerUnit="3.0" distanceMap="distance/foliage_spinach_distance4_diffuse.png" isGrowing="true" isHarvestReady="true" isDestructibleByWheel="true" isDestructibleByDisaster="true" fieldCourseLineHeight="0.4">
+            <foliageShape>
+                <foliageLod blockShape="0>0|3"/>
+                <foliageLod blockShape="0>1|3"/>
+            </foliageShape>
+        </foliageState>
+        <foliageState name="dead" numBlocksPerUnit="3.0" distanceMap="distance/foliage_spinach_distance5_diffuse.png" isWithered="true" isDestructibleByWheel="true" isDestructibleByDisaster="true" fieldCourseLineHeight="0.25">
+            <foliageShape>
+                <foliageLod blockShape="0>0|4"/>
+                <foliageLod blockShape="0>1|4"/>
+            </foliageShape>
+        </foliageState>
+        <foliageState name="harvested" distanceMap="distance/foliage_spinach_distance6_diffuse.png" numBlocksPerUnit="4.5" isCut="true" isDestructibleByWheel="false" isDestructibleByDisaster="true">
+            <foliageShape>
+                <foliageLod blockShape="0>0|5"/>
+                <foliageLod blockShape="0>1|5"/>
+            </foliageShape>
+        </foliageState>
+        <foliageState name="harvestedSecond" distanceMap="distance/foliage_spinach_distance6_diffuse.png" numBlocksPerUnit="4.5" isCut="true" isDestructibleByWheel="false" isDestructedByWheel="true" isDestructibleByDisaster="true">
+            <foliageShape>
+                <foliageLod blockShape="0>0|5"/>
+                <foliageLod blockShape="0>1|5"/>
+            </foliageShape>
+        </foliageState>
+    </foliageLayer>
+
+    <growth>
+        <seasonal initialState="greenBig">
+            <period name="EARLY_SPRING" plantingAllowed="true">
+                <update startState="invisible" endState="greenSmall" />
+            </period>
+            <period name="MID_SPRING" plantingAllowed="true">
+                <update startState="invisible" endState="greenSmall" />
+                <update startState="greenSmall" endState="greenBig" />
+            </period>
+            <period name="LATE_SPRING" plantingAllowed="true">
+                <update startState="invisible" endState="greenSmall" />
+                <update startState="greenSmall" endState="greenBig" />
+                <update startState="greenBig" endState="harvestReady" />
+            </period>
+            <period name="EARLY_SUMMER">
+                <update startState="greenSmall" endState="greenBig" />
+                <update startState="greenBig" endState="harvestReady" />
+                <update startState="harvested" endState="greenMiddleSecond" />
+            </period>
+            <period name="MID_SUMMER">
+                <update startState="greenBig" endState="harvestReady" />
+                <update startState="harvested" endState="greenMiddleSecond" />
+                <update startState="greenMiddleSecond" endState="greenBigSecond" />
+            </period>
+            <period name="LATE_SUMMER">
+                <update startState="harvested" endState="greenMiddleSecond" />
+                <update startState="greenMiddleSecond" endState="greenBigSecond" />
+                <update startState="greenBigSecond" endState="harvestReadySecond" />
+            </period>
+            <period name="EARLY_AUTUMN">
+                <update startState="greenMiddleSecond" endState="greenBigSecond" />
+                <update startState="greenBigSecond" endState="harvestReadySecond" />
+                <update startState="harvestedSecond" endState="dead" />
+            </period>
+            <period name="MID_AUTUMN">
+                <update startState="greenBigSecond" endState="harvestReadySecond" />
+                <update startState="harvestedSecond" endState="dead" />
+            </period>
+            <period name="LATE_AUTUMN">
+                <update startState="harvestedSecond" endState="dead" />
+            </period>
+            <period name="EARLY_WINTER">
+            </period>
+            <period name="MID_WINTER"/>
+            <period name="LATE_WINTER"/>
+        </seasonal>
+
+        <nonSeasonal>
+            <update startState="invisible" endState="greenSmall" />
+            <update startState="greenSmall" endState="greenBig" />
+            <update startState="greenBig" endState="harvestReady" />
+            <update startState="harvested" endState="greenMiddleSecond" />
+            <update startState="greenMiddleSecond" endState="greenBigSecond" />
+            <update startState="greenBigSecond" endState="harvestReadySecond" />
+        </nonSeasonal>
+    </growth>
+</foliageType>
