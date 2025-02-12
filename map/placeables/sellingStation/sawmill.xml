@@ -8,7 +8,7 @@
         <image>$data/store/store_empty.png</image>
         <price>250000</price>
         <showInStore>false</showInStore>
-        <canBeSold>true</canBeSold>
+        <canBeSold>false</canBeSold>
         <lifetime>1000</lifetime>
         <dailyUpkeep>0</dailyUpkeep>
         <rotation>0</rotation>
@@ -113,18 +113,18 @@
 
         <loadingStation node="loadingStation" supportsExtension="false">
             <loadTrigger triggerNode="loadingTrigger" fillLitersPerSecond="1000" dischargeNode="dischargeNode" fillTypes="WOODCHIPS">
-                <effectNode effectClass="PipeEffect" effectNode="pipeEffect"      materialType="pipe"           fadeTime="0.5" maxBending="0" shapeScaleSpread="1 1 1 0" controlPoint="7.25 0 0 0"/>
+<!--                 <effectNode effectClass="PipeEffect" effectNode="pipeEffect"      materialType="pipe"           fadeTime="0.5" maxBending="0" shapeScaleSpread="1 1 1 0" controlPoint="7.25 0 0 0"/> -->
                 <effectNode                          effectNode="pipeEffectSmoke" materialType="unloadingSmoke" fadeTime="0.5" />
             </loadTrigger>
         </loadingStation>
 
         <palletSpawner>
             <spawnPlaces>
-                <spawnPlace startNode="spawnSpaceWoodbeamsStart01" endNode="spawnSpaceWoodbeamsEnd01" fillTypes="WOODBEAM" palletRotationOffset="90"/>
-                <spawnPlace startNode="spawnSpacePlanksStart01"    endNode="spawnSpacePlanksEnd01"    fillTypes="PLANKS" palletRotationOffset="90"/>
-                <spawnPlace startNode="spawnSpaceBoardsStart01"    endNode="spawnSpaceBoardsEnd01"    fillTypes="BOARDS" palletRotationOffset="90"/>
-                <spawnPlace startNode="spawnSpaceFurnitureStart01" endNode="spawnSpaceFurnitureEnd01" fillTypes="FURNITURE" palletRotationOffset="90"/>
-                <spawnPlace startNode="spawnSpacePrefabWallStart01" endNode="spawnSpacePrefabWallEnd01" fillTypes="PREFABWALL" palletRotationOffset="90"/>
+                <spawnPlace startNode="spawnSpaceWoodbeamsStart01" endNode="spawnSpaceWoodbeamsEnd01" fillTypes="WOODBEAM" />
+                <spawnPlace startNode="spawnSpacePlanksStart01"    endNode="spawnSpacePlanksEnd01"    fillTypes="PLANKS" />
+                <spawnPlace startNode="spawnSpaceBoardsStart01"    endNode="spawnSpaceBoardsEnd01"    fillTypes="BOARDS" />
+                <spawnPlace startNode="spawnSpaceFurnitureStart01" endNode="spawnSpaceFurnitureEnd01" fillTypes="FURNITURE" />
+                <spawnPlace startNode="spawnSpacePrefabWallStart01" endNode="spawnSpacePrefabWallEnd01" fillTypes="PREFABWALL" />
             </spawnPlaces>
         </palletSpawner>
 
@@ -174,6 +174,3 @@
         <i3dMapping id="pipeEffectSmoke" node="0>5|2|1" />
     </i3dMappings>
 </placeable>
-
-
-<!-- palletRotationOffset="90" -->

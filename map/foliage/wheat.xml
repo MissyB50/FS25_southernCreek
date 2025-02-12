@@ -124,11 +124,11 @@
                 <update startState="greenBig" endState="greenBig2" />
             </period>
             <period name="EARLY_SUMMER">
-                <update startState="greenBig" endState="greenBig2" />
+                <update startState="greenBig" endState="harvestReady" />
                 <update startState="greenBig2" endState="harvestReady" />
             </period>
             <period name="MID_SUMMER">
-                <update startState="greenBig2" endState="harvestReady" />
+                <update startState="harvestReady" endState="harvestReady" />
             </period>
             <period name="LATE_SUMMER">
                 <update startState="harvestReady" endState="dead" />
@@ -140,7 +140,10 @@
                 <update startState="invisible" endState="greenSmall" />
                 <update startState="greenSmall" endState="greenSmall2" />
             </period>
-            <period name="LATE_AUTUMN" />
+            <period name="LATE_AUTUMN" plantingAllowed="true">
+                <update startState="invisible" endState="greenSmall" />
+                <update startState="greenSmall" endState="greenSmall2" />
+            </period>			
             <period name="EARLY_WINTER" />
             <period name="MID_WINTER" />
             <period name="LATE_WINTER">
@@ -149,7 +152,4 @@
             </period>
         </seasonal>
     </growth>
-
-
-
 </foliageType>

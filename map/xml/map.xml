@@ -38,12 +38,9 @@
     <treeTypes maxNumTrees="14000" />
     <bales filename="$data/maps/maps_bales.xml"/>
     <motionPathEffects filename="$data/effects/motionPathEffects.xml"/>
-<!--     <fillTypes="map/xml/fillTypes.xml"/> -->
-
 
     <fruitTypes>
         <fruitType filename="$data/foliage/meadow/meadowUS/meadowUS.xml"/>
-<!--         <fruitType filename="map/xml/fruitTypes.xml"/> -->
     </fruitTypes>
 
     <fruitTypeCategories>
@@ -57,7 +54,12 @@
         <additionalFile filename="$data/fillPlanes/fillPlane_materialHolder.i3d" />
         <additionalFile filename="$data/objects/bales/wrapBale_materialHolder.i3d" />
         <additionalFile filename="$data/effects/effects.xml" />
+<!--         <fruitType filename="map/xml/fruitTypes.xml"/> -->
+<!--     <fillTypes="map/xml/fillTypes.xml"/> -->
     </additionalFiles>
+
+<!--     <fruitType filename="map/xml/fruitTypes.xml"/> -->
+
 
     <!-- add all foliage layers that are not fruits. You need to define these foliage layers to be able to remove them with a cultivator or plow -->
     <decoFoliages>

@@ -3,7 +3,7 @@
 <storeItems>
 <!-- PRODUCTION POINTS -->
     <storeItem xmlFilename="map/placeables/bga/bga.xml" /> 
-
+    <storeItem xmlFilename="map/placeables/bga/bga250.xml"/>
 
 
 

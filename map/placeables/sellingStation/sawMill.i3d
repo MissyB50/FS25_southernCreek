@@ -6,17 +6,21 @@
   </Asset>
 
   <Files>
-    <File fileId="3" filename="$data/shared/default_normal.png"/>
+    <File fileId="3" filename="$data/shared/default_normal.dds"/>
+    <File fileId="4" filename="$data/shared/default_normal.png"/>
   </Files>
 
 
   <Materials>
-    <Material name="lambert1" materialId="131" diffuseColor="0.501961 0.501961 0.501961 1">
+    <Material name="lambert1" materialId="5" diffuseColor="0.501961 0.501961 0.501961 1">
     </Material>
-    <Material name="lambert2_mat" materialId="21346" diffuseColor="0.501961 0.501961 0.501961 1">
+    <Material name="lambert1" materialId="58" diffuseColor="0.501961 0.501961 0.501961 1">
       <Normalmap fileId="3"/>
     </Material>
-    <Material name="UnnamedMaterial" materialId="208" diffuseColor="1 1 1 1">
+    <Material name="lambert2_mat" materialId="6" diffuseColor="0.501961 0.501961 0.501961 1">
+      <Normalmap fileId="4"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="7" diffuseColor="1 1 1 1">
     </Material>
   </Materials>
 
@@ -25,52 +29,52 @@
   </Shapes>
 
   <Scene>
-    <TransformGroup name="sawMill" nodeId="21357">
-      <TransformGroup name="tipOcclusionUpdateAreas" nodeId="21358">
-        <TransformGroup name="tipOcclusionUpdateAreaStart01" translation="-54 0 -25" nodeId="21359">
-          <TransformGroup name="tipOcclusionUpdateAreaEnd01" translation="108.633 0 46.5069" nodeId="21360"/>
+    <TransformGroup name="sawMill" nodeId="18">
+      <TransformGroup name="tipOcclusionUpdateAreas" nodeId="19">
+        <TransformGroup name="tipOcclusionUpdateAreaStart01" translation="-54 0 -25" nodeId="20">
+          <TransformGroup name="tipOcclusionUpdateAreaEnd01" translation="108.633 0 46.5069" nodeId="21"/>
         </TransformGroup>
       </TransformGroup>
-      <Shape name="infoTrigger" translation="19.6749 2.57908 -5" scale="0.725 1 0.501881" shapeId="1" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" nodeId="21361" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="131"/>
-      <TransformGroup name="sellingStation" nodeId="21362">
-        <Shape name="woodSellActivationTrigger" translation="31.65 1 -12.2563" shapeId="2" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" nodeId="21363" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="131"/>
-        <Shape name="unloadTriggerWood" translation="22.5 0 -19.5" shapeId="3" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x800" nodeId="21364" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="131"/>
-        <TransformGroup name="unloadTriggerMarker" translation="22.5 0 -19.5" nodeId="21365"/>
-        <TransformGroup name="unloadTriggerAINode" translation="22.5 0 -19.5" nodeId="21366"/>
-        <TransformGroup name="woodSellActivationTriggerMarker" translation="31.6502 1 -12.2563" nodeId="21367"/>
-        <Shape name="woodchipUnload" translation="1.324 0.0834547 -20.9666" shapeId="4" static="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="21368" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="208"/>
-        <Shape name="baleTrigger" translation="1.32387 0 -20.9666" rotation="0 90 0" shapeId="5" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40040000" nodeId="21369" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="131"/>
+      <Shape name="infoTrigger" translation="19.6749 2.57908 -5" scale="0.725 1 0.501881" shapeId="1" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" nodeId="22" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+      <TransformGroup name="sellingStation" nodeId="23">
+        <Shape name="woodSellActivationTrigger" translation="31.65 1 -12.2563" shapeId="2" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" nodeId="24" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+        <Shape name="unloadTriggerWood" translation="22.5 0 -19.5" shapeId="3" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x800" nodeId="25" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+        <TransformGroup name="unloadTriggerMarker" translation="22.5 0 -19.5" nodeId="26"/>
+        <TransformGroup name="unloadTriggerAINode" translation="22.5 0 -19.5" nodeId="27"/>
+        <TransformGroup name="woodSellActivationTriggerMarker" translation="31.6502 1 -12.2563" nodeId="28"/>
+        <Shape name="woodchipUnload" translation="1.324 0.0834547 -20.9666" shapeId="4" static="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="29" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="7"/>
+        <Shape name="baleTrigger" translation="1.32387 0 -20.9666" rotation="0 90 0" shapeId="5" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40040000" nodeId="30" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
       </TransformGroup>
-      <TransformGroup name="productionPoint" nodeId="21370">
-        <Shape name="playerTrigger" translation="42 1.25 11" shapeId="6" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" nodeId="21371" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="131"/>
-        <TransformGroup name="playerTriggerMarker" translation="42 1 11" nodeId="21372"/>
+      <TransformGroup name="productionPoint" nodeId="31">
+        <Shape name="playerTrigger" translation="42 1.25 11" shapeId="6" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" nodeId="32" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+        <TransformGroup name="playerTriggerMarker" translation="42 1 11" nodeId="33"/>
       </TransformGroup>
-      <TransformGroup name="palletSpawner" nodeId="21373">
-        <TransformGroup name="palletAreaStart01" translation="64.4313 0 -30.8554" rotation="0 15 0" nodeId="21374">
-          <TransformGroup name="palletAreaEnd01" translation="30.7879 0 8.4" nodeId="21375"/>
+      <TransformGroup name="palletSpawner" nodeId="34">
+        <TransformGroup name="palletAreaStart01" translation="64.4468 0 -30.8255" nodeId="35">
+          <TransformGroup name="palletAreaEnd01" translation="30.7879 0 8.4" nodeId="36"/>
         </TransformGroup>
-        <TransformGroup name="palletAreaStart02" translation="64.4314 0 -16.2064" rotation="0 15 0" nodeId="21376">
-          <TransformGroup name="palletAreaEnd02" translation="30.8 0 8.4" nodeId="21377"/>
+        <TransformGroup name="palletAreaStart02" translation="64.6309 0 -15.462" rotation="0 15 0" nodeId="37">
+          <TransformGroup name="palletAreaEnd02" translation="30.8 0 8.4" nodeId="38"/>
         </TransformGroup>
-        <TransformGroup name="palletAreaStart03" translation="64.4426 0 -3.97949" rotation="0 15 0" nodeId="21378">
-          <TransformGroup name="palletAreaEnd03" translation="30.8 0 8.4" nodeId="21379"/>
+        <TransformGroup name="palletAreaStart03" translation="64.7109 0 -2.97807" rotation="0 15 0" nodeId="39">
+          <TransformGroup name="palletAreaEnd03" translation="30.8 0 8.4" nodeId="40"/>
         </TransformGroup>
-        <TransformGroup name="palletAreaStart04" translation="64.433 0 10.7015" rotation="0 15 0" nodeId="21380">
-          <TransformGroup name="palletAreaEnd04" translation="30.8 0 8.4" nodeId="21381"/>
+        <TransformGroup name="palletAreaStart04" translation="64.433 0 10.7015" rotation="0 15 0" nodeId="41">
+          <TransformGroup name="palletAreaEnd04" translation="30.8 0 8.4" nodeId="42"/>
         </TransformGroup>
-        <TransformGroup name="palletAreaStart05" translation="-81.1396 0 42.269" rotation="0 50.5 0" nodeId="21382">
-          <TransformGroup name="palletAreaEnd05" translation="30.8 0 8.4" nodeId="21383"/>
+        <TransformGroup name="palletAreaStart05" translation="-81.1396 0 42.269" rotation="0 50.5 0" nodeId="43">
+          <TransformGroup name="palletAreaEnd05" translation="30.8 0 8.4" nodeId="44"/>
         </TransformGroup>
-        <TransformGroup name="palletAreaStart06" translation="-72.2215 0 53.8913" rotation="0 50.5 0" nodeId="21384">
-          <TransformGroup name="palletAreaEnd06" translation="30.8 0 8.4" nodeId="21385"/>
+        <TransformGroup name="palletAreaStart06" translation="-72.2215 0 53.8913" rotation="0 50.5 0" nodeId="45">
+          <TransformGroup name="palletAreaEnd06" translation="30.8 0 8.4" nodeId="46"/>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="loadingTrigger" translation="42.5051 4.92864 -7.89731" nodeId="21386">
-        <Shape name="loadingTrigger" shapeId="7" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" nodeId="21387" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="131"/>
-        <TransformGroup name="dischargeNode" nodeId="21388"/>
-        <TransformGroup name="dischargeEffect" nodeId="21389">
-          <Shape name="pipeEffect" shapeId="8" clipDistance="300" nodeId="21390" castsShadows="true" receiveShadows="true" materialIds="21346"/>
-          <Shape name="pipeEffectSmoke" translation="0 -4 0" shapeId="9" clipDistance="100" nodeId="21391" castsShadows="true" receiveShadows="true" materialIds="21346"/>
+      <TransformGroup name="loadingTrigger" translation="42.5051 4.92864 -7.89731" nodeId="47">
+        <Shape name="loadingTrigger" shapeId="7" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" nodeId="48" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+        <TransformGroup name="dischargeNode" nodeId="49"/>
+        <TransformGroup name="dischargeEffect" nodeId="50">
+          <Shape name="woodchipPipeEffect" shapeId="8" nodeId="57" castsShadows="true" receiveShadows="true" materialIds="58"/>
+          <Shape name="pipeEffectSmoke" translation="0 -4 0" shapeId="9" clipDistance="100" nodeId="52" castsShadows="true" receiveShadows="true" materialIds="6"/>
         </TransformGroup>
       </TransformGroup>
     </TransformGroup>

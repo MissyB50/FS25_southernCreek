@@ -31,6 +31,14 @@
     </placeable>
 
     <placeable filename="$mapdir$/map/placeables/bga/weighingStationSmall.xml" position="-495 81.477 692.5" rotation="0 125 0"/>
+
+    <placeable filename="$mapdir$/map/placeables/bga/bga250.xml" position="77 81.794 620.8" rotation="0 0 0">
+        <customImage filename="$mapdir$/map/placeables/store/mapIcon_bga250.dds"/>
+    </placeable>
+    <placeable filename="$data/placeables/planET/bgaBunkerSilo/bgaBunkerSilo.xml" position="93.461 81.794 666.675" rotation="0 180 0"/>
+    <placeable filename="$data/placeables/planET/bgaBunkerSilo/bgaBunkerSilo.xml" position="58.837 81.794 666.675" rotation="0 180 0"/>
+
+
 <!-- fences/Hedges-->
 
     <placeable filename="data/placeables/brandless/fences/EU/fence01/fence01.xml" uniqueId="placeablef61deaf312a193b9adae1cdd6644d477" position="0.000 -151.000 0.000" rotation="0.00 -0.00 0.00" age="0.000000" price="70.000000" farmId="1">

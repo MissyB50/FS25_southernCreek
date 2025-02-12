@@ -109,7 +109,68 @@
     </foliageLayer>
 
     <growth>
-        <seasonal initialState="harvestReady">
+        <fruit name="canola" initialState="9">
+            <period index="1" plantingAllowed="true">
+	            <update range="1-2" add="1" />
+		
+                <update range="4-5" add="1" />
+            </period>
+            <period index="2" plantingAllowed="true">
+		        <update range="1-3" add="1" />
+                <update range="5-6" add="1" />
+            </period>
+            <period index="3">
+                <update range="2-4" add="2" />			
+                <update range="6-7" add="1" />
+            </period>
+            <period index="4">
+	            <update range="4-5" add="2" />			
+                <update range="6-8" add="1" />
+            </period>
+            <period index="5">
+                <update range="6-8" add="1" />
+            </period>
+            <period index="6" plantingAllowed="true">
+			    <update range="7" add="2" />		
+			    <update range="8" add="1" />
+                <update range="1" add="1" />
+            </period>
+            <period index="7" plantingAllowed="true">
+                <update range="1-2" add="1" />
+				 <update range="9" add="1" />				
+            </period>
+            <period index="8" plantingAllowed="true">
+                <update range="1-3" add="1" />
+                <update range="7-9" set="10" />
+            </period>
+            <period index="9" >
+			     <update range="1-3" add="1" />
+                <update range="7-9" set="10" />
+            </period>
+            <period index="10">
+                 <update range="7-9" set="10" />
+           </period>
+            <period index="11">
+            </period>
+            <period index="12">
+                <update range="3-4" add="1" />
+            </period>
+        </fruit>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--         <seasonal initialState="harvestReady">
             <period name="EARLY_SPRING">
                 <update startState="greenSmall3" endState="greenMiddle" />
                 <update startState="greenMiddle" endState="greenMiddle2" />
@@ -148,6 +209,6 @@
                 <update startState="greenSmall2" endState="greenSmall3" />
                 <update startState="greenSmall3" endState="greenMiddle" />
             </period>
-        </seasonal>
+        </seasonal> -->
     </growth>
 </foliageType>
