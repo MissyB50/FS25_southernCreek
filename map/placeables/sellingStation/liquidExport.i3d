@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="liquidExport.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.3"/>
+  </Asset>
+
+  <Files>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="5" diffuseColor="0.501961 0.501961 0.501961 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="liquidExport.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="unloadingStation" nodeId="9">
+      <Shape name="unloadTrigger" translation="0 0 0.137885" rotation="-180 -86.6959 -180" shapeId="1" kinematic="true" compound="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="10" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+      <TransformGroup name="unloadMarker" nodeId="11"/>
+      <TransformGroup name="unloadNodeAI" rotation="0 -94 0" nodeId="12"/>
+      <Shape name="palletTrigger" shapeId="2" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x10000" nodeId="19" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+      <Shape name="aiSplineGrain" rotation="0 -2.12552 0" shapeId="3" visibility="false" nodeId="13" castsShadows="false" receiveShadows="false"/>
+      <TransformGroup name="teleportNode" nodeId="15"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

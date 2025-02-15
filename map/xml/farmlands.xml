@@ -4,15 +4,10 @@
         <farmland id="1" priceScale="1" npcName="ANIMAL_DEALER" />
         <farmland id="2" priceScale="1" npcName="ANIMAL_DEALER" />
         <farmland id="3" priceScale="1" npcName="ANIMAL_DEALER" />
-
-
-
-
-
-        <!-- <farmland id="4" priceScale="1" npcName="ANIMAL_DEALER" defaultFarmProperty="true"/> -->
-        <!-- <farmland id="5" priceScale="1" npcName="ANIMAL_DEALER" defaultFarmProperty="true"/> -->
-        <!-- <farmland id="6" priceScale="1" npcName="FORESTER" /> -->
-        <!-- <farmland id="7" priceScale="1" npcName="ANIMAL_DEALER" /> -->
+        <farmland id="4" priceScale="1" npcName="ANIMAL_DEALER" />
+        <farmland id="5" priceScale="1" npcName="ANIMAL_DEALER" /> 
+        <farmland id="6" priceScale="1" npcName="FORESTER" />
+        <farmland id="7" priceScale="1" npcName="ANIMAL_DEALER" />
         <!-- <farmland id="8" priceScale="1" npcName="FARMER" /> -->
         <!-- <farmland id="9" priceScale="1" npcName="ANIMAL_DEALER" /> -->
         <!-- <farmland id="10" priceScale="1" npcName="ANIMAL_DEALER" /> -->
@@ -99,5 +94,6 @@
         <!-- <farmland id="91" priceScale="1" npcName="FORESTER" /> -->
         <!-- <farmland id="92" priceScale="1" npcName="FORESTER" /> -->
         <!-- <farmland id="93" priceScale="2.288123" npcName="FARMER" showOnFarmlandsScreen="false" />  BGA, farmland bought via placeable -->
+        <farmland id="100" priceScale="1" npcName="ANIMAL_DEALER" />
     </farmlands>
 </map>

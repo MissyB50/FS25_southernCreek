@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="productionPoint" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../shared/xml/schema/placeable.xsd">
+    <storeData>
+        <name>$l10n_shopItem_spinnery</name>
+        <functions>
+            <function>$l10n_function_productionPoint</function>
+        </functions>
+        <image>$data/placeables/lizard/productionPoints/spinneryUS/store_spinneryUS.png</image>
+        <price>60000</price>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>NONE</brand>
+        <species>placeable</species>
+        <category>productionPoints</category>
+        <brush>
+            <type>placeable</type>
+            <category>production</category>
+            <tab>factories</tab>
+        </brush>
+    </storeData>
+
+    <base>
+        <filename>$data/placeables/lizard/productionPoints/spinneryUS/spinneryUS.i3d</filename>
+        <canBeRenamed>true</canBeRenamed>
+    </base>
+
+    <clearAreas/>
+    <leveling/>
+
+    <indoorAreas>
+        <indoorArea startNode="indoorArea1Start" widthNode="indoorArea1Width" heightNode="indoorArea1Height" />
+    </indoorAreas>
+
+    <tipOcclusionUpdateAreas>
+        <tipOcclusionUpdateArea startNode="tipOcclusionUpdateArea1Start" endNode="tipOcclusionUpdateArea1End" />
+    </tipOcclusionUpdateAreas>
+
+    <ai>
+        <updateAreas>
+            <updateArea startNode="tipOcclusionUpdateArea1Start" endNode="tipOcclusionUpdateArea1End" />
+        </updateAreas>
+    </ai>
+
+    <infoTrigger triggerNode="infoTrigger" />
+
+    <lights>
+        <group weatherRequiredFlags="NIGHT" />
+
+        <sharedLight filename="$data/shared/assets/lights/lizard/buildings/industrialWallLight.xml" linkNode="linkedLight1" groupIndex="1"/>
+        <sharedLight filename="$data/shared/assets/lights/lizard/buildings/industrialWallLight.xml" linkNode="linkedLight2" groupIndex="1"/>
+        <sharedLight filename="$data/shared/assets/lights/lizard/buildings/industrialWallLight.xml" linkNode="linkedLight3" groupIndex="1"/>
+        <sharedLight filename="$data/shared/assets/lights/lizard/buildings/industrialWallLight.xml" linkNode="linkedLight4" groupIndex="1"/>
+        <sharedLight filename="$data/shared/assets/lights/lizard/buildings/industrialWallLight.xml" linkNode="linkedLight5" groupIndex="1"/>
+        <sharedLight filename="$data/shared/assets/lights/lizard/buildings/industrialWallLight.xml" linkNode="linkedLight6" groupIndex="1"/>
+        <sharedLight filename="$data/shared/assets/lights/lizard/buildings/industrialWallLight.xml" linkNode="linkedLight7" groupIndex="1"/>
+
+        <lightShape node="interiorSelfIllum" groupIndex="1"/>
+        <lightShape node="interiorSelfIllumLOD" groupIndex="1"/>
+
+        <realLights>
+            <low>
+                <light node="realLightsLow" groupIndex="1"/>
+            </low>
+            <high>
+                <light node="realLightsHigh" groupIndex="1"/>
+            </high>
+        </realLights>
+    </lights>
+
+    <productionPoint>
+        <productions>
+            <production id="fabric_wool" name="%s %s" params="$l10n_fillType_fabric|$l10n_fillType_wool" cyclesPerHour="60" costsPerActiveHour="5">
+                <inputs>
+                    <input fillType="WOOL" amount="2" />
+                </inputs>
+                <outputs>
+                    <output fillType="FABRIC" amount="1" />
+                </outputs>
+            </production>
+            <production id="fabric_cotton" name="%s %s" params="$l10n_fillType_fabric|$l10n_fillType_cotton" cyclesPerHour="24" costsPerActiveHour="5">
+                <inputs>
+                    <input fillType="COTTON" amount="5" />
+                </inputs>
+                <outputs>
+                    <output fillType="FABRIC" amount="3" />
+                </outputs>
+            </production>
+        </productions>
+
+        <storage isExtension="false" fillLevelSyncThreshold="50">
+            <capacity fillType="WOOL"   capacity="45000" />
+            <capacity fillType="COTTON" capacity="45000" />
+            <capacity fillType="FABRIC" capacity="5000" />
+        </storage>
+
+        <sellingStation node="sellingStation" supportsExtension="false">
+            <unloadTrigger exactFillRootNode="unloadTrigger"  aiNode="unloadTriggerAINode" fillTypes="WOOL COTTON">
+                <baleTrigger triggerNode="baleTrigger" deleteLitersPerSecond="4000" />
+            </unloadTrigger>
+        </sellingStation>
+
+        <palletSpawner node="palletSpawner">
+            <spawnPlaces>
+                <spawnPlace startNode="spawnSpace1start" />
+            </spawnPlaces>
+        </palletSpawner>
+
+        <playerTrigger node="playerTrigger" />
+
+        <sounds>
+            <idle template="spinneryIdle" linkNode="0>" />
+            <active template="spinneryWork" linkNode="0>" />
+        </sounds>
+    </productionPoint>
+
+    <triggerMarkers>
+        <triggerMarker node="playerTriggerMarker" filename="$data/shared/assets/marker/markerIconWrench.i3d" adjustToGround="true"/>
+        <triggerMarker node="unloadTriggerMarker" filename="$data/shared/assets/marker/markerIconUnload.i3d" adjustToGround="true"/>
+    </triggerMarkers>
+
+    <hotspots>
+        <hotspot type="PRODUCTION_POINT" linkNode="unloadTriggerMarker" teleportNode="unloadTriggerMarker" />
+    </hotspots>
+
+    <i3dMappings>
+        <i3dMapping id="interiorSelfIllum" node="0>0|0|0|2|0" />
+        <i3dMapping id="interiorSelfIllumLOD" node="0>0|1|0|3" />
+        <i3dMapping id="indoorArea1Start" node="0>1|0" />
+        <i3dMapping id="indoorArea1Width" node="0>1|0|0" />
+        <i3dMapping id="indoorArea1Height" node="0>1|0|1" />
+        <i3dMapping id="testArea1Start" node="0>2|0" />
+        <i3dMapping id="testArea1End" node="0>2|0|0" />
+        <i3dMapping id="testArea2Start" node="0>2|1" />
+        <i3dMapping id="testArea2End" node="0>2|1|0" />
+        <i3dMapping id="testArea3Start" node="0>2|2" />
+        <i3dMapping id="testArea3End" node="0>2|2|0" />
+        <i3dMapping id="tipOcclusionUpdateArea1Start" node="0>3|0" />
+        <i3dMapping id="tipOcclusionUpdateArea1End" node="0>3|0|0" />
+        <i3dMapping id="infoTrigger" node="0>4" />
+        <i3dMapping id="realLightsLow" node="0>5|0|0" />
+        <i3dMapping id="realLightsHigh" node="0>5|0|1" />
+        <i3dMapping id="linkedLight1" node="0>5|1|0" />
+        <i3dMapping id="linkedLight2" node="0>5|1|1" />
+        <i3dMapping id="linkedLight3" node="0>5|1|2" />
+        <i3dMapping id="linkedLight4" node="0>5|1|3" />
+        <i3dMapping id="linkedLight5" node="0>5|1|4" />
+        <i3dMapping id="linkedLight6" node="0>5|1|5" />
+        <i3dMapping id="linkedLight7" node="0>5|1|6" />
+        <i3dMapping id="sellingStation" node="0>6" />
+        <i3dMapping id="unloadTrigger" node="0>6|0" />
+        <i3dMapping id="unloadTriggerMarker" node="0>6|0|0" />
+        <i3dMapping id="baleTrigger" node="0>6|1" />
+        <i3dMapping id="unloadTriggerAINode" node="0>6|2" />
+        <i3dMapping id="playerTrigger" node="0>7|0" />
+        <i3dMapping id="playerTriggerMarker" node="0>7|0|0" />
+        <i3dMapping id="palletSpawner" node="0>8" />
+        <i3dMapping id="spawnSpace1start" node="0>8|0" />
+    </i3dMappings>
+</placeable>

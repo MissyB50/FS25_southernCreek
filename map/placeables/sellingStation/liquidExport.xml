@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="sellingStation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../shared/xml/schema/placeable.xsd">
+    <storeData>
+        <name>
+		    <en>Liquid Export</en>
+		    <de></de>
+		</name>
+        <price>0</price>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>NONE</brand>
+        <species>PLACEABLE</species>
+        <category>placeableMisc</category>
+        <dailyUpkeep>0</dailyUpkeep>
+        <showInStore>false</showInStore>
+        <canBeSold>false</canBeSold>
+    </storeData>
+
+    <base>
+        <filename>map/placeables/sellingStation/liquidExport.i3d</filename>
+    </base>
+
+    <placement useRandomYRotation="false" useManualYRotation="true" />
+
+    <clearAreas></clearAreas>
+
+    <leveling></leveling>
+
+    <indoorAreas></indoorAreas>
+
+    <ai>
+        <updateAreas>
+        </updateAreas>
+    </ai>
+
+    <hotspots>
+        <hotspot type="UNLOADING" linkNode="teleportNode" teleportNode="teleportNode" />
+    </hotspots>
+
+    <triggerMarkers>
+        <triggerMarker node="unloadMarker" adjustToGround="true" filename="$data/shared/assets/marker/markerIconUnload.i3d" />
+    </triggerMarkers>
+
+    <sellingStation supportsExtension="false" litersForFullPriceDrop="200000" fullPriceRecoverHours="48">
+        <unloadTrigger exactFillRootNode="unloadTrigger" fillTypes="MILK BUFFALOMILK DIGESTATE LIQUIDMANURE" priceScale="1" aiNode="unloadNodeAI"/>
+        <palletTrigger triggerNode="palletTrigger" fillTypes="MILK BUFFALOMILK DIGESTATE LIQUIDMANURE" priceScale="1" />
+    </sellingStation>
+
+    <i3dMappings>
+        <i3dMapping id="unloadTrigger" node="0>0" />
+        <i3dMapping id="unloadMarker" node="0>1" />
+        <i3dMapping id="unloadNodeAI" node="0>2" />
+        <i3dMapping id="palletTrigger" node="0>3" />
+        <i3dMapping id="teleportNode" node="0>5" />
+    </i3dMappings>
+</placeable>

@@ -8,10 +8,35 @@
         <customImage filename="$mapdir$/map/placeables/store/mapIcon_sawMill.dds"/>
     </placeable>
 
+    <placeable filename="$mapdir$/map/placeables/sellingStation/raisinFactory.xml" position="83.4 81.77 570.4" rotation="0 -90 0">
+        <customImage filename="$mapdir$/map/placeables/store/mapIcon_raisin.dds"/>
+    </placeable>
+
+    <placeable filename="$data/placeables/mapAS/carpenterAS/carpenterAS.xml" position="30 81.512 559" rotation="0 -45 0">
+        <customImage filename="$data/placeables/mapAS/carpenterAS/mapIcon_carpenterAS.png"/>
+    </placeable>
+
+    <placeable filename="$data/placeables/mapEU/preservedFoodFactory/preservedFoodFactory.xml" position="63.896 81.671 473.882" rotation="0 0 0">
+        <customImage filename="$data/placeables/mapEU/preservedFoodFactory/mapIcon_preservedFoodFactory.dds"/>
+    </placeable>
+
+    <placeable filename="$data/placeables/mapAS/bakeryAS/bakeryAS.xml" position="-443.6 81.794 499.9" rotation="0 -45 0">
+        <customImage filename="$data/placeables/mapAS/bakeryAS/mapIcon_bakeryAS.dds"/>
+    </placeable>
+
+
+
+
 <!-- BUYPOINTS  -->
     <placeable filename="$mapdir$/map/placeables/buyingStation/manure.xml" position="-284.675 81.794 568.1" rotation="0 -140 0"/>
 
     <placeable filename="$mapdir$/map/placeables/buyingStation/slurry.xml" position="-310.4 81.794 534.577" rotation="0 -50.3 0"/>
+
+
+
+    <placeable filename="$mapdir$/map/placeables/sellingStation/petrolStation.xml" position="-487.283 81.794 534.252" rotation="0 45 0">
+        <customImage filename="$mapdir$/map/placeables/store/mapIcon_ps.dds"/>
+    </placeable>
 
 <!-- SELLPOINTS-->
     <placeable filename="$mapdir$/map/placeables/sellingStation/animalDealer.xml" position="-304.493 81.902 583.629" rotation="0 -47.6 0">
@@ -23,6 +48,10 @@
     </placeable>
     <placeable filename="$mapdir$/map/placeables/sellingStation/sellingStationTrain.xml" uniqueId="sellingStationTrain01" position="0 0 0" rotation="0 0 0" />
 
+
+    <placeable filename="$mapdir$/map/placeables/sellingStation/liquidExport.xml" position="-836.889 93.5 887" rotation="0 0 0">
+        <customImage filename="$mapdir$/map/placeables/store/mapIcon_export.dds"/>
+    </placeable>
 
 
 <!--BGA -->
@@ -48,7 +77,11 @@
         </newFence>
     </placeable>
 
-
+    <placeable filename="data/placeables/brandless/fences/US/fence08/fence08.xml" uniqueId="placeableaa971cb4e460a4df5b46d9bd7ca2362e" position="0.000 -151.000 0.000" rotation="0.00 -0.00 0.00" age="0.000000" price="150.000000" farmId="1">
+        <newFence>
+            <segment start="-550.615 94.465 -905.933" end="-549.574 98.838 -847.542" id="SEGMENT"/>
+        </newFence>
+    </placeable>
 
 <!-- buildable -->
     <placeable filename="data/placeables/brandless/constructibles/buildableFarmHouse02/buildableFarmHouse02.xml" uniqueId="placeable7e9a0cf9fc438d958916b4c3265f78d0" position="-175.125 82.268 602.445" rotation="180.00 -69.05 180.00" age="0.000000" price="1000.000000" farmId="1">
@@ -104,5 +137,20 @@
             <storage farmId="0"/>
         </constructible>
     </placeable>
+
+<!-- OTHER -->
+    <placeable filename="$data/placeables/brandless/chargingStation/chargingStation.xml" position="-470.919 81.794 511.372" rotation="0 48.5 0">
+        <customImage filename="$mapdir$/map/placeables/store/mapIcon_Charge.dds"/>
+    </placeable>
+
+
 </placeables>
-<!--     <placeable filename="" position="" rotation=""/> -->
+
+
+
+
+
+<!-- 
+    <placeable filename="$mapdir$/map/placeables/sellingStation/" position="" rotation="">
+        <customImage filename="$mapdir$/map/placeables/store/mapIcon_.dds"/>
+    </placeable> -->

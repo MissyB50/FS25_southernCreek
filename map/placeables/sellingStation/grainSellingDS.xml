@@ -35,7 +35,7 @@
     </hotspots>
 
     <triggerMarkers>
-        <triggerMarker node="unloadMarker" adjustToGround="true" filename="$data/shared/assets/marker/markerIconUnload.i3d" />
+        <triggerMarker node="unloadMarker"  filename="$data/shared/assets/marker/markerIconUnload.i3d" adjustToGround="true" />
         <triggerMarker node="woodActivationTriggerMarker" filename="$data/shared/assets/marker/markerIconExclamationMark.i3d" adjustToGround="true" />
     </triggerMarkers>
 

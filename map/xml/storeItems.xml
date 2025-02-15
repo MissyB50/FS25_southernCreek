@@ -4,6 +4,11 @@
 <!-- PRODUCTION POINTS -->
     <storeItem xmlFilename="map/placeables/bga/bga.xml" /> 
     <storeItem xmlFilename="map/placeables/bga/bga250.xml"/>
+    <storeItem xmlFilename="map/placeables/sellingStation/raisinFactory.xml" />
+    <storeItem xmlFilename="$data/placeables/mapAS/bakeryAS/bakeryAS.xml" />
+    <storeItem xmlFilename="$data/placeables/mapEU/preservedFoodFactory/preservedFoodFactory.xml" />
+    <storeItem xmlFilename="$data/placeables/mapAS/carpenterAS/carpenterAS.xml" />
+    <storeItem xmlFilename="map/placeables/sellingStation/raisinFactory.xml" />
 
 
 
@@ -14,12 +19,25 @@
     <storeItem xmlFilename="map/placeables/sellingStation/mainSiloTrain.xml" /> <!-- siloTrain-->
     <storeItem xmlFilename="map/placeables/sellingStation/sellingStationTrain.xml" /><!--train triggers-->
     <storeItem xmlFilename="map/placeables/sellingStation/sawmill.xml" />
+    <storeItem xmlFilename="map/placeables/sellingStation/liquidExport.xml" />
+<!--     <storeItem xmlFilename="map/placeables/sellingStation/" /> -->
+
+
+
+
+
+
+
 
 
 
 <!-- BUYING POINTS -->
     <storeItem xmlFilename="map/placeables/buyingStation/manure.xml" />
     <storeItem xmlFilename="map/placeables/buyingStation/slurry.xml" />
+    <storeItem xmlFilename="map/placeables/sellingStation/petrolStation.xml" />
+
+
+
 
 <!-- OTHER -->
     <storeItem xmlFilename="map/placeables/bga/weighingStationSmall.xml" />

@@ -7,18 +7,14 @@
 
   <Files>
     <File fileId="3" filename="$data/shared/default_normal.dds"/>
-    <File fileId="4" filename="$data/shared/default_normal.png"/>
   </Files>
 
 
   <Materials>
     <Material name="lambert1" materialId="5" diffuseColor="0.501961 0.501961 0.501961 1">
     </Material>
-    <Material name="lambert1" materialId="58" diffuseColor="0.501961 0.501961 0.501961 1">
+    <Material name="lambert1" materialId="6" diffuseColor="0.501961 0.501961 0.501961 1">
       <Normalmap fileId="3"/>
-    </Material>
-    <Material name="lambert2_mat" materialId="6" diffuseColor="0.501961 0.501961 0.501961 1">
-      <Normalmap fileId="4"/>
     </Material>
     <Material name="UnnamedMaterial" materialId="7" diffuseColor="1 1 1 1">
     </Material>
@@ -50,7 +46,7 @@
         <TransformGroup name="playerTriggerMarker" translation="42 1 11" nodeId="33"/>
       </TransformGroup>
       <TransformGroup name="palletSpawner" nodeId="34">
-        <TransformGroup name="palletAreaStart01" translation="64.4468 0 -30.8255" nodeId="35">
+        <TransformGroup name="palletAreaStart01" translation="64.4468 0 -30.8255" rotation="0 15 0" nodeId="35">
           <TransformGroup name="palletAreaEnd01" translation="30.7879 0 8.4" nodeId="36"/>
         </TransformGroup>
         <TransformGroup name="palletAreaStart02" translation="64.6309 0 -15.462" rotation="0 15 0" nodeId="37">
@@ -73,8 +69,8 @@
         <Shape name="loadingTrigger" shapeId="7" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40000000" nodeId="48" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
         <TransformGroup name="dischargeNode" nodeId="49"/>
         <TransformGroup name="dischargeEffect" nodeId="50">
-          <Shape name="woodchipPipeEffect" shapeId="8" nodeId="57" castsShadows="true" receiveShadows="true" materialIds="58"/>
-          <Shape name="pipeEffectSmoke" translation="0 -4 0" shapeId="9" clipDistance="100" nodeId="52" castsShadows="true" receiveShadows="true" materialIds="6"/>
+          <Shape name="woodchipPipeEffect" shapeId="8" nodeId="51" castsShadows="false" receiveShadows="false" nonRenderable="true" renderedInViewports="false" materialIds="6"/>
+          <Shape name="pipeEffectSmoke" translation="0 -4 0" shapeId="9" clipDistance="1e+07" nodeId="52" castsShadows="true" receiveShadows="true" materialIds="6"/>
         </TransformGroup>
       </TransformGroup>
     </TransformGroup>
