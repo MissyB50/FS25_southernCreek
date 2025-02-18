@@ -5,9 +5,9 @@
         <functions>
             <function>$l10n_function_bunkerSilo</function>
         </functions>
-        <image>$data/placeables/mapAlpine/bunkerSiloBGA/store_bunkerSiloBGA.png</image>
+        <image>map/placeables/bga/store_bunkerSiloBGA.png</image>
         <price>65000</price>
-        <dailyUpkeep>60</dailyUpkeep>
+        <dailyUpkeep>0</dailyUpkeep>
         <lifetime>1000</lifetime>
         <rotation>0</rotation>
         <brand>NONE</brand>
@@ -18,20 +18,10 @@
             <category>buildings</category>
             <tab>silos</tab>
         </brush>
-        <vertexBufferMemoryUsage>27392</vertexBufferMemoryUsage>
-        <indexBufferMemoryUsage>4864</indexBufferMemoryUsage>
-        <textureMemoryUsage>1638400</textureMemoryUsage>
-        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
-        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
-
-        <storeIconRendering>
-            <settings cameraXRot="-25" advancedBoundingBox="true"/>
-        </storeIconRendering>
-        <audioMemoryUsage>0</audioMemoryUsage>
     </storeData>
 
     <base>
-        <filename>$data/placeables/mapAlpine/bunkerSiloBGA/bunkerSiloBGA.i3d</filename>
+        <filename>map/placeables/bga/bunkerSiloBGA.i3d</filename>
     </base>
 
     <placement useRandomYRotation="false" useManualYRotation="true" placementPositionSnapSize="0.5" placementRotationSnapAngle="90" >
