@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="waterMill.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.3"/>
+  </Asset>
+
+  <Files>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="179" diffuseColor="0.501961 0.501961 0.501961 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="waterMill.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="waterMill" translation="-377.295 81.7807 692.668" rotation="0 -130 0" nodeId="46622">
+      <TransformGroup name="tipOcclusionUpdateAreas" nodeId="46623">
+        <TransformGroup name="tipOcclusionUpdateAreaStart01" translation="-20.2404 0 18" nodeId="46624">
+          <TransformGroup name="tipOcclusionUpdateAreaEnd01" translation="38 0 -36" nodeId="46625"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape name="infoTrigger" shapeId="1" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" nodeId="46626" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="179"/>
+      <TransformGroup name="sellingStation" nodeId="46627">
+        <Shape name="unloadTrigger" translation="23 0 -5" shapeId="2" kinematic="true" compound="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="46628" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="179"/>
+        <TransformGroup name="unloadTriggerMarker" translation="23 0 -5" nodeId="46629"/>
+        <TransformGroup name="unloadTriggerAINode" translation="23 0 -5" nodeId="46630"/>
+      </TransformGroup>
+      <TransformGroup name="palletSpawner" nodeId="46632">
+        <TransformGroup name="palletAreaStart01" translation="1.94598 0.0130768 23.4841" rotation="-0 90 0" nodeId="46633">
+          <TransformGroup name="palletAreaEnd01" translation="15.5 0 -3.12924e-07" nodeId="46634"/>
+        </TransformGroup>
+        <TransformGroup name="palletAreaStart01" translation="3.36697 0.0130768 23.4841" rotation="-0 90 0" nodeId="46985">
+          <TransformGroup name="palletAreaEnd01" translation="15.5 0 0" nodeId="46986"/>
+        </TransformGroup>
+        <TransformGroup name="palletAreaStart01" translation="4.91119 0.0130768 23.4841" rotation="-0 90 0" nodeId="46987">
+          <TransformGroup name="palletAreaEnd01" translation="15.5 0 0" nodeId="46988"/>
+        </TransformGroup>
+        <TransformGroup name="palletAreaStart01" translation="6.3767 0.0130768 23.4841" rotation="-0 90 0" nodeId="46989">
+          <TransformGroup name="palletAreaEnd01" translation="15.5 0 0" nodeId="46990"/>
+        </TransformGroup>
+        <TransformGroup name="palletAreaStart01" translation="7.79991 0.0130768 23.4841" rotation="-0 90 0" nodeId="46991">
+          <TransformGroup name="palletAreaEnd01" translation="15.5 0 0" nodeId="46992"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="productionPoint" nodeId="46643">
+        <Shape name="playerTrigger" translation="1 0 5.5" shapeId="3" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" nodeId="46644" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="179"/>
+        <TransformGroup name="playerTriggerMarker" translation="1 0 5.5" nodeId="46645"/>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

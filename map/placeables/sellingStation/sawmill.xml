@@ -51,7 +51,9 @@
     <triggerMarkers>
         <triggerMarker node="playerTriggerMarker" filename="$data/shared/assets/marker/markerIconWrench.i3d" adjustToGround="true"/>
         <triggerMarker node="unloadTriggerMarker" filename="$data/shared/assets/marker/markerIconUnload.i3d" adjustToGround="true"/>
+        <triggerMarker node="unloadTriggerMarkerWC" filename="$data/shared/assets/marker/markerIconUnload.i3d" adjustToGround="true"/>
         <triggerMarker node="woodSellActivationTriggerMarker" filename="$data/shared/assets/marker/markerIconExclamationMark.i3d" adjustToGround="true"/>
+        <triggerMarker node="loadTriggerMarker" filename="$data/shared/assets/marker/markerIconLoad.i3d" adjustToGround="true"/>
     </triggerMarkers>
 
     <productionPoint>
@@ -107,24 +109,23 @@
 
         <sellingStation node="sellingStation" supportsExtension="false">
             <woodTrigger fillTypes="WOOD" aiNode="unloadTriggerAINode" triggerNode="unloadTriggerWood" activationTriggerNode="woodSellActivationTrigger"/>
-            <unloadTrigger exactFillRootNode="exactFillNode" fillTypes="WOODCHIPS STRAW WOOD" aiNode="unloadTriggerAINode" />
-            <baleTrigger triggerNode="baleTrigger" deleteLitersPerSecond="10000" fillTypes="WOOD WOODCHIPS STRAW ROUNDBALE_WOOD ROUNDBALE SQUAREBALE" aiNode="unloadTriggerAINode" />
+            <unloadTrigger exactFillRootNode="exactFillNode" fillTypes="WOODCHIPS WOOD" aiNode="unloadTriggerAINode" />
+            <baleTrigger triggerNode="baleTrigger" deleteLitersPerSecond="10000" fillTypes="WOOD WOODCHIPS ROUNDBALE_WOOD ROUNDBALE SQUAREBALE" aiNode="unloadTriggerAINode" />
         </sellingStation>
 
         <loadingStation node="loadingStation" supportsExtension="false">
             <loadTrigger triggerNode="loadingTrigger" fillLitersPerSecond="1000" dischargeNode="dischargeNode" fillTypes="WOODCHIPS">
-<!--                 <effectNode effectClass="PipeEffect" effectNode="pipeEffect"      materialType="pipe"           fadeTime="0.5" maxBending="0" shapeScaleSpread="1 1 1 0" controlPoint="7.25 0 0 0"/> -->
-                <effectNode                          effectNode="pipeEffectSmoke" materialType="unloadingSmoke" fadeTime="0.5" />
+                <effectNode effectClass="PipeEffect" effectNode="pipeEffect" materialType="pipe" fadeTime="0.5" maxBending="0" shapeScaleSpread="1 1 1 0" controlPoint="7.25 0 0 0"/>
+                <effectNode effectNode="pipeEffectSmoke" materialType="unloadingSmoke" fadeTime="0.5" />
             </loadTrigger>
         </loadingStation>
 
         <palletSpawner>
             <spawnPlaces>
-                <spawnPlace startNode="spawnSpaceWoodbeamsStart01" endNode="spawnSpaceWoodbeamsEnd01" fillTypes="WOODBEAM" />
-                <spawnPlace startNode="spawnSpacePlanksStart01"    endNode="spawnSpacePlanksEnd01"    fillTypes="PLANKS" />
-                <spawnPlace startNode="spawnSpaceBoardsStart01"    endNode="spawnSpaceBoardsEnd01"    fillTypes="BOARDS" />
-                <spawnPlace startNode="spawnSpaceFurnitureStart01" endNode="spawnSpaceFurnitureEnd01" fillTypes="FURNITURE" />
-                <spawnPlace startNode="spawnSpacePrefabWallStart01" endNode="spawnSpacePrefabWallEnd01" fillTypes="PREFABWALL" />
+                <spawnPlace startNode="spawnSpaceWoodbeamsStart01" endNode="spawnSpaceWoodbeamsEnd01" fillTypes="WOODBEAM" palletRotationOffset="0"/>
+                <spawnPlace startNode="spawnSpacePlanksStart01"    endNode="spawnSpacePlanksEnd01"    fillTypes="PLANKS" palletRotationOffset="0"/>
+                <spawnPlace startNode="spawnSpaceBoardsStart01"    endNode="spawnSpaceBoardsEnd01"    fillTypes="BOARDS" palletRotationOffset="90"/>
+                <spawnPlace startNode="spawnSpacePrefabWallStart01" endNode="spawnSpacePrefabWallEnd01" fillTypes="PREFABWALL" palletRotationOffset="90"/>
             </spawnPlaces>
         </palletSpawner>
 
@@ -149,11 +150,15 @@
         <i3dMapping id="sellingStation" node="0>2" />
         <i3dMapping id="woodSellActivationTrigger" node="0>2|0" />
         <i3dMapping id="unloadTriggerWood" node="0>2|1" />
-        <i3dMapping id="unloadTriggerMarker" node="0>2|2" />
-        <i3dMapping id="unloadTriggerAINode" node="0>2|3" />
-        <i3dMapping id="woodSellActivationTriggerMarker" node="0>2|4" />
-        <i3dMapping id="exactFillNode" node="0>2|5"/>
-        <i3dMapping id="baleTrigger" node="0>2|6"/>
+        <i3dMapping id="exactFillNode" node="0>2|2"/>
+        <i3dMapping id="baleTrigger" node="0>2|3"/>
+        <i3dMapping id="unloadTriggerMarker" node="0>2|4" />
+        <i3dMapping id="unloadTriggerAINode" node="0>2|5" />
+        <i3dMapping id="woodSellActivationTriggerMarker" node="0>2|6" />
+        <i3dMapping id="unloadTriggerMarkerWC" node="0>2|7" />
+        <i3dMapping id="loadTriggerMarker" node="0>2|8" />
+
+
         <i3dMapping id="playerTrigger" node="0>3|0" />
         <i3dMapping id="playerTriggerMarker" node="0>3|1" />
         <i3dMapping id="palletSpawner" node="0>4" />
@@ -163,10 +168,8 @@
         <i3dMapping id="spawnSpacePlanksEnd01" node="0>4|1|0" />
         <i3dMapping id="spawnSpaceBoardsStart01" node="0>4|2" />
         <i3dMapping id="spawnSpaceBoardsEnd01" node="0>4|2|0" />
-        <i3dMapping id="spawnSpaceFurnitureStart01" node="0>4|3" />
-        <i3dMapping id="spawnSpaceFurnitureEnd01" node="0>4|3|0" />
-        <i3dMapping id="spawnSpacePrefabWallStart01" node="0>4|4" />
-        <i3dMapping id="spawnSpacePrefabWallEnd01" node="0>4|4|0" />
+        <i3dMapping id="spawnSpacePrefabWallStart01" node="0>4|3" />
+        <i3dMapping id="spawnSpacePrefabWallEnd01" node="0>4|3|0" />
         <i3dMapping id="loadingStation" node="0>5" />
         <i3dMapping id="loadingTrigger" node="0>5|0" />
         <i3dMapping id="dischargeNode" node="0>5|1" />

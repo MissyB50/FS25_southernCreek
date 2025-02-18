@@ -9,7 +9,7 @@
     <storeItem xmlFilename="$data/placeables/mapEU/preservedFoodFactory/preservedFoodFactory.xml" />
     <storeItem xmlFilename="$data/placeables/mapAS/carpenterAS/carpenterAS.xml" />
     <storeItem xmlFilename="map/placeables/sellingStation/raisinFactory.xml" />
-
+    <storeItem xmlFilename="map/placeables/sellingStation/spinnery.xml" />
 
 
 <!--     <storeItem xmlFilename="map/placeables/sellingStation/" /> -->
@@ -35,12 +35,14 @@
     <storeItem xmlFilename="map/placeables/buyingStation/manure.xml" />
     <storeItem xmlFilename="map/placeables/buyingStation/slurry.xml" />
     <storeItem xmlFilename="map/placeables/sellingStation/petrolStation.xml" />
-
+    <storeItem xmlFilename="map/placeables/buyingStation/warehouse.xml" />
 
 
 
 <!-- OTHER -->
     <storeItem xmlFilename="map/placeables/bga/weighingStationSmall.xml" />
+    <storeItem xmlFilename="map/placeables/bga/bunkerSiloBGA.xml" />
+
 
 
 

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="productionPoint" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/placeable.xsd">
+    <storeData>
+        <name>$l10n_station_us_grainMill</name>
+        <image>$data/store/store_empty.png</image>
+        <price>288000</price>
+        <showInStore>false</showInStore>
+        <canBeSold>true</canBeSold>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>NONE</brand>
+        <species>PLACEABLE</species>
+        <category>productionPoints</category>
+        <vertexBufferMemoryUsage>0</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>0</indexBufferMemoryUsage>
+        <textureMemoryUsage>0</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+
+    <base>
+        <filename>$data/placeables/mapAS/grainFlourMillAS/grainFlourMillAS.i3d</filename>
+        <canBeRenamed>true</canBeRenamed>
+        <canBeDeleted>false</canBeDeleted>
+    </base>
+
+    <placement useRandomYRotation="false" useManualYRotation="true" />
+
+    <clearAreas></clearAreas>
+
+    <leveling></leveling>
+
+    <indoorAreas>
+        <indoorArea startNode="indoorAreaStart01" widthNode="indoorAreaWidth01" heightNode="indoorAreaHeight01"/>
+        <indoorArea startNode="indoorAreaStart02" widthNode="indoorAreaWidth02" heightNode="indoorAreaHeight02"/>
+    </indoorAreas>
+
+    <ai>
+        <updateAreas>
+            <updateArea startNode="tipOcclusionUpdateAreaStart01" endNode="tipOcclusionUpdateAreaEnd01" />
+        </updateAreas>
+    </ai>
+
+    <infoTrigger triggerNode="infoTrigger"/>
+
+    <hotspots>
+        <hotspot type="PRODUCTION_POINT" linkNode="unloadTriggerMarker" teleportNode="playerTriggerMarker" />
+    </hotspots>
+
+    <dynamicallyLoadedParts>
+        <dynamicallyLoadedPart filename="$data/placeables/shared/sellingStationGeneric/sellingStationGenericNoCover.i3d" linkNode="unloadTriggerLinkNode"/>
+        <dynamicallyLoadedPart filename="$data/placeables/mapAS/grainFlourMillAS/grainFlourMillASProps.i3d" node="0" linkNode="props"/>
+    </dynamicallyLoadedParts>
+
+    <triggerMarkers>
+        <triggerMarker node="warningStripes01"/>
+        <triggerMarker node="unloadTriggerMarker" filename="$data/shared/assets/marker/markerIconUnload.i3d" adjustToGround="true"/>
+        <triggerMarker node="playerTriggerMarker" filename="$data/shared/assets/marker/markerIconWrench.i3d" adjustToGround="true"/>
+    </triggerMarkers>
+
+    <productionPoint>
+        <productions sharedThroughputCapacity="false">
+            <production id="flourWheat" name="%s %s" params="$l10n_fillType_wheat|$l10n_fillType_flour" cyclesPerHour="105" costsPerActiveHour="1">
+                <inputs>
+                    <input fillType="WHEAT" amount="5" />
+                </inputs>
+                <outputs>
+                    <output fillType="FLOUR" amount="4" />
+                </outputs>
+            </production>
+            <production id="flourBarley" name="%s %s" params="$l10n_fillType_barley|$l10n_fillType_flour" cyclesPerHour="20" costsPerActiveHour="1">
+                <inputs>
+                    <input fillType="BARLEY" amount="30" />
+                </inputs>
+                <outputs>
+                    <output fillType="FLOUR" amount="22" />
+                </outputs>
+            </production>
+            <production id="flourOat" name="%s %s"  params="$l10n_fillType_oat|$l10n_fillType_flour" cyclesPerHour="50" costsPerActiveHour="1">
+                <inputs>
+                    <input fillType="OAT" amount="15" />
+                </inputs>
+                <outputs>
+                    <output fillType="FLOUR" amount="15" />
+                </outputs>
+            </production>
+            <production id="flourSorghum" name="%s %s"  params="$l10n_fillType_sorghum|$l10n_fillType_flour" cyclesPerHour="50" costsPerActiveHour="1">
+                <inputs>
+                    <input fillType="SORGHUM" amount="15" />
+                </inputs>
+                <outputs>
+                    <output fillType="FLOUR" amount="13" />
+                </outputs>
+            </production>
+            <production id="flourRiceLongGrain" name="%s (%s)"  params="$l10n_fillType_riceFlour|$l10n_fillType_riceLongGrain" cyclesPerHour="30" costsPerActiveHour="2">
+                <inputs>
+                    <input fillType="RICELONGGRAIN" amount="15" />
+                </inputs>
+                <outputs>
+                    <output fillType="RICEFLOUR" amount="13" />
+                </outputs>
+            </production>
+            <production id="flourRice" name="%s (%s)"  params="$l10n_fillType_riceFlour|$l10n_fillType_rice" cyclesPerHour="30" costsPerActiveHour="1">
+                <inputs>
+                    <input fillType="RICE" amount="9" />
+                </inputs>
+                <outputs>
+                    <output fillType="RICEFLOUR" amount="15" />
+                </outputs>
+            </production>
+        </productions>
+
+        <storage isExtension="false" fillLevelSyncThreshold="50">
+            <capacity fillType="WHEAT"         capacity="126000" />
+            <capacity fillType="BARLEY"        capacity="144000" />
+            <capacity fillType="OAT"           capacity="180000" />
+            <capacity fillType="SORGHUM"       capacity="180000" />
+            <capacity fillType="RICELONGGRAIN" capacity="108000" />
+            <capacity fillType="RICE"          capacity="65000" />
+            <capacity fillType="FLOUR"         capacity="60000" />
+            <capacity fillType="RICEFLOUR"     capacity="60000" />
+        </storage>
+
+        <sellingStation node="sellingStationProduction" supportsExtension="false">
+            <unloadTrigger exactFillRootNode="unloadTrigger" aiNode="unloadTriggerAINode" fillTypes="WHEAT BARLEY OAT SORGHUM RICELONGGRAIN RICE"/>
+        </sellingStation>
+
+        <palletSpawner>
+            <spawnPlaces>
+                <spawnPlace startNode="palletAreaStart01" endNode="palletAreaEnd01"/>
+                <spawnPlace startNode="palletAreaStart02" endNode="palletAreaEnd02"/>
+                <spawnPlace startNode="palletAreaStart03" endNode="palletAreaEnd03"/>
+                <spawnPlace startNode="palletAreaStart04" endNode="palletAreaEnd04"/>
+                <spawnPlace startNode="palletAreaStart05" endNode="palletAreaEnd05"/>
+            </spawnPlaces>
+        </palletSpawner>
+
+        <playerTrigger node="playerTrigger" />
+    </productionPoint>
+
+    <i3dMappings>
+        <i3dMapping id="indoorAreaStart01" node="0>0|0" />
+        <i3dMapping id="indoorAreaWidth01" node="0>0|0|0" />
+        <i3dMapping id="indoorAreaHeight01" node="0>0|0|1" />
+        <i3dMapping id="indoorAreaStart02" node="0>0|1" />
+        <i3dMapping id="indoorAreaWidth02" node="0>0|1|0" />
+        <i3dMapping id="indoorAreaHeight02" node="0>0|1|1" />
+        <i3dMapping id="tipOcclusionUpdateAreaStart01" node="0>1|0" />
+        <i3dMapping id="tipOcclusionUpdateAreaEnd01" node="0>1|0|0" />
+        <i3dMapping id="infoTrigger" node="0>2" />
+        <i3dMapping id="sellingStation" node="0>3" />
+        <i3dMapping id="unloadTrigger" node="0>3|0" />
+        <i3dMapping id="unloadTriggerMarker" node="0>3|1" />
+        <i3dMapping id="unloadTriggerAINode" node="0>3|2" />
+        <i3dMapping id="unloadTriggerLinkNode" node="0>3|3" />
+        <i3dMapping id="palletSpawner" node="0>4" />
+        <i3dMapping id="palletAreaStart01" node="0>4|0" />
+        <i3dMapping id="palletAreaEnd01" node="0>4|0|0" />
+        <i3dMapping id="palletAreaStart02" node="0>4|1" />
+        <i3dMapping id="palletAreaEnd02" node="0>4|1|0" />
+        <i3dMapping id="palletAreaStart03" node="0>4|2" />
+        <i3dMapping id="palletAreaEnd03" node="0>4|2|0" />
+        <i3dMapping id="palletAreaStart04" node="0>4|3" />
+        <i3dMapping id="palletAreaEnd04" node="0>4|3|0" />
+        <i3dMapping id="palletAreaStart05" node="0>4|4" />
+        <i3dMapping id="palletAreaEnd05" node="0>4|4|0" />
+        <i3dMapping id="playerTrigger" node="0>5|0" />
+        <i3dMapping id="playerTriggerMarker" node="0>5|1" />
+        <i3dMapping id="warningStripes01" node="0>6|0" />
+        <i3dMapping id="props" node="0>7|0" />
+    </i3dMappings>
+</placeable>

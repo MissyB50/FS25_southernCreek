@@ -24,8 +24,9 @@
     </hotspots>
 
     <buyingStation node="0" supportsExtension="false" >
-        <loadTrigger triggerNode="0" fillTypes="DIESEL DEF" fillLitersPerSecond="80" infiniteCapacity="false" capacity="1000000" startFillText="$l10n_action_refuel" stopFillText="$l10n_action_stopRefuel"/>
+        <loadTrigger triggerNode="0" fillTypes="DIESEL DEF" fillLitersPerSecond="80" infiniteCapacity="true" startFillText="$l10n_action_refuel" stopFillText="$l10n_action_stopRefuel"/>
         <fillType name="diesel" priceScale="1" />
+        <fillType name="DEF" priceScale="0.60"/>
     </buyingStation>
 
     <clearAreas></clearAreas>

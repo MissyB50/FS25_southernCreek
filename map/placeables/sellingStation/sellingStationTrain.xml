@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <placeable type="sellingStation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../shared/xml/schema/placeable.xsd">
     <storeData>
-        <name>$l10n_station_trainOtherTown</name>
+        <name>
+		    <en>Chislet</en>
+		</name>
         <image>$data/store/store_empty.png</image>
         <price>0</price>
         <canBeSold>false</canBeSold>
@@ -32,8 +34,8 @@
     </ai>
 
     <hotspots>
-        <hotspot type="UNLOADING_TRAIN" worldPosition="-1005.4 -952" text="$l10n_station_Riverside"/>
-        <hotspot type="UNLOADING_TRAIN" worldPosition="998.8 -908" text="$l10n_station_Chislet"/>
+        <hotspot type="UNLOADING_TRAIN" worldPosition="-1005.4 -952" text="Riverside"/>
+        <hotspot type="UNLOADING_TRAIN" worldPosition="998.8 -908" text="Chislet"/>
     </hotspots>
 
     <sellingStation litersForFullPriceDrop="200000" fullPriceRecoverHours="48" allowMissions="false" isTrainStation="true">
@@ -41,9 +43,6 @@
         <woodTrigger triggerNode="1" trainSystemId="trainSystem" autoUnload="true" fillTypeCategories="TRAINWAGON SELLINGSTATION_PRODUCTS SELLINGSTATION_PRODUCTSFOOD SELLINGSTATION_WOOD" priceScale="1.15"/> <!--east-->    <!-- TODO: code only loads one woodTrigger -->
         <palletTrigger triggerNode="2" autoUnload="true" autoUnloadStrapped="true" fillTypeCategories="TRAINWAGON SELLINGSTATION_PRODUCTS SELLINGSTATION_PRODUCTSFOOD SELLINGSTATION_WOOD" priceScale="1.15" /> <!--west-->
         <palletTrigger triggerNode="3" autoUnload="true" autoUnloadStrapped="true" fillTypeCategories="TRAINWAGON SELLINGSTATION_PRODUCTS SELLINGSTATION_PRODUCTSFOOD SELLINGSTATION_WOOD" priceScale="1.15" /> <!--east-->
-
-
         <fillType name="WOOD"  priceScale="0.85" supportsGreatDemand="true" disablePriceDrop="false" />
-        <fillType name="SEEDS" priceScale="0.38" supportsGreatDemand="true" disablePriceDrop="false" />
     </sellingStation>
 </placeable>

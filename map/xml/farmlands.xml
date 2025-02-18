@@ -8,11 +8,11 @@
         <farmland id="5" priceScale="1" npcName="ANIMAL_DEALER" /> 
         <farmland id="6" priceScale="1" npcName="FORESTER" />
         <farmland id="7" priceScale="1" npcName="ANIMAL_DEALER" />
-        <!-- <farmland id="8" priceScale="1" npcName="FARMER" /> -->
-        <!-- <farmland id="9" priceScale="1" npcName="ANIMAL_DEALER" /> -->
-        <!-- <farmland id="10" priceScale="1" npcName="ANIMAL_DEALER" /> -->
-        <!-- <farmland id="11" priceScale="1" npcName="FARMER" /> -->
-        <!-- <farmland id="12" priceScale="1" npcName="FORESTER" /> -->
+        <farmland id="8" priceScale="1" npcName="FORESTER" />
+        <farmland id="9" priceScale="1" npcName="ANIMAL_DEALER" />
+        <farmland id="10" priceScale="1" npcName="ANIMAL_DEALER" />
+        <farmland id="11" priceScale="1" npcName="FARMER" />
+        <farmland id="12" priceScale="1" npcName="FORESTER" />
         <!-- <farmland id="13" priceScale="1" npcName="FARMER" /> -->
         <!-- <farmland id="14" priceScale="1" npcName="HELPER" /> -->
         <!-- <farmland id="15" priceScale="1" npcName="HELPER" /> -->

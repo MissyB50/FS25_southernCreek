@@ -24,7 +24,9 @@
         <customImage filename="$data/placeables/mapAS/bakeryAS/mapIcon_bakeryAS.dds"/>
     </placeable>
 
-
+    <placeable filename="$mapdir$/map/placeables/sellingStation/spinnery.xml" position="-189.2 81.922 936.503" rotation="0 0 0">
+        <customImage filename="$mapdir$/map/placeables/store/mapIcon_spinnery.dds"/>
+    </placeable>
 
 
 <!-- BUYPOINTS  -->
@@ -32,11 +34,18 @@
 
     <placeable filename="$mapdir$/map/placeables/buyingStation/slurry.xml" position="-310.4 81.794 534.577" rotation="0 -50.3 0"/>
 
-
-
     <placeable filename="$mapdir$/map/placeables/sellingStation/petrolStation.xml" position="-487.283 81.794 534.252" rotation="0 45 0">
         <customImage filename="$mapdir$/map/placeables/store/mapIcon_ps.dds"/>
     </placeable>
+
+    <placeable filename="$mapdir$/map/placeables/buyingStation/warehouse.xml" position="994.147 89.45 988.43" rotation="0 -90 0">
+        <customImage filename="$mapdir$/map/placeables/store/mapIcon_warehouse.dds"/>
+    </placeable>
+
+
+
+
+
 
 <!-- SELLPOINTS-->
     <placeable filename="$mapdir$/map/placeables/sellingStation/animalDealer.xml" position="-304.493 81.902 583.629" rotation="0 -47.6 0">
@@ -49,7 +58,7 @@
     <placeable filename="$mapdir$/map/placeables/sellingStation/sellingStationTrain.xml" uniqueId="sellingStationTrain01" position="0 0 0" rotation="0 0 0" />
 
 
-    <placeable filename="$mapdir$/map/placeables/sellingStation/liquidExport.xml" position="-836.889 93.5 887" rotation="0 0 0">
+    <placeable filename="$mapdir$/map/placeables/sellingStation/liquidExport.xml" position="-836.889 93.5 -887" rotation="0 0 0">
         <customImage filename="$mapdir$/map/placeables/store/mapIcon_export.dds"/>
     </placeable>
 
@@ -67,6 +76,12 @@
     <placeable filename="$data/placeables/planET/bgaBunkerSilo/bgaBunkerSilo.xml" position="93.461 81.794 666.675" rotation="0 180 0"/>
     <placeable filename="$data/placeables/planET/bgaBunkerSilo/bgaBunkerSilo.xml" position="58.837 81.794 666.675" rotation="0 180 0"/>
 
+    <placeable filename="$mapdir$/map/placeables/bga/bunkerSiloBGA.xml" position="-716.096 81.794 419.251" rotation="0 90 0"/>
+    <placeable filename="$mapdir$/map/placeables/bga/bunkerSiloBGA.xml" position="-716.096 81.794 406.251" rotation="0 90 0"/>
+    <placeable filename="$mapdir$/map/placeables/bga/bunkerSiloBGA.xml" position="-716.096 81.794 393.243" rotation="0 90 0"/>
+
+
+
 
 <!-- fences/Hedges-->
 
@@ -82,6 +97,74 @@
             <segment start="-550.615 94.465 -905.933" end="-549.574 98.838 -847.542" id="SEGMENT"/>
         </newFence>
     </placeable>
+
+    <placeable filename="data/placeables/brandless/fences/husbandries/level03/fencesFarmLevel03.xml" uniqueId="placeablea48dfcffd4b87d1b4f1d949e51a7eebf" position="0.000 -151.000 0.000" rotation="0.00 -0.00 0.00" age="0.000000" price="100.000000" farmId="1">
+        <newFence>
+            <segment start="-935.541 81.794 910.291" end="-941.539 81.794 910.148" id="GATE6m">
+                <animatedObject id="door01" time="0.000000" direction="0"/>
+            </segment>
+            <segment start="-941.539 81.794 910.148" end="-946.250 81.794 909.750" id="SEGMENT"/>
+            <segment start="-946.250 81.794 909.750" end="-953.750 81.794 909.500" id="SEGMENT"/>
+            <segment start="-953.750 81.794 909.500" end="-974.500 81.831 909.750" id="SEGMENT"/>
+            <segment start="-974.500 81.831 909.750" end="-978.250 81.887 910.500" id="SEGMENT"/>
+            <segment start="-978.250 81.887 910.500" end="-985.000 82.052 912.250" id="SEGMENT"/>
+            <segment start="-985.000 82.052 912.250" end="-990.500 82.279 915.250" id="SEGMENT"/>
+            <segment start="-990.500 82.279 915.250" end="-997.000 82.617 918.500" id="SEGMENT"/>
+            <segment start="-997.000 82.617 918.500" end="-1002.750 83.033 923.750" id="SEGMENT"/>
+            <segment start="-1002.750 83.033 923.750" end="-1007.000 83.432 931.250" id="SEGMENT"/>
+            <segment start="-1007.000 83.432 931.250" end="-1010.500 83.894 940.750" id="SEGMENT"/>
+            <segment start="-1010.500 83.894 940.750" end="-1011.750 84.253 948.250" id="SEGMENT"/>
+            <segment start="-1011.750 84.253 948.250" end="-1013.750 84.629 954.250" id="SEGMENT"/>
+            <segment start="-1013.750 84.629 954.250" end="-1012.750 85.196 963.750" id="SEGMENT"/>
+            <segment start="-1012.750 85.196 963.750" end="-1011.500 86.152 975.500" id="SEGMENT"/>
+            <segment start="-1011.500 86.152 975.500" end="-1005.000 87.177 987.500" id="SEGMENT"/>
+            <segment start="-1005.000 87.177 987.500" end="-994.750 87.652 995.000" id="SEGMENT"/>
+            <segment start="-994.750 87.652 995.000" end="-982.000 87.619 998.500" id="SEGMENT"/>
+            <segment start="-982.000 87.619 998.500" end="-947.250 86.702 997.250" id="SEGMENT"/>
+            <segment start="-947.250 86.702 997.250" end="-931.750 86.412 996.250" id="SEGMENT"/>
+            <segment start="-931.750 86.412 996.250" end="-917.750 86.956 1001.250" id="SEGMENT"/>
+            <segment start="-917.750 86.956 1001.250" end="-904.500 86.815 1001.500" id="SEGMENT"/>
+            <segment start="-904.500 86.815 1001.500" end="-891.500 86.496 1000.000" id="SEGMENT"/>
+            <segment start="-891.500 86.496 1000.000" end="-887.500 86.268 998.250" id="SEGMENT"/>
+            <segment start="-887.500 86.268 998.250" end="-876.250 86.079 997.250" id="SEGMENT"/>
+            <segment start="-876.250 86.079 997.250" end="-870.000 85.848 995.500" id="SEGMENT"/>
+            <segment start="-870.000 85.848 995.500" end="-852.750 85.585 994.500" id="SEGMENT"/>
+            <segment start="-852.750 85.585 994.500" end="-843.000 85.409 994.000" id="SEGMENT"/>
+            <segment start="-843.000 85.409 994.000" end="-828.250 85.482 996.750" id="SEGMENT"/>
+            <segment start="-828.250 85.482 996.750" end="-815.250 85.406 998.000" id="SEGMENT"/>
+            <segment start="-815.250 85.406 998.000" end="-801.500 84.930 996.000" id="SEGMENT"/>
+            <segment start="-801.500 84.930 996.000" end="-795.250 84.446 992.500" id="SEGMENT"/>
+            <segment start="-795.250 84.446 992.500" end="-788.250 83.612 984.750" id="SEGMENT"/>
+            <segment start="-788.250 83.612 984.750" end="-784.000 82.982 977.250" id="SEGMENT"/>
+            <segment start="-784.000 82.982 977.250" end="-782.750 82.433 968.500" id="SEGMENT"/>
+            <segment start="-782.750 82.433 968.500" end="-782.000 82.004 958.250" id="SEGMENT"/>
+            <segment start="-782.000 82.004 958.250" end="-782.750 81.803 947.750" id="SEGMENT"/>
+            <segment start="-782.750 81.803 947.750" end="-788.500 81.794 936.000" id="SEGMENT"/>
+            <segment start="-788.500 81.794 936.000" end="-795.250 81.794 928.250" id="SEGMENT"/>
+            <segment start="-795.250 81.794 928.250" end="-800.500 81.794 921.000" id="SEGMENT"/>
+            <segment start="-800.500 81.794 921.000" end="-807.000 81.794 915.000" id="SEGMENT"/>
+            <segment start="-807.000 81.794 915.000" end="-812.750 81.794 910.500" id="SEGMENT"/>
+            <segment start="-812.750 81.794 910.500" end="-818.250 81.794 906.500" id="SEGMENT"/>
+            <segment start="-818.250 81.794 906.500" end="-834.500 81.794 906.750" id="SEGMENT"/>
+            <segment start="-834.500 81.794 906.750" end="-850.250 81.794 907.500" id="SEGMENT"/>
+            <segment start="-850.250 81.794 907.500" end="-855.250 81.794 908.750" id="SEGMENT"/>
+            <segment start="-855.250 81.794 908.750" end="-861.750 81.794 910.500" id="SEGMENT"/>
+            <segment start="-861.750 81.794 910.500" end="-871.750 81.794 910.000" id="SEGMENT"/>
+            <segment start="-871.750 81.794 910.000" end="-877.000 81.794 908.500" id="SEGMENT"/>
+            <segment start="-877.000 81.794 908.500" end="-886.000 81.794 908.000" id="SEGMENT"/>
+            <segment start="-886.000 81.794 908.000" end="-892.250 81.794 909.750" id="SEGMENT"/>
+            <segment start="-892.250 81.794 909.750" end="-897.500 81.794 909.500" id="SEGMENT"/>
+            <segment start="-897.500 81.794 909.500" end="-902.500 81.794 908.000" id="SEGMENT"/>
+            <segment start="-902.500 81.794 908.000" end="-908.500 81.794 907.750" id="SEGMENT"/>
+            <segment start="-908.500 81.794 907.750" end="-914.000 81.794 908.500" id="SEGMENT"/>
+            <segment start="-914.000 81.794 908.500" end="-920.750 81.794 908.500" id="SEGMENT"/>
+            <segment start="-920.750 81.794 908.500" end="-924.250 81.794 907.750" id="SEGMENT"/>
+            <segment start="-924.250 81.794 907.750" end="-929.250 81.794 909.000" id="SEGMENT"/>
+            <segment start="-929.250 81.794 909.000" end="-931.500 81.794 910.000" id="SEGMENT"/>
+            <segment start="-931.500 81.794 910.000" end="-935.541 81.794 910.291" id="SEGMENT"/>
+        </newFence>
+    </placeable>
+
 
 <!-- buildable -->
     <placeable filename="data/placeables/brandless/constructibles/buildableFarmHouse02/buildableFarmHouse02.xml" uniqueId="placeable7e9a0cf9fc438d958916b4c3265f78d0" position="-175.125 82.268 602.445" rotation="180.00 -69.05 180.00" age="0.000000" price="1000.000000" farmId="1">
