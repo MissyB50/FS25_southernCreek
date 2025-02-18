@@ -76,9 +76,9 @@
     <placeable filename="$data/placeables/planET/bgaBunkerSilo/bgaBunkerSilo.xml" position="93.461 81.794 666.675" rotation="0 180 0"/>
     <placeable filename="$data/placeables/planET/bgaBunkerSilo/bgaBunkerSilo.xml" position="58.837 81.794 666.675" rotation="0 180 0"/>
 
-    <placeable filename="$mapdir$/map/placeables/bga/bunkerSiloBGA.xml" position="-716.096 81.794 419.251" rotation="0 90 0"/>
+<!--     <placeable filename="$mapdir$/map/placeables/bga/bunkerSiloBGA.xml" position="-716.096 81.794 419.251" rotation="0 90 0"/>
     <placeable filename="$mapdir$/map/placeables/bga/bunkerSiloBGA.xml" position="-716.096 81.794 406.251" rotation="0 90 0"/>
-    <placeable filename="$mapdir$/map/placeables/bga/bunkerSiloBGA.xml" position="-716.096 81.794 393.243" rotation="0 90 0"/>
+    <placeable filename="$mapdir$/map/placeables/bga/bunkerSiloBGA.xml" position="-716.096 81.794 393.243" rotation="0 90 0"/> -->
 
 
 
