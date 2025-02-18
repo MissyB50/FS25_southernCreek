@@ -9,7 +9,7 @@
     <storeItem xmlFilename="$data/placeables/mapEU/preservedFoodFactory/preservedFoodFactory.xml" />
     <storeItem xmlFilename="$data/placeables/mapAS/carpenterAS/carpenterAS.xml" />
     <storeItem xmlFilename="map/placeables/sellingStation/raisinFactory.xml" />
-    <storeItem xmlFilename="map/placeables/sellingStation/spinnery.xml" />
+<!--     <storeItem xmlFilename="map/placeables/sellingStation/spinnery.xml" /> -->
 
 
 <!--     <storeItem xmlFilename="map/placeables/sellingStation/" /> -->

@@ -24,9 +24,9 @@
         <customImage filename="$data/placeables/mapAS/bakeryAS/mapIcon_bakeryAS.dds"/>
     </placeable>
 
-    <placeable filename="$mapdir$/map/placeables/sellingStation/spinnery.xml" position="-189.2 81.922 936.503" rotation="0 0 0">
+<!--     <placeable filename="$mapdir$/map/placeables/sellingStation/spinnery.xml" position="-189.2 81.922 936.503" rotation="0 0 0">
         <customImage filename="$mapdir$/map/placeables/store/mapIcon_spinnery.dds"/>
-    </placeable>
+    </placeable> -->
 
 
 <!-- BUYPOINTS  -->
