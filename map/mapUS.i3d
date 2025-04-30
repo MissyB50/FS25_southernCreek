@@ -41,16 +41,16 @@
     <File fileId="596" filename="$data/foliage/waterPlants/waterPlants.xml"/>
     <File fileId="622" filename="$data/foliage/weed/weed.xml"/>
     <File fileId="598" filename="$data/foliage/wheat/wheat.xml"/>
-    <File fileId="1420" filename="$data/maps/mapAS/textures/buildings/harborOffice/harborOfficeBricks_diffuse.png"/>
-    <File fileId="1421" filename="$data/maps/mapAS/textures/buildings/harborOffice/harborOfficeBricks_specular.png"/>
-    <File fileId="1222" filename="$data/maps/mapAS/textures/buildings/infrastructure/pierBridge_diffuse.png"/>
-    <File fileId="1225" filename="$data/maps/mapAS/textures/buildings/infrastructure/pierBridge_height.png"/>
-    <File fileId="1223" filename="$data/maps/mapAS/textures/buildings/infrastructure/pierBridge_normal.png"/>
-    <File fileId="1224" filename="$data/maps/mapAS/textures/buildings/infrastructure/pierBridge_specular.png"/>
-    <File fileId="1215" filename="$data/maps/mapAS/textures/buildings/infrastructure/tunnel_diffuse.png"/>
-    <File fileId="1221" filename="$data/maps/mapAS/textures/buildings/infrastructure/tunnel_height.png"/>
-    <File fileId="1216" filename="$data/maps/mapAS/textures/buildings/infrastructure/tunnel_normal.png"/>
-    <File fileId="1217" filename="$data/maps/mapAS/textures/buildings/infrastructure/tunnel_specular.png"/>
+    <File fileId="1424" filename="$data/maps/mapAS/textures/buildings/harborOffice/harborOfficeBricks_diffuse.png"/>
+    <File fileId="1425" filename="$data/maps/mapAS/textures/buildings/harborOffice/harborOfficeBricks_specular.png"/>
+    <File fileId="1224" filename="$data/maps/mapAS/textures/buildings/infrastructure/pierBridge_diffuse.png"/>
+    <File fileId="1227" filename="$data/maps/mapAS/textures/buildings/infrastructure/pierBridge_height.png"/>
+    <File fileId="1225" filename="$data/maps/mapAS/textures/buildings/infrastructure/pierBridge_normal.png"/>
+    <File fileId="1226" filename="$data/maps/mapAS/textures/buildings/infrastructure/pierBridge_specular.png"/>
+    <File fileId="1217" filename="$data/maps/mapAS/textures/buildings/infrastructure/tunnel_diffuse.png"/>
+    <File fileId="1223" filename="$data/maps/mapAS/textures/buildings/infrastructure/tunnel_height.png"/>
+    <File fileId="1218" filename="$data/maps/mapAS/textures/buildings/infrastructure/tunnel_normal.png"/>
+    <File fileId="1219" filename="$data/maps/mapAS/textures/buildings/infrastructure/tunnel_specular.png"/>
     <File fileId="855" filename="$data/maps/mapAS/textures/buildings/palletLoadingWarehouse/palletLoadingWarehouseProps_diffuse.png"/>
     <File fileId="856" filename="$data/maps/mapAS/textures/buildings/palletLoadingWarehouse/palletLoadingWarehouseProps_normal.png"/>
     <File fileId="857" filename="$data/maps/mapAS/textures/buildings/palletLoadingWarehouse/palletLoadingWarehouseProps_specular.png"/>
@@ -59,9 +59,9 @@
     <File fileId="853" filename="$data/maps/mapAS/textures/buildings/palletLoadingWarehouse/palletLoadingWarehouse_mask.png"/>
     <File fileId="851" filename="$data/maps/mapAS/textures/buildings/palletLoadingWarehouse/palletLoadingWarehouse_normal.png"/>
     <File fileId="852" filename="$data/maps/mapAS/textures/buildings/palletLoadingWarehouse/palletLoadingWarehouse_specular.png"/>
-    <File fileId="1336" filename="$data/maps/mapAS/textures/curtains_diffuse.png"/>
-    <File fileId="1337" filename="$data/maps/mapAS/textures/curtains_normal.png"/>
-    <File fileId="1338" filename="$data/maps/mapAS/textures/curtains_specular.png"/>
+    <File fileId="1338" filename="$data/maps/mapAS/textures/curtains_diffuse.png"/>
+    <File fileId="1339" filename="$data/maps/mapAS/textures/curtains_normal.png"/>
+    <File fileId="1340" filename="$data/maps/mapAS/textures/curtains_specular.png"/>
     <File fileId="909" filename="$data/maps/mapAS/textures/props/airConditioner.i3d"/>
     <File fileId="959" filename="$data/maps/mapAS/textures/props/barrel04.i3d"/>
     <File fileId="910" filename="$data/maps/mapAS/textures/props/cablesElectricity/cable03.i3d"/>
@@ -73,12 +73,12 @@
     <File fileId="962" filename="$data/maps/mapAS/textures/props/cartonBoxes/cartonBoxes_specular.png"/>
     <File fileId="911" filename="$data/maps/mapAS/textures/props/pallet01.i3d"/>
     <File fileId="898" filename="$data/maps/mapAS/textures/props/pipes/pipes07.i3d"/>
-    <File fileId="1209" filename="$data/maps/mapAS/textures/props/railroads/railRoadPieces_diffuse.png"/>
-    <File fileId="1210" filename="$data/maps/mapAS/textures/props/railroads/railRoadPieces_normal.png"/>
-    <File fileId="1211" filename="$data/maps/mapAS/textures/props/railroads/railRoadPieces_specular.png"/>
-    <File fileId="1205" filename="$data/maps/mapAS/textures/props/railroads/railRoadSET_diffuse.png"/>
-    <File fileId="1206" filename="$data/maps/mapAS/textures/props/railroads/railRoadSET_normal.png"/>
-    <File fileId="1207" filename="$data/maps/mapAS/textures/props/railroads/railRoadSET_specular.png"/>
+    <File fileId="1211" filename="$data/maps/mapAS/textures/props/railroads/railRoadPieces_diffuse.png"/>
+    <File fileId="1212" filename="$data/maps/mapAS/textures/props/railroads/railRoadPieces_normal.png"/>
+    <File fileId="1213" filename="$data/maps/mapAS/textures/props/railroads/railRoadPieces_specular.png"/>
+    <File fileId="1207" filename="$data/maps/mapAS/textures/props/railroads/railRoadSET_diffuse.png"/>
+    <File fileId="1208" filename="$data/maps/mapAS/textures/props/railroads/railRoadSET_normal.png"/>
+    <File fileId="1209" filename="$data/maps/mapAS/textures/props/railroads/railRoadSET_specular.png"/>
     <File fileId="433" filename="$data/maps/mapAS/textures/terrain/asphalt01_diffuse.dds"/>
     <File fileId="436" filename="$data/maps/mapAS/textures/terrain/asphalt01_displacement.dds"/>
     <File fileId="435" filename="$data/maps/mapAS/textures/terrain/asphalt01_height.dds"/>
@@ -195,9 +195,10 @@
     <File fileId="894" filename="$data/maps/mapEU/textures/windowsGlass_diffuse.png"/>
     <File fileId="895" filename="$data/maps/mapEU/textures/windowsGlass_normal.png"/>
     <File fileId="896" filename="$data/maps/mapEU/textures/windowsGlass_specular.png"/>
+    <File fileId="1095" filename="$data/maps/mapEU/textures/windowsRoomInteriorsDay_diffuse.dds"/>
     <File fileId="1050" filename="$data/maps/mapEU/textures/windowsRoomInteriorsIndustrialDay_diffuse.png"/>
     <File fileId="1049" filename="$data/maps/mapEU/textures/windowsRoomInteriorsIndustrialNight_diffuse.png"/>
-    <File fileId="1395" filename="$data/maps/mapUS/textures/buildings/gasStation/gasStation_diffuse.png"/>
+    <File fileId="1399" filename="$data/maps/mapUS/textures/buildings/gasStation/gasStation_diffuse.png"/>
     <File fileId="922" filename="$data/maps/mapUS/textures/buildings/grainElevator/grainElevatorFloor_diffuse.png"/>
     <File fileId="923" filename="$data/maps/mapUS/textures/buildings/grainElevator/grainElevatorFloor_normal.png"/>
     <File fileId="924" filename="$data/maps/mapUS/textures/buildings/grainElevator/grainElevatorFloor_specular.png"/>
@@ -225,9 +226,9 @@
     <File fileId="1033" filename="$data/maps/mapUS/textures/concreteDark_diffuse.png"/>
     <File fileId="1034" filename="$data/maps/mapUS/textures/concreteDark_normal.png"/>
     <File fileId="1035" filename="$data/maps/mapUS/textures/concreteDark_specular.png"/>
-    <File fileId="1353" filename="$data/maps/mapUS/textures/curtainsSet_diffuse.png"/>
-    <File fileId="1354" filename="$data/maps/mapUS/textures/curtainsSet_normal.png"/>
-    <File fileId="1355" filename="$data/maps/mapUS/textures/curtainsSet_specular.png"/>
+    <File fileId="1357" filename="$data/maps/mapUS/textures/curtainsSet_diffuse.png"/>
+    <File fileId="1358" filename="$data/maps/mapUS/textures/curtainsSet_normal.png"/>
+    <File fileId="1359" filename="$data/maps/mapUS/textures/curtainsSet_specular.png"/>
     <File fileId="966" filename="$data/maps/mapUS/textures/props/cardboardStack01_diffuse.png"/>
     <File fileId="967" filename="$data/maps/mapUS/textures/props/cardboardStack01_normal.png"/>
     <File fileId="968" filename="$data/maps/mapUS/textures/props/cardboardStack01_specular.png"/>
@@ -242,9 +243,9 @@
     <File fileId="1027" filename="$data/maps/mapUS/textures/props/electricalBoxSet_diffuse.png"/>
     <File fileId="1028" filename="$data/maps/mapUS/textures/props/electricalBoxSet_normal.png"/>
     <File fileId="1029" filename="$data/maps/mapUS/textures/props/electricalBoxSet_specular.png"/>
-    <File fileId="1202" filename="$data/maps/mapUS/textures/props/fishingRaft_diffuse.png"/>
-    <File fileId="1203" filename="$data/maps/mapUS/textures/props/fishingRaft_normal.png"/>
-    <File fileId="1204" filename="$data/maps/mapUS/textures/props/fishingRaft_specular.png"/>
+    <File fileId="1204" filename="$data/maps/mapUS/textures/props/fishingRaft_diffuse.png"/>
+    <File fileId="1205" filename="$data/maps/mapUS/textures/props/fishingRaft_normal.png"/>
+    <File fileId="1206" filename="$data/maps/mapUS/textures/props/fishingRaft_specular.png"/>
     <File fileId="999" filename="$data/maps/mapUS/textures/props/publicLighSet_diffuse.png"/>
     <File fileId="1000" filename="$data/maps/mapUS/textures/props/publicLighSet_normal.png"/>
     <File fileId="1001" filename="$data/maps/mapUS/textures/props/publicLighSet_specular.png"/>
@@ -252,9 +253,9 @@
     <File fileId="992" filename="$data/maps/mapUS/textures/props/railroads/railRoadPieces_diffuse.png"/>
     <File fileId="993" filename="$data/maps/mapUS/textures/props/railroads/railRoadPieces_normal.png"/>
     <File fileId="994" filename="$data/maps/mapUS/textures/props/railroads/railRoadPieces_specular.png"/>
-    <File fileId="1212" filename="$data/maps/mapUS/textures/props/railroads/railroadCrossing02_diffuse.png"/>
-    <File fileId="1213" filename="$data/maps/mapUS/textures/props/railroads/railroadCrossing02_normal.png"/>
-    <File fileId="1214" filename="$data/maps/mapUS/textures/props/railroads/railroadCrossing02_specular.png"/>
+    <File fileId="1214" filename="$data/maps/mapUS/textures/props/railroads/railroadCrossing02_diffuse.png"/>
+    <File fileId="1215" filename="$data/maps/mapUS/textures/props/railroads/railroadCrossing02_normal.png"/>
+    <File fileId="1216" filename="$data/maps/mapUS/textures/props/railroads/railroadCrossing02_specular.png"/>
     <File fileId="978" filename="$data/maps/mapUS/textures/props/trafficCone.i3d"/>
     <File fileId="981" filename="$data/maps/mapUS/textures/props/trashcan01.i3d"/>
     <File fileId="990" filename="$data/maps/mapUS/textures/props/trashcan02.i3d"/>
@@ -586,23 +587,23 @@
     <File fileId="1026" filename="$data/maps/mapUS/textures/terrain/terrainDecals/concreteDecal01_height.png"/>
     <File fileId="1023" filename="$data/maps/mapUS/textures/terrain/terrainDecals/concreteDecal01_normal.png"/>
     <File fileId="1024" filename="$data/maps/mapUS/textures/terrain/terrainDecals/concreteDecal01_specular.png"/>
-    <File fileId="1095" filename="$data/maps/mapUS/textures/windowsRoomInteriorsDay_diffuse.png"/>
-    <File fileId="1347" filename="$data/maps/mapUS/textures/windowsRoomInteriorsNight_diffuse.png"/>
+    <File fileId="1351" filename="$data/maps/mapUS/textures/windowsRoomInteriorsDay_diffuse.png"/>
+    <File fileId="1350" filename="$data/maps/mapUS/textures/windowsRoomInteriorsNight_diffuse.png"/>
     <File fileId="935" filename="$data/maps/textures/shared/concreteDamagedGrassDecal_diffuse.png"/>
     <File fileId="936" filename="$data/maps/textures/shared/concreteDamagedGrassDecal_normal.png"/>
     <File fileId="937" filename="$data/maps/textures/shared/concreteDamagedGrassDecal_specular.png"/>
-    <File fileId="1378" filename="$data/maps/textures/shared/concreteGeneric_diffuse.png"/>
-    <File fileId="1379" filename="$data/maps/textures/shared/concreteGeneric_normal.png"/>
-    <File fileId="1380" filename="$data/maps/textures/shared/concreteGeneric_specular.png"/>
-    <File fileId="1417" filename="$data/maps/textures/shared/cracks_diffuse.png"/>
-    <File fileId="1418" filename="$data/maps/textures/shared/cracks_normal.png"/>
-    <File fileId="1419" filename="$data/maps/textures/shared/cracks_specular.png"/>
+    <File fileId="1382" filename="$data/maps/textures/shared/concreteGeneric_diffuse.png"/>
+    <File fileId="1383" filename="$data/maps/textures/shared/concreteGeneric_normal.png"/>
+    <File fileId="1384" filename="$data/maps/textures/shared/concreteGeneric_specular.png"/>
+    <File fileId="1421" filename="$data/maps/textures/shared/cracks_diffuse.png"/>
+    <File fileId="1422" filename="$data/maps/textures/shared/cracks_normal.png"/>
+    <File fileId="1423" filename="$data/maps/textures/shared/cracks_specular.png"/>
     <File fileId="872" filename="$data/maps/textures/shared/decalSet_diffuse.png"/>
     <File fileId="873" filename="$data/maps/textures/shared/decalSet_normal.png"/>
     <File fileId="874" filename="$data/maps/textures/shared/decalSet_specular.png"/>
-    <File fileId="1096" filename="$data/maps/textures/shared/default_normal.png"/>
+    <File fileId="1342" filename="$data/maps/textures/shared/default_normal.png"/>
     <File fileId="685" filename="$data/maps/textures/shared/default_specular.png"/>
-    <File fileId="1218" filename="$data/maps/textures/shared/dirtAtlas_mask.png"/>
+    <File fileId="1220" filename="$data/maps/textures/shared/dirtAtlas_mask.png"/>
     <File fileId="739" filename="$data/maps/textures/shared/doorsSET_diffuse.png"/>
     <File fileId="740" filename="$data/maps/textures/shared/doorsSET_normal.png"/>
     <File fileId="741" filename="$data/maps/textures/shared/doorsSET_specular.png"/>
@@ -615,12 +616,12 @@
     <File fileId="796" filename="$data/maps/textures/shared/industrialWindows_normal.png"/>
     <File fileId="797" filename="$data/maps/textures/shared/industrialWindows_specular.png"/>
     <File fileId="654" filename="$data/maps/textures/shared/mapBoundsX.i3d"/>
-    <File fileId="1219" filename="$data/maps/textures/shared/mapDirtAlpine_diffuse.png"/>
+    <File fileId="1221" filename="$data/maps/textures/shared/mapDirtAlpine_diffuse.png"/>
     <File fileId="929" filename="$data/maps/textures/shared/mapLeaksFR_diffuse.png"/>
-    <File fileId="1220" filename="$data/maps/textures/shared/mapLeaks_diffuse.png"/>
+    <File fileId="1222" filename="$data/maps/textures/shared/mapLeaks_diffuse.png"/>
     <File fileId="930" filename="$data/maps/textures/shared/mapRust_diffuse.png"/>
-    <File fileId="1342" filename="$data/maps/textures/shared/plasterDamagedDecals_diffuse.png"/>
-    <File fileId="1343" filename="$data/maps/textures/shared/plasterDamagedDecals_normal.png"/>
+    <File fileId="1345" filename="$data/maps/textures/shared/plasterDamagedDecals_diffuse.png"/>
+    <File fileId="1346" filename="$data/maps/textures/shared/plasterDamagedDecals_normal.png"/>
     <File fileId="949" filename="$data/maps/textures/shared/plasterDecalSet_diffuse.png"/>
     <File fileId="950" filename="$data/maps/textures/shared/plasterDecalSet_normal.png"/>
     <File fileId="951" filename="$data/maps/textures/shared/plasterDecalSet_specular.png"/>
@@ -642,18 +643,18 @@
     <File fileId="869" filename="$data/maps/textures/shared/rustLeaksDecals_diffuse.png"/>
     <File fileId="870" filename="$data/maps/textures/shared/rustLeaksDecals_normal.png"/>
     <File fileId="871" filename="$data/maps/textures/shared/rustLeaksDecals_specular.png"/>
-    <File fileId="1340" filename="$data/maps/textures/shared/signageUSDecals_diffuse.png"/>
-    <File fileId="1341" filename="$data/maps/textures/shared/signageUSDecals_specular.png"/>
+    <File fileId="1343" filename="$data/maps/textures/shared/signageUSDecals_diffuse.png"/>
+    <File fileId="1344" filename="$data/maps/textures/shared/signageUSDecals_specular.png"/>
     <File fileId="678" filename="$data/maps/textures/shared/snow_diffuse.dds"/>
     <File fileId="679" filename="$data/maps/textures/shared/snow_normal.dds"/>
     <File fileId="676" filename="$data/maps/textures/shared/snow_specular.png"/>
-    <File fileId="1179" filename="$data/maps/textures/shared/water_normal.dds"/>
+    <File fileId="1181" filename="$data/maps/textures/shared/water_normal.dds"/>
     <File fileId="863" filename="$data/maps/textures/shared/windowsGlass_diffuse.png"/>
     <File fileId="864" filename="$data/maps/textures/shared/windowsGlass_normal.png"/>
     <File fileId="865" filename="$data/maps/textures/shared/windowsGlass_specular.png"/>
-    <File fileId="1333" filename="$data/maps/textures/shared/windowsIndustrial01_diffuse.png"/>
-    <File fileId="1334" filename="$data/maps/textures/shared/windowsIndustrial01_normal.png"/>
-    <File fileId="1335" filename="$data/maps/textures/shared/windowsIndustrial01_specular.png"/>
+    <File fileId="1335" filename="$data/maps/textures/shared/windowsIndustrial01_diffuse.png"/>
+    <File fileId="1336" filename="$data/maps/textures/shared/windowsIndustrial01_normal.png"/>
+    <File fileId="1337" filename="$data/maps/textures/shared/windowsIndustrial01_specular.png"/>
     <File fileId="912" filename="$data/maps/textures/shared/windowsIndustrial02_diffuse.png"/>
     <File fileId="913" filename="$data/maps/textures/shared/windowsIndustrial02_normal.png"/>
     <File fileId="914" filename="$data/maps/textures/shared/windowsIndustrial02_specular.png"/>
@@ -822,84 +823,84 @@
     <File fileId="577" filename="$data/maps/textures/terrain/ground/spray_straw_displacement.png"/>
     <File fileId="576" filename="$data/maps/textures/terrain/ground/spray_straw_height.png"/>
     <File fileId="575" filename="$data/maps/textures/terrain/ground/spray_straw_normal.png"/>
-    <File fileId="1253" filename="$data/maps/trees/deadwood/deadwood.i3d"/>
-    <File fileId="1309" filename="$data/maps/trees/japaneseZelkova/japaneseZelkovaBranchLOD1_diffuse.png"/>
-    <File fileId="1310" filename="$data/maps/trees/japaneseZelkova/japaneseZelkovaBranchLOD1_mask.png"/>
-    <File fileId="1299" filename="$data/maps/trees/japaneseZelkova/japaneseZelkovaBranch_diffuse.png"/>
-    <File fileId="1302" filename="$data/maps/trees/japaneseZelkova/japaneseZelkovaBranch_mask.png"/>
-    <File fileId="1300" filename="$data/maps/trees/japaneseZelkova/japaneseZelkovaBranch_normal.png"/>
-    <File fileId="1301" filename="$data/maps/trees/japaneseZelkova/japaneseZelkovaBranch_specular.png"/>
-    <File fileId="1295" filename="$data/maps/trees/japaneseZelkova/japaneseZelkovaTrunk_diffuse.png"/>
-    <File fileId="1298" filename="$data/maps/trees/japaneseZelkova/japaneseZelkovaTrunk_height.png"/>
-    <File fileId="1296" filename="$data/maps/trees/japaneseZelkova/japaneseZelkovaTrunk_normal.png"/>
-    <File fileId="1297" filename="$data/maps/trees/japaneseZelkova/japaneseZelkovaTrunk_specular.png"/>
-    <File fileId="1306" filename="$data/maps/trees/japaneseZelkova/japaneseZelkova_stage04LOD_depth.png"/>
-    <File fileId="1303" filename="$data/maps/trees/japaneseZelkova/japaneseZelkova_stage04LOD_diffuse.png"/>
-    <File fileId="1307" filename="$data/maps/trees/japaneseZelkova/japaneseZelkova_stage04LOD_mask.png"/>
-    <File fileId="1304" filename="$data/maps/trees/japaneseZelkova/japaneseZelkova_stage04LOD_normal.png"/>
-    <File fileId="1308" filename="$data/maps/trees/japaneseZelkova/japaneseZelkova_stage04LOD_seasonalCurve.png"/>
-    <File fileId="1305" filename="$data/maps/trees/japaneseZelkova/japaneseZelkova_stage04LOD_specular.png"/>
-    <File fileId="1252" filename="$data/maps/trees/lodgepolePine/lodgepolePine_stage03.i3d"/>
-    <File fileId="1254" filename="$data/maps/trees/oak/oakBark_diffuse.png"/>
-    <File fileId="1257" filename="$data/maps/trees/oak/oakBark_height.png"/>
-    <File fileId="1255" filename="$data/maps/trees/oak/oakBark_normal.png"/>
-    <File fileId="1256" filename="$data/maps/trees/oak/oakBark_specular.png"/>
-    <File fileId="1269" filename="$data/maps/trees/oak/oakBranchLOD1_diffuse.png"/>
-    <File fileId="1270" filename="$data/maps/trees/oak/oakBranchLOD1_mask.png"/>
-    <File fileId="1258" filename="$data/maps/trees/oak/oakBranch_diffuse.png"/>
-    <File fileId="1261" filename="$data/maps/trees/oak/oakBranch_mask.png"/>
-    <File fileId="1259" filename="$data/maps/trees/oak/oakBranch_normal.png"/>
-    <File fileId="1260" filename="$data/maps/trees/oak/oakBranch_specular.png"/>
-    <File fileId="1274" filename="$data/maps/trees/oak/oak_stage03LOD_depth.png"/>
-    <File fileId="1271" filename="$data/maps/trees/oak/oak_stage03LOD_diffuse.png"/>
-    <File fileId="1275" filename="$data/maps/trees/oak/oak_stage03LOD_mask.png"/>
-    <File fileId="1272" filename="$data/maps/trees/oak/oak_stage03LOD_normal.png"/>
-    <File fileId="1276" filename="$data/maps/trees/oak/oak_stage03LOD_seasonalCurve.png"/>
-    <File fileId="1273" filename="$data/maps/trees/oak/oak_stage03LOD_specular.png"/>
-    <File fileId="1266" filename="$data/maps/trees/oak/oak_stage05LOD_depth.png"/>
-    <File fileId="1262" filename="$data/maps/trees/oak/oak_stage05LOD_diffuse.png"/>
-    <File fileId="1267" filename="$data/maps/trees/oak/oak_stage05LOD_mask.png"/>
-    <File fileId="1263" filename="$data/maps/trees/oak/oak_stage05LOD_normal.png"/>
-    <File fileId="1268" filename="$data/maps/trees/oak/oak_stage05LOD_seasonalCurve.png"/>
-    <File fileId="1264" filename="$data/maps/trees/oak/oak_stage05LOD_specular.png"/>
-    <File fileId="1315" filename="$data/maps/trees/shagbarkHickory/shagbarkHickoryBranch_diffuse.png"/>
-    <File fileId="1318" filename="$data/maps/trees/shagbarkHickory/shagbarkHickoryBranch_mask.png"/>
-    <File fileId="1316" filename="$data/maps/trees/shagbarkHickory/shagbarkHickoryBranch_normal.png"/>
-    <File fileId="1317" filename="$data/maps/trees/shagbarkHickory/shagbarkHickoryBranch_specular.png"/>
-    <File fileId="1311" filename="$data/maps/trees/shagbarkHickory/shagbarkHickoryTrunk_diffuse.png"/>
-    <File fileId="1314" filename="$data/maps/trees/shagbarkHickory/shagbarkHickoryTrunk_height.png"/>
-    <File fileId="1312" filename="$data/maps/trees/shagbarkHickory/shagbarkHickoryTrunk_normal.png"/>
-    <File fileId="1313" filename="$data/maps/trees/shagbarkHickory/shagbarkHickoryTrunk_specular.png"/>
-    <File fileId="1322" filename="$data/maps/trees/shagbarkHickory/shagbarkHickory_stage04LOD_depth.png"/>
-    <File fileId="1319" filename="$data/maps/trees/shagbarkHickory/shagbarkHickory_stage04LOD_diffuse.png"/>
-    <File fileId="1323" filename="$data/maps/trees/shagbarkHickory/shagbarkHickory_stage04LOD_mask.png"/>
-    <File fileId="1320" filename="$data/maps/trees/shagbarkHickory/shagbarkHickory_stage04LOD_normal.png"/>
-    <File fileId="1324" filename="$data/maps/trees/shagbarkHickory/shagbarkHickory_stage04LOD_seasonalCurve.png"/>
-    <File fileId="1321" filename="$data/maps/trees/shagbarkHickory/shagbarkHickory_stage04LOD_specular.png"/>
-    <File fileId="1382" filename="$data/objects/bales/roundbales/cotton/cotton_diffuse.png"/>
-    <File fileId="1383" filename="$data/objects/bales/roundbales/cotton/cotton_normal.png"/>
-    <File fileId="1387" filename="$data/objects/bales/roundbales/cotton/netWrap_diffuse.png"/>
-    <File fileId="1388" filename="$data/objects/bales/roundbales/cotton/netWrap_normal.png"/>
-    <File fileId="1385" filename="$data/objects/bales/roundbales/roundbaleWrapDefault_diffuse.png"/>
-    <File fileId="1386" filename="$data/objects/bales/roundbales/roundbaleWrapDefault_normal.png"/>
-    <File fileId="1409" filename="$data/objects/pallets/cementBricksPallet/cementBricksPallet_diffuse.png"/>
-    <File fileId="1410" filename="$data/objects/pallets/cementBricksPallet/cementBricksPallet_normal.png"/>
-    <File fileId="1411" filename="$data/objects/pallets/cementBricksPallet/cementBricksPallet_specular.png"/>
-    <File fileId="1403" filename="$data/objects/pallets/furnitureStackPallet/furnitureStack_diffuse.png"/>
-    <File fileId="1404" filename="$data/objects/pallets/furnitureStackPallet/furnitureStack_normal.png"/>
-    <File fileId="1405" filename="$data/objects/pallets/furnitureStackPallet/furnitureStack_specular.png"/>
-    <File fileId="1400" filename="$data/objects/pallets/liquidTank/fertilizerTank_diffuse.png"/>
-    <File fileId="1401" filename="$data/objects/pallets/liquidTank/fertilizerTank_normal.png"/>
-    <File fileId="1402" filename="$data/objects/pallets/liquidTank/fertilizerTank_specular.png"/>
-    <File fileId="1412" filename="$data/objects/pallets/roofPlatesPallet/roofPlatesPallet_diffuse.png"/>
-    <File fileId="1413" filename="$data/objects/pallets/roofPlatesPallet/roofPlatesPallet_normal.png"/>
-    <File fileId="1414" filename="$data/objects/pallets/roofPlatesPallet/roofPlatesPallet_specular.png"/>
-    <File fileId="1406" filename="$data/objects/pallets/shared/euroPallet/euroPalletNew_diffuse.png"/>
-    <File fileId="1407" filename="$data/objects/pallets/shared/euroPallet/euroPallet_normal.png"/>
-    <File fileId="1408" filename="$data/objects/pallets/shared/euroPallet/euroPallet_specular.png"/>
-    <File fileId="1397" filename="$data/objects/pallets/woodBeamPallet/woodBeamPallet_diffuse.png"/>
-    <File fileId="1398" filename="$data/objects/pallets/woodBeamPallet/woodBeamPallet_normal.png"/>
-    <File fileId="1399" filename="$data/objects/pallets/woodBeamPallet/woodBeamPallet_specular.png"/>
+    <File fileId="1255" filename="$data/maps/trees/deadwood/deadwood.i3d"/>
+    <File fileId="1311" filename="$data/maps/trees/japaneseZelkova/japaneseZelkovaBranchLOD1_diffuse.png"/>
+    <File fileId="1312" filename="$data/maps/trees/japaneseZelkova/japaneseZelkovaBranchLOD1_mask.png"/>
+    <File fileId="1301" filename="$data/maps/trees/japaneseZelkova/japaneseZelkovaBranch_diffuse.png"/>
+    <File fileId="1304" filename="$data/maps/trees/japaneseZelkova/japaneseZelkovaBranch_mask.png"/>
+    <File fileId="1302" filename="$data/maps/trees/japaneseZelkova/japaneseZelkovaBranch_normal.png"/>
+    <File fileId="1303" filename="$data/maps/trees/japaneseZelkova/japaneseZelkovaBranch_specular.png"/>
+    <File fileId="1297" filename="$data/maps/trees/japaneseZelkova/japaneseZelkovaTrunk_diffuse.png"/>
+    <File fileId="1300" filename="$data/maps/trees/japaneseZelkova/japaneseZelkovaTrunk_height.png"/>
+    <File fileId="1298" filename="$data/maps/trees/japaneseZelkova/japaneseZelkovaTrunk_normal.png"/>
+    <File fileId="1299" filename="$data/maps/trees/japaneseZelkova/japaneseZelkovaTrunk_specular.png"/>
+    <File fileId="1308" filename="$data/maps/trees/japaneseZelkova/japaneseZelkova_stage04LOD_depth.png"/>
+    <File fileId="1305" filename="$data/maps/trees/japaneseZelkova/japaneseZelkova_stage04LOD_diffuse.png"/>
+    <File fileId="1309" filename="$data/maps/trees/japaneseZelkova/japaneseZelkova_stage04LOD_mask.png"/>
+    <File fileId="1306" filename="$data/maps/trees/japaneseZelkova/japaneseZelkova_stage04LOD_normal.png"/>
+    <File fileId="1310" filename="$data/maps/trees/japaneseZelkova/japaneseZelkova_stage04LOD_seasonalCurve.png"/>
+    <File fileId="1307" filename="$data/maps/trees/japaneseZelkova/japaneseZelkova_stage04LOD_specular.png"/>
+    <File fileId="1254" filename="$data/maps/trees/lodgepolePine/lodgepolePine_stage03.i3d"/>
+    <File fileId="1256" filename="$data/maps/trees/oak/oakBark_diffuse.png"/>
+    <File fileId="1259" filename="$data/maps/trees/oak/oakBark_height.png"/>
+    <File fileId="1257" filename="$data/maps/trees/oak/oakBark_normal.png"/>
+    <File fileId="1258" filename="$data/maps/trees/oak/oakBark_specular.png"/>
+    <File fileId="1271" filename="$data/maps/trees/oak/oakBranchLOD1_diffuse.png"/>
+    <File fileId="1272" filename="$data/maps/trees/oak/oakBranchLOD1_mask.png"/>
+    <File fileId="1260" filename="$data/maps/trees/oak/oakBranch_diffuse.png"/>
+    <File fileId="1263" filename="$data/maps/trees/oak/oakBranch_mask.png"/>
+    <File fileId="1261" filename="$data/maps/trees/oak/oakBranch_normal.png"/>
+    <File fileId="1262" filename="$data/maps/trees/oak/oakBranch_specular.png"/>
+    <File fileId="1276" filename="$data/maps/trees/oak/oak_stage03LOD_depth.png"/>
+    <File fileId="1273" filename="$data/maps/trees/oak/oak_stage03LOD_diffuse.png"/>
+    <File fileId="1277" filename="$data/maps/trees/oak/oak_stage03LOD_mask.png"/>
+    <File fileId="1274" filename="$data/maps/trees/oak/oak_stage03LOD_normal.png"/>
+    <File fileId="1278" filename="$data/maps/trees/oak/oak_stage03LOD_seasonalCurve.png"/>
+    <File fileId="1275" filename="$data/maps/trees/oak/oak_stage03LOD_specular.png"/>
+    <File fileId="1268" filename="$data/maps/trees/oak/oak_stage05LOD_depth.png"/>
+    <File fileId="1264" filename="$data/maps/trees/oak/oak_stage05LOD_diffuse.png"/>
+    <File fileId="1269" filename="$data/maps/trees/oak/oak_stage05LOD_mask.png"/>
+    <File fileId="1265" filename="$data/maps/trees/oak/oak_stage05LOD_normal.png"/>
+    <File fileId="1270" filename="$data/maps/trees/oak/oak_stage05LOD_seasonalCurve.png"/>
+    <File fileId="1266" filename="$data/maps/trees/oak/oak_stage05LOD_specular.png"/>
+    <File fileId="1317" filename="$data/maps/trees/shagbarkHickory/shagbarkHickoryBranch_diffuse.png"/>
+    <File fileId="1320" filename="$data/maps/trees/shagbarkHickory/shagbarkHickoryBranch_mask.png"/>
+    <File fileId="1318" filename="$data/maps/trees/shagbarkHickory/shagbarkHickoryBranch_normal.png"/>
+    <File fileId="1319" filename="$data/maps/trees/shagbarkHickory/shagbarkHickoryBranch_specular.png"/>
+    <File fileId="1313" filename="$data/maps/trees/shagbarkHickory/shagbarkHickoryTrunk_diffuse.png"/>
+    <File fileId="1316" filename="$data/maps/trees/shagbarkHickory/shagbarkHickoryTrunk_height.png"/>
+    <File fileId="1314" filename="$data/maps/trees/shagbarkHickory/shagbarkHickoryTrunk_normal.png"/>
+    <File fileId="1315" filename="$data/maps/trees/shagbarkHickory/shagbarkHickoryTrunk_specular.png"/>
+    <File fileId="1324" filename="$data/maps/trees/shagbarkHickory/shagbarkHickory_stage04LOD_depth.png"/>
+    <File fileId="1321" filename="$data/maps/trees/shagbarkHickory/shagbarkHickory_stage04LOD_diffuse.png"/>
+    <File fileId="1325" filename="$data/maps/trees/shagbarkHickory/shagbarkHickory_stage04LOD_mask.png"/>
+    <File fileId="1322" filename="$data/maps/trees/shagbarkHickory/shagbarkHickory_stage04LOD_normal.png"/>
+    <File fileId="1326" filename="$data/maps/trees/shagbarkHickory/shagbarkHickory_stage04LOD_seasonalCurve.png"/>
+    <File fileId="1323" filename="$data/maps/trees/shagbarkHickory/shagbarkHickory_stage04LOD_specular.png"/>
+    <File fileId="1386" filename="$data/objects/bales/roundbales/cotton/cotton_diffuse.png"/>
+    <File fileId="1387" filename="$data/objects/bales/roundbales/cotton/cotton_normal.png"/>
+    <File fileId="1391" filename="$data/objects/bales/roundbales/cotton/netWrap_diffuse.png"/>
+    <File fileId="1392" filename="$data/objects/bales/roundbales/cotton/netWrap_normal.png"/>
+    <File fileId="1389" filename="$data/objects/bales/roundbales/roundbaleWrapDefault_diffuse.png"/>
+    <File fileId="1390" filename="$data/objects/bales/roundbales/roundbaleWrapDefault_normal.png"/>
+    <File fileId="1413" filename="$data/objects/pallets/cementBricksPallet/cementBricksPallet_diffuse.png"/>
+    <File fileId="1414" filename="$data/objects/pallets/cementBricksPallet/cementBricksPallet_normal.png"/>
+    <File fileId="1415" filename="$data/objects/pallets/cementBricksPallet/cementBricksPallet_specular.png"/>
+    <File fileId="1407" filename="$data/objects/pallets/furnitureStackPallet/furnitureStack_diffuse.png"/>
+    <File fileId="1408" filename="$data/objects/pallets/furnitureStackPallet/furnitureStack_normal.png"/>
+    <File fileId="1409" filename="$data/objects/pallets/furnitureStackPallet/furnitureStack_specular.png"/>
+    <File fileId="1404" filename="$data/objects/pallets/liquidTank/fertilizerTank_diffuse.png"/>
+    <File fileId="1405" filename="$data/objects/pallets/liquidTank/fertilizerTank_normal.png"/>
+    <File fileId="1406" filename="$data/objects/pallets/liquidTank/fertilizerTank_specular.png"/>
+    <File fileId="1416" filename="$data/objects/pallets/roofPlatesPallet/roofPlatesPallet_diffuse.png"/>
+    <File fileId="1417" filename="$data/objects/pallets/roofPlatesPallet/roofPlatesPallet_normal.png"/>
+    <File fileId="1418" filename="$data/objects/pallets/roofPlatesPallet/roofPlatesPallet_specular.png"/>
+    <File fileId="1410" filename="$data/objects/pallets/shared/euroPallet/euroPalletNew_diffuse.png"/>
+    <File fileId="1411" filename="$data/objects/pallets/shared/euroPallet/euroPallet_normal.png"/>
+    <File fileId="1412" filename="$data/objects/pallets/shared/euroPallet/euroPallet_specular.png"/>
+    <File fileId="1401" filename="$data/objects/pallets/woodBeamPallet/woodBeamPallet_diffuse.png"/>
+    <File fileId="1402" filename="$data/objects/pallets/woodBeamPallet/woodBeamPallet_normal.png"/>
+    <File fileId="1403" filename="$data/objects/pallets/woodBeamPallet/woodBeamPallet_specular.png"/>
     <File fileId="700" filename="$data/placeables/brandless/bunkerSilos/shared/bunkerSilo_diffuse.dds"/>
     <File fileId="701" filename="$data/placeables/brandless/bunkerSilos/shared/bunkerSilo_normal.dds"/>
     <File fileId="702" filename="$data/placeables/brandless/bunkerSilos/shared/bunkerSilo_specular.dds"/>
@@ -916,32 +917,32 @@
     <File fileId="1004" filename="$data/placeables/brandless/floodLights/level03/floodLight03_normal.png"/>
     <File fileId="1005" filename="$data/placeables/brandless/floodLights/level03/floodLight03_specular.png"/>
     <File fileId="1002" filename="$data/placeables/brandless/floodLights/lightsSetEmissive_diffuse.png"/>
-    <File fileId="1188" filename="$data/placeables/brandless/gardenSheds/level01/gardenShed01_diffuse.png"/>
-    <File fileId="1189" filename="$data/placeables/brandless/gardenSheds/level01/gardenShed01_normal.png"/>
-    <File fileId="1190" filename="$data/placeables/brandless/gardenSheds/level01/gardenShed01_specular.png"/>
-    <File fileId="1186" filename="$data/placeables/brandless/gardenSheds/level01/glass_diffuse.png"/>
-    <File fileId="1187" filename="$data/placeables/brandless/gardenSheds/level01/glass_specular.png"/>
-    <File fileId="1191" filename="$data/placeables/brandless/gardenSheds/level04/gardenShed04_diffuse.png"/>
-    <File fileId="1192" filename="$data/placeables/brandless/gardenSheds/level04/gardenShed04_normal.png"/>
-    <File fileId="1193" filename="$data/placeables/brandless/gardenSheds/level04/gardenShed04_specular.png"/>
-    <File fileId="1375" filename="$data/placeables/brandless/greenhouses/greenHouseGlass/glass_diffuse.png"/>
-    <File fileId="1376" filename="$data/placeables/brandless/greenhouses/greenHouseGlass/glass_normal.png"/>
-    <File fileId="1377" filename="$data/placeables/brandless/greenhouses/greenHouseGlass/glass_specular.png"/>
-    <File fileId="1372" filename="$data/placeables/brandless/greenhouses/greenHouseGlass/greenHouseGlass_diffuse.png"/>
-    <File fileId="1373" filename="$data/placeables/brandless/greenhouses/greenHouseGlass/greenHouseGlass_normal.png"/>
-    <File fileId="1374" filename="$data/placeables/brandless/greenhouses/greenHouseGlass/greenHouseGlass_specular.png"/>
-    <File fileId="1366" filename="$data/placeables/brandless/greenhouses/shared/addons_diffuse.png"/>
-    <File fileId="1367" filename="$data/placeables/brandless/greenhouses/shared/addons_normal.png"/>
-    <File fileId="1368" filename="$data/placeables/brandless/greenhouses/shared/addons_specular.png"/>
-    <File fileId="1369" filename="$data/placeables/brandless/greenhouses/shared/dirt_diffuse.png"/>
-    <File fileId="1370" filename="$data/placeables/brandless/greenhouses/shared/dirt_normal.png"/>
-    <File fileId="1371" filename="$data/placeables/brandless/greenhouses/shared/dirt_specular.png"/>
+    <File fileId="1190" filename="$data/placeables/brandless/gardenSheds/level01/gardenShed01_diffuse.png"/>
+    <File fileId="1191" filename="$data/placeables/brandless/gardenSheds/level01/gardenShed01_normal.png"/>
+    <File fileId="1192" filename="$data/placeables/brandless/gardenSheds/level01/gardenShed01_specular.png"/>
+    <File fileId="1188" filename="$data/placeables/brandless/gardenSheds/level01/glass_diffuse.png"/>
+    <File fileId="1189" filename="$data/placeables/brandless/gardenSheds/level01/glass_specular.png"/>
+    <File fileId="1193" filename="$data/placeables/brandless/gardenSheds/level04/gardenShed04_diffuse.png"/>
+    <File fileId="1194" filename="$data/placeables/brandless/gardenSheds/level04/gardenShed04_normal.png"/>
+    <File fileId="1195" filename="$data/placeables/brandless/gardenSheds/level04/gardenShed04_specular.png"/>
+    <File fileId="1379" filename="$data/placeables/brandless/greenhouses/greenHouseGlass/glass_diffuse.png"/>
+    <File fileId="1380" filename="$data/placeables/brandless/greenhouses/greenHouseGlass/glass_normal.png"/>
+    <File fileId="1381" filename="$data/placeables/brandless/greenhouses/greenHouseGlass/glass_specular.png"/>
+    <File fileId="1376" filename="$data/placeables/brandless/greenhouses/greenHouseGlass/greenHouseGlass_diffuse.png"/>
+    <File fileId="1377" filename="$data/placeables/brandless/greenhouses/greenHouseGlass/greenHouseGlass_normal.png"/>
+    <File fileId="1378" filename="$data/placeables/brandless/greenhouses/greenHouseGlass/greenHouseGlass_specular.png"/>
+    <File fileId="1370" filename="$data/placeables/brandless/greenhouses/shared/addons_diffuse.png"/>
+    <File fileId="1371" filename="$data/placeables/brandless/greenhouses/shared/addons_normal.png"/>
+    <File fileId="1372" filename="$data/placeables/brandless/greenhouses/shared/addons_specular.png"/>
+    <File fileId="1373" filename="$data/placeables/brandless/greenhouses/shared/dirt_diffuse.png"/>
+    <File fileId="1374" filename="$data/placeables/brandless/greenhouses/shared/dirt_normal.png"/>
+    <File fileId="1375" filename="$data/placeables/brandless/greenhouses/shared/dirt_specular.png"/>
     <File fileId="1008" filename="$data/placeables/brandless/lightsResidential/streetLight03/streetLight03_diffuse.png"/>
     <File fileId="1009" filename="$data/placeables/brandless/lightsResidential/streetLight03/streetLight03_normal.png"/>
     <File fileId="1010" filename="$data/placeables/brandless/lightsResidential/streetLight03/streetLight03_specular.png"/>
-    <File fileId="1149" filename="$data/placeables/brandless/manureHeap/manureConcrete_diffuse.png"/>
-    <File fileId="1150" filename="$data/placeables/brandless/manureHeap/manureConcrete_normal.png"/>
-    <File fileId="1151" filename="$data/placeables/brandless/manureHeap/manureConcrete_specular.png"/>
+    <File fileId="1151" filename="$data/placeables/brandless/manureHeap/manureConcrete_diffuse.png"/>
+    <File fileId="1152" filename="$data/placeables/brandless/manureHeap/manureConcrete_normal.png"/>
+    <File fileId="1153" filename="$data/placeables/brandless/manureHeap/manureConcrete_specular.png"/>
     <File fileId="995" filename="$data/placeables/brandless/productionPointsGeneric/shared/transportBarrow_diffuse.png"/>
     <File fileId="996" filename="$data/placeables/brandless/productionPointsGeneric/shared/transportBarrow_normal.png"/>
     <File fileId="997" filename="$data/placeables/brandless/productionPointsGeneric/shared/transportBarrow_specular.png"/>
@@ -950,13 +951,13 @@
     <File fileId="670" filename="$data/placeables/easySheds/shared/easySheds01_normal.dds"/>
     <File fileId="671" filename="$data/placeables/easySheds/shared/easySheds01_specular.dds"/>
     <File fileId="665" filename="$data/placeables/easySheds/shared/easyShedsLogo_diffuse.png"/>
-    <File fileId="1422" filename="$data/placeables/mapAS/carpenterAS/carpenterASWindows_diffuse.png"/>
-    <File fileId="1339" filename="$data/placeables/mapAS/dairyAS/dairyASLogo_diffuse.png"/>
-    <File fileId="1328" filename="$data/placeables/mapAS/dairyAS/dairyAS_diffuse.png"/>
-    <File fileId="1332" filename="$data/placeables/mapAS/dairyAS/dairyAS_height.png"/>
-    <File fileId="1331" filename="$data/placeables/mapAS/dairyAS/dairyAS_mask.png"/>
-    <File fileId="1329" filename="$data/placeables/mapAS/dairyAS/dairyAS_normal.png"/>
-    <File fileId="1330" filename="$data/placeables/mapAS/dairyAS/dairyAS_specular.png"/>
+    <File fileId="1426" filename="$data/placeables/mapAS/carpenterAS/carpenterASWindows_diffuse.png"/>
+    <File fileId="1341" filename="$data/placeables/mapAS/dairyAS/dairyASLogo_diffuse.png"/>
+    <File fileId="1330" filename="$data/placeables/mapAS/dairyAS/dairyAS_diffuse.png"/>
+    <File fileId="1334" filename="$data/placeables/mapAS/dairyAS/dairyAS_height.png"/>
+    <File fileId="1333" filename="$data/placeables/mapAS/dairyAS/dairyAS_mask.png"/>
+    <File fileId="1331" filename="$data/placeables/mapAS/dairyAS/dairyAS_normal.png"/>
+    <File fileId="1332" filename="$data/placeables/mapAS/dairyAS/dairyAS_specular.png"/>
     <File fileId="786" filename="$data/placeables/mapEU/carpenter/buildingDecalsGrunge_diffuse.png"/>
     <File fileId="787" filename="$data/placeables/mapEU/carpenter/buildingDecalsGrunge_normal.png"/>
     <File fileId="788" filename="$data/placeables/mapEU/carpenter/buildingDecalsGrunge_specular.png"/>
@@ -976,75 +977,75 @@
     <File fileId="743" filename="$data/placeables/mapEU/carpenter/windowsCurtains01_specular.png"/>
     <File fileId="745" filename="$data/placeables/mapEU/carpenter/windowsGlass01_diffuse.png"/>
     <File fileId="746" filename="$data/placeables/mapEU/carpenter/windowsGlass01_specular.png"/>
-    <File fileId="1365" filename="$data/placeables/mapUS/cementFactoryUS/cementFactoryLogo_diffuse.png"/>
-    <File fileId="1348" filename="$data/placeables/mapUS/cementFactoryUS/cementFactoryUS_diffuse.png"/>
-    <File fileId="1352" filename="$data/placeables/mapUS/cementFactoryUS/cementFactoryUS_height.png"/>
-    <File fileId="1351" filename="$data/placeables/mapUS/cementFactoryUS/cementFactoryUS_mask.png"/>
-    <File fileId="1349" filename="$data/placeables/mapUS/cementFactoryUS/cementFactoryUS_normal.png"/>
-    <File fileId="1350" filename="$data/placeables/mapUS/cementFactoryUS/cementFactoryUS_specular.png"/>
-    <File fileId="1344" filename="$data/placeables/mapUS/dairyUS/buildingTanks_diffuse.png"/>
-    <File fileId="1345" filename="$data/placeables/mapUS/dairyUS/buildingTanks_normal.png"/>
-    <File fileId="1346" filename="$data/placeables/mapUS/dairyUS/buildingTanks_specular.png"/>
-    <File fileId="1361" filename="$data/placeables/mapUS/shared/detailSetUSDoors_diffuse.png"/>
-    <File fileId="1362" filename="$data/placeables/mapUS/shared/detailSetUSDoors_normal.png"/>
-    <File fileId="1363" filename="$data/placeables/mapUS/shared/detailSetUSDoors_specular.png"/>
-    <File fileId="1356" filename="$data/placeables/mapUS/shared/detailSetUSFrames_diffuse.png"/>
-    <File fileId="1360" filename="$data/placeables/mapUS/shared/detailSetUSFrames_mask.png"/>
-    <File fileId="1357" filename="$data/placeables/mapUS/shared/detailSetUSFrames_normal.png"/>
-    <File fileId="1358" filename="$data/placeables/mapUS/shared/detailSetUSFrames_specular.png"/>
-    <File fileId="1394" filename="$data/placeables/mapUS/warehouseLogisticUS/warehouseLogisticUSLogo_diffuse.png"/>
-    <File fileId="1416" filename="$data/placeables/mapUS/warehouseLogisticUS/warehouseLogisticUSSigns_diffuse.png"/>
-    <File fileId="1389" filename="$data/placeables/mapUS/warehouseLogisticUS/warehouseLogisticUS_diffuse.png"/>
-    <File fileId="1396" filename="$data/placeables/mapUS/warehouseLogisticUS/warehouseLogisticUS_emissive.png"/>
-    <File fileId="1393" filename="$data/placeables/mapUS/warehouseLogisticUS/warehouseLogisticUS_height.png"/>
-    <File fileId="1392" filename="$data/placeables/mapUS/warehouseLogisticUS/warehouseLogisticUS_mask.png"/>
-    <File fileId="1390" filename="$data/placeables/mapUS/warehouseLogisticUS/warehouseLogisticUS_normal.png"/>
-    <File fileId="1391" filename="$data/placeables/mapUS/warehouseLogisticUS/warehouseLogisticUS_specular.png"/>
-    <File fileId="1097" filename="$data/placeables/rudolfHormann/chickenBarnBig/chickenBarnBig01_diffuse.png"/>
-    <File fileId="1098" filename="$data/placeables/rudolfHormann/chickenBarnBig/chickenBarnBig01_normal.png"/>
-    <File fileId="1099" filename="$data/placeables/rudolfHormann/chickenBarnBig/chickenBarnBig01_specular.png"/>
-    <File fileId="1100" filename="$data/placeables/rudolfHormann/cowBarnBig/cowBarnBig_mask.png"/>
+    <File fileId="1369" filename="$data/placeables/mapUS/cementFactoryUS/cementFactoryLogo_diffuse.png"/>
+    <File fileId="1352" filename="$data/placeables/mapUS/cementFactoryUS/cementFactoryUS_diffuse.png"/>
+    <File fileId="1356" filename="$data/placeables/mapUS/cementFactoryUS/cementFactoryUS_height.png"/>
+    <File fileId="1355" filename="$data/placeables/mapUS/cementFactoryUS/cementFactoryUS_mask.png"/>
+    <File fileId="1353" filename="$data/placeables/mapUS/cementFactoryUS/cementFactoryUS_normal.png"/>
+    <File fileId="1354" filename="$data/placeables/mapUS/cementFactoryUS/cementFactoryUS_specular.png"/>
+    <File fileId="1347" filename="$data/placeables/mapUS/dairyUS/buildingTanks_diffuse.png"/>
+    <File fileId="1348" filename="$data/placeables/mapUS/dairyUS/buildingTanks_normal.png"/>
+    <File fileId="1349" filename="$data/placeables/mapUS/dairyUS/buildingTanks_specular.png"/>
+    <File fileId="1365" filename="$data/placeables/mapUS/shared/detailSetUSDoors_diffuse.png"/>
+    <File fileId="1366" filename="$data/placeables/mapUS/shared/detailSetUSDoors_normal.png"/>
+    <File fileId="1367" filename="$data/placeables/mapUS/shared/detailSetUSDoors_specular.png"/>
+    <File fileId="1360" filename="$data/placeables/mapUS/shared/detailSetUSFrames_diffuse.png"/>
+    <File fileId="1364" filename="$data/placeables/mapUS/shared/detailSetUSFrames_mask.png"/>
+    <File fileId="1361" filename="$data/placeables/mapUS/shared/detailSetUSFrames_normal.png"/>
+    <File fileId="1362" filename="$data/placeables/mapUS/shared/detailSetUSFrames_specular.png"/>
+    <File fileId="1398" filename="$data/placeables/mapUS/warehouseLogisticUS/warehouseLogisticUSLogo_diffuse.png"/>
+    <File fileId="1420" filename="$data/placeables/mapUS/warehouseLogisticUS/warehouseLogisticUSSigns_diffuse.png"/>
+    <File fileId="1393" filename="$data/placeables/mapUS/warehouseLogisticUS/warehouseLogisticUS_diffuse.png"/>
+    <File fileId="1400" filename="$data/placeables/mapUS/warehouseLogisticUS/warehouseLogisticUS_emissive.png"/>
+    <File fileId="1397" filename="$data/placeables/mapUS/warehouseLogisticUS/warehouseLogisticUS_height.png"/>
+    <File fileId="1396" filename="$data/placeables/mapUS/warehouseLogisticUS/warehouseLogisticUS_mask.png"/>
+    <File fileId="1394" filename="$data/placeables/mapUS/warehouseLogisticUS/warehouseLogisticUS_normal.png"/>
+    <File fileId="1395" filename="$data/placeables/mapUS/warehouseLogisticUS/warehouseLogisticUS_specular.png"/>
+    <File fileId="1099" filename="$data/placeables/rudolfHormann/chickenBarnBig/chickenBarnBig01_diffuse.png"/>
+    <File fileId="1100" filename="$data/placeables/rudolfHormann/chickenBarnBig/chickenBarnBig01_normal.png"/>
+    <File fileId="1101" filename="$data/placeables/rudolfHormann/chickenBarnBig/chickenBarnBig01_specular.png"/>
+    <File fileId="1102" filename="$data/placeables/rudolfHormann/cowBarnBig/cowBarnBig_mask.png"/>
     <File fileId="766" filename="$data/placeables/rudolfHormann/garageBig/garageBigGlass_diffuse.dds"/>
     <File fileId="846" filename="$data/placeables/rudolfHormann/garageContractor/garageContractor01_diffuse.png"/>
     <File fileId="847" filename="$data/placeables/rudolfHormann/garageContractor/garageContractor01_normal.png"/>
     <File fileId="848" filename="$data/placeables/rudolfHormann/garageContractor/garageContractor01_specular.png"/>
     <File fileId="849" filename="$data/placeables/rudolfHormann/garageContractor/garageContractor_mask.png"/>
-    <File fileId="1156" filename="$data/placeables/rudolfHormann/shared/alpsRoadFence01_diffuse.dds"/>
-    <File fileId="1157" filename="$data/placeables/rudolfHormann/shared/alpsRoadFence01_normal.dds"/>
-    <File fileId="1158" filename="$data/placeables/rudolfHormann/shared/alpsRoadFence01_specular.dds"/>
+    <File fileId="1158" filename="$data/placeables/rudolfHormann/shared/alpsRoadFence01_diffuse.dds"/>
+    <File fileId="1159" filename="$data/placeables/rudolfHormann/shared/alpsRoadFence01_normal.dds"/>
+    <File fileId="1160" filename="$data/placeables/rudolfHormann/shared/alpsRoadFence01_specular.dds"/>
     <File fileId="843" filename="$data/placeables/rudolfHormann/shared/solarPanels_diffuse.png"/>
     <File fileId="844" filename="$data/placeables/rudolfHormann/shared/solarPanels_normal.png"/>
     <File fileId="845" filename="$data/placeables/rudolfHormann/shared/solarPanels_specular.png"/>
-    <File fileId="1143" filename="$data/placeables/shared/sellingStationGeneric/sellingStationGeneric_diffuse.png"/>
-    <File fileId="1144" filename="$data/placeables/shared/sellingStationGeneric/sellingStationGeneric_normal.png"/>
-    <File fileId="1145" filename="$data/placeables/shared/sellingStationGeneric/sellingStationGeneric_specular.png"/>
-    <File fileId="1146" filename="$data/placeables/shared/sellingStationGeneric/wheatBottom_diffuse.png"/>
-    <File fileId="1147" filename="$data/placeables/shared/sellingStationGeneric/wheatBottom_normal.png"/>
-    <File fileId="1152" filename="$data/placeables/vogelsang/fillmasterS/fillmasterS_diffuse.png"/>
-    <File fileId="1153" filename="$data/placeables/vogelsang/fillmasterS/fillmasterS_normal.png"/>
-    <File fileId="1154" filename="$data/placeables/vogelsang/fillmasterS/fillmasterS_specular.png"/>
-    <File fileId="1155" filename="$data/placeables/vogelsang/fillmasterS/vogelsangLogo_diffuse.png"/>
-    <File fileId="1265" filename="$data/shaders/billboardSemiOctahedronShader.xml"/>
+    <File fileId="1145" filename="$data/placeables/shared/sellingStationGeneric/sellingStationGeneric_diffuse.png"/>
+    <File fileId="1146" filename="$data/placeables/shared/sellingStationGeneric/sellingStationGeneric_normal.png"/>
+    <File fileId="1147" filename="$data/placeables/shared/sellingStationGeneric/sellingStationGeneric_specular.png"/>
+    <File fileId="1148" filename="$data/placeables/shared/sellingStationGeneric/wheatBottom_diffuse.png"/>
+    <File fileId="1149" filename="$data/placeables/shared/sellingStationGeneric/wheatBottom_normal.png"/>
+    <File fileId="1154" filename="$data/placeables/vogelsang/fillmasterS/fillmasterS_diffuse.png"/>
+    <File fileId="1155" filename="$data/placeables/vogelsang/fillmasterS/fillmasterS_normal.png"/>
+    <File fileId="1156" filename="$data/placeables/vogelsang/fillmasterS/fillmasterS_specular.png"/>
+    <File fileId="1157" filename="$data/placeables/vogelsang/fillmasterS/vogelsangLogo_diffuse.png"/>
+    <File fileId="1267" filename="$data/shaders/billboardSemiOctahedronShader.xml"/>
     <File fileId="672" filename="$data/shaders/buildingShader.xml"/>
-    <File fileId="1359" filename="$data/shaders/colorShader.xml"/>
+    <File fileId="1363" filename="$data/shaders/colorShader.xml"/>
     <File fileId="668" filename="$data/shaders/decalShader.xml"/>
     <File fileId="750" filename="$data/shaders/glowShader.xml"/>
     <File fileId="647" filename="$data/shaders/groundHeightShader.xml"/>
-    <File fileId="1181" filename="$data/shaders/oceanShader.xml"/>
+    <File fileId="1183" filename="$data/shaders/oceanShader.xml"/>
     <File fileId="703" filename="$data/shaders/placeableShader.xml"/>
     <File fileId="680" filename="$data/shaders/snowHeapShader.xml"/>
     <File fileId="2" filename="$data/shaders/terrainShader.xml"/>
     <File fileId="744" filename="$data/shaders/translucencyShader.xml"/>
-    <File fileId="1243" filename="$data/shaders/treeBillboardShader.xml"/>
-    <File fileId="1249" filename="$data/shaders/treeBranchShader.xml"/>
-    <File fileId="1238" filename="$data/shaders/treeTrunkShader.xml"/>
+    <File fileId="1245" filename="$data/shaders/treeBillboardShader.xml"/>
+    <File fileId="1251" filename="$data/shaders/treeBranchShader.xml"/>
+    <File fileId="1240" filename="$data/shaders/treeTrunkShader.xml"/>
     <File fileId="938" filename="$data/shaders/vertexPaintShader.xml"/>
     <File fileId="1074" filename="$data/shaders/vtxRotateShader.xml"/>
     <File fileId="1059" filename="$data/shaders/vtxVentShader.xml"/>
-    <File fileId="1384" filename="$data/shaders/wrapBaleShader.xml"/>
+    <File fileId="1388" filename="$data/shaders/wrapBaleShader.xml"/>
     <File fileId="818" filename="$data/shared/assets/assetLibraryDecals_diffuse.png"/>
     <File fileId="819" filename="$data/shared/assets/assetLibraryDecals_normal.png"/>
-    <File fileId="1101" filename="$data/shared/assets/assetLibraryDecals_vmask.png"/>
+    <File fileId="1103" filename="$data/shared/assets/assetLibraryDecals_vmask.png"/>
     <File fileId="829" filename="$data/shared/assets/lights/lizard/buildings/industrialWallLight_diffuse.png"/>
     <File fileId="830" filename="$data/shared/assets/lights/lizard/buildings/industrialWallLight_normal.png"/>
     <File fileId="831" filename="$data/shared/assets/lights/lizard/buildings/industrialWallLight_specular.png"/>
@@ -1135,16 +1136,16 @@
     <File fileId="589" filename="data/infoLayer_placementCollisionGenerated.png"/>
     <File fileId="586" filename="data/infoLayer_tipCollision.png"/>
     <File fileId="587" filename="data/infoLayer_tipCollisionGenerated.png"/>
-    <File fileId="1432" filename="data/masks/BLOCKMASK.png"/>
-    <File fileId="1430" filename="data/masks/GEN_forestBorders.png"/>
-    <File fileId="1429" filename="data/masks/GEN_forestUPDT.png"/>
-    <File fileId="1428" filename="data/masks/GEN_meadowUPDT.png"/>
-    <File fileId="1427" filename="data/masks/GEN_roadsMask.png"/>
-    <File fileId="1431" filename="data/masks/GEN_slopeMask.png"/>
-    <File fileId="1424" filename="data/masks/PG_acres.png"/>
-    <File fileId="1426" filename="data/masks/PG_bushLand.png"/>
-    <File fileId="1423" filename="data/masks/PG_forest.png"/>
-    <File fileId="1425" filename="data/masks/PG_meadow.png"/>
+    <File fileId="1436" filename="data/masks/BLOCKMASK.png"/>
+    <File fileId="1434" filename="data/masks/GEN_forestBorders.png"/>
+    <File fileId="1433" filename="data/masks/GEN_forestUPDT.png"/>
+    <File fileId="1432" filename="data/masks/GEN_meadowUPDT.png"/>
+    <File fileId="1431" filename="data/masks/GEN_roadsMask.png"/>
+    <File fileId="1435" filename="data/masks/GEN_slopeMask.png"/>
+    <File fileId="1428" filename="data/masks/PG_acres.png"/>
+    <File fileId="1430" filename="data/masks/PG_bushLand.png"/>
+    <File fileId="1427" filename="data/masks/PG_forest.png"/>
+    <File fileId="1429" filename="data/masks/PG_meadow.png"/>
     <File fileId="284" filename="data/mudDark01_weight.png"/>
     <File fileId="289" filename="data/mudDark02_weight.png"/>
     <File fileId="334" filename="data/mudDarkGrassPatchy01_weight.png"/>
@@ -1183,9 +1184,9 @@
     <File fileId="738" filename="textures/animalDealer/animalTraderDecalB_diffuse.png"/>
     <File fileId="737" filename="textures/animalDealer/animalTrader_diffuse.dds"/>
     <File fileId="768" filename="textures/animalDealer/beachAndElectricityDecals_diffuse.png"/>
-    <File fileId="1163" filename="textures/animalDealer/brickWall_diffuse.dds"/>
-    <File fileId="1165" filename="textures/animalDealer/brickWall_height.dds"/>
-    <File fileId="1164" filename="textures/animalDealer/brickWall_normal.dds"/>
+    <File fileId="1165" filename="textures/animalDealer/brickWall_diffuse.dds"/>
+    <File fileId="1167" filename="textures/animalDealer/brickWall_height.dds"/>
+    <File fileId="1166" filename="textures/animalDealer/brickWall_normal.dds"/>
     <File fileId="731" filename="textures/animalDealer/buildingDecals01_diffuse.png"/>
     <File fileId="732" filename="textures/animalDealer/buildingDecals01_normal.png"/>
     <File fileId="733" filename="textures/animalDealer/buildingDecals01_specular.png"/>
@@ -1216,10 +1217,10 @@
     <File fileId="682" filename="textures/animalDealer/pierWooden_diff.dds"/>
     <File fileId="686" filename="textures/animalDealer/pierWooden_height.dds"/>
     <File fileId="683" filename="textures/animalDealer/pierWooden_norm.dds"/>
-    <File fileId="1233" filename="textures/hedges/shrub01_LOD.dds"/>
-    <File fileId="1234" filename="textures/hedges/shrub01_LOD_normal.dds"/>
-    <File fileId="1231" filename="textures/hedges/shrub5.dds"/>
-    <File fileId="1232" filename="textures/hedges/shrub5_normal.dds"/>
+    <File fileId="1235" filename="textures/hedges/shrub01_LOD.dds"/>
+    <File fileId="1236" filename="textures/hedges/shrub01_LOD_normal.dds"/>
+    <File fileId="1233" filename="textures/hedges/shrub5.dds"/>
+    <File fileId="1234" filename="textures/hedges/shrub5_normal.dds"/>
     <File fileId="690" filename="textures/liveStockDeco/Aluminium_diffuse.dds"/>
     <File fileId="691" filename="textures/liveStockDeco/Aluminium_normal.dds"/>
     <File fileId="692" filename="textures/liveStockDeco/Aluminium_specular.dds"/>
@@ -1241,26 +1242,26 @@
     <File fileId="705" filename="textures/props/catwalkFloor_diffuse.png"/>
     <File fileId="706" filename="textures/props/catwalkFloor_normal.png"/>
     <File fileId="707" filename="textures/props/catwalkFloor_specular.png"/>
-    <File fileId="1176" filename="textures/props/crash_diffuse.dds"/>
-    <File fileId="1177" filename="textures/props/crash_normal.dds"/>
+    <File fileId="1178" filename="textures/props/crash_diffuse.dds"/>
+    <File fileId="1179" filename="textures/props/crash_normal.dds"/>
     <File fileId="708" filename="textures/props/fenceThickTubesSet_diffuse.png"/>
     <File fileId="709" filename="textures/props/fenceThickTubesSet_normal.png"/>
     <File fileId="710" filename="textures/props/fenceThickTubesSet_specular.png"/>
-    <File fileId="1159" filename="textures/props/ls_diffuse.dds"/>
-    <File fileId="1162" filename="textures/props/ls_height.dds"/>
-    <File fileId="1160" filename="textures/props/ls_normal.dds"/>
-    <File fileId="1161" filename="textures/props/ls_spec.dds"/>
-    <File fileId="1194" filename="textures/props/pierWooden_diff.dds"/>
-    <File fileId="1197" filename="textures/props/pierWooden_height.dds"/>
-    <File fileId="1195" filename="textures/props/pierWooden_norm.dds"/>
-    <File fileId="1201" filename="textures/props/pondDecals_diffuse.png"/>
-    <File fileId="1198" filename="textures/props/pond_diffuse.png"/>
-    <File fileId="1199" filename="textures/props/pond_normal.png"/>
-    <File fileId="1200" filename="textures/props/pond_specular.png"/>
-    <File fileId="1196" filename="textures/props/standard_specular.dds"/>
-    <File fileId="1325" filename="textures/props/woodenCatwalk_diffuse.dds"/>
-    <File fileId="1326" filename="textures/props/woodenCatwalk_normal.dds"/>
-    <File fileId="1327" filename="textures/props/woodenCatwalk_specular.dds"/>
+    <File fileId="1161" filename="textures/props/ls_diffuse.dds"/>
+    <File fileId="1164" filename="textures/props/ls_height.dds"/>
+    <File fileId="1162" filename="textures/props/ls_normal.dds"/>
+    <File fileId="1163" filename="textures/props/ls_spec.dds"/>
+    <File fileId="1196" filename="textures/props/pierWooden_diff.dds"/>
+    <File fileId="1199" filename="textures/props/pierWooden_height.dds"/>
+    <File fileId="1197" filename="textures/props/pierWooden_norm.dds"/>
+    <File fileId="1203" filename="textures/props/pondDecals_diffuse.png"/>
+    <File fileId="1200" filename="textures/props/pond_diffuse.png"/>
+    <File fileId="1201" filename="textures/props/pond_normal.png"/>
+    <File fileId="1202" filename="textures/props/pond_specular.png"/>
+    <File fileId="1198" filename="textures/props/standard_specular.dds"/>
+    <File fileId="1327" filename="textures/props/woodenCatwalk_diffuse.dds"/>
+    <File fileId="1328" filename="textures/props/woodenCatwalk_normal.dds"/>
+    <File fileId="1329" filename="textures/props/woodenCatwalk_specular.dds"/>
     <File fileId="816" filename="textures/sawMill/crosscutSystemGlass_diffuse.png"/>
     <File fileId="817" filename="textures/sawMill/crosscutSystemGlass_specular.png"/>
     <File fileId="812" filename="textures/sawMill/crosscutSystem_diffuse.png"/>
@@ -1302,92 +1303,92 @@
     <File fileId="820" filename="textures/sawMill/woodTransportFrame_diffuse.png"/>
     <File fileId="821" filename="textures/sawMill/woodTransportFrame_normal.png"/>
     <File fileId="822" filename="textures/sawMill/woodTransportFrame_specular.png"/>
-    <File fileId="1133" filename="textures/spinnery/airConditionUSA_a_diffuse.png"/>
-    <File fileId="1134" filename="textures/spinnery/airConditionUSA_a_normal.png"/>
-    <File fileId="1135" filename="textures/spinnery/airConditionUSA_a_specular.png"/>
-    <File fileId="1139" filename="textures/spinnery/airConditionUSA_alpha_diffuse.png"/>
-    <File fileId="1140" filename="textures/spinnery/airConditionUSA_alpha_normal.png"/>
-    <File fileId="1141" filename="textures/spinnery/airConditionUSA_alpha_specular.png"/>
-    <File fileId="1136" filename="textures/spinnery/airConditionUSA_b_diffuse.png"/>
-    <File fileId="1137" filename="textures/spinnery/airConditionUSA_b_normal.png"/>
-    <File fileId="1138" filename="textures/spinnery/airConditionUSA_b_specular.png"/>
-    <File fileId="1130" filename="textures/spinnery/auxialiarySet_diffuse.png"/>
-    <File fileId="1131" filename="textures/spinnery/auxialiarySet_normal.png"/>
-    <File fileId="1132" filename="textures/spinnery/auxialiarySet_specular.png"/>
-    <File fileId="1119" filename="textures/spinnery/buildingDecalsGrunge_diffuse.png"/>
-    <File fileId="1120" filename="textures/spinnery/buildingDecalsGrunge_normal.png"/>
-    <File fileId="1121" filename="textures/spinnery/buildingDecalsGrunge_specular.png"/>
-    <File fileId="1122" filename="textures/spinnery/buildingDecalsRust_diffuse.png"/>
-    <File fileId="1123" filename="textures/spinnery/buildingDecalsRust_normal.png"/>
-    <File fileId="1124" filename="textures/spinnery/buildingDecalsRust_specular.png"/>
-    <File fileId="1126" filename="textures/spinnery/emptyRoom_diffuse.png"/>
-    <File fileId="1127" filename="textures/spinnery/emptyRoom_normal.png"/>
-    <File fileId="1128" filename="textures/spinnery/emptyRoom_specular.png"/>
-    <File fileId="1116" filename="textures/spinnery/industrialGarageDoors_diffuse.png"/>
-    <File fileId="1117" filename="textures/spinnery/industrialGarageDoors_normal.png"/>
-    <File fileId="1118" filename="textures/spinnery/industrialGarageDoors_specular.png"/>
-    <File fileId="1110" filename="textures/spinnery/industrialWindows_diffuse.png"/>
-    <File fileId="1111" filename="textures/spinnery/industrialWindows_normal.png"/>
-    <File fileId="1112" filename="textures/spinnery/industrialWindows_specular.png"/>
-    <File fileId="1142" filename="textures/spinnery/propsDecalsUS_diffuse.png"/>
-    <File fileId="1125" filename="textures/spinnery/spinneryLogo_diffuse.png"/>
-    <File fileId="1113" filename="textures/spinnery/windowsCurtains01_diffuse.png"/>
-    <File fileId="1114" filename="textures/spinnery/windowsCurtains01_normal.png"/>
-    <File fileId="1115" filename="textures/spinnery/windowsCurtains01_specular.png"/>
-    <File fileId="1107" filename="textures/spinnery/windowsGlass01_diffuse.png"/>
-    <File fileId="1108" filename="textures/spinnery/windowsGlass01_normal.png"/>
-    <File fileId="1109" filename="textures/spinnery/windowsGlass01_specular.png"/>
-    <File fileId="1102" filename="textures/spinnery/yarnShop_diffuse.png"/>
-    <File fileId="1106" filename="textures/spinnery/yarnShop_height.png"/>
-    <File fileId="1105" filename="textures/spinnery/yarnShop_mask.png"/>
-    <File fileId="1103" filename="textures/spinnery/yarnShop_normal.png"/>
-    <File fileId="1104" filename="textures/spinnery/yarnShop_specular.png"/>
-    <File fileId="1166" filename="textures/standard_specular.dds"/>
-    <File fileId="1173" filename="textures/terrain/powerStation_diffuse.dds"/>
-    <File fileId="1174" filename="textures/terrain/powerStation_normal.dds"/>
-    <File fileId="1175" filename="textures/terrain/powerStation_specular.dds"/>
-    <File fileId="1170" filename="textures/terrain/roadCrossing_diffuse.dds"/>
-    <File fileId="1171" filename="textures/terrain/roadCrossing_normal.dds"/>
-    <File fileId="1172" filename="textures/terrain/roadCrossing_specular.dds"/>
-    <File fileId="1167" filename="textures/terrain/road_diffuse.dds"/>
-    <File fileId="1168" filename="textures/terrain/road_normal.dds"/>
-    <File fileId="1169" filename="textures/terrain/road_specular.dds"/>
-    <File fileId="1230" filename="textures/terrainMap/bioMassPowerPlant02_diffuse.png"/>
-    <File fileId="1228" filename="textures/terrainMap/distFields.dds"/>
-    <File fileId="1227" filename="textures/terrainMap/roughGrass_diffuse.dds"/>
-    <File fileId="1229" filename="textures/terrainMap/roughGrass_normal.dds"/>
-    <File fileId="1226" filename="textures/terrainMap/treeScape.dds"/>
-    <File fileId="1292" filename="textures/trees/birch/birch4LOD_diffuse.png"/>
-    <File fileId="1294" filename="textures/trees/birch/birch4LOD_mask.png"/>
-    <File fileId="1293" filename="textures/trees/birch/birch4LOD_normal.png"/>
-    <File fileId="1288" filename="textures/trees/birch/birchBranch_diffuse.png"/>
-    <File fileId="1291" filename="textures/trees/birch/birchBranch_mask.png"/>
-    <File fileId="1289" filename="textures/trees/birch/birchBranch_normal.png"/>
-    <File fileId="1290" filename="textures/trees/birch/birchBranch_specular.png"/>
-    <File fileId="1286" filename="textures/trees/birch/birchTrunk_diffuse.png"/>
-    <File fileId="1287" filename="textures/trees/birch/birchTrunk_normal.png"/>
-    <File fileId="1250" filename="textures/trees/spruce/spruce3Var1LOD_diffuse.png"/>
-    <File fileId="1251" filename="textures/trees/spruce/spruce3Var1LOD_normal.png"/>
-    <File fileId="1244" filename="textures/trees/spruce/spruce4LOD_diffuse.dds"/>
-    <File fileId="1245" filename="textures/trees/spruce/spruce4LOD_normal.dds"/>
-    <File fileId="1241" filename="textures/trees/spruce/spruce5LOD_diffuse.dds"/>
-    <File fileId="1242" filename="textures/trees/spruce/spruce5LOD_normal.dds"/>
-    <File fileId="1246" filename="textures/trees/spruce/spruceBranch1_diffuse.png"/>
-    <File fileId="1247" filename="textures/trees/spruce/spruceBranch1_normal.png"/>
-    <File fileId="1248" filename="textures/trees/spruce/spruceBranch1_specular.png"/>
-    <File fileId="1239" filename="textures/trees/spruce/spruceBranch_diffuse.dds"/>
-    <File fileId="1240" filename="textures/trees/spruce/spruceBranch_normal.dds"/>
-    <File fileId="1236" filename="textures/trees/spruce/spruceTrunk_diffuse.dds"/>
-    <File fileId="1237" filename="textures/trees/spruce/spruceTrunk_normal.dds"/>
-    <File fileId="1277" filename="textures/trees/willow/trunk_diffuse.png"/>
-    <File fileId="1278" filename="textures/trees/willow/trunk_normal.png"/>
-    <File fileId="1279" filename="textures/trees/willow/willowBranch_diffuse.png"/>
-    <File fileId="1282" filename="textures/trees/willow/willowBranch_mask.png"/>
-    <File fileId="1280" filename="textures/trees/willow/willowBranch_normal.png"/>
-    <File fileId="1281" filename="textures/trees/willow/willowBranch_specular.png"/>
-    <File fileId="1283" filename="textures/trees/willow/willow_type01LOD_diffuse.png"/>
-    <File fileId="1285" filename="textures/trees/willow/willow_type01LOD_mask.png"/>
-    <File fileId="1284" filename="textures/trees/willow/willow_type01LOD_normal.png"/>
+    <File fileId="1135" filename="textures/spinnery/airConditionUSA_a_diffuse.png"/>
+    <File fileId="1136" filename="textures/spinnery/airConditionUSA_a_normal.png"/>
+    <File fileId="1137" filename="textures/spinnery/airConditionUSA_a_specular.png"/>
+    <File fileId="1141" filename="textures/spinnery/airConditionUSA_alpha_diffuse.png"/>
+    <File fileId="1142" filename="textures/spinnery/airConditionUSA_alpha_normal.png"/>
+    <File fileId="1143" filename="textures/spinnery/airConditionUSA_alpha_specular.png"/>
+    <File fileId="1138" filename="textures/spinnery/airConditionUSA_b_diffuse.png"/>
+    <File fileId="1139" filename="textures/spinnery/airConditionUSA_b_normal.png"/>
+    <File fileId="1140" filename="textures/spinnery/airConditionUSA_b_specular.png"/>
+    <File fileId="1132" filename="textures/spinnery/auxialiarySet_diffuse.png"/>
+    <File fileId="1133" filename="textures/spinnery/auxialiarySet_normal.png"/>
+    <File fileId="1134" filename="textures/spinnery/auxialiarySet_specular.png"/>
+    <File fileId="1121" filename="textures/spinnery/buildingDecalsGrunge_diffuse.png"/>
+    <File fileId="1122" filename="textures/spinnery/buildingDecalsGrunge_normal.png"/>
+    <File fileId="1123" filename="textures/spinnery/buildingDecalsGrunge_specular.png"/>
+    <File fileId="1124" filename="textures/spinnery/buildingDecalsRust_diffuse.png"/>
+    <File fileId="1125" filename="textures/spinnery/buildingDecalsRust_normal.png"/>
+    <File fileId="1126" filename="textures/spinnery/buildingDecalsRust_specular.png"/>
+    <File fileId="1128" filename="textures/spinnery/emptyRoom_diffuse.png"/>
+    <File fileId="1129" filename="textures/spinnery/emptyRoom_normal.png"/>
+    <File fileId="1130" filename="textures/spinnery/emptyRoom_specular.png"/>
+    <File fileId="1118" filename="textures/spinnery/industrialGarageDoors_diffuse.png"/>
+    <File fileId="1119" filename="textures/spinnery/industrialGarageDoors_normal.png"/>
+    <File fileId="1120" filename="textures/spinnery/industrialGarageDoors_specular.png"/>
+    <File fileId="1112" filename="textures/spinnery/industrialWindows_diffuse.png"/>
+    <File fileId="1113" filename="textures/spinnery/industrialWindows_normal.png"/>
+    <File fileId="1114" filename="textures/spinnery/industrialWindows_specular.png"/>
+    <File fileId="1144" filename="textures/spinnery/propsDecalsUS_diffuse.png"/>
+    <File fileId="1127" filename="textures/spinnery/spinneryLogo_diffuse.png"/>
+    <File fileId="1115" filename="textures/spinnery/windowsCurtains01_diffuse.png"/>
+    <File fileId="1116" filename="textures/spinnery/windowsCurtains01_normal.png"/>
+    <File fileId="1117" filename="textures/spinnery/windowsCurtains01_specular.png"/>
+    <File fileId="1109" filename="textures/spinnery/windowsGlass01_diffuse.png"/>
+    <File fileId="1110" filename="textures/spinnery/windowsGlass01_normal.png"/>
+    <File fileId="1111" filename="textures/spinnery/windowsGlass01_specular.png"/>
+    <File fileId="1104" filename="textures/spinnery/yarnShop_diffuse.png"/>
+    <File fileId="1108" filename="textures/spinnery/yarnShop_height.png"/>
+    <File fileId="1107" filename="textures/spinnery/yarnShop_mask.png"/>
+    <File fileId="1105" filename="textures/spinnery/yarnShop_normal.png"/>
+    <File fileId="1106" filename="textures/spinnery/yarnShop_specular.png"/>
+    <File fileId="1168" filename="textures/standard_specular.dds"/>
+    <File fileId="1175" filename="textures/terrain/powerStation_diffuse.dds"/>
+    <File fileId="1176" filename="textures/terrain/powerStation_normal.dds"/>
+    <File fileId="1177" filename="textures/terrain/powerStation_specular.dds"/>
+    <File fileId="1172" filename="textures/terrain/roadCrossing_diffuse.dds"/>
+    <File fileId="1173" filename="textures/terrain/roadCrossing_normal.dds"/>
+    <File fileId="1174" filename="textures/terrain/roadCrossing_specular.dds"/>
+    <File fileId="1169" filename="textures/terrain/road_diffuse.dds"/>
+    <File fileId="1170" filename="textures/terrain/road_normal.dds"/>
+    <File fileId="1171" filename="textures/terrain/road_specular.dds"/>
+    <File fileId="1232" filename="textures/terrainMap/bioMassPowerPlant02_diffuse.png"/>
+    <File fileId="1230" filename="textures/terrainMap/distFields.dds"/>
+    <File fileId="1229" filename="textures/terrainMap/roughGrass_diffuse.dds"/>
+    <File fileId="1231" filename="textures/terrainMap/roughGrass_normal.dds"/>
+    <File fileId="1228" filename="textures/terrainMap/treeScape.dds"/>
+    <File fileId="1294" filename="textures/trees/birch/birch4LOD_diffuse.png"/>
+    <File fileId="1296" filename="textures/trees/birch/birch4LOD_mask.png"/>
+    <File fileId="1295" filename="textures/trees/birch/birch4LOD_normal.png"/>
+    <File fileId="1290" filename="textures/trees/birch/birchBranch_diffuse.png"/>
+    <File fileId="1293" filename="textures/trees/birch/birchBranch_mask.png"/>
+    <File fileId="1291" filename="textures/trees/birch/birchBranch_normal.png"/>
+    <File fileId="1292" filename="textures/trees/birch/birchBranch_specular.png"/>
+    <File fileId="1288" filename="textures/trees/birch/birchTrunk_diffuse.png"/>
+    <File fileId="1289" filename="textures/trees/birch/birchTrunk_normal.png"/>
+    <File fileId="1252" filename="textures/trees/spruce/spruce3Var1LOD_diffuse.png"/>
+    <File fileId="1253" filename="textures/trees/spruce/spruce3Var1LOD_normal.png"/>
+    <File fileId="1246" filename="textures/trees/spruce/spruce4LOD_diffuse.dds"/>
+    <File fileId="1247" filename="textures/trees/spruce/spruce4LOD_normal.dds"/>
+    <File fileId="1243" filename="textures/trees/spruce/spruce5LOD_diffuse.dds"/>
+    <File fileId="1244" filename="textures/trees/spruce/spruce5LOD_normal.dds"/>
+    <File fileId="1248" filename="textures/trees/spruce/spruceBranch1_diffuse.png"/>
+    <File fileId="1249" filename="textures/trees/spruce/spruceBranch1_normal.png"/>
+    <File fileId="1250" filename="textures/trees/spruce/spruceBranch1_specular.png"/>
+    <File fileId="1241" filename="textures/trees/spruce/spruceBranch_diffuse.dds"/>
+    <File fileId="1242" filename="textures/trees/spruce/spruceBranch_normal.dds"/>
+    <File fileId="1238" filename="textures/trees/spruce/spruceTrunk_diffuse.dds"/>
+    <File fileId="1239" filename="textures/trees/spruce/spruceTrunk_normal.dds"/>
+    <File fileId="1279" filename="textures/trees/willow/trunk_diffuse.png"/>
+    <File fileId="1280" filename="textures/trees/willow/trunk_normal.png"/>
+    <File fileId="1281" filename="textures/trees/willow/willowBranch_diffuse.png"/>
+    <File fileId="1284" filename="textures/trees/willow/willowBranch_mask.png"/>
+    <File fileId="1282" filename="textures/trees/willow/willowBranch_normal.png"/>
+    <File fileId="1283" filename="textures/trees/willow/willowBranch_specular.png"/>
+    <File fileId="1285" filename="textures/trees/willow/willow_type01LOD_diffuse.png"/>
+    <File fileId="1287" filename="textures/trees/willow/willow_type01LOD_mask.png"/>
+    <File fileId="1286" filename="textures/trees/willow/willow_type01LOD_normal.png"/>
     <File fileId="1086" filename="textures/waterMill/chim_diffuse.dds"/>
     <File fileId="1087" filename="textures/waterMill/chim_normal.dds"/>
     <File fileId="1088" filename="textures/waterMill/chim_spec.dds"/>
@@ -1399,6 +1400,9 @@
     <File fileId="1081" filename="textures/waterMill/stone_normal.dds"/>
     <File fileId="1082" filename="textures/waterMill/stone_spec.dds"/>
     <File fileId="1094" filename="textures/waterMill/window.dds"/>
+    <File fileId="1096" filename="textures/waterMill/woodOldRough3_diffuse.dds"/>
+    <File fileId="1097" filename="textures/waterMill/woodOldRough_normal.dds"/>
+    <File fileId="1098" filename="textures/waterMill/woodOldRough_spec.dds"/>
     <File fileId="1077" filename="textures/waterMill/wood_diffuse.dds"/>
     <File fileId="1078" filename="textures/waterMill/wood_normal.dds"/>
     <File fileId="1079" filename="textures/waterMill/wood_spec.dds"/>
@@ -1407,7 +1411,7 @@
 
   <Materials>
     <Material name="1.m.onetex" materialId="5">
-      <Texture fileId="1226"/>
+      <Texture fileId="1228"/>
     </Material>
     <Material name="accessPoint_mat" materialId="6" specularColor="0.501961 1 0" customShaderId="703">
       <Texture fileId="955"/>
@@ -1418,29 +1422,29 @@
       <Glossmap fileId="1064"/>
     </Material>
     <Material name="addons_mat" materialId="8" customShaderId="703">
-      <Texture fileId="1366"/>
-      <Normalmap fileId="1367"/>
-      <Glossmap fileId="1368"/>
+      <Texture fileId="1370"/>
+      <Normalmap fileId="1371"/>
+      <Glossmap fileId="1372"/>
     </Material>
     <Material name="airConditionUSA_a_mat" materialId="9">
-      <Texture fileId="1133"/>
-      <Normalmap fileId="1134"/>
-      <Glossmap fileId="1135"/>
+      <Texture fileId="1135"/>
+      <Normalmap fileId="1136"/>
+      <Glossmap fileId="1137"/>
     </Material>
     <Material name="airConditionUSA_alpha_mat" materialId="10" alphaBlending="true" customShaderId="668">
-      <Texture fileId="1139"/>
-      <Normalmap fileId="1140"/>
-      <Glossmap fileId="1141"/>
+      <Texture fileId="1141"/>
+      <Normalmap fileId="1142"/>
+      <Glossmap fileId="1143"/>
     </Material>
     <Material name="airConditionUSA_b_mat" materialId="11">
-      <Texture fileId="1136"/>
-      <Normalmap fileId="1137"/>
-      <Glossmap fileId="1138"/>
+      <Texture fileId="1138"/>
+      <Normalmap fileId="1139"/>
+      <Glossmap fileId="1140"/>
     </Material>
     <Material name="alpsRoadFence01_mat" materialId="12" customShaderId="703">
-      <Texture fileId="1156"/>
-      <Normalmap fileId="1157"/>
-      <Glossmap fileId="1158"/>
+      <Texture fileId="1158"/>
+      <Normalmap fileId="1159"/>
+      <Glossmap fileId="1160"/>
     </Material>
     <Material name="animalTraderAuctionHall_mat" materialId="13" customShaderId="672" customShaderVariation="customParallax">
       <Texture fileId="720"/>
@@ -1466,52 +1470,52 @@
     <Material name="assetLibraryDecals_mat" materialId="17">
       <Texture fileId="818"/>
       <Normalmap fileId="819"/>
-      <Glossmap fileId="1101"/>
+      <Glossmap fileId="1103"/>
     </Material>
     <Material name="auxialiarySet_mat" materialId="18">
-      <Texture fileId="1130"/>
-      <Normalmap fileId="1131"/>
-      <Glossmap fileId="1132"/>
+      <Texture fileId="1132"/>
+      <Normalmap fileId="1133"/>
+      <Glossmap fileId="1134"/>
     </Material>
     <Material name="backdrop_mat" materialId="19" customShaderId="703">
-      <Texture fileId="1227"/>
+      <Texture fileId="1229"/>
       <Normalmap fileId="666"/>
       <Glossmap fileId="667"/>
     </Material>
-    <Material name="bale_mat" materialId="20" customShaderId="1384">
-      <Texture fileId="1382"/>
-      <Normalmap fileId="1383"/>
-      <Custommap name="wrapDiffuseMap" fileId="1385"/>
-      <Custommap name="wrapNormalMap" fileId="1386"/>
-      <Custommap name="netWrapDiffuseMap" fileId="1387"/>
-      <Custommap name="netWrapNormalMap" fileId="1388"/>
+    <Material name="bale_mat" materialId="20" customShaderId="1388">
+      <Texture fileId="1386"/>
+      <Normalmap fileId="1387"/>
+      <Custommap name="wrapDiffuseMap" fileId="1389"/>
+      <Custommap name="wrapNormalMap" fileId="1390"/>
+      <Custommap name="netWrapDiffuseMap" fileId="1391"/>
+      <Custommap name="netWrapNormalMap" fileId="1392"/>
     </Material>
     <Material name="barrier_mat" materialId="21" specularColor="0.501961 1 0" customShaderId="703">
-      <Texture fileId="1176"/>
-      <Normalmap fileId="1177"/>
+      <Texture fileId="1178"/>
+      <Normalmap fileId="1179"/>
     </Material>
     <Material name="beachAndElectricityDecals_mat" materialId="22" alphaBlending="true">
       <Texture fileId="768"/>
       <Normalmap fileId="666"/>
     </Material>
     <Material name="bgFieldBrown_mat" materialId="23">
-      <Texture fileId="1228"/>
-      <Normalmap fileId="1229"/>
+      <Texture fileId="1230"/>
+      <Normalmap fileId="1231"/>
     </Material>
-    <Material name="birch4LOD_mat" materialId="24" customShaderId="1243" customShaderVariation="SEASONAL_BILLBOARD180">
-      <Texture fileId="1292"/>
-      <Normalmap fileId="1293"/>
-      <Custommap name="mMaskMap" fileId="1294"/>
+    <Material name="birch4LOD_mat" materialId="24" customShaderId="1245" customShaderVariation="SEASONAL_BILLBOARD180">
+      <Texture fileId="1294"/>
+      <Normalmap fileId="1295"/>
+      <Custommap name="mMaskMap" fileId="1296"/>
     </Material>
-    <Material name="birchBranch_mat" materialId="25" customShaderId="1249" customShaderVariation="SEASONAL">
+    <Material name="birchBranch_mat" materialId="25" customShaderId="1251" customShaderVariation="SEASONAL">
+      <Texture fileId="1290"/>
+      <Normalmap fileId="1291"/>
+      <Glossmap fileId="1292"/>
+      <Custommap name="mMaskMap" fileId="1293"/>
+    </Material>
+    <Material name="birchTrunk_mat" materialId="26" customShaderId="1240">
       <Texture fileId="1288"/>
       <Normalmap fileId="1289"/>
-      <Glossmap fileId="1290"/>
-      <Custommap name="mMaskMap" fileId="1291"/>
-    </Material>
-    <Material name="birchTrunk_mat" materialId="26" customShaderId="1238">
-      <Texture fileId="1286"/>
-      <Normalmap fileId="1287"/>
     </Material>
     <Material name="blackMesh_mat" materialId="27" diffuseColor="0 0 0 1">
     </Material>
@@ -1520,30 +1524,30 @@
       <Normalmap fileId="824"/>
       <Glossmap fileId="825"/>
     </Material>
-    <Material name="bottom_mat" materialId="29">
+    <Material name="bottom_mat" materialId="23155">
       <Texture fileId="1089"/>
       <Normalmap fileId="1090"/>
       <Glossmap fileId="1091"/>
     </Material>
     <Material name="brick_mat" materialId="30" customShaderId="672" customShaderVariation="customParallax">
-      <Texture fileId="1163"/>
-      <Normalmap fileId="1164" bumpDepth="0.3"/>
-      <Custommap name="mParallaxMap" fileId="1165"/>
+      <Texture fileId="1165"/>
+      <Normalmap fileId="1166" bumpDepth="0.3"/>
+      <Custommap name="mParallaxMap" fileId="1167"/>
     </Material>
     <Material name="brick_mat" materialId="31" customShaderId="672" customShaderVariation="customParallax">
-      <Texture fileId="1163"/>
-      <Normalmap fileId="1164"/>
-      <Glossmap fileId="1166"/>
+      <Texture fileId="1165"/>
+      <Normalmap fileId="1166"/>
+      <Glossmap fileId="1168"/>
     </Material>
-    <Material name="brick_mat" materialId="32">
+    <Material name="brick_mat" materialId="23156">
       <Texture fileId="1086"/>
       <Normalmap fileId="1087"/>
       <Glossmap fileId="1088"/>
     </Material>
     <Material name="bridgeFlyover" materialId="33">
-      <Texture fileId="1173"/>
-      <Normalmap fileId="1174"/>
-      <Glossmap fileId="1175"/>
+      <Texture fileId="1175"/>
+      <Normalmap fileId="1176"/>
+      <Glossmap fileId="1177"/>
     </Material>
     <Material name="buildingDecals01_mat" materialId="34" alphaBlending="true" customShaderId="668">
       <Texture fileId="731"/>
@@ -1556,9 +1560,9 @@
       <Glossmap fileId="788"/>
     </Material>
     <Material name="buildingDecalsGrunge_mat" materialId="36" alphaBlending="true" customShaderId="668">
-      <Texture fileId="1119"/>
-      <Normalmap fileId="1120"/>
-      <Glossmap fileId="1121"/>
+      <Texture fileId="1121"/>
+      <Normalmap fileId="1122"/>
+      <Glossmap fileId="1123"/>
     </Material>
     <Material name="buildingDecalsRust_mat" materialId="37" alphaBlending="true" customShaderId="668">
       <Texture fileId="783"/>
@@ -1571,9 +1575,9 @@
       <Glossmap fileId="736"/>
     </Material>
     <Material name="buildingDecalsRust_mat" materialId="39" alphaBlending="true" customShaderId="668">
-      <Texture fileId="1122"/>
-      <Normalmap fileId="1123"/>
-      <Glossmap fileId="1124"/>
+      <Texture fileId="1124"/>
+      <Normalmap fileId="1125"/>
+      <Glossmap fileId="1126"/>
     </Material>
     <Material name="buildingDecalsWood_mat" materialId="40" alphaBlending="true" customShaderId="668">
       <Texture fileId="728"/>
@@ -1581,9 +1585,9 @@
       <Glossmap fileId="730"/>
     </Material>
     <Material name="buildingTanks_mat" materialId="41" customShaderId="703">
-      <Texture fileId="1344"/>
-      <Normalmap fileId="1345"/>
-      <Glossmap fileId="1346"/>
+      <Texture fileId="1347"/>
+      <Normalmap fileId="1348"/>
+      <Glossmap fileId="1349"/>
     </Material>
     <Material name="cardboardStack01_mat" materialId="42" customShaderId="703">
       <Texture fileId="966"/>
@@ -1598,7 +1602,7 @@
       <CustomParameter name="snowScale" value="0"/>
     </Material>
     <Material name="carpenterASWindows_mat" materialId="44">
-      <Texture fileId="1422"/>
+      <Texture fileId="1426"/>
       <Normalmap fileId="864"/>
       <Glossmap fileId="865"/>
     </Material>
@@ -1614,20 +1618,20 @@
       <Glossmap fileId="707"/>
     </Material>
     <Material name="cementBricksPallet_mat" materialId="47">
-      <Texture fileId="1409"/>
-      <Normalmap fileId="1410"/>
-      <Glossmap fileId="1411"/>
+      <Texture fileId="1413"/>
+      <Normalmap fileId="1414"/>
+      <Glossmap fileId="1415"/>
     </Material>
     <Material name="cementFactoryLogo_mat" materialId="48" customShaderId="668">
-      <Texture fileId="1365"/>
+      <Texture fileId="1369"/>
       <Normalmap fileId="666"/>
     </Material>
     <Material name="cementFactoryUS_mat" materialId="49" customShaderId="672" customShaderVariation="colorScale_customParallax">
-      <Texture fileId="1348"/>
-      <Normalmap fileId="1349"/>
-      <Glossmap fileId="1350"/>
-      <Custommap name="mMaskMap" fileId="1351"/>
-      <Custommap name="mParallaxMap" fileId="1352"/>
+      <Texture fileId="1352"/>
+      <Normalmap fileId="1353"/>
+      <Glossmap fileId="1354"/>
+      <Custommap name="mMaskMap" fileId="1355"/>
+      <Custommap name="mParallaxMap" fileId="1356"/>
       <CustomParameter name="dirtMossTint" value="-0.14 0 0.8"/>
       <CustomParameter name="colorScale0" value="0.59 0.39 0.26 0.3"/>
       <CustomParameter name="colorScale1" value="1 0.64 0.18 0.2"/>
@@ -1635,18 +1639,18 @@
       <CustomParameter name="colorScale3" value="0.43 0.22 0 0.2"/>
       <CustomParameter name="colorScale4" value="0.38 0.3 0.12 0.4"/>
     </Material>
-    <Material name="chickenBarnBig01_mat" materialId="50" customShaderId="672" customShaderVariation="colorScale">
-      <Texture fileId="1097"/>
-      <Normalmap fileId="1098"/>
-      <Glossmap fileId="1099"/>
-      <Custommap name="mMaskMap" fileId="1100"/>
+    <Material name="chickenBarnBig01_mat" materialId="23157" customShaderId="672" customShaderVariation="colorScale">
+      <Texture fileId="1099"/>
+      <Normalmap fileId="1100"/>
+      <Glossmap fileId="1101"/>
+      <Custommap name="mMaskMap" fileId="1102"/>
       <CustomParameter name="colorScale0" value="0.0667 0.2588 0.1961 1"/>
     </Material>
-    <Material name="chickenBarnBig01_mat1" materialId="51" customShaderId="672" customShaderVariation="visibilityCut">
-      <Texture fileId="1097"/>
-      <Normalmap fileId="1098"/>
-      <Glossmap fileId="1099"/>
-      <Custommap name="mMaskMap" fileId="1100"/>
+    <Material name="chickenBarnBig01_mat1" materialId="23158" customShaderId="672" customShaderVariation="visibilityCut">
+      <Texture fileId="1099"/>
+      <Normalmap fileId="1100"/>
+      <Glossmap fileId="1101"/>
+      <Custommap name="mMaskMap" fileId="1102"/>
     </Material>
     <Material name="chimney02_mat" materialId="52">
       <Texture fileId="754"/>
@@ -1695,9 +1699,9 @@
       <CustomParameter name="alphaShift" value="0.4"/>
     </Material>
     <Material name="concreteGeneric_mat" materialId="60">
-      <Texture fileId="1378"/>
-      <Normalmap fileId="1379"/>
-      <Glossmap fileId="1380"/>
+      <Texture fileId="1382"/>
+      <Normalmap fileId="1383"/>
+      <Glossmap fileId="1384"/>
     </Material>
     <Material name="connectedPylons_mat" materialId="61" customShaderId="703">
       <Texture fileId="973"/>
@@ -1705,10 +1709,10 @@
       <Glossmap fileId="975"/>
     </Material>
     <Material name="conrete_mat" materialId="62" customShaderId="672" customShaderVariation="customParallax">
-      <Texture fileId="1159"/>
-      <Normalmap fileId="1160"/>
-      <Glossmap fileId="1161"/>
-      <Custommap name="mParallaxMap" fileId="1162"/>
+      <Texture fileId="1161"/>
+      <Normalmap fileId="1162"/>
+      <Glossmap fileId="1163"/>
+      <Custommap name="mParallaxMap" fileId="1164"/>
     </Material>
     <Material name="constructionMaterial_mat" materialId="63" customShaderId="703">
       <Texture fileId="963"/>
@@ -1716,9 +1720,9 @@
       <Glossmap fileId="965"/>
     </Material>
     <Material name="cracks_mat" materialId="64">
-      <Texture fileId="1417"/>
-      <Normalmap fileId="1418"/>
-      <Glossmap fileId="1419"/>
+      <Texture fileId="1421"/>
+      <Normalmap fileId="1422"/>
+      <Glossmap fileId="1423"/>
     </Material>
     <Material name="crosscutSysteGlass_mat" materialId="65">
       <Texture fileId="816"/>
@@ -1731,14 +1735,14 @@
       <Custommap name="mMaskMap" fileId="815"/>
     </Material>
     <Material name="crossRoad_mat" materialId="67" customShaderId="938" customShaderVariation="alphaNoise_terrainFormat">
-      <Texture fileId="1170"/>
-      <Normalmap fileId="1171"/>
-      <Glossmap fileId="1172"/>
+      <Texture fileId="1172"/>
+      <Normalmap fileId="1173"/>
+      <Glossmap fileId="1174"/>
     </Material>
     <Material name="curtains_mat" materialId="68" customShaderId="744">
-      <Texture fileId="1336"/>
-      <Normalmap fileId="1337"/>
-      <Glossmap fileId="1338"/>
+      <Texture fileId="1338"/>
+      <Normalmap fileId="1339"/>
+      <Glossmap fileId="1340"/>
     </Material>
     <Material name="curtainSet_mat" materialId="69" customShaderId="744">
       <Texture fileId="742"/>
@@ -1753,32 +1757,32 @@
       <CustomParameter name="mixAmount" value="0.25"/>
     </Material>
     <Material name="curtainsSet_mat" materialId="71" customShaderId="744">
-      <Texture fileId="1353"/>
-      <Normalmap fileId="1354"/>
-      <Glossmap fileId="1355"/>
+      <Texture fileId="1357"/>
+      <Normalmap fileId="1358"/>
+      <Glossmap fileId="1359"/>
       <CustomParameter name="translucencyAmount" value="0.7"/>
     </Material>
     <Material name="customRoad_mat" materialId="72" customShaderId="938">
-      <Texture fileId="1167"/>
-      <Normalmap fileId="1168"/>
-      <Glossmap fileId="1169"/>
+      <Texture fileId="1169"/>
+      <Normalmap fileId="1170"/>
+      <Glossmap fileId="1171"/>
     </Material>
     <Material name="customRoad_mat" materialId="73" customShaderId="938" customShaderVariation="terrainFormat_alphaMap">
-      <Texture fileId="1167"/>
-      <Normalmap fileId="1168"/>
-      <Glossmap fileId="1169"/>
+      <Texture fileId="1169"/>
+      <Normalmap fileId="1170"/>
+      <Glossmap fileId="1171"/>
       <CustomParameter name="snowScale" value="0.71"/>
     </Material>
     <Material name="dairyAS_mat" materialId="74" customShaderId="672" customShaderVariation="customParallax">
-      <Texture fileId="1328"/>
-      <Normalmap fileId="1329"/>
-      <Glossmap fileId="1330"/>
-      <Custommap name="mMaskMap" fileId="1331"/>
-      <Custommap name="mParallaxMap" fileId="1332"/>
+      <Texture fileId="1330"/>
+      <Normalmap fileId="1331"/>
+      <Glossmap fileId="1332"/>
+      <Custommap name="mMaskMap" fileId="1333"/>
+      <Custommap name="mParallaxMap" fileId="1334"/>
     </Material>
     <Material name="dairyASLogo_mat" materialId="75" customShaderId="703">
-      <Texture fileId="1339"/>
-      <Normalmap fileId="1096"/>
+      <Texture fileId="1341"/>
+      <Normalmap fileId="1342"/>
     </Material>
     <Material name="decalSet_mat" materialId="76" alphaBlending="true" customShaderId="668">
       <Texture fileId="872"/>
@@ -1791,29 +1795,29 @@
       <Normalmap fileId="873"/>
       <Glossmap fileId="874"/>
     </Material>
-    <Material name="detailSetUSDoors_mat" materialId="78" customShaderId="1359" customShaderVariation="colorScale_customMask">
-      <Texture fileId="1361"/>
-      <Normalmap fileId="1362"/>
-      <Glossmap fileId="1363"/>
+    <Material name="detailSetUSDoors_mat" materialId="78" customShaderId="1363" customShaderVariation="colorScale_customMask">
+      <Texture fileId="1365"/>
+      <Normalmap fileId="1366"/>
+      <Glossmap fileId="1367"/>
     </Material>
-    <Material name="detailSetUSFrames_mat" materialId="79" customShaderId="1359" customShaderVariation="colorScale_customMask">
-      <Texture fileId="1356"/>
-      <Normalmap fileId="1357"/>
-      <Glossmap fileId="1358"/>
-      <Custommap name="mCustomMask" fileId="1360"/>
+    <Material name="detailSetUSFrames_mat" materialId="79" customShaderId="1363" customShaderVariation="colorScale_customMask">
+      <Texture fileId="1360"/>
+      <Normalmap fileId="1361"/>
+      <Glossmap fileId="1362"/>
+      <Custommap name="mCustomMask" fileId="1364"/>
       <CustomParameter name="contrastLuminiosity" value="1 0.23"/>
       <CustomParameter name="colorScale0" value="0.1 0.1 0.1 1"/>
     </Material>
-    <Material name="detailSetUSFrames_mat" materialId="80" customShaderId="1359" customShaderVariation="colorScale_customMask">
-      <Texture fileId="1356"/>
-      <Normalmap fileId="1357"/>
-      <Glossmap fileId="1358"/>
+    <Material name="detailSetUSFrames_mat" materialId="80" customShaderId="1363" customShaderVariation="colorScale_customMask">
+      <Texture fileId="1360"/>
+      <Normalmap fileId="1361"/>
+      <Glossmap fileId="1362"/>
       <CustomParameter name="colorScale0" value="0.065 0.065 0.065 1"/>
     </Material>
     <Material name="dirt_mat" materialId="81">
-      <Texture fileId="1369"/>
-      <Normalmap fileId="1370"/>
-      <Glossmap fileId="1371"/>
+      <Texture fileId="1373"/>
+      <Normalmap fileId="1374"/>
+      <Glossmap fileId="1375"/>
     </Material>
     <Material name="doorsSET_mat" materialId="82">
       <Texture fileId="739"/>
@@ -1889,15 +1893,15 @@
       <CustomParameter name="lightControl" value="1.5"/>
     </Material>
     <Material name="emptyRoom_mat" materialId="96" customShaderId="750" customShaderVariation="alphaTestDisable">
-      <Texture fileId="1126"/>
-      <Normalmap fileId="1127"/>
-      <Glossmap fileId="1128"/>
+      <Texture fileId="1128"/>
+      <Normalmap fileId="1129"/>
+      <Glossmap fileId="1130"/>
       <CustomParameter name="lightControl" value="1.5"/>
     </Material>
     <Material name="euroPalletNew_mat" materialId="97">
-      <Texture fileId="1406"/>
-      <Normalmap fileId="1407"/>
-      <Glossmap fileId="1408"/>
+      <Texture fileId="1410"/>
+      <Normalmap fileId="1411"/>
+      <Glossmap fileId="1412"/>
     </Material>
     <Material name="farmGravelDecals_mat" materialId="98" customShaderId="938" customShaderVariation="alphaNoise_customParallax_alphaMap">
       <Texture fileId="1017"/>
@@ -1954,19 +1958,19 @@
       <Glossmap fileId="710"/>
     </Material>
     <Material name="fertilizerTank_mat" materialId="107">
-      <Texture fileId="1400"/>
-      <Normalmap fileId="1401"/>
-      <Glossmap fileId="1402"/>
+      <Texture fileId="1404"/>
+      <Normalmap fileId="1405"/>
+      <Glossmap fileId="1406"/>
     </Material>
     <Material name="fillmasterS_mat" materialId="108" customShaderId="703">
-      <Texture fileId="1152"/>
-      <Normalmap fileId="1153"/>
-      <Glossmap fileId="1154"/>
+      <Texture fileId="1154"/>
+      <Normalmap fileId="1155"/>
+      <Glossmap fileId="1156"/>
     </Material>
     <Material name="fishingRaft_mat" materialId="109" customShaderId="703">
-      <Texture fileId="1202"/>
-      <Normalmap fileId="1203"/>
-      <Glossmap fileId="1204"/>
+      <Texture fileId="1204"/>
+      <Normalmap fileId="1205"/>
+      <Glossmap fileId="1206"/>
     </Material>
     <Material name="floodLight03_mat" materialId="110" customShaderId="703">
       <Texture fileId="1003"/>
@@ -2001,9 +2005,9 @@
       <Glossmap fileId="1016"/>
     </Material>
     <Material name="furnitureStack_mat" materialId="116">
-      <Texture fileId="1403"/>
-      <Normalmap fileId="1404"/>
-      <Glossmap fileId="1405"/>
+      <Texture fileId="1407"/>
+      <Normalmap fileId="1408"/>
+      <Glossmap fileId="1409"/>
     </Material>
     <Material name="Futterraufen_mat" materialId="117" customShaderId="672">
       <Texture fileId="690"/>
@@ -2019,14 +2023,14 @@
       <CustomParameter name="colorScale0" value="0.0667 0.2588 0.1961 1"/>
     </Material>
     <Material name="gardenShed01_mat" materialId="119" customShaderId="703">
-      <Texture fileId="1188"/>
-      <Normalmap fileId="1189"/>
-      <Glossmap fileId="1190"/>
+      <Texture fileId="1190"/>
+      <Normalmap fileId="1191"/>
+      <Glossmap fileId="1192"/>
     </Material>
     <Material name="gardenShed04_mat" materialId="120" customShaderId="703">
-      <Texture fileId="1191"/>
-      <Normalmap fileId="1192"/>
-      <Glossmap fileId="1193"/>
+      <Texture fileId="1193"/>
+      <Normalmap fileId="1194"/>
+      <Glossmap fileId="1195"/>
     </Material>
     <Material name="gardenTools_mat" materialId="121">
       <Texture fileId="984"/>
@@ -2048,8 +2052,8 @@
       <Custommap name="mParallaxMap" fileId="1041"/>
     </Material>
     <Material name="gasStation_mat" materialId="124" specularColor="0.501961 1 0.501961" customShaderId="750" customShaderVariation="customEmissiveMap_secondUV">
-      <Texture fileId="1395"/>
-      <Custommap name="mEmissiveMap" fileId="1396"/>
+      <Texture fileId="1399"/>
+      <Custommap name="mEmissiveMap" fileId="1400"/>
     </Material>
     <Material name="gasStation_mat1" materialId="125" customShaderId="750" customShaderVariation="customEmissiveMap_secondUV">
       <Texture fileId="1036"/>
@@ -2093,18 +2097,18 @@
       <CustomParameter name="colorScale" value="0.2 0.4 1"/>
     </Material>
     <Material name="glass_mat" materialId="132" alphaBlending="true">
-      <Texture fileId="1186"/>
+      <Texture fileId="1188"/>
       <Normalmap fileId="666"/>
-      <Glossmap fileId="1187"/>
+      <Glossmap fileId="1189"/>
     </Material>
     <Material name="glass_mat" materialId="133" alphaBlending="true" customShaderId="703">
-      <Texture fileId="1375"/>
-      <Normalmap fileId="1376"/>
-      <Glossmap fileId="1377"/>
+      <Texture fileId="1379"/>
+      <Normalmap fileId="1380"/>
+      <Glossmap fileId="1381"/>
     </Material>
     <Material name="glass_mat1" materialId="134" diffuseColor="0.533333 0.537255 0.517647 1" alphaBlending="true" customShaderId="703">
-      <Normalmap fileId="1376"/>
-      <Glossmap fileId="1377"/>
+      <Normalmap fileId="1380"/>
+      <Glossmap fileId="1381"/>
     </Material>
     <Material name="grainElevatorFloor_mat" materialId="135" customShaderId="703">
       <Texture fileId="922"/>
@@ -2164,18 +2168,18 @@
       <Glossmap fileId="918"/>
     </Material>
     <Material name="greenHouseGlass_mat" materialId="144" customShaderId="703">
-      <Texture fileId="1372"/>
-      <Normalmap fileId="1373"/>
-      <Glossmap fileId="1374"/>
+      <Texture fileId="1376"/>
+      <Normalmap fileId="1377"/>
+      <Glossmap fileId="1378"/>
     </Material>
     <Material name="groundDetailHeight_mat" materialId="145" diffuseColor="0 0 0 0" customShaderId="647">
       <Custommap name="heightNoiseMap" fileId="648"/>
     </Material>
     <Material name="harborOfficeBricks_mat" materialId="146" customShaderId="938" customShaderVariation="alphaNoise_customParallax_uv2">
-      <Texture fileId="1420"/>
-      <Normalmap fileId="1390"/>
-      <Glossmap fileId="1421"/>
-      <Custommap name="mParallaxMap" fileId="1393"/>
+      <Texture fileId="1424"/>
+      <Normalmap fileId="1394"/>
+      <Glossmap fileId="1425"/>
+      <Custommap name="mParallaxMap" fileId="1397"/>
     </Material>
     <Material name="hayFeeder_mat" materialId="147">
       <Texture fileId="769"/>
@@ -2183,18 +2187,18 @@
       <Glossmap fileId="771"/>
     </Material>
     <Material name="hedge_mat" materialId="148" customShaderId="703" customShaderVariation="wind_vertexOffset">
+      <Texture fileId="1235"/>
+      <Normalmap fileId="1236"/>
+      <Glossmap fileId="667"/>
+    </Material>
+    <Material name="hedge_mat" materialId="149" customShaderId="703" customShaderVariation="wind_vertexOffset">
       <Texture fileId="1233"/>
       <Normalmap fileId="1234"/>
       <Glossmap fileId="667"/>
     </Material>
-    <Material name="hedge_mat" materialId="149" customShaderId="703" customShaderVariation="wind_vertexOffset">
-      <Texture fileId="1231"/>
-      <Normalmap fileId="1232"/>
-      <Glossmap fileId="667"/>
-    </Material>
     <Material name="hedgeLOD_mat" materialId="150" customShaderId="703">
-      <Texture fileId="1231"/>
-      <Normalmap fileId="1232"/>
+      <Texture fileId="1233"/>
+      <Normalmap fileId="1234"/>
     </Material>
     <Material name="Heuhaufen" materialId="151">
       <Texture fileId="694"/>
@@ -2234,9 +2238,9 @@
       <Glossmap fileId="800"/>
     </Material>
     <Material name="industrialGarageDoors_mat" materialId="158">
-      <Texture fileId="1116"/>
-      <Normalmap fileId="1117"/>
-      <Glossmap fileId="1118"/>
+      <Texture fileId="1118"/>
+      <Normalmap fileId="1119"/>
+      <Glossmap fileId="1120"/>
     </Material>
     <Material name="industrialLight04_mat" materialId="159">
       <Texture fileId="875"/>
@@ -2281,37 +2285,37 @@
       <Glossmap fileId="797"/>
     </Material>
     <Material name="industrialWindows_mat" materialId="167" alphaBlending="true">
-      <Texture fileId="1110"/>
-      <Normalmap fileId="1111"/>
-      <Glossmap fileId="1112"/>
+      <Texture fileId="1112"/>
+      <Normalmap fileId="1113"/>
+      <Glossmap fileId="1114"/>
     </Material>
-    <Material name="japaneseZelkova_stage04LOD_mat" materialId="168" customShaderId="1265" customShaderVariation="treeSeasonal">
-      <Texture fileId="1303"/>
-      <Normalmap fileId="1304"/>
-      <Glossmap fileId="1305"/>
-      <Custommap name="billboardDepth" fileId="1306"/>
-      <Custommap name="mMaskMap" fileId="1307"/>
-      <Custommap name="mSeasonalCurve" fileId="1308"/>
+    <Material name="japaneseZelkova_stage04LOD_mat" materialId="168" customShaderId="1267" customShaderVariation="treeSeasonal">
+      <Texture fileId="1305"/>
+      <Normalmap fileId="1306"/>
+      <Glossmap fileId="1307"/>
+      <Custommap name="billboardDepth" fileId="1308"/>
+      <Custommap name="mMaskMap" fileId="1309"/>
+      <Custommap name="mSeasonalCurve" fileId="1310"/>
       <CustomParameter name="aabbCenter" value="-0.436 11.467 -0.159"/>
       <CustomParameter name="aabbHalfExtent" value="11.484 12.872 12.905"/>
       <CustomParameter name="seasonalTintIntensity" value="0.1 0.16 0.15"/>
     </Material>
-    <Material name="japaneseZelkovaBranch_mat" materialId="169" customShaderId="1249" customShaderVariation="SEASONAL">
-      <Texture fileId="1299"/>
-      <Normalmap fileId="1300"/>
-      <Glossmap fileId="1301"/>
-      <Custommap name="mMaskMap" fileId="1302"/>
+    <Material name="japaneseZelkovaBranch_mat" materialId="169" customShaderId="1251" customShaderVariation="SEASONAL">
+      <Texture fileId="1301"/>
+      <Normalmap fileId="1302"/>
+      <Glossmap fileId="1303"/>
+      <Custommap name="mMaskMap" fileId="1304"/>
       <CustomParameter name="seasonalTintIntensity" value="0.1 0.16 0.15"/>
     </Material>
-    <Material name="japaneseZelkovaBranchLOD1_mat" materialId="170" customShaderId="1249" customShaderVariation="SEASONAL">
-      <Texture fileId="1309"/>
-      <Custommap name="mMaskMap" fileId="1310"/>
+    <Material name="japaneseZelkovaBranchLOD1_mat" materialId="170" customShaderId="1251" customShaderVariation="SEASONAL">
+      <Texture fileId="1311"/>
+      <Custommap name="mMaskMap" fileId="1312"/>
     </Material>
-    <Material name="japaneseZelkovaTrunk_mat" materialId="171" customShaderId="1238" customShaderVariation="customParallax">
-      <Texture fileId="1295"/>
-      <Normalmap fileId="1296"/>
-      <Glossmap fileId="1297"/>
-      <Custommap name="mParallaxMap" fileId="1298"/>
+    <Material name="japaneseZelkovaTrunk_mat" materialId="171" customShaderId="1240" customShaderVariation="customParallax">
+      <Texture fileId="1297"/>
+      <Normalmap fileId="1298"/>
+      <Glossmap fileId="1299"/>
+      <Custommap name="mParallaxMap" fileId="1300"/>
     </Material>
     <Material name="Kerb_mat" materialId="172" customShaderId="703" customShaderVariation="customParallax">
     </Material>
@@ -2346,45 +2350,45 @@
       <Glossmap fileId="1070"/>
     </Material>
     <Material name="manureConcrete_mat" materialId="183" customShaderId="703">
-      <Texture fileId="1149"/>
-      <Normalmap fileId="1150"/>
-      <Glossmap fileId="1151"/>
+      <Texture fileId="1151"/>
+      <Normalmap fileId="1152"/>
+      <Glossmap fileId="1153"/>
     </Material>
-    <Material name="oak_stage03LOD_mat" materialId="184" customShaderId="1265" customShaderVariation="treeSeasonal">
-      <Texture fileId="1271"/>
-      <Normalmap fileId="1272"/>
-      <Glossmap fileId="1273"/>
-      <Custommap name="billboardDepth" fileId="1274"/>
-      <Custommap name="mMaskMap" fileId="1275"/>
-      <Custommap name="mSeasonalCurve" fileId="1276"/>
+    <Material name="oak_stage03LOD_mat" materialId="184" customShaderId="1267" customShaderVariation="treeSeasonal">
+      <Texture fileId="1273"/>
+      <Normalmap fileId="1274"/>
+      <Glossmap fileId="1275"/>
+      <Custommap name="billboardDepth" fileId="1276"/>
+      <Custommap name="mMaskMap" fileId="1277"/>
+      <Custommap name="mSeasonalCurve" fileId="1278"/>
       <CustomParameter name="aabbCenter" value="0.431 7.898 -0.323"/>
       <CustomParameter name="aabbHalfExtent" value="6.644 8.653 8.755"/>
     </Material>
-    <Material name="oak_stage05LOD_mat" materialId="185" customShaderId="1265" customShaderVariation="treeSeasonal">
-      <Texture fileId="1262"/>
-      <Normalmap fileId="1263"/>
-      <Glossmap fileId="1264"/>
-      <Custommap name="billboardDepth" fileId="1266"/>
-      <Custommap name="mMaskMap" fileId="1267"/>
-      <Custommap name="mSeasonalCurve" fileId="1268"/>
+    <Material name="oak_stage05LOD_mat" materialId="185" customShaderId="1267" customShaderVariation="treeSeasonal">
+      <Texture fileId="1264"/>
+      <Normalmap fileId="1265"/>
+      <Glossmap fileId="1266"/>
+      <Custommap name="billboardDepth" fileId="1268"/>
+      <Custommap name="mMaskMap" fileId="1269"/>
+      <Custommap name="mSeasonalCurve" fileId="1270"/>
       <CustomParameter name="aabbCenter" value="0.131 12.039 0.438"/>
       <CustomParameter name="aabbHalfExtent" value="11.342 13.259 13.203"/>
     </Material>
-    <Material name="oakBark_mat" materialId="186" customShaderId="1238" customShaderVariation="customParallax">
-      <Texture fileId="1254"/>
-      <Normalmap fileId="1255"/>
-      <Glossmap fileId="1256"/>
-      <Custommap name="mParallaxMap" fileId="1257"/>
+    <Material name="oakBark_mat" materialId="186" customShaderId="1240" customShaderVariation="customParallax">
+      <Texture fileId="1256"/>
+      <Normalmap fileId="1257"/>
+      <Glossmap fileId="1258"/>
+      <Custommap name="mParallaxMap" fileId="1259"/>
     </Material>
-    <Material name="oakBranch_mat" materialId="187" customShaderId="1249" customShaderVariation="SEASONAL">
-      <Texture fileId="1258"/>
-      <Normalmap fileId="1259"/>
-      <Glossmap fileId="1260"/>
-      <Custommap name="mMaskMap" fileId="1261"/>
+    <Material name="oakBranch_mat" materialId="187" customShaderId="1251" customShaderVariation="SEASONAL">
+      <Texture fileId="1260"/>
+      <Normalmap fileId="1261"/>
+      <Glossmap fileId="1262"/>
+      <Custommap name="mMaskMap" fileId="1263"/>
     </Material>
-    <Material name="oakBranchLOD1_mat" materialId="188" customShaderId="1249" customShaderVariation="SEASONAL">
-      <Texture fileId="1269"/>
-      <Custommap name="mMaskMap" fileId="1270"/>
+    <Material name="oakBranchLOD1_mat" materialId="188" customShaderId="1251" customShaderVariation="SEASONAL">
+      <Texture fileId="1271"/>
+      <Custommap name="mMaskMap" fileId="1272"/>
     </Material>
     <Material name="palletLoadingWarehouse_mat" materialId="189" customShaderId="672" customShaderVariation="customParallax">
       <Texture fileId="850"/>
@@ -2419,28 +2423,28 @@
       <Custommap name="mParallaxMap" fileId="1041"/>
     </Material>
     <Material name="pierBridge_mat" materialId="194" customShaderId="672" customShaderVariation="customParallax">
-      <Texture fileId="1222"/>
-      <Normalmap fileId="1223"/>
-      <Glossmap fileId="1224"/>
-      <Custommap name="mMaskMap" fileId="1218"/>
-      <Custommap name="mParallaxMap" fileId="1225"/>
+      <Texture fileId="1224"/>
+      <Normalmap fileId="1225"/>
+      <Glossmap fileId="1226"/>
+      <Custommap name="mMaskMap" fileId="1220"/>
+      <Custommap name="mParallaxMap" fileId="1227"/>
       <CustomParameter name="dirtMossMix" value="0.8 0.5"/>
       <CustomParameter name="dirtMossTint" value="0.3 0 0.8"/>
       <CustomParameter name="checkUV1WetnessSnow" value="0"/>
     </Material>
     <Material name="pierWooden_mat" materialId="195" customShaderId="672" customShaderVariation="customParallax">
-      <Texture fileId="1194"/>
-      <Normalmap fileId="1195" bumpDepth="0.1"/>
-      <Glossmap fileId="1196"/>
-      <Custommap name="mParallaxMap" fileId="1197"/>
+      <Texture fileId="1196"/>
+      <Normalmap fileId="1197" bumpDepth="0.1"/>
+      <Glossmap fileId="1198"/>
+      <Custommap name="mParallaxMap" fileId="1199"/>
     </Material>
     <Material name="pineBranch_mat" materialId="196">
-      <Texture fileId="1239"/>
-      <Normalmap fileId="1240"/>
+      <Texture fileId="1241"/>
+      <Normalmap fileId="1242"/>
     </Material>
     <Material name="plasterDamagedDecals_mat" materialId="197" alphaBlending="true" customShaderId="938" customShaderVariation="alphaNoise">
-      <Texture fileId="1342"/>
-      <Normalmap fileId="1343"/>
+      <Texture fileId="1345"/>
+      <Normalmap fileId="1346"/>
       <Glossmap fileId="685"/>
       <CustomParameter name="colorTint" value="0.1 0.1 0.1"/>
       <CustomParameter name="alphaShift" value="0.3"/>
@@ -2456,17 +2460,17 @@
       <Glossmap fileId="842"/>
     </Material>
     <Material name="pond_mat" materialId="200">
-      <Texture fileId="1198"/>
-      <Normalmap fileId="1199"/>
-      <Glossmap fileId="1200"/>
+      <Texture fileId="1200"/>
+      <Normalmap fileId="1201"/>
+      <Glossmap fileId="1202"/>
     </Material>
     <Material name="pondDecals_mat" materialId="201" alphaBlending="true" customShaderId="668">
-      <Texture fileId="1201"/>
+      <Texture fileId="1203"/>
       <Normalmap fileId="666"/>
       <Glossmap fileId="667"/>
     </Material>
     <Material name="propsDecalsUS_mat" materialId="202" alphaBlending="true" customShaderId="668">
-      <Texture fileId="1142"/>
+      <Texture fileId="1144"/>
       <Normalmap fileId="666"/>
     </Material>
     <Material name="publicLighSet_mat" materialId="203" customShaderId="703">
@@ -2481,14 +2485,14 @@
       <CustomParameter name="lightControl" value="1.5"/>
     </Material>
     <Material name="railroadCrossing02_mat" materialId="205">
-      <Texture fileId="1212"/>
-      <Normalmap fileId="1213"/>
-      <Glossmap fileId="1214"/>
+      <Texture fileId="1214"/>
+      <Normalmap fileId="1215"/>
+      <Glossmap fileId="1216"/>
     </Material>
     <Material name="railRoadPieces_mat" materialId="206" customShaderId="703" customShaderVariation="customParallax">
-      <Texture fileId="1209"/>
-      <Normalmap fileId="1210"/>
-      <Glossmap fileId="1211"/>
+      <Texture fileId="1211"/>
+      <Normalmap fileId="1212"/>
+      <Glossmap fileId="1213"/>
     </Material>
     <Material name="railRoadPieces_mat1" materialId="207">
       <Texture fileId="992"/>
@@ -2496,9 +2500,9 @@
       <Glossmap fileId="994"/>
     </Material>
     <Material name="railRoadSET_mat" materialId="208" customShaderId="703">
-      <Texture fileId="1205"/>
-      <Normalmap fileId="1206"/>
-      <Glossmap fileId="1207"/>
+      <Texture fileId="1207"/>
+      <Normalmap fileId="1208"/>
+      <Glossmap fileId="1209"/>
     </Material>
     <Material name="rainGutters_mat" materialId="209">
       <Texture fileId="858"/>
@@ -2506,17 +2510,17 @@
       <Glossmap fileId="860"/>
     </Material>
     <Material name="roadMarking_mat" materialId="210" alphaBlending="true">
-      <Texture fileId="1167"/>
-      <Normalmap fileId="1168"/>
-      <Glossmap fileId="1169"/>
+      <Texture fileId="1169"/>
+      <Normalmap fileId="1170"/>
+      <Glossmap fileId="1171"/>
     </Material>
-    <Material name="roof_mat" materialId="211" specularColor="0.494118 1 0" customShaderId="703">
+    <Material name="roof_mat" materialId="23159" specularColor="0.494118 1 0" customShaderId="703">
       <Texture fileId="1092"/>
     </Material>
     <Material name="roofPlatesPallet_mat" materialId="212">
-      <Texture fileId="1412"/>
-      <Normalmap fileId="1413"/>
-      <Glossmap fileId="1414"/>
+      <Texture fileId="1416"/>
+      <Normalmap fileId="1417"/>
+      <Glossmap fileId="1418"/>
     </Material>
     <Material name="roofVents_mat" materialId="213" customShaderId="703">
       <Texture fileId="1065"/>
@@ -2545,7 +2549,7 @@
       <Normalmap fileId="870"/>
       <Glossmap fileId="871"/>
     </Material>
-    <Material name="sandstone_mat" materialId="218">
+    <Material name="sandstone_mat" materialId="23160">
       <Texture fileId="1083"/>
       <Normalmap fileId="1084"/>
       <Glossmap fileId="1085"/>
@@ -2598,38 +2602,38 @@
       <Glossmap fileId="791"/>
     </Material>
     <Material name="sellingStationGeneric_mat" materialId="227" customShaderId="703">
-      <Texture fileId="1143"/>
-      <Normalmap fileId="1144"/>
-      <Glossmap fileId="1145"/>
+      <Texture fileId="1145"/>
+      <Normalmap fileId="1146"/>
+      <Glossmap fileId="1147"/>
     </Material>
-    <Material name="shagbarkHickory_stage04LOD_mat" materialId="228" customShaderId="1265" customShaderVariation="treeSeasonal">
-      <Texture fileId="1319"/>
-      <Normalmap fileId="1320"/>
-      <Glossmap fileId="1321"/>
-      <Custommap name="billboardDepth" fileId="1322"/>
-      <Custommap name="mMaskMap" fileId="1323"/>
-      <Custommap name="mSeasonalCurve" fileId="1324"/>
+    <Material name="shagbarkHickory_stage04LOD_mat" materialId="228" customShaderId="1267" customShaderVariation="treeSeasonal">
+      <Texture fileId="1321"/>
+      <Normalmap fileId="1322"/>
+      <Glossmap fileId="1323"/>
+      <Custommap name="billboardDepth" fileId="1324"/>
+      <Custommap name="mMaskMap" fileId="1325"/>
+      <Custommap name="mSeasonalCurve" fileId="1326"/>
       <CustomParameter name="aabbCenter" value="-0.357 14.883 0.342"/>
       <CustomParameter name="aabbHalfExtent" value="11.207 15.92 15.965"/>
       <CustomParameter name="seasonalTintIntensity" value="0.1 0.1 0.2"/>
     </Material>
-    <Material name="shagbarkHickoryBranch_mat" materialId="229" customShaderId="1249" customShaderVariation="SEASONAL">
-      <Texture fileId="1315"/>
-      <Normalmap fileId="1316"/>
-      <Glossmap fileId="1317"/>
-      <Custommap name="mMaskMap" fileId="1318"/>
+    <Material name="shagbarkHickoryBranch_mat" materialId="229" customShaderId="1251" customShaderVariation="SEASONAL">
+      <Texture fileId="1317"/>
+      <Normalmap fileId="1318"/>
+      <Glossmap fileId="1319"/>
+      <Custommap name="mMaskMap" fileId="1320"/>
       <CustomParameter name="seasonalTintIntensity" value="0.1 0.1 0.2"/>
     </Material>
-    <Material name="shagbarkHickoryTrunk_mat" materialId="230" customShaderId="1238" customShaderVariation="customParallax">
-      <Texture fileId="1311"/>
-      <Normalmap fileId="1312" bumpDepth="0.35"/>
-      <Glossmap fileId="1313"/>
-      <Custommap name="mParallaxMap" fileId="1314"/>
+    <Material name="shagbarkHickoryTrunk_mat" materialId="230" customShaderId="1240" customShaderVariation="customParallax">
+      <Texture fileId="1313"/>
+      <Normalmap fileId="1314" bumpDepth="0.35"/>
+      <Glossmap fileId="1315"/>
+      <Custommap name="mParallaxMap" fileId="1316"/>
     </Material>
     <Material name="signageUSDecals_mat" materialId="231" customShaderId="668">
-      <Texture fileId="1340"/>
+      <Texture fileId="1343"/>
       <Normalmap fileId="666"/>
-      <Glossmap fileId="1341"/>
+      <Glossmap fileId="1344"/>
     </Material>
     <Material name="snow_mat" materialId="232" customShaderId="680">
     </Material>
@@ -2653,46 +2657,46 @@
       <Glossmap fileId="845"/>
     </Material>
     <Material name="spinneryLogo_mat" materialId="237" alphaBlending="true" customShaderId="668">
-      <Texture fileId="1125"/>
+      <Texture fileId="1127"/>
       <Normalmap fileId="666"/>
       <Glossmap fileId="667"/>
     </Material>
-    <Material name="spruce3Var1LOD_mat" materialId="238" customShaderId="1243">
-      <Texture fileId="1250"/>
-      <Normalmap fileId="1251"/>
+    <Material name="spruce3Var1LOD_mat" materialId="238" customShaderId="1245">
+      <Texture fileId="1252"/>
+      <Normalmap fileId="1253"/>
     </Material>
-    <Material name="spruce4LOD_mat" materialId="239" customShaderId="1243">
-      <Texture fileId="1244"/>
-      <Normalmap fileId="1245"/>
-    </Material>
-    <Material name="spruce5LOD_mat" materialId="240" customShaderId="1243">
-      <Texture fileId="1241"/>
-      <Normalmap fileId="1242"/>
-    </Material>
-    <Material name="spruceBranch_mat" materialId="241" customShaderId="1249">
+    <Material name="spruce4LOD_mat" materialId="239" customShaderId="1245">
       <Texture fileId="1246"/>
       <Normalmap fileId="1247"/>
-      <Glossmap fileId="1248"/>
     </Material>
-    <Material name="spruceTrunk_mat" materialId="242" customShaderId="1238" customShaderVariation="customParallax">
-      <Texture fileId="1236"/>
-      <Normalmap fileId="1237" bumpDepth="0.800001"/>
+    <Material name="spruce5LOD_mat" materialId="240" customShaderId="1245">
+      <Texture fileId="1243"/>
+      <Normalmap fileId="1244"/>
     </Material>
-    <Material name="spruceTrunk_mat" materialId="243" customShaderId="1238" customShaderVariation="customParallax">
-      <Texture fileId="1236"/>
-      <Normalmap fileId="1237"/>
+    <Material name="spruceBranch_mat" materialId="241" customShaderId="1251">
+      <Texture fileId="1248"/>
+      <Normalmap fileId="1249"/>
+      <Glossmap fileId="1250"/>
+    </Material>
+    <Material name="spruceTrunk_mat" materialId="242" customShaderId="1240" customShaderVariation="customParallax">
+      <Texture fileId="1238"/>
+      <Normalmap fileId="1239" bumpDepth="0.800001"/>
+    </Material>
+    <Material name="spruceTrunk_mat" materialId="243" customShaderId="1240" customShaderVariation="customParallax">
+      <Texture fileId="1238"/>
+      <Normalmap fileId="1239"/>
     </Material>
     <Material name="standardSurface1" materialId="244" diffuseColor="0.4 0.4 0.4 1">
     </Material>
-    <Material name="stone_mat" materialId="245" customShaderId="672">
+    <Material name="stone_mat" materialId="23161" customShaderId="672">
       <Texture fileId="1080"/>
       <Normalmap fileId="1081"/>
       <Glossmap fileId="1082"/>
     </Material>
     <Material name="straight36m_railroadPieces_mat" materialId="246" customShaderId="703">
-      <Texture fileId="1209"/>
-      <Normalmap fileId="1210"/>
-      <Glossmap fileId="1211"/>
+      <Texture fileId="1211"/>
+      <Normalmap fileId="1212"/>
+      <Glossmap fileId="1213"/>
     </Material>
     <Material name="straight36m_railroadPieces_mat" materialId="247" customShaderId="703">
       <Texture fileId="992"/>
@@ -2705,20 +2709,25 @@
     <Material name="strawPlaneAlpha_mat" materialId="249" alphaBlending="true">
       <Texture fileId="664"/>
     </Material>
+    <Material name="streamWall_mat" materialId="23162">
+      <Texture fileId="700"/>
+      <Normalmap fileId="701"/>
+      <Glossmap fileId="702"/>
+    </Material>
     <Material name="street20m" materialId="250">
-      <Texture fileId="1167"/>
-      <Normalmap fileId="1168"/>
-      <Glossmap fileId="1169"/>
+      <Texture fileId="1169"/>
+      <Normalmap fileId="1170"/>
+      <Glossmap fileId="1171"/>
     </Material>
     <Material name="street20m" materialId="251" customShaderId="668">
-      <Texture fileId="1167"/>
-      <Normalmap fileId="1168"/>
-      <Glossmap fileId="1169"/>
+      <Texture fileId="1169"/>
+      <Normalmap fileId="1170"/>
+      <Glossmap fileId="1171"/>
     </Material>
     <Material name="street20m" materialId="252" alphaBlending="true" customShaderId="668">
-      <Texture fileId="1167"/>
-      <Normalmap fileId="1168"/>
-      <Glossmap fileId="1169"/>
+      <Texture fileId="1169"/>
+      <Normalmap fileId="1170"/>
+      <Glossmap fileId="1171"/>
     </Material>
     <Material name="streetLight03_mat" materialId="253" customShaderId="703">
       <Texture fileId="1008"/>
@@ -2766,62 +2775,62 @@
       <Normalmap fileId="906"/>
       <Glossmap fileId="907"/>
     </Material>
-    <Material name="trunk_mat" materialId="262" customShaderId="1238">
-      <Texture fileId="1277"/>
-      <Normalmap fileId="1278"/>
+    <Material name="trunk_mat" materialId="262" customShaderId="1240">
+      <Texture fileId="1279"/>
+      <Normalmap fileId="1280"/>
     </Material>
     <Material name="tunnel_01_mat" materialId="263" customShaderId="703" customShaderVariation="customParallax">
-      <Texture fileId="1215"/>
-      <Normalmap fileId="1216"/>
-      <Glossmap fileId="1217"/>
-      <Custommap name="mParallaxMap" fileId="1221"/>
+      <Texture fileId="1217"/>
+      <Normalmap fileId="1218"/>
+      <Glossmap fileId="1219"/>
+      <Custommap name="mParallaxMap" fileId="1223"/>
     </Material>
     <Material name="tunnel_02_mat" materialId="264" customShaderId="750" customShaderVariation="additive_colorScale">
-      <Texture fileId="1215"/>
-      <Normalmap fileId="1216"/>
-      <Glossmap fileId="1217"/>
+      <Texture fileId="1217"/>
+      <Normalmap fileId="1218"/>
+      <Glossmap fileId="1219"/>
       <CustomParameter name="lightControl" value="2.5"/>
       <CustomParameter name="colorScale" value="0.55 0.55 0.4"/>
     </Material>
     <Material name="tunnel_03_mat" materialId="265" customShaderId="672" customShaderVariation="customParallax">
-      <Texture fileId="1215"/>
-      <Normalmap fileId="1216"/>
-      <Glossmap fileId="1217"/>
-      <Custommap name="mMaskMap" fileId="1218"/>
-      <Custommap name="mDirtDiffuse" fileId="1219"/>
-      <Custommap name="mMossDiffuse" fileId="1220"/>
-      <Custommap name="mParallaxMap" fileId="1221"/>
+      <Texture fileId="1217"/>
+      <Normalmap fileId="1218"/>
+      <Glossmap fileId="1219"/>
+      <Custommap name="mMaskMap" fileId="1220"/>
+      <Custommap name="mDirtDiffuse" fileId="1221"/>
+      <Custommap name="mMossDiffuse" fileId="1222"/>
+      <Custommap name="mParallaxMap" fileId="1223"/>
       <CustomParameter name="checkUV1WetnessSnow" value="0"/>
     </Material>
-    <Material name="UnnamedMaterial" materialId="266">
-      <Texture fileId="700"/>
-      <Normalmap fileId="701"/>
-      <Glossmap fileId="702"/>
+    <Material name="UnnamedMaterial" materialId="23163">
+      <Texture fileId="1094"/>
+      <Normalmap fileId="666"/>
+      <Glossmap fileId="667"/>
     </Material>
     <Material name="UnnamedMaterial" materialId="267" diffuseColor="1 1 1 1">
     </Material>
     <Material name="vogelsangLogo_mat" materialId="268">
-      <Texture fileId="1155"/>
+      <Texture fileId="1157"/>
       <Normalmap fileId="666"/>
       <Glossmap fileId="667"/>
     </Material>
     <Material name="warehouseLogisticUS_mat" materialId="269" customShaderId="672" customShaderVariation="colorScale_customParallax">
-      <Texture fileId="1389"/>
-      <Normalmap fileId="1390"/>
-      <Glossmap fileId="1391"/>
-      <Custommap name="mMaskMap" fileId="1392"/>
-      <Custommap name="mParallaxMap" fileId="1393"/>
+      <Texture fileId="1393"/>
+      <Normalmap fileId="1394"/>
+      <Glossmap fileId="1395"/>
+      <Custommap name="mMaskMap" fileId="1396"/>
+      <Custommap name="mParallaxMap" fileId="1397"/>
       <CustomParameter name="dirtMossMix" value="1 0.38"/>
       <CustomParameter name="dirtMossTint" value="0 0 0"/>
       <CustomParameter name="colorScale0" value="0.16 0.448 0.859 1"/>
       <CustomParameter name="colorScale1" value="0.236 0.236 0.236 1"/>
     </Material>
     <Material name="warehouseLogisticUSLogo_mat" materialId="270" customShaderId="703">
-      <Texture fileId="1394"/>
+      <Texture fileId="1398"/>
       <Normalmap fileId="666"/>
     </Material>
     <Material name="warehouseLogisticUSSigns_mat" materialId="271" customShaderId="703">
-      <Texture fileId="1416"/>
+      <Texture fileId="1420"/>
       <Normalmap fileId="666"/>
     </Material>
     <Material name="warningStripes_mat" materialId="272">
@@ -2829,15 +2838,15 @@
       <Normalmap fileId="658"/>
       <Glossmap fileId="659"/>
     </Material>
-    <Material name="water_mat" materialId="273" diffuseColor="0 0 0 1" specularColor="0 1 0.109804" customShaderId="1181">
-      <Normalmap fileId="1179"/>
+    <Material name="water_mat" materialId="273" diffuseColor="0 0 0 1" specularColor="0 1 0.109804" customShaderId="1183">
+      <Normalmap fileId="1181"/>
       <Refractionmap coeff="1" bumpScale="0.01" withSSRData="true"/>
       <CustomParameter name="underwaterFogColor" value="0.284279 0.442211 0.347452 1"/>
       <CustomParameter name="underwaterFogDepth" value="2.4 2.5 0.3 1"/>
       <CustomParameter name="depthScale" value="2.4"/>
     </Material>
-    <Material name="waterMirror_mat" materialId="274" diffuseColor="0.8 0.8 0.8 1" specularColor="0.501961 1 0" customShaderId="1181">
-      <Normalmap fileId="1179"/>
+    <Material name="waterMirror_mat" materialId="274" diffuseColor="0.8 0.8 0.8 1" specularColor="0.501961 1 0" customShaderId="1183">
+      <Normalmap fileId="1181"/>
       <Refractionmap coeff="1" bumpScale="0.01" withSSRData="true"/>
       <CustomParameter name="underwaterFogColor" value="0.09 0.14 0.11 1"/>
       <CustomParameter name="underwaterFogDepth" value="2.4 2.5 1.3 1"/>
@@ -2848,19 +2857,19 @@
       <Normalmap fileId="662"/>
     </Material>
     <Material name="wheatBottom_mat" materialId="276" specularColor="0.2 1 0" customShaderId="703">
-      <Texture fileId="1146"/>
-      <Normalmap fileId="1147"/>
+      <Texture fileId="1148"/>
+      <Normalmap fileId="1149"/>
     </Material>
-    <Material name="willow_type01LOD_mat" materialId="277" customShaderId="1243" customShaderVariation="SEASONAL_BILLBOARD180">
-      <Texture fileId="1283"/>
-      <Normalmap fileId="1284"/>
-      <Custommap name="mMaskMap" fileId="1285"/>
+    <Material name="willow_type01LOD_mat" materialId="277" customShaderId="1245" customShaderVariation="SEASONAL_BILLBOARD180">
+      <Texture fileId="1285"/>
+      <Normalmap fileId="1286"/>
+      <Custommap name="mMaskMap" fileId="1287"/>
     </Material>
-    <Material name="willowBranch_mat" materialId="278" customShaderId="1249" customShaderVariation="SEASONAL">
-      <Texture fileId="1279"/>
-      <Normalmap fileId="1280"/>
-      <Glossmap fileId="1281"/>
-      <Custommap name="mMaskMap" fileId="1282"/>
+    <Material name="willowBranch_mat" materialId="278" customShaderId="1251" customShaderVariation="SEASONAL">
+      <Texture fileId="1281"/>
+      <Normalmap fileId="1282"/>
+      <Glossmap fileId="1283"/>
+      <Custommap name="mMaskMap" fileId="1284"/>
     </Material>
     <Material name="window02_mat" materialId="279" alphaBlending="true" customShaderId="750">
       <Texture fileId="832"/>
@@ -2877,8 +2886,8 @@
       <Texture fileId="1006"/>
       <Normalmap fileId="666"/>
     </Material>
-    <Material name="window_mat" materialId="282">
-      <Texture fileId="1094"/>
+    <Material name="windowBack_mat" materialId="23164">
+      <Texture fileId="1095"/>
       <Normalmap fileId="666"/>
       <Glossmap fileId="667"/>
     </Material>
@@ -2886,24 +2895,19 @@
       <Normalmap fileId="666"/>
     </Material>
     <Material name="windowsCurtains01_mat" materialId="284" customShaderId="744">
-      <Texture fileId="1113"/>
-      <Normalmap fileId="1114"/>
-      <Glossmap fileId="1115"/>
+      <Texture fileId="1115"/>
+      <Normalmap fileId="1116"/>
+      <Glossmap fileId="1117"/>
       <CustomParameter name="translucencyAmount" value="0.5"/>
-    </Material>
-    <Material name="windowSet_mat" materialId="285">
-      <Texture fileId="1095"/>
-      <Normalmap fileId="1096"/>
-      <Glossmap fileId="685"/>
     </Material>
     <Material name="windowsGlass01_mat" materialId="286" alphaBlending="true">
       <Texture fileId="745"/>
       <Glossmap fileId="746"/>
     </Material>
     <Material name="windowsGlass01_mat" materialId="287" alphaBlending="true">
-      <Texture fileId="1107"/>
-      <Normalmap fileId="1108"/>
-      <Glossmap fileId="1109"/>
+      <Texture fileId="1109"/>
+      <Normalmap fileId="1110"/>
+      <Glossmap fileId="1111"/>
     </Material>
     <Material name="windowsGlass_mat" materialId="288" alphaBlending="true">
       <Texture fileId="894"/>
@@ -2919,14 +2923,14 @@
       <Glossmap fileId="865"/>
     </Material>
     <Material name="windowsIndustrial01_alphaBlended_mat" materialId="291" alphaBlending="true">
-      <Texture fileId="1333"/>
-      <Normalmap fileId="1334"/>
-      <Glossmap fileId="1335"/>
+      <Texture fileId="1335"/>
+      <Normalmap fileId="1336"/>
+      <Glossmap fileId="1337"/>
     </Material>
     <Material name="windowsIndustrial01_opaque_mat" materialId="292">
-      <Texture fileId="1333"/>
-      <Normalmap fileId="1334"/>
-      <Glossmap fileId="1335"/>
+      <Texture fileId="1335"/>
+      <Normalmap fileId="1336"/>
+      <Glossmap fileId="1337"/>
     </Material>
     <Material name="windowsIndustrial02_mat" materialId="293" customShaderId="703" customShaderVariation="alphaMap">
       <Texture fileId="912"/>
@@ -2957,24 +2961,29 @@
       <Custommap name="mExtraBaseMap" fileId="862"/>
     </Material>
     <Material name="windowsRoomInteriorsNight_mat" materialId="298" customShaderId="750" customShaderVariation="alphaTestDisable_extraBaseMap">
-      <Texture fileId="1347"/>
+      <Texture fileId="1350"/>
       <Normalmap fileId="666"/>
       <Glossmap fileId="667"/>
-      <Custommap name="mExtraBaseMap" fileId="1095"/>
+      <Custommap name="mExtraBaseMap" fileId="1351"/>
     </Material>
     <Material name="windTurbine_mat" materialId="299">
-      <Texture fileId="1230"/>
+      <Texture fileId="1232"/>
       <Normalmap fileId="666"/>
     </Material>
-    <Material name="wood_mat" materialId="300">
+    <Material name="wood3_mat" materialId="23165">
+      <Texture fileId="1096"/>
+      <Normalmap fileId="1097" bumpDepth="7.45058e-08"/>
+      <Glossmap fileId="1098"/>
+    </Material>
+    <Material name="wood_mat" materialId="23166">
       <Texture fileId="1077"/>
       <Normalmap fileId="1078"/>
       <Glossmap fileId="1079"/>
     </Material>
     <Material name="woodBeamPallet_mat" materialId="301">
-      <Texture fileId="1397"/>
-      <Normalmap fileId="1398"/>
-      <Glossmap fileId="1399"/>
+      <Texture fileId="1401"/>
+      <Normalmap fileId="1402"/>
+      <Glossmap fileId="1403"/>
     </Material>
     <Material name="woodenBridge_mat" materialId="302" customShaderId="672" customShaderVariation="customParallax">
       <Texture fileId="682"/>
@@ -2983,9 +2992,9 @@
       <Custommap name="mParallaxMap" fileId="686"/>
     </Material>
     <Material name="woodenCatwalk_mat" materialId="303" customShaderId="703">
-      <Texture fileId="1325"/>
-      <Normalmap fileId="1326" bumpDepth="2"/>
-      <Glossmap fileId="1327"/>
+      <Texture fileId="1327"/>
+      <Normalmap fileId="1328" bumpDepth="2"/>
+      <Glossmap fileId="1329"/>
     </Material>
     <Material name="woodTransportFrame_mat" materialId="304">
       <Texture fileId="820"/>
@@ -2993,11 +3002,11 @@
       <Glossmap fileId="822"/>
     </Material>
     <Material name="yarnShop_mat" materialId="305" customShaderId="672" customShaderVariation="customParallax">
-      <Texture fileId="1102"/>
-      <Normalmap fileId="1103"/>
-      <Glossmap fileId="1104"/>
-      <Custommap name="mMaskMap" fileId="1105"/>
-      <Custommap name="mParallaxMap" fileId="1106"/>
+      <Texture fileId="1104"/>
+      <Normalmap fileId="1105"/>
+      <Glossmap fileId="1106"/>
+      <Custommap name="mMaskMap" fileId="1107"/>
+      <Custommap name="mParallaxMap" fileId="1108"/>
     </Material>
   </Materials>
 
@@ -3007,7 +3016,7 @@
 
   <Scene>
     <Light name="sun" translation="0 400 0" rotation="-47.2604 -28.1861 0" objectMask="0x83ff0000" nodeId="1038" type="directional" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.001" depthMapResolution="2048" shadowFarDistance="1000" shadowExtrusionDistance="200" softShadowsLightSize="0.5" softShadowsLightDistance="15" softShadowsDepthBiasFactor="1" softShadowsMaxPenumbraSize="0.5" numShadowMapSplits="5" shadowMapSplitDistancesParameter="0.9" lastShadowMapSplitBboxMin="-1024,-128,-1024" lastShadowMapSplitBboxMax="1024,148,1024" range="10000" scattering="true"/>
-    <Camera name="persp" translation="-607.626 231.038 860.703" rotation="147.605 -71.1093 180" visibility="false" nodeId="1039" fov="60" nearClip="0.01" farClip="6000" orthographicHeight="1500"/>
+    <Camera name="persp" translation="-643.226 472.125 107.874" rotation="116.894 -1.9928 180" visibility="false" nodeId="1039" fov="60" nearClip="0.01" farClip="6000" orthographicHeight="1500"/>
     <TerrainTransformGroup name="terrain" static="true" collisionFilterGroup="0x100" collisionFilterMask="0xfffff9c3" nodeId="1041" heightMapId="1" patchSize="65" maxLODDistance="750" heightScale="255" unitsPerPixel="1" lodBlendStart="200" lodBlendEnd="300" lodTextureSize="2048" lodBlendStartDynamic="50" lodBlendEndDynamic="65" detailLodBlendDelta="5" materialId="255" castShadowMap="true" occNumLODs="1" occMaxLODDistance="300" occPatchSize="65" occLevel="2" occDistanceWeight="1" occMaxAdjacentFaces="10">
       <OccluderLods>
         <OccluderLod occLodLevel="0" occFaceCount="100" occMaxHausdorffDistance="7" occMaxHausdorffDistanceExtra="9" occMinHorizontalDistance="1" />
@@ -3477,16 +3486,16 @@
           </FoliageMultiLayer>
         </FoliageSystem>
       </Layers>
-      <ProceduralPlacementMasks blockMaskFileId="1432">
-        <Mask name="PG_Forest" fileId="1423" />
-        <Mask name="PG_Acres" fileId="1424" />
-        <Mask name="PG_Meadow" fileId="1425" />
-        <Mask name="PG_BushLand" fileId="1426" />
-        <Mask name="GEN_Roads" fileId="1427" />
-        <Mask name="GEN_MeadowUPDT" fileId="1428" />
-        <Mask name="GEN_ForestUPDT" fileId="1429" />
-        <Mask name="GEN_ForestBorders" fileId="1430" />
-        <Mask name="GEN_SlopeMask" fileId="1431" />
+      <ProceduralPlacementMasks blockMaskFileId="1436">
+        <Mask name="PG_Forest" fileId="1427" />
+        <Mask name="PG_Acres" fileId="1428" />
+        <Mask name="PG_Meadow" fileId="1429" />
+        <Mask name="PG_BushLand" fileId="1430" />
+        <Mask name="GEN_Roads" fileId="1431" />
+        <Mask name="GEN_MeadowUPDT" fileId="1432" />
+        <Mask name="GEN_ForestUPDT" fileId="1433" />
+        <Mask name="GEN_ForestBorders" fileId="1434" />
+        <Mask name="GEN_SlopeMask" fileId="1435" />
       </ProceduralPlacementMasks>
     </TerrainTransformGroup>
     <TransformGroup name="careerStartPoint" translation="-198.826 82.7838 597.699" rotation="0 270 0" nodeId="1060"/>
@@ -7084,44 +7093,44 @@
             <ReferenceNode name="motorexOilBarrel" translation="-12.9683 -0.00336838 -11.9829" rotation="180 -73.8293 -180" referenceId="1076" nodeId="4032"/>
           </TransformGroup>
         </TransformGroup>
-        <TransformGroup name="waterMill" lockedgroup="true" translation="-377.295 81.7807 692.668" rotation="0 -130 0" nodeId="4035">
-          <TransformGroup name="building" nodeId="4036">
-            <Shape name="beams" shapeId="373" static="true" clipDistance="600" nodeId="4037" castsShadows="true" receiveShadows="true" materialIds="300"/>
-            <Shape name="building" shapeId="374" static="true" clipDistance="600" nodeId="4038" castsShadows="true" receiveShadows="true" materialIds="245"/>
-            <Shape name="ceils" shapeId="375" clipDistance="600" nodeId="4039" castsShadows="true" receiveShadows="true" materialIds="218"/>
-            <Shape name="chinney" shapeId="376" static="true" clipDistance="600" nodeId="4040" castsShadows="true" receiveShadows="true" materialIds="32"/>
-            <Shape name="door" shapeId="377" static="true" clipDistance="600" nodeId="4041" castsShadows="true" receiveShadows="true" materialIds="29"/>
-            <Shape name="roof" shapeId="378" static="true" clipDistance="600" nodeId="4042" castsShadows="true" receiveShadows="true" materialIds="211"/>
-            <Shape name="streamWall" translation="0.131134 -2.32288 -0.581302" shapeId="379" static="true" clipDistance="600" nodeId="4043" castsShadows="true" receiveShadows="true" materialIds="267"/>
-            <Shape name="support_wall" translation="0.152215 -2.46971 -0.607062" shapeId="380" static="true" clipDistance="600" nodeId="4044" castsShadows="true" receiveShadows="true" materialIds="32"/>
-            <Shape name="windows_part1" shapeId="381" static="true" clipDistance="600" nodeId="4045" castsShadows="true" receiveShadows="true" materialIds="282"/>
-            <Shape name="windows_part2" shapeId="382" clipDistance="600" nodeId="4046" castsShadows="true" receiveShadows="true" materialIds="285"/>
-            <Shape name="ceiling" shapeId="383" static="true" clipDistance="200" nodeId="4047" castsShadows="true" receiveShadows="true" materialIds="266"/>
+        <TransformGroup name="waterMill" lockedgroup="true" translation="-377.295 81.7807 692.668" rotation="0 -130 0" nodeId="23192">
+          <TransformGroup name="building" nodeId="23193">
+            <Shape name="beams" shapeId="373" static="true" clipDistance="600" nodeId="23194" castsShadows="true" receiveShadows="true" materialIds="23166"/>
+            <Shape name="building" shapeId="374" static="true" clipDistance="600" nodeId="23195" castsShadows="true" receiveShadows="true" materialIds="23161"/>
+            <Shape name="ceils" shapeId="375" clipDistance="600" nodeId="23196" castsShadows="true" receiveShadows="true" materialIds="23160"/>
+            <Shape name="chinney" shapeId="376" static="true" clipDistance="600" nodeId="23197" castsShadows="true" receiveShadows="true" materialIds="23156"/>
+            <Shape name="door" shapeId="377" static="true" clipDistance="600" nodeId="23198" castsShadows="true" receiveShadows="true" materialIds="23155"/>
+            <Shape name="roof" shapeId="378" static="true" clipDistance="600" nodeId="23199" castsShadows="true" receiveShadows="true" materialIds="23159"/>
+            <Shape name="supportWall" translation="0.131134 -2.32288 -0.581302" shapeId="379" static="true" clipDistance="600" nodeId="23200" castsShadows="true" receiveShadows="true" materialIds="23156"/>
+            <Shape name="windows_part1" shapeId="380" static="true" clipDistance="600" nodeId="23201" castsShadows="true" receiveShadows="true" materialIds="23163"/>
+            <Shape name="windows_part2" shapeId="381" static="true" clipDistance="600" nodeId="23202" castsShadows="true" receiveShadows="true" materialIds="23164"/>
+            <Shape name="ceiling" shapeId="382" clipDistance="600" nodeId="23203" castsShadows="true" receiveShadows="true" materialIds="23165"/>
+            <Shape name="streamWall" shapeId="383" static="true" clipDistance="200" nodeId="23204" castsShadows="true" receiveShadows="true" materialIds="23162"/>
           </TransformGroup>
-          <TransformGroup name="winter" nodeId="4048">
-            <Shape name="snowMask" shapeId="384" clipDistance="600" nodeId="4049" castsShadows="true" receiveShadows="true" materialIds="235" weatherRequiredMask="0x8"/>
+          <TransformGroup name="winter" nodeId="23205">
+            <Shape name="snowMask" shapeId="384" clipDistance="600" nodeId="23206" castsShadows="true" receiveShadows="true" materialIds="235" weatherRequiredMask="0x8"/>
           </TransformGroup>
-          <TransformGroup name="doors" nodeId="4050">
-            <TransformGroup name="rollingDoor1Base" translation="-0.125223 2.0483 12.8083" scale="1 0.911719 0.957673" nodeId="4051">
-              <Shape name="rollingDoor1" shapeId="385" clipDistance="300" nodeId="4052" castsShadows="true" receiveShadows="true" materialIds="51"/>
-              <Shape name="rollingDoor1ColPartBottom" shapeId="386" visibility="false" kinematic="true" nodeId="4053" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="176"/>
-              <Shape name="rollingDoor1ColPartTop" shapeId="387" visibility="false" kinematic="true" nodeId="4054" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="176"/>
-              <Shape name="rollingDoor1Trigger" shapeId="388" visibility="false" static="true" trigger="true" collisionFilterGroup="0x300000" collisionFilterMask="0x300000" nodeId="4055" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="176"/>
+          <TransformGroup name="doors" nodeId="23207">
+            <TransformGroup name="rollingDoor1Base" translation="-0.125223 2.0483 12.8083" scale="1 0.911719 0.957673" nodeId="23208">
+              <Shape name="rollingDoor1" shapeId="385" clipDistance="300" nodeId="23209" castsShadows="true" receiveShadows="true" materialIds="23158"/>
+              <Shape name="rollingDoor1ColPartBottom" shapeId="386" visibility="false" kinematic="true" nodeId="23210" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="176"/>
+              <Shape name="rollingDoor1ColPartTop" shapeId="387" visibility="false" kinematic="true" nodeId="23211" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="176"/>
+              <Shape name="rollingDoor1Trigger" shapeId="388" visibility="false" static="true" trigger="true" collisionFilterGroup="0x300000" collisionFilterMask="0x300000" nodeId="23212" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="176"/>
             </TransformGroup>
-            <TransformGroup name="door5Base" translation="-0.0699488 1.29699 5.59056" scale="1 0.66 0.659413" nodeId="4056">
-              <Shape name="door5Left" translation="0.089237 -0.004058 1.21686" shapeId="389" clipDistance="300" nodeId="4057" castsShadows="true" receiveShadows="true" materialIds="50">
-                <Shape name="screwDecals" shapeId="390" clipDistance="15" nodeId="4058" castsShadows="true" receiveShadows="true" decalLayer="1" materialIds="17"/>
-                <Shape name="collision11" translation="-1e-05 -1.99037 -1.20268" shapeId="391" visibility="false" kinematic="true" nodeId="4059" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="176"/>
+            <TransformGroup name="door5Base" translation="-0.0699488 1.29699 5.59056" scale="1 0.66 0.659413" nodeId="23213">
+              <Shape name="door5Left" translation="0.089237 -0.004058 1.21686" shapeId="389" clipDistance="300" nodeId="23214" castsShadows="true" receiveShadows="true" materialIds="23157">
+                <Shape name="screwDecals" shapeId="390" clipDistance="15" nodeId="23215" castsShadows="true" receiveShadows="true" decalLayer="1" materialIds="17"/>
+                <Shape name="collision11" translation="-1e-05 -1.99037 -1.20268" shapeId="391" visibility="false" kinematic="true" nodeId="23216" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="176"/>
               </Shape>
-              <Shape name="door5Right" translation="0.089227 -0.00406 -1.19337" shapeId="392" clipDistance="300" nodeId="4060" castsShadows="true" receiveShadows="true" materialIds="50">
-                <Shape name="screwDecals" shapeId="393" clipDistance="15" nodeId="4061" castsShadows="true" receiveShadows="true" decalLayer="1" materialIds="17"/>
-                <Shape name="collision12" translation="0 -1.99037 -0.150715" shapeId="394" visibility="false" kinematic="true" nodeId="4062" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="176"/>
+              <Shape name="door5Right" translation="0.089227 -0.00406 -1.19337" shapeId="392" clipDistance="300" nodeId="23217" castsShadows="true" receiveShadows="true" materialIds="23157">
+                <Shape name="screwDecals" shapeId="393" clipDistance="15" nodeId="23218" castsShadows="true" receiveShadows="true" decalLayer="1" materialIds="17"/>
+                <Shape name="collision12" translation="0 -1.99037 -0.150715" shapeId="394" visibility="false" kinematic="true" nodeId="23219" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="176"/>
               </Shape>
-              <Shape name="door5Trigger" shapeId="395" visibility="false" static="true" trigger="true" collisionFilterGroup="0x300000" collisionFilterMask="0x300000" nodeId="4063" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="176"/>
+              <Shape name="door5Trigger" shapeId="395" visibility="false" static="true" trigger="true" collisionFilterGroup="0x300000" collisionFilterMask="0x300000" nodeId="23220" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="176"/>
             </TransformGroup>
           </TransformGroup>
-          <TransformGroup name="waterWheel" translation="-4.68211 -0.1995 -17.7619" nodeId="4064">
-            <Shape name="waterWheel" shapeId="396" kinematic="true" clipDistance="600" nodeId="4065" castsShadows="true" receiveShadows="true" materialIds="300"/>
+          <TransformGroup name="waterWheel" translation="-4.68211 -0.1995 -17.7619" nodeId="23221">
+            <Shape name="waterWheel" shapeId="396" kinematic="true" clipDistance="600" nodeId="23222" castsShadows="true" receiveShadows="true" materialIds="23166"/>
           </TransformGroup>
         </TransformGroup>
         <TransformGroup name="spinnery" lockedgroup="true" translation="-189.02 81.9219 936.503" clipDistance="600" nodeId="4066">
@@ -8374,7 +8383,7 @@
             <Shape name="treeScape" translation="1024 83.3612 -122.677" rotation="3.97213e-07 90 0" shapeId="545" static="true" nodeId="4963" castsShadows="true" receiveShadows="true" materialIds="5"/>
             <Shape name="treeScape" translation="1024 88.0225 1.82942" rotation="3.97213e-07 90 0" shapeId="545" static="true" nodeId="4964" castsShadows="true" receiveShadows="true" materialIds="5"/>
             <Shape name="treeScape" translation="1024 94.5826 125.618" rotation="3.97213e-07 90 0" shapeId="545" static="true" nodeId="4965" castsShadows="true" receiveShadows="true" materialIds="5"/>
-            <Shape name="treeScape" translation="1024 85.0763 209.777" rotation="0 90 0" shapeId="545" static="true" nodeId="4966" castsShadows="true" receiveShadows="true" materialIds="5"/>
+            <Shape name="treeScape" translation="1024 97.0082 209.777" rotation="0 90 0" shapeId="545" static="true" nodeId="4966" castsShadows="true" receiveShadows="true" materialIds="5"/>
             <Shape name="treeScape" translation="1024.01 96.3297 334.201" rotation="0 90 0" shapeId="545" static="true" nodeId="4967" castsShadows="true" receiveShadows="true" materialIds="5"/>
             <Shape name="treeScape" translation="1024.01 85.3671 581.842" rotation="0 90 0" shapeId="545" static="true" nodeId="4968" castsShadows="true" receiveShadows="true" materialIds="5"/>
             <Shape name="treeScape" translation="1024 85.311 709.712" rotation="0 90 0" scale="1.05 1 1" shapeId="545" static="true" nodeId="4969" castsShadows="true" receiveShadows="true" materialIds="5"/>
@@ -13514,57 +13523,57 @@
             </TransformGroup>
           </TransformGroup>
           <TransformGroup name="deadPole" nodeId="8408">
-            <ReferenceNode name="lodgepolePine_stage03" translation="-557.501 106.252 -749.54" rotation="-5.00896e-06 84.2935 -5.00896e-06" referenceId="1252" nodeId="8419"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-755.928 105.26 -679.42" rotation="-5.00896e-06 272.787 -5.00896e-06" referenceId="1252" nodeId="8425"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-753.474 104.363 -660.003" rotation="-5.00896e-06 96.4305 -5.00896e-06" referenceId="1252" nodeId="8431"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-763.681 103.994 -628.557" rotation="-5.00896e-06 167.939 -5.00896e-06" referenceId="1252" nodeId="8437"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-759.918 103.249 -593.062" rotation="-5.00896e-06 370.821 -5.00896e-06" referenceId="1252" nodeId="8443"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-679.776 106.685 -609.499" rotation="-5.00896e-06 134.409 -5.00896e-06" referenceId="1252" nodeId="8449"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-685.037 105.256 -554.732" rotation="-5.00896e-06 180.441 -5.00896e-06" referenceId="1252" nodeId="8455"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-598.405 107.269 -627.362" rotation="-5.00896e-06 372.168 -5.00896e-06" referenceId="1252" nodeId="8461"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-576.175 106.071 -704.079" rotation="-5.00896e-06 347.682 -5.00896e-06" referenceId="1252" nodeId="8467"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-520.805 105.589 -735.995" rotation="-5.00896e-06 438.454 -5.00896e-06" referenceId="1252" nodeId="8473"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-506.863 104.406 -790.811" rotation="-5.00896e-06 423.657 -5.00896e-06" referenceId="1252" nodeId="8479"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-581.421 105.017 -779.854" rotation="-5.00896e-06 280.821 -5.00896e-06" referenceId="1252" nodeId="8485"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-632.761 108.685 -692.912" rotation="-5.00896e-06 279.232 -5.00896e-06" referenceId="1252" nodeId="8491"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-625.608 106.349 -628.666" rotation="-5.00896e-06 342.698 -5.00896e-06" referenceId="1252" nodeId="8497"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-693.563 106.964 -622.195" rotation="-5.00896e-06 406.627 -5.00896e-06" referenceId="1252" nodeId="8503"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-702.011 107.57 -663.959" rotation="-5.00896e-06 300.373 -5.00896e-06" referenceId="1252" nodeId="8509"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-731.57 107.835 -708.995" rotation="-5.00896e-06 88.9395 -5.00896e-06" referenceId="1252" nodeId="8515"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-708.899 105.741 -749.233" rotation="-5.00896e-06 212.703 -5.00896e-06" referenceId="1252" nodeId="8521"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-639.077 105.478 -782.121" rotation="-5.00896e-06 168.362 -5.00896e-06" referenceId="1252" nodeId="8527"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-625.722 107.179 -739.972" rotation="-5.00896e-06 356.256 -5.00896e-06" referenceId="1252" nodeId="8533"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-680.594 106.836 -754.275" rotation="-5.00896e-06 341.473 -5.00896e-06" referenceId="1252" nodeId="8539"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-693.006 108.169 -695.083" rotation="-5.00896e-06 399.764 -5.00896e-06" referenceId="1252" nodeId="8545"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-648.398 107.299 -657.825" rotation="-5.00896e-06 347.899 -5.00896e-06" referenceId="1252" nodeId="8551"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-678.556 107.299 -517.163" rotation="-5.00896e-06 347.899 -5.00896e-06" referenceId="1252" nodeId="8557"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-765.595 105.256 -554.113" rotation="-5.00896e-06 180.441 -5.00896e-06" referenceId="1252" nodeId="8563"/>
-            <ReferenceNode name="lodgepolePine_stage03" translation="-540.861 108.685 -680.113" rotation="-5.00896e-06 279.232 -5.00896e-06" referenceId="1252" nodeId="8569"/>
-            <ReferenceNode name="deadwood" translation="-543.654 106.075 -728.69" rotation="180 -5.724 180" referenceId="1253" nodeId="8584"/>
-            <ReferenceNode name="deadwood" translation="-512.789 104.628 -785.467" rotation="180 82.0839 180" referenceId="1253" nodeId="8590"/>
-            <ReferenceNode name="deadwood" translation="-548.242 105.081 -786.369" rotation="180 10.7933 180" referenceId="1253" nodeId="8596"/>
-            <ReferenceNode name="deadwood" translation="-607.768 106.266 -759.23" rotation="180 162.689 180" referenceId="1253" nodeId="8602"/>
-            <ReferenceNode name="deadwood" translation="-607.941 108.119 -661.14" rotation="180 199.059 180" referenceId="1253" nodeId="8608"/>
-            <ReferenceNode name="deadwood" translation="-647.064 105.49 -587.246" rotation="180 55.0822 180" referenceId="1253" nodeId="8614"/>
-            <ReferenceNode name="deadwood" translation="-693.272 105.954 -539.364" rotation="180 107.321 180" referenceId="1253" nodeId="8620"/>
-            <ReferenceNode name="deadwood" translation="-744.901 104.483 -542.427" rotation="180 47.6134 180" referenceId="1253" nodeId="8626"/>
-            <ReferenceNode name="deadwood" translation="-749.763 103.74 -592.155" rotation="180 37.8302 180" referenceId="1253" nodeId="8632"/>
-            <ReferenceNode name="deadwood" translation="-747.125 104.307 -652.128" rotation="180 109.069 180" referenceId="1253" nodeId="8638"/>
-            <ReferenceNode name="deadwood" translation="-733.218 108.073 -690.222" rotation="180 184.151 180" referenceId="1253" nodeId="8644"/>
-            <ReferenceNode name="deadwood" translation="-710.402 106.555 -736.298" rotation="180 303.636 180" referenceId="1253" nodeId="8650"/>
-            <ReferenceNode name="deadwood" translation="-654.68 106.268 -755.396" rotation="180 39.1304 180" referenceId="1253" nodeId="8656"/>
-            <ReferenceNode name="deadwood" translation="-683.717 108.42 -666.683" rotation="180 50.3904 180" referenceId="1253" nodeId="8662"/>
-            <ReferenceNode name="deadwood" translation="-666.895 107.012 -626.467" rotation="180 1.20869 180" referenceId="1253" nodeId="8668"/>
-            <ReferenceNode name="deadwood" translation="-591.623 106.75 -690.55" rotation="180 28.8305 180" referenceId="1253" nodeId="8674"/>
-            <ReferenceNode name="deadwood" translation="-608.87 107.156 -731.857" rotation="180 76.3579 180" referenceId="1253" nodeId="8680"/>
-            <ReferenceNode name="deadwood" translation="-650.237 106.311 -605.915" rotation="180 192.938 180" referenceId="1253" nodeId="8686"/>
-            <ReferenceNode name="deadwood" translation="-726.513 106.086 -523.185" rotation="180 171.538 180" referenceId="1253" nodeId="8692"/>
-            <ReferenceNode name="deadwood" translation="-785.889 102.801 -537.407" rotation="180 245.072 180" referenceId="1253" nodeId="8698"/>
-            <ReferenceNode name="deadwood" translation="-677.173 106.192 -495.693" rotation="180 153.945 180" referenceId="1253" nodeId="8704"/>
-            <ReferenceNode name="deadwood" translation="-647.877 105.195 -536.441" rotation="180 296.896 180" referenceId="1253" nodeId="8710"/>
-            <ReferenceNode name="deadwood" translation="-661.062 105.897 -584.262" rotation="180 153.423 180" referenceId="1253" nodeId="8716"/>
-            <ReferenceNode name="deadwood" translation="-580.157 107.418 -617.645" rotation="180 50.0659 180" referenceId="1253" nodeId="8722"/>
-            <ReferenceNode name="deadwood" translation="-671.97 107.418 -727.319" rotation="180 50.0659 180" referenceId="1253" nodeId="8728"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-557.501 106.252 -749.54" rotation="-5.00896e-06 84.2935 -5.00896e-06" referenceId="1254" nodeId="8419"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-755.928 105.26 -679.42" rotation="-5.00896e-06 272.787 -5.00896e-06" referenceId="1254" nodeId="8425"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-753.474 104.363 -660.003" rotation="-5.00896e-06 96.4305 -5.00896e-06" referenceId="1254" nodeId="8431"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-763.681 103.994 -628.557" rotation="-5.00896e-06 167.939 -5.00896e-06" referenceId="1254" nodeId="8437"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-759.918 103.249 -593.062" rotation="-5.00896e-06 370.821 -5.00896e-06" referenceId="1254" nodeId="8443"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-679.776 106.685 -609.499" rotation="-5.00896e-06 134.409 -5.00896e-06" referenceId="1254" nodeId="8449"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-685.037 105.256 -554.732" rotation="-5.00896e-06 180.441 -5.00896e-06" referenceId="1254" nodeId="8455"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-598.405 107.269 -627.362" rotation="-5.00896e-06 372.168 -5.00896e-06" referenceId="1254" nodeId="8461"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-576.175 106.071 -704.079" rotation="-5.00896e-06 347.682 -5.00896e-06" referenceId="1254" nodeId="8467"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-520.805 105.589 -735.995" rotation="-5.00896e-06 438.454 -5.00896e-06" referenceId="1254" nodeId="8473"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-506.863 104.406 -790.811" rotation="-5.00896e-06 423.657 -5.00896e-06" referenceId="1254" nodeId="8479"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-581.421 105.017 -779.854" rotation="-5.00896e-06 280.821 -5.00896e-06" referenceId="1254" nodeId="8485"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-632.761 108.685 -692.912" rotation="-5.00896e-06 279.232 -5.00896e-06" referenceId="1254" nodeId="8491"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-625.608 106.349 -628.666" rotation="-5.00896e-06 342.698 -5.00896e-06" referenceId="1254" nodeId="8497"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-693.563 106.964 -622.195" rotation="-5.00896e-06 406.627 -5.00896e-06" referenceId="1254" nodeId="8503"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-702.011 107.57 -663.959" rotation="-5.00896e-06 300.373 -5.00896e-06" referenceId="1254" nodeId="8509"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-731.57 107.835 -708.995" rotation="-5.00896e-06 88.9395 -5.00896e-06" referenceId="1254" nodeId="8515"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-708.899 105.741 -749.233" rotation="-5.00896e-06 212.703 -5.00896e-06" referenceId="1254" nodeId="8521"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-639.077 105.478 -782.121" rotation="-5.00896e-06 168.362 -5.00896e-06" referenceId="1254" nodeId="8527"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-625.722 107.179 -739.972" rotation="-5.00896e-06 356.256 -5.00896e-06" referenceId="1254" nodeId="8533"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-680.594 106.836 -754.275" rotation="-5.00896e-06 341.473 -5.00896e-06" referenceId="1254" nodeId="8539"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-693.006 108.169 -695.083" rotation="-5.00896e-06 399.764 -5.00896e-06" referenceId="1254" nodeId="8545"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-648.398 107.299 -657.825" rotation="-5.00896e-06 347.899 -5.00896e-06" referenceId="1254" nodeId="8551"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-678.556 107.299 -517.163" rotation="-5.00896e-06 347.899 -5.00896e-06" referenceId="1254" nodeId="8557"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-765.595 105.256 -554.113" rotation="-5.00896e-06 180.441 -5.00896e-06" referenceId="1254" nodeId="8563"/>
+            <ReferenceNode name="lodgepolePine_stage03" translation="-540.861 108.685 -680.113" rotation="-5.00896e-06 279.232 -5.00896e-06" referenceId="1254" nodeId="8569"/>
+            <ReferenceNode name="deadwood" translation="-543.654 106.075 -728.69" rotation="180 -5.724 180" referenceId="1255" nodeId="8584"/>
+            <ReferenceNode name="deadwood" translation="-512.789 104.628 -785.467" rotation="180 82.0839 180" referenceId="1255" nodeId="8590"/>
+            <ReferenceNode name="deadwood" translation="-548.242 105.081 -786.369" rotation="180 10.7933 180" referenceId="1255" nodeId="8596"/>
+            <ReferenceNode name="deadwood" translation="-607.768 106.266 -759.23" rotation="180 162.689 180" referenceId="1255" nodeId="8602"/>
+            <ReferenceNode name="deadwood" translation="-607.941 108.119 -661.14" rotation="180 199.059 180" referenceId="1255" nodeId="8608"/>
+            <ReferenceNode name="deadwood" translation="-647.064 105.49 -587.246" rotation="180 55.0822 180" referenceId="1255" nodeId="8614"/>
+            <ReferenceNode name="deadwood" translation="-693.272 105.954 -539.364" rotation="180 107.321 180" referenceId="1255" nodeId="8620"/>
+            <ReferenceNode name="deadwood" translation="-744.901 104.483 -542.427" rotation="180 47.6134 180" referenceId="1255" nodeId="8626"/>
+            <ReferenceNode name="deadwood" translation="-749.763 103.74 -592.155" rotation="180 37.8302 180" referenceId="1255" nodeId="8632"/>
+            <ReferenceNode name="deadwood" translation="-747.125 104.307 -652.128" rotation="180 109.069 180" referenceId="1255" nodeId="8638"/>
+            <ReferenceNode name="deadwood" translation="-733.218 108.073 -690.222" rotation="180 184.151 180" referenceId="1255" nodeId="8644"/>
+            <ReferenceNode name="deadwood" translation="-710.402 106.555 -736.298" rotation="180 303.636 180" referenceId="1255" nodeId="8650"/>
+            <ReferenceNode name="deadwood" translation="-654.68 106.268 -755.396" rotation="180 39.1304 180" referenceId="1255" nodeId="8656"/>
+            <ReferenceNode name="deadwood" translation="-683.717 108.42 -666.683" rotation="180 50.3904 180" referenceId="1255" nodeId="8662"/>
+            <ReferenceNode name="deadwood" translation="-666.895 107.012 -626.467" rotation="180 1.20869 180" referenceId="1255" nodeId="8668"/>
+            <ReferenceNode name="deadwood" translation="-591.623 106.75 -690.55" rotation="180 28.8305 180" referenceId="1255" nodeId="8674"/>
+            <ReferenceNode name="deadwood" translation="-608.87 107.156 -731.857" rotation="180 76.3579 180" referenceId="1255" nodeId="8680"/>
+            <ReferenceNode name="deadwood" translation="-650.237 106.311 -605.915" rotation="180 192.938 180" referenceId="1255" nodeId="8686"/>
+            <ReferenceNode name="deadwood" translation="-726.513 106.086 -523.185" rotation="180 171.538 180" referenceId="1255" nodeId="8692"/>
+            <ReferenceNode name="deadwood" translation="-785.889 102.801 -537.407" rotation="180 245.072 180" referenceId="1255" nodeId="8698"/>
+            <ReferenceNode name="deadwood" translation="-677.173 106.192 -495.693" rotation="180 153.945 180" referenceId="1255" nodeId="8704"/>
+            <ReferenceNode name="deadwood" translation="-647.877 105.195 -536.441" rotation="180 296.896 180" referenceId="1255" nodeId="8710"/>
+            <ReferenceNode name="deadwood" translation="-661.062 105.897 -584.262" rotation="180 153.423 180" referenceId="1255" nodeId="8716"/>
+            <ReferenceNode name="deadwood" translation="-580.157 107.418 -617.645" rotation="180 50.0659 180" referenceId="1255" nodeId="8722"/>
+            <ReferenceNode name="deadwood" translation="-671.97 107.418 -727.319" rotation="180 50.0659 180" referenceId="1255" nodeId="8728"/>
           </TransformGroup>
         </TransformGroup>
         <TransformGroup name="spruce" nodeId="8734">
@@ -18135,7 +18144,7 @@
         </TransformGroup>
       </TransformGroup>
     </TransformGroup>
-    <TransformGroup name="oak_stage05" lockedgroup="true" translation="-367.505 81.7938 680.505" lodDistance="0 70" clipDistance="500" nodeId="11776">
+    <TransformGroup name="oak_stage05" lockedgroup="true" translation="-360.036 81.7938 680.505" lodDistance="0 70" clipDistance="500" nodeId="11776">
       <Shape name="LOD0" shapeId="566" static="true" collisionFilterGroup="0x830" collisionFilterMask="0xfe3ffb83" angularDamping="0.15" rollingFriction="0.27" density="0.41" nodeId="11777" castsShadows="false" receiveShadows="true" splitType="7" splitUvs="0 0 0.125 0.125 0.5" materialIds="186">
         <Shape name="LOD0Attachments" shapeId="567" nodeId="11778" castsShadows="false" receiveShadows="true" doubleSided="true" materialIds="187"/>
       </Shape>
@@ -20188,7 +20197,7 @@
       <Attribute name="fenceGenerationPoleObjectId1" type="nodeId" value="0"/>
       <Attribute name="fenceGenerationPoleObjectWeight1" type="integer" value="1"/>
     </UserAttribute>
-    <UserAttribute nodeId="4064">
+    <UserAttribute nodeId="23221">
       <Attribute name="axis" type="float" value="3"/>
       <Attribute name="onCreate" type="scriptCallback" value="Rotator.onCreate"/>
       <Attribute name="speed" type="float" value="0.0009"/>
