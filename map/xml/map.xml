@@ -39,6 +39,10 @@
     <bales filename="$data/maps/maps_bales.xml"/>
     <motionPathEffects filename="$data/effects/motionPathEffects.xml"/>
 
+    <precisionFarming> 
+	    <soilMap filename="data/infoLayer_soilMap.grle"/> 
+    </precisionFarming>
+
     <fruitTypes>
         <fruitType filename="$data/foliage/meadow/meadowUS/meadowUS.xml"/>
     </fruitTypes>

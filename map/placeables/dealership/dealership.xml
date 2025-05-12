@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="simplePlaceable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../shared/xml/schema/placeable.xsd">
+    <storeData>
+        <name>$l10n_storeItem_gardenShed05</name>
+        <functions>
+            <function>$l10n_function_decoration</function>
+        </functions>
+        <image>$data/placeables/brandless/gardenSheds/level05/store_gardenShed05.dds</image>
+        <price>1000</price>
+        <dailyUpkeep>13</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>NONE</brand>
+        <species>PLACEABLE</species>
+        <category>gardenSheds</category>
+        <brush>
+            <type>placeable</type>
+            <category>decoration</category>
+            <tab>uncategorized</tab>
+        </brush>
+        <canBeSold>false</canBeSold>
+        <showInStore>false</showInStore>
+    </storeData>
+
+    <base>
+        <filename>map/placeables/dealership/dealership.i3d</filename>
+    </base>
+
+    <placement useRandomYRotation="false" useManualYRotation="true">
+        <testAreas>
+            <testArea startNode="testAreaStart01" endNode="testAreaEnd01" />
+        </testAreas>
+
+        <sounds>
+            <place template="smallImp" />
+        </sounds>
+    </placement>
+
+    <clearAreas>
+        <clearArea startNode="clearAreaStart01" widthNode="clearAreaWidth01" heightNode="clearAreaHeight01"/>
+    </clearAreas>
+
+    <leveling requireLeveling="true" maxSmoothDistance="1" maxSlope="75" maxEdgeAngle="30">
+        <levelAreas>
+            <levelArea startNode="levelAreaStart01" widthNode="levelAreaWidth01" heightNode="levelAreaHeight01"/>
+        </levelAreas>
+    </leveling>
+
+    <indoorAreas>
+        <levelArea startNode="levelAreaStart02" widthNode="levelAreaWidth02" heightNode="levelAreaHeight02"/>
+    </indoorAreas>
+
+    <tipOcclusionUpdateAreas />
+    <ai>
+        <updateAreas>
+            <updateArea startNode="tipOcclusionUpdateAreaStart01" endNode="tipOcclusionUpdateAreaEnd01" />
+        </updateAreas>
+    </ai>
+    <animatedObjects>
+        <animatedObject saveId="door01" >
+            <animation duration="3.5">
+                <clip rootNode="rollingDoor1Panel1" name="gate5Panels1Source" filename="$data/placeables/rudolfHormann/garageBigStorageService/gate5Panels_animation.i3d" />
+            </animation>
+            <controls triggerNode="rollingDoor1Trigger" posAction="ACTIVATE_HANDTOOL" posText="action_openGate" negText="action_closeGate" />
+            <sounds>
+                <moving linkNode="rollingDoor1Sound" template="slidingGateMetalLoop" />
+                <posEnd linkNode="rollingDoor1Sound" template="slidingGateMetalOpen" />
+                <negEnd linkNode="rollingDoor1Sound" template="slidingGateMetalClose" />
+            </sounds>
+        </animatedObject>
+        <animatedObject>
+            <animation duration="3.5">
+                <clip rootNode="rollingDoor2Panel1" name="gate5Panels1Source" filename="$data/placeables/rudolfHormann/garageBigStorageService/gate5Panels_animation.i3d" />
+            </animation>
+            <controls triggerNode="rollingDoor2Trigger" posAction="ACTIVATE_HANDTOOL" posText="action_openGate" negText="action_closeGate" />
+            <sounds>
+                <moving linkNode="rollingDoor2Sound" template="slidingGateMetalLoop" />
+                <posEnd linkNode="rollingDoor2Sound" template="slidingGateMetalOpen" />
+                <negEnd linkNode="rollingDoor2Sound" template="slidingGateMetalClose" />
+            </sounds>
+        </animatedObject>
+        <animatedObject>
+            <animation duration="3.5">
+                <clip rootNode="rollingDoor3Panel1" name="gate5Panels1Source" filename="$data/placeables/rudolfHormann/garageBigStorageService/gate5Panels_animation.i3d" />
+            </animation>
+            <controls triggerNode="rollingDoor3Trigger" posAction="ACTIVATE_HANDTOOL" posText="action_openGate" negText="action_closeGate" />
+            <sounds>
+                <moving linkNode="rollingDoor3Sound" template="slidingGateMetalLoop" />
+                <posEnd linkNode="rollingDoor3Sound" template="slidingGateMetalOpen" />
+                <negEnd linkNode="rollingDoor3Sound" template="slidingGateMetalClose" />
+            </sounds>
+        </animatedObject>
+    </animatedObjects>
+
+    <i3dMappings>
+        <i3dMapping id="clearAreaStart01" node="0>0|0" />
+        <i3dMapping id="clearAreaWidth01" node="0>0|0|0" />
+        <i3dMapping id="clearAreaHeight01" node="0>0|0|1" />
+        <i3dMapping id="levelAreaStart01" node="0>1|0" />
+        <i3dMapping id="levelAreaWidth01" node="0>1|0|0" />
+        <i3dMapping id="levelAreaHeight01" node="0>1|0|1" />
+        <i3dMapping id="levelAreaStart02" node="0>2|0" />
+        <i3dMapping id="levelAreaWidth02" node="0>2|0|0" />
+        <i3dMapping id="levelAreaHeight02" node="0>2|0|1" />
+        <i3dMapping id="testAreaStart01" node="0>3|0" />
+        <i3dMapping id="testAreaEnd01" node="0>3|0|0" />
+        <i3dMapping id="rollingDoor1Panel1" node="0>4|0|0" />
+        <i3dMapping id="rollingDoor1Panel2" node="0>4|0|0|0" />
+        <i3dMapping id="rollingDoor1Panel3" node="0>4|0|0|0|0" />
+        <i3dMapping id="rollingDoor1Panel4" node="0>4|0|0|0|0|0" />
+        <i3dMapping id="rollingDoor1Panel5" node="0>4|0|0|0|0|0|0" />
+        <i3dMapping id="rollingDoor1Trigger" node="0>4|0|1" />
+        <i3dMapping id="rollingDoor1Sound" node="0>4|0|2" />
+        <i3dMapping id="rollingDoor2Panel1" node="0>4|1|0" />
+        <i3dMapping id="rollingDoor2Panel2" node="0>4|1|0|0" />
+        <i3dMapping id="rollingDoor2Panel3" node="0>4|1|0|0|0" />
+        <i3dMapping id="rollingDoor2Panel4" node="0>4|1|0|0|0|0" />
+        <i3dMapping id="rollingDoor2Panel5" node="0>4|1|0|0|0|0|0" />
+        <i3dMapping id="rollingDoor2Trigger" node="0>4|1|1" />
+        <i3dMapping id="rollingDoor2Sound" node="0>4|1|2" />
+        <i3dMapping id="rollingDoor3Panel1" node="0>4|2|0" />
+        <i3dMapping id="rollingDoor3Panel2" node="0>4|2|0|0" />
+        <i3dMapping id="rollingDoor3Panel3" node="0>4|2|0|0|0" />
+        <i3dMapping id="rollingDoor3Panel4" node="0>4|2|0|0|0|0" />
+        <i3dMapping id="rollingDoor3Panel5" node="0>4|2|0|0|0|0|0" />
+        <i3dMapping id="rollingDoor3Trigger" node="0>4|2|1" />
+        <i3dMapping id="rollingDoor3Sound" node="0>4|2|2" />
+        <i3dMapping id="tipOcclusionUpdateAreaStart01" node="0>3|0" />
+        <i3dMapping id="tipOcclusionUpdateAreaEnd01" node="0>3|0|0" />
+    </i3dMappings>
+</placeable>

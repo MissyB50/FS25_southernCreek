@@ -42,7 +42,8 @@
 <!-- OTHER -->
     <storeItem xmlFilename="map/placeables/bga/weighingStationSmall.xml" />
     <storeItem xmlFilename="map/placeables/bga/bunkerSiloBGA.xml" />
-
+    <storeItem xmlFilename="map/placeables/sellingStationVehicles/sellingStationVehicles.xml"/>
+    <storeItem xmlFilename="map/placeables/dealership/dealership.xml"/>
 
 
 

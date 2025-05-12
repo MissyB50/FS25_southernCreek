@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="sellingStationVehicles.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.4"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="$data/shared/warningStripes_diffuse.dds"/>
+    <File fileId="3" filename="$data/shared/warningStripes_normal.dds"/>
+    <File fileId="4" filename="$data/shared/warningStripes_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="5" diffuseColor="0.501961 0.501961 0.501961 1">
+    </Material>
+    <Material name="warningStripes_mat" materialId="6">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="sellingStationVehicles.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="sellingStationVehicles" clipDistance="150" nodeId="11">
+      <Shape name="vehicleTrigger" translation="2 0 0" scale="1 1 1.56191" shapeId="1" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x10000" nodeId="12" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+      <Shape name="warningStripes01" translation="2 0.1 4.82169" rotation="0 90 0" shapeId="2" clipDistance="200" nodeId="13" castsShadows="false" receiveShadows="true" materialIds="6,6"/>
+      <Shape name="playerInteractionTrigger" translation="11.2157 0 -2.50966" shapeId="3" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" nodeId="14" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5">
+        <TransformGroup name="workshopMarker" nodeId="15">
+          <TransformGroup name="playerTriggerMarker" nodeId="16"/>
+        </TransformGroup>
+      </Shape>
+      <TransformGroup name="hotspotNode" nodeId="17"/>
+      <TransformGroup name="teleportNode" translation="17.3004 -1.30417e-07 -3.43384" rotation="0 -125 0" nodeId="18"/>
+      <TransformGroup name="tipOcclusionUpdateAreas" nodeId="19">
+        <TransformGroup name="tipOcclusionUpdateAreaStart01" translation="-25.5 0 -10.5" nodeId="20">
+          <TransformGroup name="tipOcclusionUpdateAreaEnd01" translation="51 0 21" nodeId="21"/>
+        </TransformGroup>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

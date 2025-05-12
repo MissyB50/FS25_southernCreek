@@ -62,6 +62,10 @@
         <customImage filename="$mapdir$/map/placeables/store/mapIcon_export.dds"/>
     </placeable>
 
+    <placeable filename="$mapdir$/map/placeables/dealership/dealership.xml" uniqueId="shopMain_" position="-415.96 81.794 579.397" rotation="0 -135 0">
+        <customImage filename="data/placeables/dealership/mapIcon_shop.dds"/>
+    </placeable>
+    <placeable filename="$mapdir$/map/placeables/sellingStationVehicles/sellingStationVehicles.xml" uniqueId="SSV_" position="-416.513 81.81 579.4" rotation="0 135 0"/>
 
 <!--BGA -->
     <placeable filename="$mapdir$/map/placeables/bga/bga.xml" position="-542 81.794 660" rotation="0 225 0">
@@ -225,6 +229,39 @@
     <placeable filename="$data/placeables/brandless/chargingStation/chargingStation.xml" position="-470.919 81.794 511.372" rotation="0 48.5 0">
         <customImage filename="$mapdir$/map/placeables/store/mapIcon_Charge.dds"/>
     </placeable>
+
+    <placeable modName="FS25_cowPasture" filename="$moddir$FS25_cowPasture/xml/cowPasture.xml" uniqueId="placeableb3923d0d5e4f4bea84c040ac4604076d" position="-680.750 81.790 442.250" rotation="-180.00 -0.00 -180.00" age="0.000000" price="80000.000000" farmId="1">
+        <configuration name="color" id="1" isActive="true"/>
+        <animatedObjects>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+        </animatedObjects>
+        <husbandry globalProductionFactor="0.000000" productionFactor="0.000000">
+            <storage farmId="1"/>
+        </husbandry>
+        <husbandryFence>
+            <fence>
+                <segment start="-660.750 81.790 450.250" end="-650.212 81.794 450.168" id="SEGMENT"/>
+                <segment start="-650.212 81.794 450.168" end="-650.498 81.794 472.707" id="SEGMENT"/>
+                <segment start="-650.498 81.794 472.707" end="-652.037 81.794 479.599" id="SEGMENT"/>
+                <segment start="-652.037 81.794 479.599" end="-653.770 81.794 490.399" id="SEGMENT"/>
+                <segment start="-653.770 81.794 490.399" end="-655.968 81.794 498.659" id="SEGMENT"/>
+                <segment start="-655.968 81.794 498.659" end="-656.183 81.794 513.583" id="SEGMENT"/>
+                <segment start="-656.183 81.794 513.583" end="-721.762 81.794 513.820" id="SEGMENT"/>
+                <segment start="-721.762 81.794 513.820" end="-764.262 81.794 514.055" id="SEGMENT"/>
+                <segment start="-764.262 81.794 514.055" end="-763.733 81.794 457.149" id="SEGMENT"/>
+                <segment start="-763.733 81.794 457.149" end="-763.524 81.794 450.613" id="SEGMENT"/>
+                <segment start="-763.524 81.794 450.613" end="-728.924 81.794 450.096" id="SEGMENT"/>
+            </fence>
+        </husbandryFence>
+        <manureHeap manureToDrop="0" manureToPick="0"/>
+        <husbandryMeadow>
+            <fillType name="GRASS_WINDROW" fillLevel="0.000000" capacity="31236.759766"/>
+        </husbandryMeadow>
+    </placeable>
+
+
 
 
 </placeables>
