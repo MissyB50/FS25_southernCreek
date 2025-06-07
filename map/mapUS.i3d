@@ -3036,7 +3036,7 @@
 
   <Scene>
     <Light name="sun" translation="0 400 0" rotation="-47.2604 -28.1861 0" objectMask="0x83ff0000" nodeId="1052" type="directional" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.001" depthMapResolution="2048" shadowFarDistance="1000" shadowExtrusionDistance="200" softShadowsLightSize="0.5" softShadowsLightDistance="15" softShadowsDepthBiasFactor="1" softShadowsMaxPenumbraSize="0.5" numShadowMapSplits="5" shadowMapSplitDistancesParameter="0.9" lastShadowMapSplitBboxMin="-1024,-128,-1024" lastShadowMapSplitBboxMax="1024,148,1024" range="10000" scattering="true"/>
-    <Camera name="persp" translation="310.384 363.117 -220.046" rotation="-50.5809 41.6439 4.90916e-07" visibility="false" nodeId="1053" fov="60" nearClip="0.01" farClip="6000" orthographicHeight="1500"/>
+    <Camera name="persp" translation="-448.368 292.573 -734.518" rotation="-45.0831 -1.76148 4.10406e-07" visibility="false" nodeId="1053" fov="60" nearClip="0.01" farClip="6000" orthographicHeight="1500"/>
     <TerrainTransformGroup name="terrain" static="true" collisionFilterGroup="0x100" collisionFilterMask="0xfffff9c3" nodeId="1055" heightMapId="1" patchSize="65" maxLODDistance="750" heightScale="255" unitsPerPixel="1" lodBlendStart="200" lodBlendEnd="300" lodTextureSize="2048" lodBlendStartDynamic="50" lodBlendEndDynamic="65" detailLodBlendDelta="5" materialId="257" castShadowMap="true" occNumLODs="1" occMaxLODDistance="300" occPatchSize="65" occLevel="2" occDistanceWeight="1" occMaxAdjacentFaces="10">
       <OccluderLods>
         <OccluderLod occLodLevel="0" occFaceCount="100" occMaxHausdorffDistance="7" occMaxHausdorffDistanceExtra="9" occMinHorizontalDistance="1" />
@@ -7534,30 +7534,201 @@
             <Shape name="ypieceMarking" translation="0.0125703 0 0.00427231" rotation="0 -45 0" shapeId="457" nodeId="4383" castsShadows="false" receiveShadows="true" nonRenderable="true" terrainDecal="true" materialIds="211"/>
           </Shape>
           <TransformGroup name="roadProps" nodeId="4384">
-            <Shape name="slopeEndRight" translation="-521.413 100.19 -845.653" scale="1.2 1.2 1.2" shapeId="458" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4385" castsShadows="true" receiveShadows="true" materialIds="21"/>
-            <Shape name="barrierEndRight" translation="5.04 0.556356 -0.986022" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4386" castsShadows="true" receiveShadows="true" materialIds="21"/>
-            <Shape name="barrierMiddle" translation="-730.738 99.4918 -793.943" scale="0.832098 1.2 1.25" shapeId="460" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4387" castsShadows="true" receiveShadows="true" materialIds="21"/>
-            <Shape name="blotsLeft" translation="0 0.554468 0.0307667" shapeId="461" clipDistance="100" nodeId="4388" castsShadows="true" receiveShadows="true" materialIds="21"/>
-            <Shape name="blotsRight" translation="2.6015 0.554468 0.0307667" shapeId="462" clipDistance="100" nodeId="4389" castsShadows="true" receiveShadows="true" materialIds="21"/>
-            <Shape name="middlePost" shapeId="463" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4390" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            <Shape name="slopeEndRight" translation="-536.484 100.19 -846.348" scale="1.2 1.2 1.2" shapeId="458" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4385" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" translation="0 -0.628163 0" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38116" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierEndRight" translation="5.04 0.556356 -0.986022" shapeId="460" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4386" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            <Shape name="barrierMiddle" translation="-730.738 99.4918 -793.943" scale="0.832098 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4387" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            <Shape name="blotsLeft" translation="0 0.554468 0.0307667" shapeId="462" clipDistance="100" nodeId="4388" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            <Shape name="blotsRight" translation="2.6015 0.554468 0.0307667" shapeId="463" clipDistance="100" nodeId="4389" castsShadows="true" receiveShadows="true" materialIds="21"/>
             <Shape name="slopeEndLeft" translation="-730.846 100.161 -793.929" scale="1.2 1.2 1.2" shapeId="464" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4391" castsShadows="true" receiveShadows="true" materialIds="21"/>
             <Shape name="barrierEndLeft" translation="-2.55 0.554993 -0.986022" scale="1.2 1.2 1.2" shapeId="465" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4392" castsShadows="true" receiveShadows="true" materialIds="21"/>
-            <Shape name="barrierMiddle" translation="-728.438 99.4892 -794.003" rotation="0 34.5651 0" scale="1.2 1.2 1.25" shapeId="460" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4393" castsShadows="true" receiveShadows="true" materialIds="21"/>
-            <Shape name="barrierMiddle" translation="-725.687 99.4892 -795.888" rotation="0 35.9476 0" scale="1.2 1.2 1.25" shapeId="460" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4394" castsShadows="true" receiveShadows="true" materialIds="21"/>
-            <Shape name="barrierMiddle" translation="-722.979 99.4892 -797.833" rotation="0 36.8796 0" scale="1.2 1.2 1.25" shapeId="460" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4395" castsShadows="true" receiveShadows="true" materialIds="21"/>
-            <Shape name="barrierMiddle" translation="-720.299 99.4892 -799.843" rotation="0 36.8796 0" scale="1.2 1.2 1.25" shapeId="460" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4396" castsShadows="true" receiveShadows="true" materialIds="21"/>
-            <Shape name="barrierMiddle" translation="-717.627 99.4892 -801.834" rotation="0 35.7299 0" scale="1.2 1.2 1.25" shapeId="460" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4397" castsShadows="true" receiveShadows="true" materialIds="21"/>
-            <Shape name="barrierMiddle" translation="-715.004 99.4892 -803.705" rotation="0 33.394 0" scale="1.2 1.2 1.25" shapeId="460" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4398" castsShadows="true" receiveShadows="true" materialIds="21"/>
-            <Shape name="barrierMiddle" translation="-712.232 99.4892 -805.532" rotation="0 33.992 0" scale="1.2 1.2 1.25" shapeId="460" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4399" castsShadows="true" receiveShadows="true" materialIds="21"/>
-            <Shape name="barrierMiddle" translation="-709.466 99.4892 -807.398" rotation="0 33.992 0" scale="1.2 1.2 1.25" shapeId="460" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4400" castsShadows="true" receiveShadows="true" materialIds="21"/>
-            <Shape name="barrierMiddle" translation="-706.689 99.4892 -809.27" rotation="0 32.6589 0" scale="1.2 1.2 1.25" shapeId="460" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4401" castsShadows="true" receiveShadows="true" materialIds="21"/>
-            <Shape name="barrierMiddle" translation="-703.879 99.4892 -811.072" rotation="0 31.6607 0" scale="1.2 1.2 1.25" shapeId="460" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4402" castsShadows="true" receiveShadows="true" materialIds="21"/>
-            <Shape name="barrierMiddle" translation="-701.031 99.4892 -812.803" rotation="0 29.5015 0" scale="1.2 1.2 1.25" shapeId="460" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4403" castsShadows="true" receiveShadows="true" materialIds="21"/>
-            <Shape name="barrierMiddle" translation="-698.126 99.4892 -814.447" rotation="0 29.5015 0" scale="1.2 1.2 1.25" shapeId="460" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4404" castsShadows="true" receiveShadows="true" materialIds="21"/>
-            <Shape name="barrierMiddle" translation="-695.279 99.4892 -816.058" rotation="0 29.0745 0" scale="1.2 1.2 1.25" shapeId="460" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4405" castsShadows="true" receiveShadows="true" materialIds="21"/>
-            <Shape name="barrierMiddle" translation="-692.466 99.4892 -817.622" rotation="0 28.4862 0" scale="1.2 1.2 1.25" shapeId="460" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4406" castsShadows="true" receiveShadows="true" materialIds="21"/>
-            <Shape name="barrierMiddle" translation="-689.521 99.4892 -819.219" rotation="0 28.4862 0" scale="1.2 1.2 1.25" shapeId="460" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4407" castsShadows="true" receiveShadows="true" materialIds="21"/>
-            <Shape name="barrierMiddle" translation="-686.693 99.4892 -820.754" rotation="0 26.3039 0" scale="1.2 1.2 1.25" shapeId="460" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4408" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            <Shape name="barrierMiddle" translation="-728.438 99.4892 -794.003" rotation="0 34.5651 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4393" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="4390" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-725.706 99.4892 -795.885" rotation="0 37.4266 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37864" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37865" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-723.106 99.4892 -797.875" rotation="0 37.4266 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37868" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37869" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-720.479 99.4892 -799.885" rotation="0 37.4266 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37872" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37873" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-717.849 99.4892 -801.898" rotation="0 36.9543 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37876" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37877" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-715.217 99.4892 -803.878" rotation="0 36.9543 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37880" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37881" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-712.591 99.4892 -805.853" rotation="0 33.4882 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37884" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37885" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-709.84 99.4892 -807.673" rotation="0 33.4882 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37888" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37889" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-707.103 99.4892 -809.484" rotation="0 33.4882 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37892" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37893" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-704.413 99.4892 -811.264" rotation="0 31.9727 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37896" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37897" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-701.591 99.4892 -813.025" rotation="0 31.9727 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37900" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37901" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-698.839 99.4892 -814.743" rotation="0 30.7344 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37904" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37905" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-696.14 99.4892 -816.348" rotation="0 27.4347 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37908" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37909" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-693.239 99.4892 -817.854" rotation="0 26.4134 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37912" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37913" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-690.301 99.4892 -819.313" rotation="0 26.4134 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37916" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37917" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-687.375 99.4892 -820.766" rotation="0 26.4134 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37920" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37921" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-684.478 99.4892 -822.205" rotation="0 25.2574 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37924" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37925" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-681.543 99.4892 -823.59" rotation="0 23.6592 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37928" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37929" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-678.564 99.4892 -824.895" rotation="0 22.1558 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37932" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37933" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-675.469 99.4892 -826.155" rotation="0 21.0401 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37936" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37937" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-672.443 99.4892 -827.319" rotation="0 20.234 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37940" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37941" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-669.513 99.4892 -828.399" rotation="0 19.1331 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37944" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37945" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-666.422 99.4892 -829.471" rotation="0 17.983 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37948" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37949" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-663.298 99.4892 -830.486" rotation="0 17.983 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37952" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37953" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-660.218 99.4892 -831.486" rotation="0 17.2986 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37956" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37957" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-657.111 99.4892 -832.454" rotation="0 16.0318 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37960" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37961" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-653.978 99.4892 -833.354" rotation="0 16.0318 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37964" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37965" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-650.835 99.4892 -834.258" rotation="0 13.9218 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37968" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37969" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-647.677 99.4892 -835.041" rotation="0 13.9218 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37972" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37973" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-644.505 99.4892 -835.827" rotation="0 12.1725 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37976" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37977" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-641.327 99.4892 -836.512" rotation="0 10.5406 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37980" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37981" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-638.099 99.4892 -837.112" rotation="0 10.1238 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37984" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37985" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-634.844 99.4892 -837.693" rotation="0 8.79708 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37988" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37989" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-631.589 99.4892 -838.197" rotation="0 8.79708 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37992" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37993" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-628.328 99.4892 -838.701" rotation="0 8.79708 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37996" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="37997" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-625.032 99.4892 -839.212" rotation="0 8.79708 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38000" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38001" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-621.758 99.4892 -839.718" rotation="0 8.79708 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38004" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38005" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-618.514 99.4892 -840.22" rotation="0 8.79708 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38008" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38009" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-615.261 99.4892 -840.724" rotation="0 8.79708 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38012" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38013" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-611.947 99.4892 -841.237" rotation="0 8.79708 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38016" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38017" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-608.719 99.4892 -841.737" rotation="0 8.79708 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38020" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38021" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-605.437 99.4892 -842.245" rotation="0 8.79708 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38024" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38025" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-602.185 99.4892 -842.748" rotation="0 8.79708 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38028" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38029" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-598.965 99.4892 -843.246" rotation="0 6.08195 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38032" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38033" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-595.706 99.4892 -843.594" rotation="0 6.08195 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38036" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38037" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-592.434 99.4892 -843.942" rotation="0 5.42735 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38040" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38041" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-589.147 99.4892 -844.254" rotation="0 5.42735 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38044" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38045" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-585.849 99.4892 -844.568" rotation="0 4.25964 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38048" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38049" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-582.604 99.4892 -844.809" rotation="0 3.16808 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38052" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38053" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-579.298 99.4892 -844.992" rotation="0 2.93318 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38056" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38057" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-576.017 99.4892 -845.16" rotation="0 2.93318 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38064" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38065" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-572.691 99.4892 -845.331" rotation="0 2.47734 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38068" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38069" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-569.401 99.4892 -845.473" rotation="0 2.47734 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38072" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38073" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-566.087 99.4892 -845.617" rotation="0 2.47734 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38076" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38077" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-562.763 99.4892 -845.76" rotation="0 2.47734 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38080" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38081" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-559.43 99.4892 -845.904" rotation="0 2.47734 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38084" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38085" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-556.09 99.4892 -846.049" rotation="0 1.52454 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38088" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38089" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-552.822 99.4892 -846.136" rotation="0 1.52454 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38092" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38093" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-549.513 99.4892 -846.224" rotation="0 1.52454 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38096" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38097" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-546.172 99.4892 -846.313" rotation="0 0.967734 0" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38100" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38101" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-542.918 99.4892 -846.368" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38104" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38105" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
+            <Shape name="barrierMiddle" translation="-539.592 99.4892 -846.368" scale="1.2 1.2 1.25" shapeId="461" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38108" castsShadows="true" receiveShadows="true" materialIds="21">
+              <Shape name="middlePost" shapeId="459" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="600" nodeId="38109" castsShadows="true" receiveShadows="true" materialIds="21"/>
+            </Shape>
           </TransformGroup>
         </TransformGroup>
         <TransformGroup name="waterPlanes" nodeId="4409">
